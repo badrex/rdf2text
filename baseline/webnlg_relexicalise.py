@@ -1,5 +1,6 @@
 import sys
 import getopt
+ONLINE = False
 from webnlg_baseline_input import input_files
 
 
