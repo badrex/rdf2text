@@ -9,7 +9,7 @@ sequence to sequence models.
 
 To use the module for generating datasets (either training or dev):
 
-1. For flat sequence in the source side
+For flat sequences in the source side
 ```
 python generate_dataset.py \
   -path ../challenge_data_train_dev/train \
@@ -25,6 +25,8 @@ NOTE: The module is still under development. For now, the source sequence would 
 
 ```ENTITY-1 AGENT ENTITY-2 PATIENT```
 
+
+For structured sequences in the source side
 ```
 python generate_dataset.py \
   -path ../challenge_data_train_dev/train \
