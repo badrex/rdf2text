@@ -19,11 +19,11 @@ python generate_dataset.py \
 ```
 
 Source sequences will be like:
-```ENTITY-1 WORK ENTITY-2 PERSON```
+```ENTITY-1 WORK author ENTITY-2 PERSON```
 
 NOTE: The module is still under development. For now, the source sequence would be like this example:
 
-```ENTITY-1 AGENT ENTITY-2 PATIENT```
+```ENTITY-1 AGENT author ENTITY-2 PATIENT```
 
 
 For structured sequences in the source side
@@ -32,7 +32,7 @@ python generate_dataset.py \
   -path ../challenge_data_train_dev/train \
   -input_mode  structured \
   -src ../datasets/train.src \
-  -tgt ../datasets/train.tgt \
+  -tgt ../datasets/train.tgt 
 ```
 
 Source sequences will be like:
