@@ -14,8 +14,8 @@ def generate():
     DISCR = 'Generate dataset from XML files of RDF to Text Entries.'
     parser = argparse.ArgumentParser(description=DISCR)
     parser.add_argument('-path', type=str, help='Path to data.', required=True)
-    parser.add_argument('-input_mode', help='Input mode: linear or structured.',
-                    choices=['linear', 'structured'], default = 'linear', nargs = '?')
+    parser.add_argument('-input_mode', help='Input mode: flat or structured.',
+                    choices=['flat', 'structured'], default = 'flat', nargs = '?')
 
     parser.add_argument('-src', type=str, help='Path to output file for src.',
                     required=True)
