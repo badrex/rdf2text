@@ -1,5 +1,5 @@
 """
-A module to process input data and generate dataset for training and inference.
+A program to process RDF data and generate dataset for training and testing.
 """
 
 from utils import IO_utils
@@ -8,7 +8,7 @@ from GraphModel import *
 
 def generate():
     """
-    Get a options from user input, then generate dataset.
+    Read options from user input, and generate dataset.
     """
 
     DISCR = 'Generate dataset from XML files of RDF to Text Entries.'
@@ -24,7 +24,7 @@ def generate():
 
     args = parser.parse_args()
 
-    instances = IO_utils.generate_instances(args.path)
+    instances, _, _ = IO_utils.generate_instances(args.path)
 
     for (size, ins) in instances.items():
         for i in ins:

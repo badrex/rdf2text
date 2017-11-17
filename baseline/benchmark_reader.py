@@ -5,9 +5,9 @@ from collections import defaultdict
 class Triple:
 
     def __init__(self, s, p, o):
-        self.s = s
-        self.o = o
-        self.p = p
+        self.subject = s
+        self.object = o
+        self.property = p
 
 
 class Tripleset:

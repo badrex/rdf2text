@@ -32,6 +32,25 @@ class RDFInstance(object):
         if lex:
             self.Lexicalisation = lex
 
+        self.entities = set()
+        self.properties = set()
+
+        self._populate_sets()
+
+
+    def _populate_sets(self):
+        """
+        populate the two sets; entities and properties.
+        """
+        for tset in self.originaltripleset:
+            for triple in tset.triples:
+                s = triple.subject
+                p = triple.property
+                o = triple.object
+
+                self.entities.update((s, o))
+                self.properties.add(p)
+
 
 def parseXML(xml_file):
     """
@@ -73,14 +92,20 @@ def parseXML(xml_file):
     return entries
 
 
-def generate_instances(dir):
+def generate_instances(dir, extended=False):
     """
     Traverse through a path, visit all subdirectories, and return a dict of
     entries accessible by size: size --> list of entries
+    :param dir: path to data files (dtype: string)
+    :param extended: should it generate entities and properties (dtype: bool)
     """
+
     subfolders = [f.path for f in os.scandir(dir) if f.is_dir() ]
 
     instances = defaultdict(list)
+
+    global_entities = set()
+    global_properties = set()
 
     # loop through each dir
     for dir in sorted(subfolders):
@@ -102,4 +127,8 @@ def generate_instances(dir):
                     # append to list of instances
                     instances[entry.size].append(rdfInstance)
 
-    return instances
+                    if extended:
+                        global_entities.update(rdfInstance.entities)
+                        global_properties.update(rdfInstance.properties)
+
+    return instances, global_entities, global_properties
