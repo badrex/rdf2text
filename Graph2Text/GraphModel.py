@@ -180,7 +180,7 @@ class EntityGraph():
         raise NotImplementedError("To be implemented.")
 
 
-    def get_entityGrpah(self):
+    def get_entityGraph(self):
         """
         Return a dict of entities and thier outgoing edges.
         """
