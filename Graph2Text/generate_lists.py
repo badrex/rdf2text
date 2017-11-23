@@ -29,7 +29,7 @@ def generate():
     p_list = set()
 
     for data_dir in subdirs:
-        _, entities, properties = IO_utils.generate_instances(data_dir, extended=True)
+        _, entities, properties = IO_utils.generate_instances(data_dir, True)
         e_list.update(entities)
         p_list.update(properties)
 

@@ -4,9 +4,10 @@ A module for Entity, Property, and EntityGraph! It is fun ;-)
 #from utils import text_utils
 from utils import rdf_utils
 import xml.etree.ElementTree as et
+import re
 
 
-class EntityClass:
+class Entity:
     """ A class to represent an RDF entity. """
 
     def __init__(self, RDF_entity, semantic_type):
@@ -49,7 +50,7 @@ class Property:
             raise NotImplementedError("To be implemented.")
 
 
-class EntityGraph():
+class EntityGraph:
     """
     A class to represent RDF to Text instances for natural language generation
     from structed input (e.g. knowledge base RDF triples).
@@ -98,7 +99,8 @@ class EntityGraph():
 
     def _contruct_graph(self):
         """
-        Build the graph. Populate entity2id, properties, subj2obj and obj2subj dicts.
+        Build the graph.
+        Populate entity2id, properties, subj2obj and obj2subj dicts.
         """
         entityID = 0
 
@@ -177,7 +179,7 @@ class EntityGraph():
         """
         Apply delexicalization on sentence.
         """
-        raise NotImplementedError("To be implemented.")
+        return re.sub('\s+',' ',self.sentence)
 
 
     def get_entityGrpah(self):
@@ -221,7 +223,10 @@ class EntityGraph():
 
             for attr, value in entityGraph.items():
                 seq = ' '.join([seq, '²('])
-                seq = ' '.join([seq, 'ENTITY-' + str(self.entity2id[attr]), 'AGENT']) # attr
+                seq = ' '.join(
+                                [seq, 'ENTITY-' + str(self.entity2id[attr]),
+                                'AGENT']
+                           ) # attr
 
                 for prob, obj_list in value:
                     seq = ' '.join([seq, '³(', prob])
@@ -235,7 +240,7 @@ class EntityGraph():
                                             'PATIENT', #obj,
                                             ')^'
                                         ]
-                                        )
+                                    )
                     seq = ' '.join([seq, ')³'])
                 seq = ' '.join([seq,  ')²'])
             seq = ' '.join([seq, ')¹'])
@@ -259,7 +264,7 @@ def test():
     s = """Donald Trump was born in the United States of Amercia,
         the country whrere he later became the president. The captial of the US
         is Washington DC. Donald Trump's wife, Melania Knauss, has two
-        nationalities; American and Slovenian."""
+        nationalities; American and Slovenian.""".replace('\n', '')
 
     t = rdf_utils.Tripleset()
     t.fill_tripleset(triple_set)
@@ -271,10 +276,12 @@ def test():
     print('subj2obj Graph: ', test_case.subj2obj)
     print('obj2subj Graph: ', test_case.obj2subj)
     print('Linearization: ', test_case.linearize_graph())
-    print('Strucutred [1]:', test_case.linearize_graph(structured=True))
-    print('Strucutred [2]:', test_case.linearize_graph(structured=True,
-                                                        incoming_edges=True))
+    print('Strucutred [1]:',
+        test_case.linearize_graph(structured=True))
+    print('Strucutred [2]:',
+        test_case.linearize_graph(structured=True, incoming_edges=True))
 
+    print('Lexicalisation:', test_case.delexicalize_sentence())
     assert test_case.entity2id.keys() == \
         {'Donald Trump', 'USA', 'Washington DC', 'Melania Knauss', \
             'Slovenia', 'USA'}, \

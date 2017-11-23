@@ -97,7 +97,8 @@ def generate_instances(dir, extended=False):
     Traverse through a path, visit all subdirectories, and return a dict of
     entries accessible by size: size --> list of entries
     :param dir: path to data files (dtype: string)
-    :param extended: should it generate entities and properties (dtype: bool)
+    :param extended: should it generate entities and properties?
+        (dtype: bool, default: False)
     """
 
     subfolders = [f.path for f in os.scandir(dir) if f.is_dir() ]
