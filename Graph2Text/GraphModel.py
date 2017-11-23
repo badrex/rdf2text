@@ -10,11 +10,12 @@ import re
 class Entity:
     """ A class to represent an RDF entity. """
 
-    def __init__(self, RDF_entity, semantic_type):
+    def __init__(self, entity_ID, RDF_entity, semantic_type='UNK'):
         """
         Instantiate an entity.
         :param RDF_entity: an entity from an RDF triple (dtype: string)
         """
+        self.ID = 'ENTITY-' + str(entity_ID)
         self.lex_form = self.text_split(RDF_entity)
         self.stype = semantic_type
         self.aliases = self.get_aliases()
@@ -26,6 +27,10 @@ class Entity:
     def get_aliases(self):
         """Return a list of aliases for the entity."""
         return [self.lex_form, self.lex_form.lower()]
+
+    def set_stype(self, semantic_type):
+        """Given a semantic_type, modify self.stype."""
+        self.stype = semantic_type
 
 
 # namedtuple for entity instances
@@ -45,9 +50,9 @@ class Property:
         self.domain = 'AGENT'
         self.range = 'PATIENT'
 
-        def text_split(self, RDF_entity):
-            """Return the text of the property after (camelCase) split."""
-            raise NotImplementedError("To be implemented.")
+    def text_split(self, RDF_entity):
+        """Return the text of the property after (camelCase) split."""
+        return ' '.join(RDF_entity.split('_'))
 
 
 class EntityGraph:
@@ -75,11 +80,13 @@ class EntityGraph:
         if sentence:
             self.sentence = sentence
 
-        # a dict for entities in the graph instance entity --> id
-        self.entity2id = {}
+        # a dict for entities in the graph instance
+        # this dict maps from lex_form of entity to entity object
+        self.entities = {}
 
-        # a set of properties in the graph instance
-        self.properties = set()
+        # a dict for properties in the graph instance
+        # this dict maps from lex_form of property to property object
+        self.properties = {}
 
         # call contruct_graph() method to build the graph from the RDF triples
 
@@ -100,7 +107,7 @@ class EntityGraph:
     def _contruct_graph(self):
         """
         Build the graph.
-        Populate entity2id, properties, subj2obj and obj2subj dicts.
+        Populate entities, properties, subj2obj and obj2subj dicts.
         """
         entityID = 0
 
@@ -111,17 +118,22 @@ class EntityGraph:
             obj = triple.object
             prop = triple.property
 
-            # update entities dict
-            if subj not in self.entity2id:
-                entityID += 1
-                self.entity2id[subj] = entityID
+            # update properties dict by instantiating Property objects
+            if prop not in self.properties:
+                self.properties[prop] = Property(prop)
 
-            if obj not in self.entity2id:
+            # update entities dict by instantiating Entity objects
+            if subj not in self.entities:
                 entityID += 1
-                self.entity2id[obj] = entityID
+                self.entities[subj] = Entity(entityID,
+                                                subj,
+                                                self.properties[prop].domain)
 
-            # add to properties
-            self.properties.add(prop)
+            if obj not in self.entities:
+                entityID += 1
+                self.entities[obj] = Entity(entityID,
+                                                obj,
+                                                self.properties[prop].range)
 
             # populate the subj2obj and obj2subj dicst with (prop, [objs]) or
             # (prop, [subjs]) tuples
@@ -167,14 +179,6 @@ class EntityGraph:
                 if not propFound:
                     self.obj2subj[obj].append((prop, [subj]))
 
-
-    def _get_semantic_types(use_schema=False):
-        """
-        For each entity (node) in the graph, find the semantic type.
-        """
-        raise NotImplementedError("To be implemented.")
-
-
     def delexicalize_sentence(self):
         """
         Apply delexicalization on sentence.
@@ -190,12 +194,14 @@ class EntityGraph:
 
     def linearize_graph(self, structured=False, incoming_edges=False):
         """
-        Linearize the graph from triple set (flat sequence)
-        or from the entityGraph (structured sequence).
+        Generate a linear sequence representing the graph from the triple set
+        (flat sequence) or from the entity graphs (structured sequence).
         """
 
         if not structured:
             seq = ''
+
+            # to generate a flat sequence, linearize rdf_triples
             for triple in self.rdf_triples:
                 # extract nodes (entities) and edges (properties)
                 subj = triple.subject
@@ -205,15 +211,15 @@ class EntityGraph:
                 seq = ' '.join(
                                 [
                                     seq,
-                                    'ENTITY-' + str(self.entity2id[subj]),
-                                    'AGENT', #subj,
-                                    prop,
-                                    'ENTITY-' + str(self.entity2id[obj]),
-                                    'PATIENT', #obj
+                                    self.entities[subj].ID,
+                                    self.entities[subj].stype,
+                                    self.properties[prop].lex_form,
+                                    self.entities[obj].ID,
+                                    self.entities[obj].stype,
                                 ]
                             )
         else:
-            # if we want to generate structured sequence, work on the entityGrpah
+            # to generate a structured sequence, linearize entity graphs
             if incoming_edges:
                 entityGraph = self.obj2subj
             else:
@@ -221,23 +227,26 @@ class EntityGraph:
 
             seq = '¹('
 
-            for attr, value in entityGraph.items():
+            for (attr, val) in entityGraph.items():
                 seq = ' '.join([seq, '²('])
                 seq = ' '.join(
-                                [seq, 'ENTITY-' + str(self.entity2id[attr]),
-                                'AGENT']
-                           ) # attr
+                                [
+                                    seq,
+                                    self.entities[attr].ID,
+                                    self.entities[attr].stype
+                                ]
+                           )
 
-                for prob, obj_list in value:
-                    seq = ' '.join([seq, '³(', prob])
+                for prop, obj_list in val:
+                    seq = ' '.join([seq, '³(', self.properties[prop].lex_form])
 
                     for obj in obj_list:
                         seq = ' '.join(
                                         [
                                             seq,
                                             '^(',
-                                            'ENTITY-'+ str(self.entity2id[obj]),
-                                            'PATIENT', #obj,
+                                            self.entities[obj].ID,
+                                            self.entities[obj].stype,
                                             ')^'
                                         ]
                                     )
@@ -271,8 +280,8 @@ def test():
 
     test_case = EntityGraph(t, s)
 
-    print('Properties: ', test_case.properties)
-    print('Entities: ', test_case.entity2id)
+    print('Properties: ', [*test_case.properties] )
+    print('Entities: ', [*test_case.entities])
     print('subj2obj Graph: ', test_case.subj2obj)
     print('obj2subj Graph: ', test_case.obj2subj)
     print('Linearization: ', test_case.linearize_graph())
@@ -280,14 +289,14 @@ def test():
         test_case.linearize_graph(structured=True))
     print('Strucutred [2]:',
         test_case.linearize_graph(structured=True, incoming_edges=True))
-
     print('Lexicalisation:', test_case.delexicalize_sentence())
-    assert test_case.entity2id.keys() == \
+    
+    assert test_case.entities.keys() == \
         {'Donald Trump', 'USA', 'Washington DC', 'Melania Knauss', \
             'Slovenia', 'USA'}, \
         "Test case failed! Entities do not match."
 
-    assert test_case.properties == \
+    assert test_case.properties.keys() == \
         {'leaderName', 'birthPlace', 'capital', 'spouse', 'nationality'}, \
         "Test case failed! Properties do not match."
 
