@@ -30,13 +30,13 @@ def generate():
         for i in ins:
             G = EntityGraph(i.modifiedtripleset, i.Lexicalisation.lex)
 
-            with open(args.src, 'a+') as srcFile:
+            with open(args.src, 'a+', encoding="utf8") as srcFile:
                 if args.input_mode == 'structured':
                     srcFile.write(G.linearize_graph(structured=True) + '\n')
                 else:
                     srcFile.write(G.linearize_graph() + '\n')
 
-            with open(args.tgt, 'a+') as tgtFile:
+            with open(args.tgt, 'a+', encoding="utf8") as tgtFile:
                 tgtFile.write(G.sentence  + '\n')
 
 

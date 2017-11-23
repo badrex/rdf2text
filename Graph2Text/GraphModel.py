@@ -182,7 +182,7 @@ class EntityGraph:
         return re.sub('\s+',' ',self.sentence)
 
 
-    def get_entityGrpah(self):
+    def get_entityGraph(self):
         """
         Return a dict of entities and thier outgoing edges.
         """
