@@ -259,6 +259,7 @@ class EntityGraph:
         """
         raise NotImplementedError("To be implemented.")
 
+
     def linearize_graph(self, structured=False, incoming_edges=False):
         """
         Generate a linear sequence representing the graph from the triple set

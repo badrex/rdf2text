@@ -6,15 +6,19 @@ from nltk.tokenize import word_tokenize
 from nltk.tag import StanfordNERTagger
 import difflib
 
-DIR = '/home/badr/'
-
-NERTagger = StanfordNERTagger(
-    DIR + 'StanfordNLP/stanford-ner/classifiers/english.muc.7class.distsim.crf.ser.gz',
-    DIR + 'StanfordNLP/stanford-ner/stanford-ner.jar',
-    encoding='utf-8')
 
 TAGS = {'LOCATION', 'ORGANIZATION', 'DATE', \
             'MONEY', 'PERSON', 'PERCENT', 'TIME'}
+
+def initialize_tagger(DIR):
+    """Given a path, return a StanfordNERTagger object."""
+
+    NERTagger = StanfordNERTagger(
+        DIR + 'StanfordNLP/stanford-ner/classifiers/english.muc.7class.distsim.crf.ser.gz',
+        DIR + 'StanfordNLP/stanford-ner/stanford-ner.jar',
+        encoding='utf-8')
+
+    return NERTagger
 
 
 def extract_named_entities(text):
@@ -24,6 +28,7 @@ def extract_named_entities(text):
     # tokenize
     tokenized_text = word_tokenize(text)
     # NER tagging
+    NERTagger = initialize_tagger('/home/badr/')
     tagged_text = NERTagger.tag(tokenized_text)
     # entities
     named_entities = []
@@ -100,7 +105,8 @@ def test_best_match():
         "Italy",
         "Colombian cuisine",
         "United States",
-        "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.",
+        """In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road,
+        Hessarghatta Main Road, Bangalore – 560090.""",
         "Dr. G. P. Prabhukumar",
         "Lars Løkke Rasmussen",
         "Prime Minister of Romania",
@@ -117,32 +123,69 @@ def test_best_match():
 
 
     text_list = [
-        "Born on the twentieth of January, 1930, 1963 Massachusetts Institute of Technology, Sc.D. graduate Buzz Aldrin has won 20 awards.",
-        "Italian born Michele Marcolini is the manager of AC Lumezzane. He also played for Vicenza Calcio and owns Torino FC.",
-        "A typical dish found in Columbia is Bandeja paisa, which comes from the Antioquia Department region.",
-        "St Vincent-St Mary High School (Akron, Ohio, US) is the ground of Akron Summit Assault.",
-        "Acharya Institute of Technology (motto: 'Nurturing Excellence') was established in 2000 and is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090, Karnataka, India. The Institute is affiliated with Visvesvaraya Technological University of Belgaum.",
-        "The Acharya Institute of Technology's campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore, India, 560090. It was established in 2000 and its director is Dr G.P. Prabhukumar. It is affiliated to the Visvesvaraya Technological UNiversity in Belgaum.",
-        "The School of Business and Social Sciences at the Aarhus University is located in the city of Aarhus, Denmark, and is affiliated with the European University Association in Brussels. Aarhus is ruled by a magistrate government, and is led by Lars Lokke Rasmussen. The religion is the Church of Denmark.",
-        "The 1 Decembrie 1918 University is located in Romania and its Latin name is 'Universitas Apulensis'. Romania's ethnic group is the Germans of Romania and its leader is Prime Minister Klaus Iohannis. Romania's capital is Bucharest and its anthem is Desteapta-te, romane!",
-        "Baku Turkish Martyrs' Memorial, made of red granite and white marble, is dedicated to the Ottoman Army soldiers killed in the Battle of Baku. The memorial, called Turk Sehitleri Aniti, was designed by Hüseyin Bütüner and Hilmi Güner and is located in Azerbaijan, the capital of which is Baku.",
-        "The School of Business and Social Sciences is located in Aarhus and it was established in 1928. It has 737 academic staff and 16,000 students. Its dean is Thomas Pallesen and it is affiliated with the European University Association.",
-        "Andrews County Airport is located in Texas in the U.S. Austin is the capital of Texas whose largest city is Houston. English is spoken in that state.",
-        "Elliot See was born in Dallas on 23 July 1927. He graduated from the University of Texas at Austin which is an affiliate of the University of Texas system. He died in St louis .",
-        "Aarhus Airport, which serves the city of Aarhus in Denmark, has a runway length of 2,776 and is named 10R/28L. Aktieselskab operates the airport which is 25 metres above sea level.",
-        "The character of Baymax appeared in Big Hero 6 which stars Ryan Potter. He was created by Steven T Seagle and the American, Duncan Rouleau.",
-        "Batchoy is found in Philippine Spanish and Arabic speaking Philippines. The Philippines is home to the llocano and ENTITY.",
-        "English is the language used in 1634: The Ram Rebellion.", "Alan Shephard passed away on 1998-07-21 in California.",
-        "Buzz Aldrin, who retired on July 1st 1971 , once spent 52 minutes in outer space."
+        """Born on the twentieth of January, 1930, 1963 Massachusetts Institute
+        of Technology, Sc.D. graduate Buzz Aldrin has won 20 awards.""",
+        """talian born Michele Marcolini is the manager of AC Lumezzane.
+        He also played for Vicenza Calcio and owns Torino FC.""",
+        """A typical dish found in Columbia is Bandeja paisa, which comes
+        from the Antioquia Department region.""",
+        """St Vincent-St Mary High School (Akron, Ohio, US) is the ground of
+        Akron Summit Assault.""",
+        """Acharya Institute of Technology (motto: 'Nurturing Excellence') was
+        established in 2000 and is located at Soldevanahalli, Acharya Dr.
+        Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore –
+        560090, Karnataka, India. The Institute is affiliated with
+        Visvesvaraya Technological University of Belgaum.""",
+        """The Acharya Institute of Technology's campus is located in
+        Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta
+        Main Road, Bangalore, India, 560090. It was established in 2000 and its
+        director is Dr G.P. Prabhukumar. It is affiliated to the Visvesvaraya
+        Technological UNiversity in Belgaum.""",
+        """The School of Business and Social Sciences at the Aarhus University
+        is located in the city of Aarhus, Denmark, and is affiliated with the
+        European University Association in Brussels. Aarhus is ruled by a
+        magistrate government, and is led by Lars Lokke Rasmussen. The
+        religion is the Church of Denmark.""",
+        """The 1 Decembrie 1918 University is located in Romania and its Latin
+        name is 'Universitas Apulensis'. Romania's ethnic group is the Germans
+        of Romania and its leader is Prime Minister Klaus Iohannis. Romania's
+        capital is Bucharest and its anthem is Desteapta-te, romane!""",
+        """Baku Turkish Martyrs' Memorial, made of red granite and white marble,
+        is dedicated to the Ottoman Army soldiers killed in the Battle of Baku.
+        The memorial, called Turk Sehitleri Aniti, was designed by Hüseyin
+        Bütüner and Hilmi Güner and is located in Azerbaijan, the capital of
+        which is Baku.""",
+        """The School of Business and Social Sciences is located in Aarhus and
+        it was established in 1928. It has 737 academic staff and 16,000
+        students. Its dean is Thomas Pallesen and it is affiliated with the
+        European University Association.""",
+        """Andrews County Airport is located in Texas in the U.S. Austin is the
+        capital of Texas whose largest city is Houston. English is spoken
+        in that state.""",
+        """Elliot See was born in Dallas on 23 July 1927. He graduated from the
+        University of Texas at Austin which is an affiliate of the University
+        of Texas system. He died in St louis .""",
+        """Aarhus Airport, which serves the city of Aarhus in Denmark, has a
+        runway length of 2,776 and is named 10R/28L. Aktieselskab operates the
+        airport which is 25 metres above sea level.""",
+        """The character of Baymax appeared in Big Hero 6 which stars Ryan
+        Potter. He was created by Steven T Seagle and the American,
+        Duncan Rouleau.""",
+        """Batchoy is found in Philippine Spanish and Arabic speaking
+        Philippines. The Philippines is home to the llocano and ENTITY.""",
+        "English is the language used in 1634: The Ram Rebellion.",
+        "Alan Shephard passed away on 1998-07-21 in California.",
+        """Buzz Aldrin, who retired on July 1st 1971 , once spent 52 minutes
+        in outer space."""
     ]
 
     for (e, s) in zip(entity_list, text_list):
         best_match = find_best_match(e, s)
-        print('entity', e, ', best match:', best_match)
+        print('entity:', e, ', best match:', best_match)
 
 def main():
     # test extract_named_entities function.
-    test_NER()
+    #test_NER()
 
     # test best match
     test_best_match()

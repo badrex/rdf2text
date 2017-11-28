@@ -15,7 +15,7 @@ def generate():
     parser = argparse.ArgumentParser(description=DISCR)
     parser.add_argument('-path', type=str, help='Path to data.', required=True)
     parser.add_argument('-src_mode', help='Input mode: flat or structured.',
-                    choices=['flat', 'structured'], default = 'flat', nargs = '?')
+                choices=['flat', 'structured'], default = 'flat', nargs = '?')
 
     parser.add_argument('-src', type=str, help='Path to output file for src.',
                     required=True)
