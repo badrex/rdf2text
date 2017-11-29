@@ -3,6 +3,7 @@ A module for Entity, Property, and EntityGraph! It is fun ;-)
 """
 from utils import text_utils
 from utils import rdf_utils
+from utils import sparql_utils
 import xml.etree.ElementTree as et
 import re
 import string
@@ -128,13 +129,17 @@ class EntityGraph:
             # update entities dict by instantiating Entity objects
             if subj not in self.entities:
                 entityID += 1
+                #self.entities[subj] = Entity(entityID, subj,
+                #                          self.properties[prop].domain)
                 self.entities[subj] = Entity(entityID, subj,
-                                          self.properties[prop].domain)
+                                          sparql_utils.get_resource_type(subj))
 
             if obj not in self.entities:
                 entityID += 1
-                self.entities[obj]  = Entity(entityID, obj,
-                                          self.properties[prop].range)
+                #self.entities[obj]  = Entity(entityID, obj,
+                #                          self.properties[prop].range)
+                self.entities[obj] = Entity(entityID, obj,
+                                          sparql_utils.get_resource_type(obj))
 
             # populate the subj2obj and obj2subj dicst with (prop, [objs]) or
             # (prop, [subjs]) tuples
@@ -279,7 +284,7 @@ class EntityGraph:
                 seq = ' '.join(
                                 [
                                     seq,
-                                    self.entities[subj].lex_form,
+                                    self.entities[subj].lex_form,#ENTITY-n?
                                     self.entities[subj].stype,
                                     self.properties[prop].lex_form,
                                     self.entities[obj].lex_form,

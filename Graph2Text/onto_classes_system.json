@@ -1,0 +1,3082 @@
+{
+   "Abbey": [
+      5,
+      "Building"
+   ],
+   "AcademicConference": [
+      3,
+      "Event"
+   ],
+   "AcademicJournal": [
+      4,
+      "WrittenWork"
+   ],
+   "AcademicSubject": [
+      2,
+      "TopicalConcept"
+   ],
+   "Activity": [
+      1,
+      "Activity"
+   ],
+   "Actor": [
+      4,
+      "Person"
+   ],
+   "AdministrativeRegion": [
+      4,
+      "AdministrativeRegion"
+   ],
+   "AdultActor": [
+      5,
+      "Person"
+   ],
+   "Agent": [
+      1,
+      "Agent"
+   ],
+   "Agglomeration": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Aircraft": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Airline": [
+      5,
+      "Company"
+   ],
+   "Airport": [
+      4,
+      "Airport"
+   ],
+   "Album": [
+      3,
+      "Work"
+   ],
+   "Altitude": [
+      1,
+      "Altitude"
+   ],
+   "AmateurBoxer": [
+      5,
+      "Person"
+   ],
+   "Ambassador": [
+      4,
+      "Person"
+   ],
+   "AmericanFootballCoach": [
+      4,
+      "Person"
+   ],
+   "AmericanFootballLeague": [
+      4,
+      "Organisation"
+   ],
+   "AmericanFootballPlayer": [
+      5,
+      "Person"
+   ],
+   "AmericanFootballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Amphibian": [
+      4,
+      "Species"
+   ],
+   "AmusementParkAttraction": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "AnatomicalStructure": [
+      1,
+      "AnatomicalStructure"
+   ],
+   "Animal": [
+      3,
+      "Species"
+   ],
+   "AnimangaCharacter": [
+      4,
+      "Agent"
+   ],
+   "Anime": [
+      3,
+      "Work"
+   ],
+   "Annotation": [
+      3,
+      "WrittenWork"
+   ],
+   "Arachnid": [
+      4,
+      "Species"
+   ],
+   "Archaea": [
+      2,
+      "Species"
+   ],
+   "Archbishop": [
+      5,
+      "Person"
+   ],
+   "Archeologist": [
+      3,
+      "Person"
+   ],
+   "ArcherPlayer": [
+      4,
+      "Person"
+   ],
+   "Archipelago": [
+      3,
+      "Place"
+   ],
+   "Architect": [
+      3,
+      "Person"
+   ],
+   "ArchitecturalStructure": [
+      2,
+      "ArchitecturalStructure"
+   ],
+   "Archive": [
+      3,
+      "Work"
+   ],
+   "Area": [
+      1,
+      "Area"
+   ],
+   "Arena": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Aristocrat": [
+      3,
+      "Person"
+   ],
+   "Arrondissement": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Artery": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Article": [
+      3,
+      "WrittenWork"
+   ],
+   "ArtificialSatellite": [
+      4,
+      "Place"
+   ],
+   "Artist": [
+      3,
+      "Person"
+   ],
+   "ArtistDiscography": [
+      3,
+      "Work"
+   ],
+   "ArtisticGenre": [
+      3,
+      "TopicalConcept"
+   ],
+   "Artwork": [
+      2,
+      "Work"
+   ],
+   "Asteroid": [
+      3,
+      "Place"
+   ],
+   "Astronaut": [
+      3,
+      "Astronaut"
+   ],
+   "Athlete": [
+      3,
+      "Person"
+   ],
+   "Athletics": [
+      3,
+      "Activity"
+   ],
+   "AthleticsPlayer": [
+      4,
+      "Person"
+   ],
+   "Atoll": [
+      4,
+      "PopulatedPlace"
+   ],
+   "Attack": [
+      3,
+      "Event"
+   ],
+   "AustralianFootballLeague": [
+      4,
+      "Organisation"
+   ],
+   "AustralianFootballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "AustralianRulesFootballPlayer": [
+      4,
+      "Person"
+   ],
+   "AutoRacingLeague": [
+      4,
+      "Organisation"
+   ],
+   "Automobile": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "AutomobileEngine": [
+      3,
+      "Device"
+   ],
+   "Award": [
+      1,
+      "Award"
+   ],
+   "BackScene": [
+      5,
+      "MusicalArtist"
+   ],
+   "Bacteria": [
+      2,
+      "Species"
+   ],
+   "BadmintonPlayer": [
+      4,
+      "Person"
+   ],
+   "Band": [
+      4,
+      "Organisation"
+   ],
+   "Bank": [
+      4,
+      "Company"
+   ],
+   "Baronet": [
+      5,
+      "Person"
+   ],
+   "BaseballLeague": [
+      4,
+      "Organisation"
+   ],
+   "BaseballPlayer": [
+      4,
+      "Person"
+   ],
+   "BaseballSeason": [
+      3,
+      "SportsSeason"
+   ],
+   "BaseballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "BasketballLeague": [
+      4,
+      "Organisation"
+   ],
+   "BasketballPlayer": [
+      4,
+      "Person"
+   ],
+   "BasketballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Bay": [
+      4,
+      "Place"
+   ],
+   "Beach": [
+      3,
+      "Place"
+   ],
+   "BeachVolleyballPlayer": [
+      5,
+      "Person"
+   ],
+   "BeautyQueen": [
+      3,
+      "Person"
+   ],
+   "Beer": [
+      3,
+      "Food"
+   ],
+   "Beverage": [
+      2,
+      "Food"
+   ],
+   "Biathlete": [
+      5,
+      "Person"
+   ],
+   "BiologicalDatabase": [
+      3,
+      "Work"
+   ],
+   "Biologist": [
+      4,
+      "Person"
+   ],
+   "Biomolecule": [
+      1,
+      "Biomolecule"
+   ],
+   "Bird": [
+      4,
+      "Species"
+   ],
+   "Birth": [
+      4,
+      "Event"
+   ],
+   "Blazon": [
+      1,
+      "Blazon"
+   ],
+   "BloodVessel": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "BoardGame": [
+      3,
+      "Activity"
+   ],
+   "BobsleighAthlete": [
+      5,
+      "Person"
+   ],
+   "BodyOfWater": [
+      3,
+      "Place"
+   ],
+   "Bodybuilder": [
+      4,
+      "Person"
+   ],
+   "Bone": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Book": [
+      3,
+      "Book"
+   ],
+   "BowlingLeague": [
+      4,
+      "Organisation"
+   ],
+   "Boxer": [
+      4,
+      "Person"
+   ],
+   "Boxing": [
+      3,
+      "Activity"
+   ],
+   "BoxingCategory": [
+      4,
+      "Activity"
+   ],
+   "BoxingLeague": [
+      4,
+      "Organisation"
+   ],
+   "BoxingStyle": [
+      4,
+      "Activity"
+   ],
+   "Brain": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Brewery": [
+      4,
+      "Company"
+   ],
+   "Bridge": [
+      5,
+      "Infrastructure"
+   ],
+   "BritishRoyalty": [
+      4,
+      "Person"
+   ],
+   "BroadcastNetwork": [
+      4,
+      "Organisation"
+   ],
+   "Broadcaster": [
+      3,
+      "Organisation"
+   ],
+   "BrownDwarf": [
+      4,
+      "Place"
+   ],
+   "Building": [
+      3,
+      "Building"
+   ],
+   "BullFighter": [
+      4,
+      "Person"
+   ],
+   "BusCompany": [
+      5,
+      "Company"
+   ],
+   "BusinessPerson": [
+      3,
+      "Person"
+   ],
+   "Camera": [
+      2,
+      "Device"
+   ],
+   "CanadianFootballLeague": [
+      4,
+      "Organisation"
+   ],
+   "CanadianFootballPlayer": [
+      5,
+      "Person"
+   ],
+   "CanadianFootballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Canal": [
+      5,
+      "Place"
+   ],
+   "Canoeist": [
+      4,
+      "Person"
+   ],
+   "Canton": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Cape": [
+      3,
+      "Place"
+   ],
+   "Capital": [
+      5,
+      "City"
+   ],
+   "CapitalOfRegion": [
+      5,
+      "City"
+   ],
+   "CardGame": [
+      3,
+      "Activity"
+   ],
+   "Cardinal": [
+      4,
+      "Person"
+   ],
+   "CardinalDirection": [
+      2,
+      "TopicalConcept"
+   ],
+   "CareerStation": [
+      2,
+      "TimePeriod"
+   ],
+   "Cartoon": [
+      2,
+      "Work"
+   ],
+   "Case": [
+      2,
+      "UnitOfWork"
+   ],
+   "Casino": [
+      4,
+      "Building"
+   ],
+   "Castle": [
+      4,
+      "Building"
+   ],
+   "Cat": [
+      5,
+      "Species"
+   ],
+   "Caterer": [
+      4,
+      "Company"
+   ],
+   "Cave": [
+      3,
+      "Place"
+   ],
+   "Celebrity": [
+      3,
+      "Person"
+   ],
+   "CelestialBody": [
+      2,
+      "Place"
+   ],
+   "Cemetery": [
+      2,
+      "Place"
+   ],
+   "Chancellor": [
+      4,
+      "Person"
+   ],
+   "ChartsPlacements": [
+      1,
+      "ChartsPlacements"
+   ],
+   "Cheese": [
+      2,
+      "Food"
+   ],
+   "Chef": [
+      3,
+      "Person"
+   ],
+   "ChemicalCompound": [
+      2,
+      "ChemicalSubstance"
+   ],
+   "ChemicalElement": [
+      2,
+      "ChemicalSubstance"
+   ],
+   "ChemicalSubstance": [
+      1,
+      "ChemicalSubstance"
+   ],
+   "ChessPlayer": [
+      4,
+      "Person"
+   ],
+   "ChristianBishop": [
+      4,
+      "Person"
+   ],
+   "ChristianDoctrine": [
+      3,
+      "TopicalConcept"
+   ],
+   "ChristianPatriarch": [
+      4,
+      "Person"
+   ],
+   "Church": [
+      5,
+      "Building"
+   ],
+   "City": [
+      4,
+      "City"
+   ],
+   "CityDistrict": [
+      4,
+      "Settlement"
+   ],
+   "ClassicalMusicArtist": [
+      5,
+      "MusicalArtist"
+   ],
+   "ClassicalMusicComposition": [
+      3,
+      "Work"
+   ],
+   "Cleric": [
+      3,
+      "Person"
+   ],
+   "ClericalAdministrativeRegion": [
+      5,
+      "AdministrativeRegion"
+   ],
+   "ClericalOrder": [
+      4,
+      "Organisation"
+   ],
+   "ClubMoss": [
+      4,
+      "Species"
+   ],
+   "Coach": [
+      3,
+      "Person"
+   ],
+   "CoalPit": [
+      3,
+      "Place"
+   ],
+   "CollectionOfValuables": [
+      2,
+      "Work"
+   ],
+   "College": [
+      4,
+      "EducationalInstitution"
+   ],
+   "CollegeCoach": [
+      4,
+      "Person"
+   ],
+   "Colour": [
+      1,
+      "Colour"
+   ],
+   "CombinationDrug": [
+      3,
+      "ChemicalSubstance"
+   ],
+   "Comedian": [
+      4,
+      "Person"
+   ],
+   "ComedyGroup": [
+      4,
+      "Organisation"
+   ],
+   "Comic": [
+      3,
+      "WrittenWork"
+   ],
+   "ComicStrip": [
+      4,
+      "WrittenWork"
+   ],
+   "ComicsCharacter": [
+      3,
+      "Agent"
+   ],
+   "ComicsCreator": [
+      4,
+      "Person"
+   ],
+   "Community": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Company": [
+      3,
+      "Company"
+   ],
+   "Competition": [
+      2,
+      "Event"
+   ],
+   "ConcentrationCamp": [
+      2,
+      "Place"
+   ],
+   "Congressman": [
+      4,
+      "Person"
+   ],
+   "Conifer": [
+      4,
+      "Species"
+   ],
+   "Constellation": [
+      3,
+      "Place"
+   ],
+   "Contest": [
+      3,
+      "Event"
+   ],
+   "Continent": [
+      3,
+      "PopulatedPlace"
+   ],
+   "ControlledDesignationOfOriginWine": [
+      4,
+      "Food"
+   ],
+   "Convention": [
+      3,
+      "Event"
+   ],
+   "ConveyorSystem": [
+      3,
+      "MeanOfTransportation"
+   ],
+   "Country": [
+      3,
+      "Country"
+   ],
+   "CountrySeat": [
+      2,
+      "Place"
+   ],
+   "Crater": [
+      3,
+      "Place"
+   ],
+   "Creek": [
+      5,
+      "Place"
+   ],
+   "CricketGround": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "CricketLeague": [
+      4,
+      "Organisation"
+   ],
+   "CricketTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Cricketer": [
+      4,
+      "Person"
+   ],
+   "Criminal": [
+      3,
+      "Person"
+   ],
+   "CrossCountrySkier": [
+      5,
+      "Person"
+   ],
+   "Crustacean": [
+      4,
+      "Species"
+   ],
+   "CultivatedVariety": [
+      4,
+      "Species"
+   ],
+   "Curler": [
+      5,
+      "Person"
+   ],
+   "CurlingLeague": [
+      4,
+      "Organisation"
+   ],
+   "Currency": [
+      1,
+      "Currency"
+   ],
+   "Cycad": [
+      4,
+      "Species"
+   ],
+   "CyclingCompetition": [
+      4,
+      "Event"
+   ],
+   "CyclingLeague": [
+      4,
+      "Organisation"
+   ],
+   "CyclingRace": [
+      5,
+      "Event"
+   ],
+   "CyclingTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Cyclist": [
+      4,
+      "Person"
+   ],
+   "DTMRacer": [
+      6,
+      "Person"
+   ],
+   "Dam": [
+      4,
+      "Infrastructure"
+   ],
+   "Dancer": [
+      4,
+      "Person"
+   ],
+   "DartsPlayer": [
+      4,
+      "Person"
+   ],
+   "Database": [
+      2,
+      "Work"
+   ],
+   "Deanery": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Death": [
+      4,
+      "Event"
+   ],
+   "Decoration": [
+      2,
+      "Award"
+   ],
+   "Deity": [
+      2,
+      "Agent"
+   ],
+   "Demographics": [
+      1,
+      "Demographics"
+   ],
+   "Department": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Depth": [
+      1,
+      "Depth"
+   ],
+   "Deputy": [
+      4,
+      "Person"
+   ],
+   "Desert": [
+      3,
+      "Place"
+   ],
+   "Device": [
+      1,
+      "Device"
+   ],
+   "DigitalCamera": [
+      3,
+      "Device"
+   ],
+   "Dike": [
+      4,
+      "Infrastructure"
+   ],
+   "Diocese": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Diploma": [
+      1,
+      "Diploma"
+   ],
+   "Disease": [
+      1,
+      "Disease"
+   ],
+   "DisneyCharacter": [
+      3,
+      "Agent"
+   ],
+   "District": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "DistrictWaterBoard": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Divorce": [
+      4,
+      "Event"
+   ],
+   "Document": [
+      2,
+      "Work"
+   ],
+   "DocumentType": [
+      3,
+      "TopicalConcept"
+   ],
+   "Dog": [
+      5,
+      "Species"
+   ],
+   "Drama": [
+      3,
+      "WrittenWork"
+   ],
+   "Drug": [
+      2,
+      "ChemicalSubstance"
+   ],
+   "Earthquake": [
+      2,
+      "NaturalEvent"
+   ],
+   "Economist": [
+      3,
+      "Person"
+   ],
+   "EducationalInstitution": [
+      3,
+      "EducationalInstitution"
+   ],
+   "Egyptologist": [
+      3,
+      "Person"
+   ],
+   "Election": [
+      3,
+      "Event"
+   ],
+   "ElectionDiagram": [
+      1,
+      "ElectionDiagram"
+   ],
+   "ElectricalSubstation": [
+      5,
+      "Infrastructure"
+   ],
+   "Embryology": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Employer": [
+      2,
+      "Agent"
+   ],
+   "EmployersOrganisation": [
+      3,
+      "Organisation"
+   ],
+   "Engine": [
+      2,
+      "Device"
+   ],
+   "Engineer": [
+      3,
+      "Person"
+   ],
+   "Entomologist": [
+      4,
+      "Person"
+   ],
+   "Enzyme": [
+      2,
+      "Biomolecule"
+   ],
+   "Escalator": [
+      3,
+      "MeanOfTransportation"
+   ],
+   "EthnicGroup": [
+      1,
+      "EthnicGroup"
+   ],
+   "Eukaryote": [
+      2,
+      "Species"
+   ],
+   "EurovisionSongContestEntry": [
+      4,
+      "Work"
+   ],
+   "Event": [
+      1,
+      "Event"
+   ],
+   "Factory": [
+      4,
+      "Building"
+   ],
+   "Family": [
+      2,
+      "Agent"
+   ],
+   "Farmer": [
+      3,
+      "Person"
+   ],
+   "Fashion": [
+      2,
+      "TopicalConcept"
+   ],
+   "FashionDesigner": [
+      4,
+      "Person"
+   ],
+   "Fencer": [
+      4,
+      "Person"
+   ],
+   "Fern": [
+      4,
+      "Species"
+   ],
+   "FictionalCharacter": [
+      2,
+      "Agent"
+   ],
+   "Fiefdom": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "FieldHockeyLeague": [
+      4,
+      "Organisation"
+   ],
+   "FigureSkater": [
+      5,
+      "Person"
+   ],
+   "File": [
+      3,
+      "Work"
+   ],
+   "FillingStation": [
+      5,
+      "Infrastructure"
+   ],
+   "Film": [
+      2,
+      "Work"
+   ],
+   "FilmFestival": [
+      3,
+      "Event"
+   ],
+   "Fish": [
+      4,
+      "Species"
+   ],
+   "Flag": [
+      1,
+      "Flag"
+   ],
+   "FloweringPlant": [
+      4,
+      "Species"
+   ],
+   "Food": [
+      1,
+      "Food"
+   ],
+   "FootballLeagueSeason": [
+      3,
+      "SportsSeason"
+   ],
+   "FootballMatch": [
+      4,
+      "Event"
+   ],
+   "Forest": [
+      3,
+      "Place"
+   ],
+   "FormerMunicipality": [
+      7,
+      "AdministrativeRegion"
+   ],
+   "FormulaOneRacer": [
+      6,
+      "Person"
+   ],
+   "FormulaOneRacing": [
+      4,
+      "Organisation"
+   ],
+   "FormulaOneTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Fort": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Fungus": [
+      3,
+      "Species"
+   ],
+   "GaelicGamesPlayer": [
+      4,
+      "Person"
+   ],
+   "Galaxy": [
+      3,
+      "Place"
+   ],
+   "Game": [
+      2,
+      "Activity"
+   ],
+   "Garden": [
+      2,
+      "Place"
+   ],
+   "Gate": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "GatedCommunity": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Gene": [
+      2,
+      "Biomolecule"
+   ],
+   "GeneLocation": [
+      1,
+      "GeneLocation"
+   ],
+   "Genre": [
+      2,
+      "TopicalConcept"
+   ],
+   "GeologicalPeriod": [
+      2,
+      "TimePeriod"
+   ],
+   "GeopoliticalOrganisation": [
+      3,
+      "Organisation"
+   ],
+   "Ginkgo": [
+      4,
+      "Species"
+   ],
+   "GivenName": [
+      2,
+      "Name"
+   ],
+   "Glacier": [
+      3,
+      "Place"
+   ],
+   "Globularswarm": [
+      4,
+      "Place"
+   ],
+   "Gnetophytes": [
+      4,
+      "Species"
+   ],
+   "GolfCourse": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "GolfLeague": [
+      4,
+      "Organisation"
+   ],
+   "GolfPlayer": [
+      4,
+      "Person"
+   ],
+   "GolfTournament": [
+      5,
+      "Event"
+   ],
+   "GovernmentAgency": [
+      3,
+      "Organisation"
+   ],
+   "GovernmentCabinet": [
+      4,
+      "Organisation"
+   ],
+   "GovernmentType": [
+      3,
+      "TopicalConcept"
+   ],
+   "GovernmentalAdministrativeRegion": [
+      5,
+      "AdministrativeRegion"
+   ],
+   "Governor": [
+      4,
+      "Person"
+   ],
+   "GrandPrix": [
+      4,
+      "Event"
+   ],
+   "Grape": [
+      5,
+      "Species"
+   ],
+   "GraveMonument": [
+      3,
+      "Place"
+   ],
+   "GreenAlga": [
+      4,
+      "Species"
+   ],
+   "GridironFootballPlayer": [
+      4,
+      "Person"
+   ],
+   "GrossDomesticProduct": [
+      1,
+      "GrossDomesticProduct"
+   ],
+   "GrossDomesticProductPerCapita": [
+      1,
+      "GrossDomesticProductPerCapita"
+   ],
+   "Group": [
+      3,
+      "Organisation"
+   ],
+   "Guitar": [
+      3,
+      "Device"
+   ],
+   "Guitarist": [
+      6,
+      "MusicalArtist"
+   ],
+   "Gymnast": [
+      4,
+      "Person"
+   ],
+   "HandballLeague": [
+      4,
+      "Organisation"
+   ],
+   "HandballPlayer": [
+      4,
+      "Person"
+   ],
+   "HandballTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "HighDiver": [
+      4,
+      "Person"
+   ],
+   "Historian": [
+      4,
+      "Person"
+   ],
+   "HistoricBuilding": [
+      4,
+      "Building"
+   ],
+   "HistoricPlace": [
+      2,
+      "Place"
+   ],
+   "HistoricalAreaOfAuthority": [
+      5,
+      "AdministrativeRegion"
+   ],
+   "HistoricalCountry": [
+      4,
+      "Country"
+   ],
+   "HistoricalDistrict": [
+      7,
+      "AdministrativeRegion"
+   ],
+   "HistoricalEvent": [
+      3,
+      "Event"
+   ],
+   "HistoricalPeriod": [
+      2,
+      "TimePeriod"
+   ],
+   "HistoricalProvince": [
+      7,
+      "AdministrativeRegion"
+   ],
+   "HistoricalRegion": [
+      4,
+      "Region"
+   ],
+   "HistoricalSettlement": [
+      4,
+      "Settlement"
+   ],
+   "HockeyClub": [
+      4,
+      "Organisation"
+   ],
+   "HockeyTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Holiday": [
+      1,
+      "Holiday"
+   ],
+   "HollywoodCartoon": [
+      3,
+      "Work"
+   ],
+   "Hormone": [
+      2,
+      "Biomolecule"
+   ],
+   "Horse": [
+      5,
+      "Species"
+   ],
+   "HorseRace": [
+      5,
+      "Event"
+   ],
+   "HorseRider": [
+      4,
+      "Person"
+   ],
+   "HorseRiding": [
+      3,
+      "Activity"
+   ],
+   "HorseTrainer": [
+      3,
+      "Person"
+   ],
+   "Hospital": [
+      4,
+      "Building"
+   ],
+   "Host": [
+      4,
+      "Person"
+   ],
+   "HotSpring": [
+      3,
+      "Place"
+   ],
+   "Hotel": [
+      4,
+      "Building"
+   ],
+   "HumanDevelopmentIndex": [
+      1,
+      "HumanDevelopmentIndex"
+   ],
+   "HumanGene": [
+      3,
+      "Biomolecule"
+   ],
+   "HumanGeneLocation": [
+      2,
+      "GeneLocation"
+   ],
+   "Humorist": [
+      4,
+      "Person"
+   ],
+   "IceHockeyLeague": [
+      4,
+      "Organisation"
+   ],
+   "IceHockeyPlayer": [
+      5,
+      "Person"
+   ],
+   "Ideology": [
+      2,
+      "TopicalConcept"
+   ],
+   "Image": [
+      3,
+      "Work"
+   ],
+   "InformationAppliance": [
+      2,
+      "Device"
+   ],
+   "Infrastructure": [
+      3,
+      "Infrastructure"
+   ],
+   "InlineHockeyLeague": [
+      4,
+      "Organisation"
+   ],
+   "Insect": [
+      4,
+      "Species"
+   ],
+   "Instrument": [
+      2,
+      "Device"
+   ],
+   "Instrumentalist": [
+      5,
+      "MusicalArtist"
+   ],
+   "Intercommunality": [
+      3,
+      "PopulatedPlace"
+   ],
+   "InternationalFootballLeagueEvent": [
+      4,
+      "Event"
+   ],
+   "InternationalOrganisation": [
+      3,
+      "Organisation"
+   ],
+   "Island": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Jockey": [
+      4,
+      "Person"
+   ],
+   "Journalist": [
+      3,
+      "Person"
+   ],
+   "Judge": [
+      3,
+      "Person"
+   ],
+   "LacrosseLeague": [
+      4,
+      "Organisation"
+   ],
+   "LacrossePlayer": [
+      4,
+      "Person"
+   ],
+   "Lake": [
+      4,
+      "Place"
+   ],
+   "Language": [
+      1,
+      "Language"
+   ],
+   "LaunchPad": [
+      4,
+      "Infrastructure"
+   ],
+   "Law": [
+      3,
+      "WrittenWork"
+   ],
+   "LawFirm": [
+      4,
+      "Company"
+   ],
+   "Lawyer": [
+      3,
+      "Person"
+   ],
+   "LegalCase": [
+      3,
+      "UnitOfWork"
+   ],
+   "Legislature": [
+      3,
+      "Organisation"
+   ],
+   "Letter": [
+      3,
+      "WrittenWork"
+   ],
+   "Library": [
+      4,
+      "EducationalInstitution"
+   ],
+   "Lieutenant": [
+      4,
+      "Person"
+   ],
+   "LifeCycleEvent": [
+      2,
+      "Event"
+   ],
+   "Ligament": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "LightNovel": [
+      5,
+      "Book"
+   ],
+   "Lighthouse": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "LineOfFashion": [
+      2,
+      "Work"
+   ],
+   "Linguist": [
+      3,
+      "Person"
+   ],
+   "Lipid": [
+      2,
+      "Biomolecule"
+   ],
+   "List": [
+      1,
+      "List"
+   ],
+   "LiteraryGenre": [
+      3,
+      "TopicalConcept"
+   ],
+   "Locality": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Lock": [
+      4,
+      "Infrastructure"
+   ],
+   "Locomotive": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "LunarCrater": [
+      4,
+      "Place"
+   ],
+   "Lymph": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Magazine": [
+      4,
+      "WrittenWork"
+   ],
+   "Mammal": [
+      4,
+      "Species"
+   ],
+   "Manga": [
+      4,
+      "WrittenWork"
+   ],
+   "Manhua": [
+      4,
+      "WrittenWork"
+   ],
+   "Manhwa": [
+      4,
+      "WrittenWork"
+   ],
+   "Marriage": [
+      4,
+      "Event"
+   ],
+   "MartialArtist": [
+      4,
+      "Person"
+   ],
+   "MathematicalConcept": [
+      2,
+      "TopicalConcept"
+   ],
+   "Mayor": [
+      4,
+      "Person"
+   ],
+   "MeanOfTransportation": [
+      1,
+      "MeanOfTransportation"
+   ],
+   "Media": [
+      1,
+      "Media"
+   ],
+   "MedicalSpecialty": [
+      1,
+      "MedicalSpecialty"
+   ],
+   "Medician": [
+      4,
+      "Person"
+   ],
+   "Medicine": [
+      1,
+      "Medicine"
+   ],
+   "Meeting": [
+      3,
+      "Event"
+   ],
+   "MemberOfParliament": [
+      4,
+      "Person"
+   ],
+   "MemberResistanceMovement": [
+      3,
+      "Person"
+   ],
+   "Memorial": [
+      3,
+      "Place"
+   ],
+   "MetroStation": [
+      5,
+      "Infrastructure"
+   ],
+   "MicroRegion": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "MilitaryAircraft": [
+      3,
+      "MeanOfTransportation"
+   ],
+   "MilitaryConflict": [
+      3,
+      "Event"
+   ],
+   "MilitaryPerson": [
+      3,
+      "Person"
+   ],
+   "MilitaryService": [
+      3,
+      "TimePeriod"
+   ],
+   "MilitaryStructure": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "MilitaryUnit": [
+      3,
+      "Organisation"
+   ],
+   "MilitaryVehicle": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Mill": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Mine": [
+      2,
+      "Place"
+   ],
+   "Mineral": [
+      2,
+      "ChemicalSubstance"
+   ],
+   "Minister": [
+      4,
+      "Person"
+   ],
+   "MixedMartialArtsEvent": [
+      4,
+      "Event"
+   ],
+   "MixedMartialArtsLeague": [
+      4,
+      "Organisation"
+   ],
+   "MobilePhone": [
+      2,
+      "Device"
+   ],
+   "Model": [
+      3,
+      "Person"
+   ],
+   "Mollusca": [
+      4,
+      "Species"
+   ],
+   "Monarch": [
+      3,
+      "Person"
+   ],
+   "Monastery": [
+      5,
+      "Building"
+   ],
+   "MonoclonalAntibody": [
+      3,
+      "ChemicalSubstance"
+   ],
+   "Monument": [
+      2,
+      "Place"
+   ],
+   "Mosque": [
+      5,
+      "Building"
+   ],
+   "Moss": [
+      4,
+      "Species"
+   ],
+   "MotocycleRacer": [
+      6,
+      "Person"
+   ],
+   "MotorRace": [
+      5,
+      "Event"
+   ],
+   "Motorcycle": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "MotorcycleRacingLeague": [
+      4,
+      "Organisation"
+   ],
+   "MotorcycleRider": [
+      5,
+      "Person"
+   ],
+   "MotorsportRacer": [
+      4,
+      "Person"
+   ],
+   "MotorsportSeason": [
+      2,
+      "SportsSeason"
+   ],
+   "Mountain": [
+      3,
+      "Place"
+   ],
+   "MountainPass": [
+      3,
+      "Place"
+   ],
+   "MountainRange": [
+      3,
+      "Place"
+   ],
+   "MouseGene": [
+      3,
+      "Biomolecule"
+   ],
+   "MouseGeneLocation": [
+      2,
+      "GeneLocation"
+   ],
+   "MovieDirector": [
+      3,
+      "Person"
+   ],
+   "MovieGenre": [
+      3,
+      "TopicalConcept"
+   ],
+   "MovingImage": [
+      4,
+      "Work"
+   ],
+   "MovingWalkway": [
+      3,
+      "MeanOfTransportation"
+   ],
+   "MultiVolumePublication": [
+      3,
+      "WrittenWork"
+   ],
+   "Municipality": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Murderer": [
+      4,
+      "Person"
+   ],
+   "Muscle": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Museum": [
+      4,
+      "Building"
+   ],
+   "MusicComposer": [
+      4,
+      "Person"
+   ],
+   "MusicDirector": [
+      5,
+      "MusicalArtist"
+   ],
+   "MusicFestival": [
+      3,
+      "Event"
+   ],
+   "MusicGenre": [
+      3,
+      "TopicalConcept"
+   ],
+   "Musical": [
+      3,
+      "Work"
+   ],
+   "MusicalArtist": [
+      4,
+      "MusicalArtist"
+   ],
+   "MusicalWork": [
+      2,
+      "Work"
+   ],
+   "MythologicalFigure": [
+      3,
+      "Agent"
+   ],
+   "NCAATeamSeason": [
+      3,
+      "SportsSeason"
+   ],
+   "Name": [
+      1,
+      "Name"
+   ],
+   "NarutoCharacter": [
+      3,
+      "Agent"
+   ],
+   "NascarDriver": [
+      6,
+      "Person"
+   ],
+   "NationalAnthem": [
+      3,
+      "Work"
+   ],
+   "NationalCollegiateAthleticAssociationAthlete": [
+      4,
+      "Person"
+   ],
+   "NationalFootballLeagueEvent": [
+      4,
+      "Event"
+   ],
+   "NationalFootballLeagueSeason": [
+      4,
+      "SportsSeason"
+   ],
+   "NationalSoccerClub": [
+      5,
+      "SoccerClub"
+   ],
+   "NaturalEvent": [
+      1,
+      "NaturalEvent"
+   ],
+   "NaturalPlace": [
+      2,
+      "Place"
+   ],
+   "NaturalRegion": [
+      4,
+      "Region"
+   ],
+   "Nerve": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "NetballPlayer": [
+      4,
+      "Person"
+   ],
+   "Newspaper": [
+      4,
+      "WrittenWork"
+   ],
+   "NobelPrize": [
+      2,
+      "Award"
+   ],
+   "Noble": [
+      3,
+      "Person"
+   ],
+   "NobleFamily": [
+      3,
+      "Agent"
+   ],
+   "Non-ProfitOrganisation": [
+      3,
+      "Organisation"
+   ],
+   "NordicCombined": [
+      5,
+      "Person"
+   ],
+   "Novel": [
+      4,
+      "Book"
+   ],
+   "NuclearPowerStation": [
+      5,
+      "Infrastructure"
+   ],
+   "Ocean": [
+      4,
+      "Place"
+   ],
+   "OfficeHolder": [
+      3,
+      "OfficeHolder"
+   ],
+   "OldTerritory": [
+      4,
+      "PopulatedPlace"
+   ],
+   "OlympicEvent": [
+      5,
+      "Event"
+   ],
+   "OlympicResult": [
+      2,
+      "SportCompetitionResult"
+   ],
+   "Olympics": [
+      4,
+      "Event"
+   ],
+   "On-SiteTransportation": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Openswarm": [
+      4,
+      "Place"
+   ],
+   "Opera": [
+      3,
+      "Work"
+   ],
+   "Organ": [
+      3,
+      "Device"
+   ],
+   "Organisation": [
+      2,
+      "Organisation"
+   ],
+   "OrganisationMember": [
+      3,
+      "Person"
+   ],
+   "Orphan": [
+      3,
+      "Person"
+   ],
+   "OverseasDepartment": [
+      7,
+      "AdministrativeRegion"
+   ],
+   "PaintballLeague": [
+      4,
+      "Organisation"
+   ],
+   "Painter": [
+      4,
+      "Person"
+   ],
+   "Painting": [
+      3,
+      "Work"
+   ],
+   "Parish": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Park": [
+      2,
+      "Place"
+   ],
+   "Parliament": [
+      3,
+      "Organisation"
+   ],
+   "PenaltyShootOut": [
+      2,
+      "Event"
+   ],
+   "PeriodOfArtisticStyle": [
+      2,
+      "TimePeriod"
+   ],
+   "PeriodicalLiterature": [
+      3,
+      "WrittenWork"
+   ],
+   "Person": [
+      2,
+      "Person"
+   ],
+   "PersonFunction": [
+      1,
+      "PersonFunction"
+   ],
+   "PersonalEvent": [
+      3,
+      "Event"
+   ],
+   "Philosopher": [
+      3,
+      "Person"
+   ],
+   "PhilosophicalConcept": [
+      2,
+      "TopicalConcept"
+   ],
+   "Photographer": [
+      4,
+      "Person"
+   ],
+   "Place": [
+      1,
+      "Place"
+   ],
+   "Planet": [
+      3,
+      "Place"
+   ],
+   "Plant": [
+      3,
+      "Species"
+   ],
+   "Play": [
+      3,
+      "WrittenWork"
+   ],
+   "PlayWright": [
+      4,
+      "Person"
+   ],
+   "PlayboyPlaymate": [
+      3,
+      "Person"
+   ],
+   "Poem": [
+      3,
+      "WrittenWork"
+   ],
+   "Poet": [
+      4,
+      "Person"
+   ],
+   "PokerPlayer": [
+      4,
+      "Person"
+   ],
+   "PoliticalConcept": [
+      2,
+      "TopicalConcept"
+   ],
+   "PoliticalFunction": [
+      2,
+      "PersonFunction"
+   ],
+   "PoliticalParty": [
+      3,
+      "Organisation"
+   ],
+   "Politician": [
+      3,
+      "Person"
+   ],
+   "PoliticianSpouse": [
+      3,
+      "Person"
+   ],
+   "PoloLeague": [
+      4,
+      "Organisation"
+   ],
+   "Polyhedron": [
+      1,
+      "Polyhedron"
+   ],
+   "Polysaccharide": [
+      2,
+      "Biomolecule"
+   ],
+   "Pope": [
+      4,
+      "Person"
+   ],
+   "PopulatedPlace": [
+      2,
+      "PopulatedPlace"
+   ],
+   "Population": [
+      1,
+      "Population"
+   ],
+   "Port": [
+      4,
+      "Infrastructure"
+   ],
+   "PowerStation": [
+      4,
+      "Infrastructure"
+   ],
+   "Prefecture": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "PrehistoricalPeriod": [
+      2,
+      "TimePeriod"
+   ],
+   "Presenter": [
+      3,
+      "Person"
+   ],
+   "President": [
+      4,
+      "Person"
+   ],
+   "Priest": [
+      4,
+      "Person"
+   ],
+   "PrimeMinister": [
+      4,
+      "Person"
+   ],
+   "Prison": [
+      4,
+      "Building"
+   ],
+   "Producer": [
+      3,
+      "Person"
+   ],
+   "Profession": [
+      2,
+      "PersonFunction"
+   ],
+   "Professor": [
+      4,
+      "Person"
+   ],
+   "ProgrammingLanguage": [
+      2,
+      "Language"
+   ],
+   "Project": [
+      2,
+      "UnitOfWork"
+   ],
+   "ProtectedArea": [
+      2,
+      "Place"
+   ],
+   "Protein": [
+      2,
+      "Biomolecule"
+   ],
+   "ProtohistoricalPeriod": [
+      2,
+      "TimePeriod"
+   ],
+   "Province": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Psychologist": [
+      3,
+      "Person"
+   ],
+   "PublicService": [
+      1,
+      "PublicService"
+   ],
+   "PublicTransitSystem": [
+      4,
+      "Company"
+   ],
+   "Publisher": [
+      4,
+      "Company"
+   ],
+   "Pyramid": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Quote": [
+      3,
+      "WrittenWork"
+   ],
+   "Race": [
+      4,
+      "Event"
+   ],
+   "RaceHorse": [
+      6,
+      "Species"
+   ],
+   "RaceTrack": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Racecourse": [
+      5,
+      "ArchitecturalStructure"
+   ],
+   "RacingDriver": [
+      5,
+      "Person"
+   ],
+   "RadioControlledRacingLeague": [
+      4,
+      "Organisation"
+   ],
+   "RadioHost": [
+      4,
+      "Person"
+   ],
+   "RadioProgram": [
+      2,
+      "Work"
+   ],
+   "RadioStation": [
+      4,
+      "Organisation"
+   ],
+   "RailwayLine": [
+      5,
+      "Infrastructure"
+   ],
+   "RailwayStation": [
+      5,
+      "Infrastructure"
+   ],
+   "RailwayTunnel": [
+      5,
+      "Infrastructure"
+   ],
+   "RallyDriver": [
+      6,
+      "Person"
+   ],
+   "Ratio": [
+      2,
+      "Relationship"
+   ],
+   "Rebellion": [
+      3,
+      "Event"
+   ],
+   "RecordLabel": [
+      4,
+      "Company"
+   ],
+   "RecordOffice": [
+      4,
+      "Organisation"
+   ],
+   "Referee": [
+      3,
+      "Person"
+   ],
+   "Reference": [
+      4,
+      "WrittenWork"
+   ],
+   "Regency": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "Region": [
+      3,
+      "Region"
+   ],
+   "Reign": [
+      2,
+      "TimePeriod"
+   ],
+   "Relationship": [
+      1,
+      "Relationship"
+   ],
+   "Religious": [
+      3,
+      "Person"
+   ],
+   "ReligiousBuilding": [
+      4,
+      "Building"
+   ],
+   "ReligiousOrganisation": [
+      3,
+      "Organisation"
+   ],
+   "Reptile": [
+      4,
+      "Species"
+   ],
+   "ResearchProject": [
+      3,
+      "UnitOfWork"
+   ],
+   "RestArea": [
+      4,
+      "Infrastructure"
+   ],
+   "Restaurant": [
+      4,
+      "Building"
+   ],
+   "Resume": [
+      3,
+      "WrittenWork"
+   ],
+   "River": [
+      5,
+      "Place"
+   ],
+   "Road": [
+      5,
+      "Infrastructure"
+   ],
+   "RoadJunction": [
+      5,
+      "Infrastructure"
+   ],
+   "RoadTunnel": [
+      5,
+      "Infrastructure"
+   ],
+   "Rocket": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "RocketEngine": [
+      3,
+      "Device"
+   ],
+   "RollerCoaster": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "RomanEmperor": [
+      3,
+      "Person"
+   ],
+   "RouteOfTransportation": [
+      4,
+      "Infrastructure"
+   ],
+   "RouteStop": [
+      1,
+      "RouteStop"
+   ],
+   "Rower": [
+      4,
+      "Person"
+   ],
+   "Royalty": [
+      3,
+      "Person"
+   ],
+   "RugbyClub": [
+      4,
+      "SportsTeam"
+   ],
+   "RugbyLeague": [
+      4,
+      "Organisation"
+   ],
+   "RugbyPlayer": [
+      4,
+      "Person"
+   ],
+   "Saint": [
+      4,
+      "Person"
+   ],
+   "Sales": [
+      2,
+      "Activity"
+   ],
+   "SambaSchool": [
+      3,
+      "Organisation"
+   ],
+   "Satellite": [
+      3,
+      "Place"
+   ],
+   "School": [
+      4,
+      "EducationalInstitution"
+   ],
+   "ScientificConcept": [
+      2,
+      "TopicalConcept"
+   ],
+   "Scientist": [
+      3,
+      "Person"
+   ],
+   "ScreenWriter": [
+      4,
+      "Person"
+   ],
+   "Sculptor": [
+      4,
+      "Person"
+   ],
+   "Sculpture": [
+      3,
+      "Work"
+   ],
+   "Sea": [
+      4,
+      "Place"
+   ],
+   "Senator": [
+      4,
+      "Person"
+   ],
+   "SerialKiller": [
+      5,
+      "Person"
+   ],
+   "Settlement": [
+      3,
+      "Settlement"
+   ],
+   "Ship": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "ShoppingMall": [
+      4,
+      "Building"
+   ],
+   "Shrine": [
+      5,
+      "Building"
+   ],
+   "Singer": [
+      5,
+      "MusicalArtist"
+   ],
+   "Single": [
+      3,
+      "Work"
+   ],
+   "SiteOfSpecialScientificInterest": [
+      2,
+      "Place"
+   ],
+   "Skater": [
+      5,
+      "Person"
+   ],
+   "SkiArea": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "SkiResort": [
+      5,
+      "ArchitecturalStructure"
+   ],
+   "Ski_jumper": [
+      5,
+      "Person"
+   ],
+   "Skier": [
+      5,
+      "Person"
+   ],
+   "Skyscraper": [
+      4,
+      "Building"
+   ],
+   "SnookerChamp": [
+      5,
+      "Person"
+   ],
+   "SnookerPlayer": [
+      4,
+      "Person"
+   ],
+   "SnookerWorldRanking": [
+      2,
+      "SportCompetitionResult"
+   ],
+   "SoapCharacter": [
+      3,
+      "Agent"
+   ],
+   "Soccer": [
+      4,
+      "Activity"
+   ],
+   "SoccerClub": [
+      4,
+      "SoccerClub"
+   ],
+   "SoccerClubSeason": [
+      3,
+      "SportsSeason"
+   ],
+   "SoccerLeague": [
+      4,
+      "Organisation"
+   ],
+   "SoccerLeagueSeason": [
+      3,
+      "SportsSeason"
+   ],
+   "SoccerManager": [
+      4,
+      "Person"
+   ],
+   "SoccerPlayer": [
+      4,
+      "Person"
+   ],
+   "SoccerTournament": [
+      5,
+      "Event"
+   ],
+   "SocietalEvent": [
+      2,
+      "Event"
+   ],
+   "SoftballLeague": [
+      4,
+      "Organisation"
+   ],
+   "Software": [
+      2,
+      "Work"
+   ],
+   "SolarEclipse": [
+      2,
+      "NaturalEvent"
+   ],
+   "Song": [
+      3,
+      "Work"
+   ],
+   "SongWriter": [
+      4,
+      "Person"
+   ],
+   "Sound": [
+      3,
+      "Work"
+   ],
+   "SpaceMission": [
+      3,
+      "Event"
+   ],
+   "SpaceShuttle": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "SpaceStation": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Spacecraft": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Species": [
+      1,
+      "Species"
+   ],
+   "SpeedSkater": [
+      5,
+      "Person"
+   ],
+   "SpeedwayLeague": [
+      4,
+      "Organisation"
+   ],
+   "SpeedwayRider": [
+      6,
+      "Person"
+   ],
+   "SpeedwayTeam": [
+      4,
+      "SportsTeam"
+   ],
+   "Sport": [
+      2,
+      "Activity"
+   ],
+   "SportCompetitionResult": [
+      1,
+      "SportCompetitionResult"
+   ],
+   "SportFacility": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "SportsClub": [
+      3,
+      "Organisation"
+   ],
+   "SportsEvent": [
+      3,
+      "Event"
+   ],
+   "SportsLeague": [
+      3,
+      "Organisation"
+   ],
+   "SportsManager": [
+      3,
+      "Person"
+   ],
+   "SportsSeason": [
+      1,
+      "SportsSeason"
+   ],
+   "SportsTeam": [
+      3,
+      "SportsTeam"
+   ],
+   "SportsTeamMember": [
+      4,
+      "Person"
+   ],
+   "SportsTeamSeason": [
+      2,
+      "SportsSeason"
+   ],
+   "Square": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "SquashPlayer": [
+      4,
+      "Person"
+   ],
+   "Stadium": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Standard": [
+      2,
+      "TopicalConcept"
+   ],
+   "Star": [
+      3,
+      "Place"
+   ],
+   "State": [
+      3,
+      "PopulatedPlace"
+   ],
+   "StatedResolution": [
+      3,
+      "WrittenWork"
+   ],
+   "Station": [
+      4,
+      "Infrastructure"
+   ],
+   "Statistic": [
+      1,
+      "Statistic"
+   ],
+   "StillImage": [
+      4,
+      "Work"
+   ],
+   "StormSurge": [
+      2,
+      "NaturalEvent"
+   ],
+   "Stream": [
+      4,
+      "Place"
+   ],
+   "Street": [
+      3,
+      "PopulatedPlace"
+   ],
+   "SubMunicipality": [
+      6,
+      "AdministrativeRegion"
+   ],
+   "SumoWrestler": [
+      5,
+      "Person"
+   ],
+   "SupremeCourtOfTheUnitedStatesCase": [
+      4,
+      "UnitOfWork"
+   ],
+   "Surfer": [
+      4,
+      "Person"
+   ],
+   "Surname": [
+      2,
+      "Name"
+   ],
+   "Swarm": [
+      3,
+      "Place"
+   ],
+   "Swimmer": [
+      4,
+      "Person"
+   ],
+   "Synagogue": [
+      5,
+      "Building"
+   ],
+   "SystemOfLaw": [
+      2,
+      "TopicalConcept"
+   ],
+   "TableTennisPlayer": [
+      4,
+      "Person"
+   ],
+   "Tax": [
+      2,
+      "TopicalConcept"
+   ],
+   "Taxon": [
+      2,
+      "TopicalConcept"
+   ],
+   "TeamMember": [
+      4,
+      "Person"
+   ],
+   "TeamSport": [
+      3,
+      "Activity"
+   ],
+   "TelevisionDirector": [
+      3,
+      "Person"
+   ],
+   "TelevisionEpisode": [
+      2,
+      "Work"
+   ],
+   "TelevisionHost": [
+      4,
+      "Person"
+   ],
+   "TelevisionPersonality": [
+      3,
+      "Person"
+   ],
+   "TelevisionSeason": [
+      2,
+      "Work"
+   ],
+   "TelevisionShow": [
+      2,
+      "Work"
+   ],
+   "TelevisionStation": [
+      4,
+      "Organisation"
+   ],
+   "Temple": [
+      5,
+      "Building"
+   ],
+   "TennisLeague": [
+      4,
+      "Organisation"
+   ],
+   "TennisPlayer": [
+      4,
+      "Person"
+   ],
+   "TennisTournament": [
+      5,
+      "Event"
+   ],
+   "Tenure": [
+      2,
+      "TimePeriod"
+   ],
+   "TermOfOffice": [
+      3,
+      "Organisation"
+   ],
+   "Territory": [
+      3,
+      "PopulatedPlace"
+   ],
+   "Theatre": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "TheatreDirector": [
+      3,
+      "Person"
+   ],
+   "TheologicalConcept": [
+      2,
+      "TopicalConcept"
+   ],
+   "TimePeriod": [
+      1,
+      "TimePeriod"
+   ],
+   "TopicalConcept": [
+      1,
+      "TopicalConcept"
+   ],
+   "Tournament": [
+      4,
+      "Event"
+   ],
+   "Tower": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Town": [
+      4,
+      "Settlement"
+   ],
+   "TrackList": [
+      2,
+      "List"
+   ],
+   "TradeUnion": [
+      3,
+      "Organisation"
+   ],
+   "Train": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "TrainCarriage": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "Tram": [
+      2,
+      "MeanOfTransportation"
+   ],
+   "TramStation": [
+      5,
+      "Infrastructure"
+   ],
+   "Treadmill": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Treaty": [
+      3,
+      "WrittenWork"
+   ],
+   "Tunnel": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Type": [
+      2,
+      "TopicalConcept"
+   ],
+   "UndergroundJournal": [
+      4,
+      "WrittenWork"
+   ],
+   "UnitOfWork": [
+      1,
+      "UnitOfWork"
+   ],
+   "University": [
+      4,
+      "University"
+   ],
+   "Unknown": [
+      1,
+      "Unknown"
+   ],
+   "Vaccine": [
+      3,
+      "ChemicalSubstance"
+   ],
+   "Valley": [
+      3,
+      "Place"
+   ],
+   "Vein": [
+      2,
+      "AnatomicalStructure"
+   ],
+   "Venue": [
+      3,
+      "ArchitecturalStructure"
+   ],
+   "Vicar": [
+      4,
+      "Person"
+   ],
+   "VicePresident": [
+      4,
+      "Person"
+   ],
+   "VicePrimeMinister": [
+      4,
+      "Person"
+   ],
+   "VideoGame": [
+      3,
+      "Work"
+   ],
+   "VideogamesLeague": [
+      4,
+      "Organisation"
+   ],
+   "Village": [
+      4,
+      "Settlement"
+   ],
+   "Vodka": [
+      3,
+      "Food"
+   ],
+   "VoiceActor": [
+      5,
+      "Person"
+   ],
+   "Volcano": [
+      3,
+      "Place"
+   ],
+   "VolleyballCoach": [
+      4,
+      "Person"
+   ],
+   "VolleyballLeague": [
+      4,
+      "Organisation"
+   ],
+   "VolleyballPlayer": [
+      4,
+      "Person"
+   ],
+   "WaterPoloPlayer": [
+      4,
+      "Person"
+   ],
+   "WaterRide": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "WaterTower": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Watermill": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "WaterwayTunnel": [
+      5,
+      "Infrastructure"
+   ],
+   "Weapon": [
+      2,
+      "Device"
+   ],
+   "Website": [
+      2,
+      "Work"
+   ],
+   "WindMotor": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Windmill": [
+      4,
+      "ArchitecturalStructure"
+   ],
+   "Wine": [
+      3,
+      "Food"
+   ],
+   "WineRegion": [
+      2,
+      "Place"
+   ],
+   "Winery": [
+      4,
+      "Company"
+   ],
+   "WinterSportPlayer": [
+      4,
+      "Person"
+   ],
+   "WomensTennisAssociationTournament": [
+      5,
+      "Event"
+   ],
+   "Work": [
+      1,
+      "Work"
+   ],
+   "WorldHeritageSite": [
+      2,
+      "Place"
+   ],
+   "Wrestler": [
+      4,
+      "Person"
+   ],
+   "WrestlingEvent": [
+      4,
+      "Event"
+   ],
+   "Writer": [
+      3,
+      "Person"
+   ],
+   "WrittenWork": [
+      2,
+      "WrittenWork"
+   ],
+   "Year": [
+      2,
+      "Year"
+   ],
+   "YearInSpaceflight": [
+      2,
+      "TimePeriod"
+   ],
+   "Zoo": [
+      3,
+      "ArchitecturalStructure"
+   ]
+}

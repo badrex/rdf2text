@@ -1,4 +1,10 @@
+import json
 from SPARQLWrapper import SPARQLWrapper, JSON
+
+# dictionary: ontology class -> [precision score, closest valid parent class]
+# (an ontology class is valid if its frequency is superior to a defined threshold)
+with open('onto_classes_system.json', encoding="utf8") as f:
+    onto_classes_system = json.load(f)
 
 def dbpedia_query(query_string, resource = False):
     sparql = SPARQLWrapper("http://dbpedia.org/sparql")
@@ -9,9 +15,15 @@ def dbpedia_query(query_string, resource = False):
         try:
             results = sparql.query().convert()
             onto_classes = [x["x"]["value"][28:] for x in results["results"]["bindings"] if x["x"]["value"].startswith("http://dbpedia.org/ontology/")]   # we only consider the dbpedia:ontology results
-            if len(onto_classes) == 0:
-                return "NOT_FOUND"
-            return onto_classes[0].upper() # the ontology class returned is the first result (arbitrary, to be changed)
+            
+            bestPrecision = 0
+            mostPreciseType = "NOT_FOUND"
+            for type in onto_classes:
+                if type in onto_classes_system:
+                    if onto_classes_system[type][0] > bestPrecision:
+                        mostPreciseType = type
+                        bestPrecision = onto_classes_system[type][0]
+            return onto_classes_system[mostPreciseType][1].upper() # the ontology class returned is the closest valid parent of the most precise class
             
         except Exception:
             return "INVALID_NAME"
