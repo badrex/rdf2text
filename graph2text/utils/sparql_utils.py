@@ -17,7 +17,7 @@ def dbpedia_query(query_string, resource = False):
             onto_classes = [x["x"]["value"][28:] for x in results["results"]["bindings"] if x["x"]["value"].startswith("http://dbpedia.org/ontology/")]   # we only consider the dbpedia:ontology results
             
             bestPrecision = 0
-            mostPreciseType = "NOT_FOUND"
+            mostPreciseType = "THING"
             for type in onto_classes:
                 if type in onto_classes_system:
                     if onto_classes_system[type][0] > bestPrecision:
@@ -26,18 +26,18 @@ def dbpedia_query(query_string, resource = False):
             return onto_classes_system[mostPreciseType][1].upper() # the ontology class returned is the closest valid parent of the most precise class
             
         except Exception:
-            return "INVALID_NAME"
+            return "THING"
     
     else:   # we query dbpedia about an ontology (property of a triple)
         try:
             results = sparql.query().convert()
             if len(results["results"]["bindings"]) == 0:
-                return "NOT_FOUND"
+                return "*"
             else:
                 return results["results"]["bindings"][0]["x"]["value"][28:].upper() # there should be exactly one result
             
         except Exception:
-            return "INVALID_NAME"
+            return "*"
 
 def get_property_range(property):
     query_string = """

@@ -8,6 +8,9 @@ import xml.etree.ElementTree as et
 import re
 import string
 
+# pre-compile regexes for the CamelCase converting function
+first_cap_re = re.compile('(.)([A-Z][a-z]+)')
+all_cap_re = re.compile('([a-z0-9])([A-Z])')
 
 class Entity:
     """ A class to represent an RDF entity. """
@@ -50,14 +53,16 @@ class Property:
         :param RDF_property: a property from an RDF triple (dtype: string)
         """
         self.lex_form = self.text_split(RDF_property)
+        self.type_form = RDF_property.upper()
 
-        # TODO: Find a way to get the domain and range from DBpedia
-        self.domain = 'AGENT'
-        self.range = 'PATIENT'
+        # (Done) TODO: Find a way to get the domain and range from DBpedia
+        self.domain = sparql_utils.get_property_domain(RDF_property)
+        self.range = sparql_utils.get_property_range(RDF_property)
 
-    def text_split(self, RDF_entity):
+    def text_split(self, RDF_property):
         """Return the text of the property after (camelCase) split."""
-        return ' '.join(RDF_entity.split('_'))
+        s1 = first_cap_re.sub(r'\1 \2', RDF_property)
+        return all_cap_re.sub(r'\1 \2', s1).lower().replace('_', ' ')
 
 
 class EntityGraph:
@@ -129,17 +134,25 @@ class EntityGraph:
             # update entities dict by instantiating Entity objects
             if subj not in self.entities:
                 entityID += 1
-                #self.entities[subj] = Entity(entityID, subj,
-                #                          self.properties[prop].domain)
-                self.entities[subj] = Entity(entityID, subj,
-                                          sparql_utils.get_resource_type(subj))
+                if self.properties[prop].domain != '*':
+                    self.entities[subj] = Entity(entityID, subj,
+                                            self.properties[prop].domain)  # we first try to use the domain of the property
+                else:
+                    self.entities[subj] = Entity(entityID, subj,
+                                            sparql_utils.get_resource_type(subj))  # we directly retrieve the type of the subj
 
             if obj not in self.entities:
                 entityID += 1
-                #self.entities[obj]  = Entity(entityID, obj,
-                #                          self.properties[prop].range)
-                self.entities[obj] = Entity(entityID, obj,
-                                          sparql_utils.get_resource_type(obj))
+                if self.properties[prop].range != '*':
+                    self.entities[obj]  = Entity(entityID, obj,
+                                            self.properties[prop].range)  # we first try to use the range of the property
+                else:
+                    type = sparql_utils.get_resource_type(obj)
+                    if type != 'THING':
+                        self.entities[obj] = Entity(entityID, obj, type)  # we directly retrieve the type of the obj
+                    else:
+                        self.entities[obj] = Entity(entityID, obj,
+                                                self.properties[prop].type_form)  # we use the expression of the prop as a type
 
             # populate the subj2obj and obj2subj dicst with (prop, [objs]) or
             # (prop, [subjs]) tuples
