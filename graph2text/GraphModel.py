@@ -1,94 +1,125 @@
 """
-A module for Entity, Property, and EntityGraph! It is fun ;-)
+A module for RDFEntity, RDFProperty, and KnowledgeGraph.
 """
+
 from utils import text_utils
 from utils import rdf_utils
 from utils import sparql_utils
 import xml.etree.ElementTree as et
 import re
 import string
+from collections import defaultdict
 
-# pre-compile regexes for the CamelCase converting function
-first_cap_re = re.compile('(.)([A-Z][a-z]+)')
-all_cap_re = re.compile('([a-z0-9])([A-Z])')
 
-class Entity:
+# populate a dict for schema properties: prop --> (domain, range)
+prop2schema = defaultdict()
+
+with open('metadata/prop_schema.list', encoding="utf8") as f:
+    for line in f.readlines():
+        (p, d, r) = line.strip().split()
+        prop2schema[p] = (d, r)
+
+# populate a dict for semantic types of entities: entity --> type
+entity2type = defaultdict()
+
+with open('metadata/entity_type.list', encoding="utf8") as f:
+    for line in f.readlines():
+        last_space_idx = line.rfind(' ')
+        entity = line[:last_space_idx]
+        type = line[last_space_idx:]
+
+        entity2type[entity] = type.strip()
+
+
+class RDFEntity:
     """ A class to represent an RDF entity. """
 
-    def __init__(self, entity_ID, RDF_entity, semantic_type='UNK'):
+    def __init__(self, ID, o_rdf_entity, m_rdf_entity, semantic_type=None):
         """
         Instantiate an entity.
-        :param RDF_entity: an entity from an RDF triple (dtype: string)
+        :param o_rdf_entity: original entity from an RDF triple (dtype: string)
+        :param m_rdf_entity: modified entity from an RDF triple (dtype: string)
         """
-        self.ID = 'ENTITY_' + str(entity_ID)
+        self.ID = 'ENTITY_' + str(ID)
 
         # the join function is used to substitute multiple spaces with only one
-        self.lex_form = ' '.join(self.text_split(RDF_entity).split())
-        self.stype = semantic_type
+        self.olex_form = ' '.join(self.text_split(o_rdf_entity).split())
+        self.mlex_form = ' '.join(self.text_split(m_rdf_entity).split())
+
+        if semantic_type is None:
+            self.stype =  entity2type[o_rdf_entity]
+        else:
+            self.stype = semantic_type
+
         self.aliases = self.get_aliases()
 
-    def text_split(self, RDF_entity):
+    def text_split(self, entity_string):
         """Return the text of the entity after split."""
-        return ' '.join(RDF_entity.split('_'))
+        return ' '.join(entity_string.split('_'))
 
     def get_aliases(self):
         """Return a list of aliases for the entity."""
         # TODO: find a way to retrieve a list of aliases for an entity from
         # (for example) an online resource
-        return [self.lex_form, self.lex_form.lower()]
+        return [self.mlex_form, self.mlex_form.lower()]
 
     def set_stype(self, semantic_type):
         """Given a semantic_type, modify self.stype."""
         self.stype = semantic_type
 
 
-# (DONE) IDEA: structure entity as a dict of entity[lex_form] --> entityObject
-
-class Property:
+class RDFProperty:
     """ A class to represent RDF property (predicate). """
 
-    def __init__(self, RDF_property):
+    def __init__(self, o_rdf_property, m_rdf_property):
         """
         Instantiate a property.
-        :param RDF_property: a property from an RDF triple (dtype: string)
+        :param o_rdf_property: original prop from an RDF triple (dtype: string)
+        :param o_rdf_property: modified prop from an RDF triple (dtype: string)
         """
-        self.lex_form = self.text_split(RDF_property)
-        self.type_form = RDF_property.upper()
+        self.olex_form = self.text_split(o_rdf_property)
+        self.mlex_form = self.text_split(m_rdf_property)
+        self.type_form = o_rdf_property.upper()
+        self.domain = prop2schema[o_rdf_property][0]
+        self.range = prop2schema[o_rdf_property][1]
 
-        # (Done) TODO: Find a way to get the domain and range from DBpedia
-        self.domain = sparql_utils.get_property_domain(RDF_property)
-        self.range = sparql_utils.get_property_range(RDF_property)
-
-    def text_split(self, RDF_property):
+    def text_split(self, property_string):
         """Return the text of the property after (camelCase) split."""
-        s1 = first_cap_re.sub(r'\1 \2', RDF_property)
-        return all_cap_re.sub(r'\1 \2', s1).lower().replace('_', ' ')
+        return text_utils.camel_case_split(property_string)
 
 
-class EntityGraph:
+class KnowledgeGraph:
     """
-    A class to represent RDF to Text instances for natural language generation
-    from structed input (e.g. knowledge base RDF triples).
+    A class to represent RDF graph instances for natural language generation
+    from structed input (e.g. RDF triples from a knowledge base).
     NOTE: Training instances are represented as (graph, text) pairs, while eval
     and test instances are represented only as graphs.
     """
 
-    def __init__(self, tripleset, sentence=None):
+    def __init__(self, tripleset_tuple, lexicalization=None):
         """
         Initialize and construct a graph or (graph, text) pair.
         :param rdf_triples: a set of structured RDF triples (dtype: Tripleset)
-        :param sentence: a sentence that realises the triple set for training
+        :param lexicalization: a text that realises the triple set for training
         instances
             :dtype: string
             :default: None (for eval and test instances).
         """
 
         # a set of RDF triples
-        self.rdf_triples = tripleset.triples
+        otripleset, mtripleset = tripleset_tuple
+        # original
+        self.o_rdf_triples = otripleset[0].triples
 
-        # for training instances, initilize the corresponding sentence
-        if sentence:
-            self.sentence = sentence
+        # modified
+        self.m_rdf_triples = mtripleset.triples
+
+        assert len(self.o_rdf_triples) == len(self.m_rdf_triples), \
+            "Original and modified tripleset are not the same length."
+
+        # for training instances, initilize the corresponding lexicalization
+        if lexicalization:
+            self.lexicalization = lexicalization
 
         # a dict for entities in the graph instance
         # this dict maps from lex_form of entity to entity object
@@ -109,50 +140,57 @@ class EntityGraph:
         # call method to construct entity graph and populate other dicts
         self._contruct_graph()
 
-        # (DONE) TODO: maybe move this somewhere else!!!
-        # moved to the class Property
-
 
     def _contruct_graph(self):
         """
         Build the graph.
-        Populate entities, properties, subj2obj and obj2subj dicts.
+        Populate entities, properties, subj2obj, and obj2subj dicts.
         """
         entityID = 0
 
         # loop through each triple
-        for triple in self.rdf_triples:
-            # extract nodes (entities) and edges (properties)
-            subj = triple.subject
-            obj  = triple.object
-            prop = triple.property
+        for (otriple, mtriple) in zip(self.o_rdf_triples, self.m_rdf_triples):
+            # extract nodes (entities) and edges (properties) from original
+            o_subj = otriple.subject
+            o_obj  = otriple.object
+            o_prop = otriple.property
 
-            # update properties dict by instantiating Property objects
-            if prop not in self.properties:
-                self.properties[prop] = Property(prop)
+            # extract nodes (entities) and edges (properties) from modified
+            m_subj = mtriple.subject
+            m_obj  = mtriple.object
+            m_prop = mtriple.property
 
-            # update entities dict by instantiating Entity objects
-            if subj not in self.entities:
+            # update properties dict by instantiating RDFProperty objects
+            if o_prop not in self.properties:
+                self.properties[o_prop] = RDFProperty(o_prop, m_prop)
+
+            # update entities dict by instantiating RDFEntity objects
+            if o_subj not in self.entities:
                 entityID += 1
-                if self.properties[prop].domain != '*':
-                    self.entities[subj] = Entity(entityID, subj,
-                                            self.properties[prop].domain)  # we first try to use the domain of the property
-                else:
-                    self.entities[subj] = Entity(entityID, subj,
-                                            sparql_utils.get_resource_type(subj))  # we directly retrieve the type of the subj
+                # we first try to use the domain of the property
+                if self.properties[o_prop].domain != '*':
+                    self.entities[o_subj] = RDFEntity(entityID, o_subj, m_subj,
+                                            self.properties[o_prop].domain)
 
-            if obj not in self.entities:
-                entityID += 1
-                if self.properties[prop].range != '*':
-                    self.entities[obj]  = Entity(entityID, obj,
-                                            self.properties[prop].range)  # we first try to use the range of the property
+                # we directly retrieve the type of the subj
                 else:
-                    type = sparql_utils.get_resource_type(obj)
-                    if type != 'THING':
-                        self.entities[obj] = Entity(entityID, obj, type)  # we directly retrieve the type of the obj
-                    else:
-                        self.entities[obj] = Entity(entityID, obj,
-                                                self.properties[prop].type_form)  # we use the expression of the prop as a type
+                    self.entities[o_subj] = RDFEntity(entityID, o_subj, m_subj)
+
+            if o_obj not in self.entities:
+                entityID += 1
+                # we first try to use the range of the property
+                if self.properties[o_prop].range != '*':
+                    self.entities[o_obj] = RDFEntity(entityID, o_obj, m_obj,
+                                            self.properties[o_prop].range)
+
+                # try to directly retrieve the type of the obj
+                else:
+                    self.entities[o_obj] = RDFEntity(entityID, o_obj, m_obj)
+
+                    # if the stype is 'THING', use the expression of the prop as a type
+                    if self.entities[o_obj].stype == 'THING':
+                        self.entities[o_obj].set_stype(self.properties[o_prop].type_form)
+
 
             # populate the subj2obj and obj2subj dicst with (prop, [objs]) or
             # (prop, [subjs]) tuples
@@ -161,75 +199,79 @@ class EntityGraph:
 
             # TODO: make FIRST and SECOND blocks more elegant
             # FIRST: populate subj2obj
-            if subj not in self.subj2obj:
-                self.subj2obj[subj] = [(prop, [obj])]
+            if o_subj not in self.subj2obj:
+                self.subj2obj[o_subj] = [(o_prop, [o_obj])]
              # if subj entity already seen in the graph
             else:
                 # we need to do something smart now
                 # loop through all already added (prob, [obj]) tuples
-                for i, (p, o) in enumerate(self.subj2obj[subj]):
+                for i, (p, o) in enumerate(self.subj2obj[o_subj]):
                     # if the prop already exists, append to the list of object
-                    if p == prop:
+                    if p == o_prop:
                         propFound = True
                         # get the list and append to it
-                        self.subj2obj[subj][i][1].append(obj)
+                        self.subj2obj[o_subj][i][1].append(o_obj)
                         break
                 # if the search failed, add a new (prop, [obj]) tuple
                 if not propFound:
-                    self.subj2obj[subj].append((prop, [obj]))
+                    self.subj2obj[o_subj].append((o_prop, [o_obj]))
 
             # SECOND: populate obj2subj
             # flag var to check if the property already added to a node
             propFound = False
 
-            if obj not in self.obj2subj:
-                self.obj2subj[obj] = [(prop, [subj])]
+            if o_obj not in self.obj2subj:
+                self.obj2subj[o_obj] = [(o_prop, [o_subj])]
              # if subj entity already seen in the graph
             else:
                 # we need to do something smart now
                 # loop through all already added (prob, [subj]) tuples
-                for i, (p, s) in enumerate(self.obj2subj[obj]):
+                for i, (p, s) in enumerate(self.obj2subj[o_obj]):
                     # if the prop already exists, append to the list of object
-                    if p == prop:
+                    if p == o_prop:
                         propFound = True
-                        self.obj2subj[obj][i][1].append(subj)
+                        self.obj2subj[o_obj][i][1].append(o_subj)
                         break
+
                 # if the search failed, add a new (prop, [obj]) tuple
                 if not propFound:
-                    self.obj2subj[obj].append((prop, [subj]))
+                    self.obj2subj[o_obj].append((o_prop, [o_subj]))
+
 
     def delexicalize_text(self, advanced=False):
         """
         Apply delexicalization on text. Return delexicaled text.
         :para advanced: turn on advanced string similarity procedure
-            (dtype: bool)
-            (default: False)
+            (dtype: bool, default: False)
         """
         no_match_list = []
-        original_text = ' '.join(re.sub('\s+',' ', self.sentence).split())
+        original_text = ' '.join(re.sub('\s+',' ', self.lexicalization).split())
         delex_text = original_text
 
         # loop over each entity, find its match in the text
         for entity in self.entities.values():
-            # remove qouts from the entity string
+            # flag var, set to True if the procedure finds a match
             matchFound = False
-            entity_string = entity.lex_form.replace('"', '')
+
+            # remove quotes from the entity string
+            entity_string = entity.mlex_form.replace('"', '')
 
             # Simple text matching
             # 1. try exact matching 1258
-            if entity_string in self.sentence:
+            if entity_string in self.lexicalization:
                 delex_text = delex_text.replace(entity_string,
                                 ' ' + entity.ID + ' ')
                 matchFound = True
 
             # 2. try lowercased search 1122
-            elif entity_string.lower() in self.sentence.lower():
+            elif entity_string.lower() in self.lexicalization.lower():
                 start_idx = delex_text.find(entity_string.lower())
                 end_idx = start_idx + len(entity_string)
 
                 delex_text = delex_text[:start_idx] + ' ' \
                                 + entity.ID + ' ' +  delex_text[end_idx + 1:]
                 matchFound = True
+                print(entity_string, delex_text, delex_text[start_idx:end_idx+1], self.lexicalization)
 
 
             # 3. Try handling entities with the subtring (semanticType) 1006
@@ -237,45 +279,83 @@ class EntityGraph:
             elif entity_string.endswith(')'):
                 left_idx = entity_string.find('(')
 
-                entity_string = entity_string[:left_idx - 1]
+                entity_string = entity_string[:left_idx].strip()
 
-                delex_text = delex_text.replace(entity_string,
-                                ' ' + entity.ID + ' ')
-                matchFound = True
+                if entity_string in self.lexicalization:
+                    delex_text = delex_text.replace(entity_string,
+                                    ' ' + entity.ID + ' ')
+                    matchFound = True
+
+            else:
+                pass
 
             # if search succeeded, go to next entity, otherwise keep searching
             if matchFound or not advanced:
                 continue
 
-            # Non-trivial text matching if
-            # 4. try date handling
+            # simple search not succeeded, do non-trivial text matching
+            # 4. try date format handling
+            if text_utils.is_date_format(entity_string):
+                entity_ngrams = text_utils.find_ngrams(self.lexicalization)
 
-            # 5. try abbreviations handling
+                entity_ngrams = [text_utils.tokenize_and_concat(' '.join(ngram))
+                                    for ngram in entity_ngrams]
 
-            # 6. try advanced string matching
-            delex_text = text_utils.tokenize_and_concat(delex_text)
-            best_match = text_utils.find_best_match(entity_string, delex_text)
+                date_strings = [d_str for d_str in entity_ngrams
+                                    if text_utils.is_date_format(d_str)]
 
-            if best_match:
-                print('\nBEFORE:', best_match, '§' , entity.lex_form, '§', delex_text)
-                delex_text = delex_text.replace(best_match,
-                                ' ' + entity.ID + ' ')
+                # sort data strings by length, get the longest match
+                date_strings.sort(key=len, reverse=True)
 
-                print('AFTER:', best_match, '§' , entity.lex_form, '§', delex_text)
-                print('TEXT:', self.sentence)
-                matchFound = True
+                if date_strings:
+                    best_match = date_strings[0]
+
+                    delex_text = delex_text.replace(best_match, ' ' + entity.ID + ' ')
+                    matchFound = True
+
+            # 5. try abbreviation handling
+            # if entity_string contains more than one capitalized word, try to find
+            # a potential an abbreviation of it in the text
+            if len(text_utils.get_capitalized(entity_string)) > 1 and not matchFound:
+                # from the entity string, make a list of possible abbreviations
+                abbr_candidates = text_utils.generate_abbrs(entity_string)
+                abbr_candidates.sort(key=len, reverse=True)
+
+                # get a list of unigrams in the text sentence
+                text_unigrams = text_utils.find_ngrams(self.lexicalization, N=1)
+
+                for abbr in abbr_candidates:
+                    if abbr in text_unigrams: # SUCCESS
+                        delex_text = delex_text.replace(abbr, ' ' + entity.ID + ' ')
+                        matchFound = True
+
+            # 6. try character-level string matching (last hope)
+            if not matchFound:
+                delex_text = text_utils.tokenize_and_concat(delex_text)
+                best_match = text_utils.find_best_match(entity_string, delex_text)
+
+                if best_match:
+                    #print('\nBEFORE:', best_match, '§' , entity.mlex_form, '§', delex_text)
+
+                    delex_text = delex_text.replace(best_match,
+                                    ' ' + entity.ID + ' ')
+
+                    #print('AFTER:', best_match, '§' ,entity.mlex_form, '§', delex_text)
+
+                    matchFound = True
 
             if not matchFound:
-                no_match_list.append((entity_string, self.sentence))
+                no_match_list.append((entity_string, self.lexicalization))
 
-        return delex_text, no_match_list
+        print('TEXT:', self.lexicalization, '\n', 'delex:', delex_text)
+        return delex_text #, no_match_list
 
 
     def get_entityGraph(self):
         """
         Return a dict of entities and thier outgoing edges.
         """
-        raise NotImplementedError("To be implemented.")
+        return self.subj2obj
 
 
     def linearize_graph(self, structured=False, incoming_edges=False):
@@ -288,7 +368,7 @@ class EntityGraph:
             seq = ''
 
             # to generate a flat sequence, linearize rdf_triples
-            for triple in self.rdf_triples:
+            for triple in self.m_rdf_triples:
                 # extract nodes (entities) and edges (properties)
                 subj = triple.subject
                 obj = triple.object
@@ -297,10 +377,10 @@ class EntityGraph:
                 seq = ' '.join(
                                 [
                                     seq,
-                                    self.entities[subj].lex_form,#ENTITY-n?
+                                    self.entities[subj].ID,
                                     self.entities[subj].stype,
-                                    self.properties[prop].lex_form,
-                                    self.entities[obj].lex_form,
+                                    self.properties[prop].mlex_form,
+                                    self.entities[obj].ID,
                                     self.entities[obj].stype,
                                 ]
                             )
@@ -311,34 +391,34 @@ class EntityGraph:
             else:
                 entityGraph = self.subj2obj
 
-            seq = '¹('
+            seq = '('
 
             for (attr, val) in entityGraph.items():
-                seq = ' '.join([seq, '²('])
+                seq = ' '.join([seq, '('])
                 seq = ' '.join(
                                 [
                                     seq,
-                                    self.entities[attr].lex_form,
+                                    self.entities[attr].ID,
                                     self.entities[attr].stype
                                 ]
                            )
 
                 for prop, obj_list in val:
-                    seq = ' '.join([seq, '³(', self.properties[prop].lex_form])
+                    seq = ' '.join([seq, '(', self.properties[prop].mlex_form])
 
                     for obj in obj_list:
                         seq = ' '.join(
                                         [
                                             seq,
-                                            '^(',
-                                            self.entities[obj].lex_form,
+                                            '(',
+                                            self.entities[obj].ID,
                                             self.entities[obj].stype,
-                                            ')^'
+                                            ')'
                                         ]
                                     )
-                    seq = ' '.join([seq, ')³'])
-                seq = ' '.join([seq,  ')²'])
-            seq = ' '.join([seq, ')¹'])
+                    seq = ' '.join([seq, ')'])
+                seq = ' '.join([seq,  ')'])
+            seq = ' '.join([seq, ')'])
 
         return seq.lstrip()
 
@@ -351,20 +431,25 @@ def test():
                     <otriple>Donald Trump | spouse | Melania Knauss</otriple>
                     <otriple>Melania Knauss | nationality | Slovenia</otriple>
                     <otriple>Melania Knauss | nationality | USA</otriple>
+                    <otriple>Melania Knauss | birthDate | "1923-11-18"</otriple>
                 </triples>"""
 
-
-    triple_set = et.fromstring(xml_str)
+    otriple_set = et.fromstring(xml_str)
+    mtriple_set = et.fromstring(xml_str)
 
     s = """Donald Trump was born in the United States of Amercia,
         the country where he later became the president . The captial of the US
         is Washington DC . Donald Trump 's wife , Melania Knauss , has two
-        nationalities ; American and Slovenian .""".replace('\n', '')
+        nationalities ; American and Slovenian . Melania was
+        born on 18th of November 1923 .""".replace('\n', '')
 
-    t = rdf_utils.Tripleset()
-    t.fill_tripleset(triple_set)
+    t_org = rdf_utils.Tripleset()
+    t_org.fill_tripleset(otriple_set)
 
-    test_case = EntityGraph(t, s)
+    t_mod = rdf_utils.Tripleset()
+    t_mod.fill_tripleset(otriple_set)
+
+    test_case = KnowledgeGraph(([t_org], t_mod), s)
 
     print('Properties: ', [*test_case.properties])
     print('Entities: ', [*test_case.entities])
@@ -376,8 +461,11 @@ def test():
     print('Strucutred [2]:',
         test_case.linearize_graph(structured=True, incoming_edges=True))
 
-    delex, no_match_list = test_case.delexicalize_text()
+    delex = test_case.delexicalize_text(advanced=True)
     print('Lexicalisation:', delex)
+
+    for p in test_case.properties.values():
+        print(p.mlex_form, p.type_form, p.domain, p.range)
 
     assert test_case.entities.keys() == \
         {'Donald Trump', 'USA', 'Washington DC', 'Melania Knauss', \

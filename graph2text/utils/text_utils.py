@@ -2,10 +2,10 @@
 Some useful function to process text.
 """
 
+import difflib, re
+from dateutil import parser
 from nltk.tokenize import word_tokenize
 from nltk.tag import StanfordNERTagger
-import difflib
-
 
 TAGS = {'LOCATION', 'ORGANIZATION', 'DATE', \
             'MONEY', 'PERSON', 'PERCENT', 'TIME'}
@@ -58,12 +58,15 @@ def extract_named_entities(text):
     return entity_position_list
 
 
-def find_ngrams(text):
-    """Given some text, return list of ngrams from n = 1 up to num of tokens."""
+def find_ngrams(text, N=None):
+    """Given some text, return list of ngrams from n = 1 up to N (or num of tokens)."""
     tokens = word_tokenize(text)
     ngrams = []
 
-    for n in range(1, len(tokens) + 1):
+    if N is None:
+        N = len(tokens)
+
+    for n in range(1, N + 1):
         ngrams.extend(*[zip(*[tokens[i:] for i in range(n)])])
 
     return ngrams
@@ -71,6 +74,12 @@ def find_ngrams(text):
 def tokenize_and_concat(text):
     """A wrapper for nltk tokenizer that returns a string."""
     return ' '.join(word_tokenize(text))
+
+
+def get_capitalized(text):
+    """Return a list of capitalized words in a string."""
+    return [w for w in word_tokenize(text) if w[0].isupper()]
+
 
 def find_best_match(entity_str, text_lex):
     """
@@ -85,6 +94,84 @@ def find_best_match(entity_str, text_lex):
 
     return best_matches[0] if best_matches else None
 
+
+def is_date_format(text):
+    """Given a string, return True if date, False otherwise."""
+    try:
+        parser.parse(text)
+        return True
+    except ValueError:
+        return False
+
+def char_ngrams(chars, N=None):
+    """Given some string, return list of character ngrams."""
+    char_ngrams = []
+
+    if N is None:
+        N = len(chars)
+
+    for n in range(2, N + 1):
+        char_ngrams.extend(*[zip(*[chars[i:] for i in range(n)])])
+
+    return char_ngrams
+
+
+def generate_abbrs(text):
+    """
+    Given a text (entity), return a list of possible abbreviations.
+    For example, generate_abbrs("United States") -- > ['U. S.', 'U.S.', 'U S', 'US']
+    """
+    all_inits = [w[0] for w in text.split() if not w[0].isdigit()]
+    capital_inits = [w[0].upper() for w in text.split() if not w[0].isdigit()]
+    init_caps_only = [c for c in all_inits if c.isupper()]
+
+    abbrs_pool = []
+
+    for char_set in (all_inits, capital_inits, init_caps_only):
+        c_ngrams = [''.join(g) for g in char_ngrams(char_set)] + \
+            [' '.join(g) for g in char_ngrams(char_set)] + \
+            ['.'.join(g) + '.' for g in char_ngrams(char_set)] + \
+            ['. '.join(g) + '.' for g in char_ngrams(char_set)]
+
+        abbrs_pool.extend(c_ngrams)
+
+    return sorted(set(abbrs_pool), key=len, reverse=True)
+
+
+# pre-compile regexes for the CamelCase converting function
+first_cap_re = re.compile('(.)([A-Z][a-z]+)')
+all_cap_re = re.compile('([a-z0-9])([A-Z])')
+
+def camel_case_split(property_string):
+    """Return the text of the property after (camelCase) split."""
+    s1 = first_cap_re.sub(r'\1 \2', property_string)
+    return all_cap_re.sub(r'\1 \2', s1).lower().replace('_', ' ').replace('/', ' ')
+
+# test function
+def test_date_format():
+    dates = [
+        "Jan 19, 1990",
+        "January 19, 1990",
+        "Jan 19,1990",
+        "01/19/1990",
+        "01/19/90",
+        "1990",
+        "Jan 1990",
+        "January, 1990",
+        "2009-6-19",
+        "28th of August, 2008",
+        "August 28th, 2008"
+    ]
+
+    for d in dates:
+        print(d, is_date_format(d))
+
+
+def test_abbrs():
+    print(generate_abbrs("Massachusetts Institute, of Technology, Sc.D. 1963"))
+    print(generate_abbrs("United States"))
+    print(generate_abbrs("New York City"))
+
 def test_NER():
     text = """While in France, Christine Lagarde Johnson's team discussed
         short-term stimulus efforts in a recent interview with the Wall
@@ -98,6 +185,7 @@ def test_NER():
 
     for (e, i) in E:
         print('§', e, '§', i[0], i[1])
+
 
 def test_best_match():
     entity_list = [
@@ -118,9 +206,9 @@ def test_best_match():
         "Ilocano people",
         "English language",
         "Alan Shepard",
-        "1971-07-01"
+        "1971-07-01",
+        "2014–15 Azerbaijan Premier League"
     ]
-
 
     text_list = [
         """Born on the twentieth of January, 1930, 1963 Massachusetts Institute
@@ -176,7 +264,10 @@ def test_best_match():
         "English is the language used in 1634: The Ram Rebellion.",
         "Alan Shephard passed away on 1998-07-21 in California.",
         """Buzz Aldrin, who retired on July 1st 1971 , once spent 52 minutes
-        in outer space."""
+        in outer space.""",
+        """AZAL Arena, which holds 3500 fans, is the ground of AZAL PFK who
+        played in the Azerbaijan Premier League in 2014-15. Qarabag FK have
+        been champions of this league. """
     ]
 
     for (e, s) in zip(entity_list, text_list):
@@ -189,6 +280,12 @@ def main():
 
     # test best match
     test_best_match()
+
+    # test data format
+    test_date_format()
+
+    # test generate_abbrs
+    test_abbrs()
 
 if __name__ == '__main__':
     main()

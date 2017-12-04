@@ -28,7 +28,8 @@ def generate():
 
     for (size, ins) in instances.items():
         for i in ins:
-            G = EntityGraph(i.modifiedtripleset, i.Lexicalisation.lex)
+            tripleset = (i.originaltripleset, i.modifiedtripleset)
+            G = KnowledgeGraph(tripleset, i.Lexicalisation.lex)
 
             with open(args.src, 'a+', encoding="utf8") as srcFile:
                 if args.src_mode == 'structured':
@@ -37,7 +38,7 @@ def generate():
                     srcFile.write(G.linearize_graph() + '\n')
 
             with open(args.tgt, 'a+', encoding="utf8") as tgtFile:
-                tgtFile.write(G.sentence  + '\n')
+                tgtFile.write(G.delexicalize_text(advanced=True)  + '\n')
 
 
 def main():
