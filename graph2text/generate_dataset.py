@@ -2,7 +2,7 @@
 A program to process RDF data and generate dataset for training and testing.
 """
 
-from utils import IO_utils
+from utils import rdf_utils
 import argparse
 from GraphModel import *
 
@@ -24,7 +24,7 @@ def generate():
 
     args = parser.parse_args()
 
-    instances, _, _ = IO_utils.generate_instances(args.path)
+    instances, _, _ = rdf_utils.generate_instances(args.path)
 
     for (size, ins) in instances.items():
         for i in ins:

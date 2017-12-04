@@ -1,5 +1,14 @@
-import xml.etree.ElementTree as Et
+"""
+This module contains some useful classes and functions to deal with RDF data
+read and process XML files.
+"""
+
+from nltk.tokenize import word_tokenize
+import xml.etree.ElementTree as et
 from collections import defaultdict
+from . import rdf_utils
+import argparse
+import os
 
 
 class Triple:
@@ -22,7 +31,7 @@ class Tripleset:
             # inistiate a triple
             triple = Triple(s, p, o)
             self.triples.append(triple)
-            
+
 
 class Lexicalisation:
 
@@ -60,71 +69,127 @@ class Entry:
         return len(self.lexs)
 
 
-class Benchmark:
+class RDFInstance(object):
 
-    def __init__(self):
-        self.entries = []
-
-    def fill_benchmark(self, fileslist):
-        for file in fileslist:
-            tree = Et.parse(file[0] + '/' + file[1])
-            root = tree.getroot()
-            for xml_entry in root.iter('entry'):
-                # ignore triples with no lexicalisations
-                lexpropFound = False
-                for child in xml_entry:
-                    if child.tag == "lex":
-                        lexpropFound = True
-                        break
-                if lexpropFound is False:
-                    continue
-
-                entry_id = xml_entry.attrib['eid']
-                category = xml_entry.attrib['category']
-                size = xml_entry.attrib['size']
-                entry = Entry(category, size, entry_id)
-                for child in xml_entry:
-                    if child.tag == 'originaltripleset':
-                        entry.fill_originaltriple(child)
-                    elif child.tag == 'modifiedtripleset':
-                        entry.fill_modifiedtriple(child)
-                    elif child.tag == 'lex':
-                        entry.create_lex(child)
-                self.entries.append(entry)
-
-    def total_lexcount(self):
-        count = [entry.count_lexs() for entry in self.entries]
-        return sum(count)
-
-    def unique_p(self):
-        properties = [triple.p for entry in self.entries for triple in entry.modifiedtripleset.triples]
-        return len(set(properties))
-
-    def entry_count(self, size=None, cat=None):
+    def __init__(self, category, size, otripleset, mtripleset, lex=None):
         """
-        calculate the number of entries in benchmark
-        :param size: size (should be string)
-        :param cat: category
-        :return: entry count
+        Instantiate RDFInstance object.
+        :param category: category of entry (dtype: string)
+        :param size: number of triples in entry (dtype: int)
+        :param otripleset: a list original tripleset (dtype: list (Tripleset))
+        :param mtripleset: a modified tripleset (dtype: Tripleset)
+        :param sentence: a sentence that realises the triple set for training
+        instances
+            :dtype: Lexicalisation object (to get text, Lexicalisation.lex)
+            :default: None (for eval and test instances).
         """
-        if not size and cat:
-            entries = [entry for entry in self.entries if entry.category == cat]
-        elif not cat and size:
-            entries = [entry for entry in self.entries if entry.size == size]
-        elif not size and not cat:
-            return len(self.entries)
-        else:
-            entries = [entry for entry in self.entries if entry.category == cat and entry.size == size]
-        return len(entries)
 
-    def lexcount_size_category(self, size='', cat=''):
-        count = [entry.count_lexs() for entry in self.entries if entry.category == cat and entry.size == size]
-        return len(count)
+        self.category = category
+        self.size = size
+        self.originaltripleset = otripleset
+        self.modifiedtripleset = mtripleset
 
-    def property_map(self):
-        mprop_oprop = defaultdict(set)
-        for entry in self.entries:
-            for tripleset in entry.originaltripleset:
-                for i, triple in enumerate(tripleset.triples):
-                    mprop_oprop[entry.modifiedtripleset.triples[i].p].add(triple.p)
-        return mprop_oprop
+        if lex:
+            self.Lexicalisation = lex
+
+        self.entities = set()
+        self.properties = set()
+
+        self._populate_sets()
+
+
+    def _populate_sets(self):
+        """
+        populate the two sets; entities and properties.
+        """
+        for tset in self.originaltripleset:
+            for triple in tset.triples:
+                s = triple.subject
+                p = triple.property
+                o = triple.object
+
+                self.entities.update((s, o))
+                self.properties.add(p)
+
+
+def parseXML(xml_file):
+    """
+    Parse an xml file, return a list of RDF-Text instances (list(Entry)).
+    :param category: xml_file string (dtype: string)
+    """
+
+    entries = []
+
+    tree = et.parse(xml_file)
+    root = tree.getroot()
+
+    for xml_entry in root.iter('entry'):
+        # to ignore triples with no lexicalisations
+        # get a list of tags in the entry
+        tags = [c.tag for c in xml_entry]
+
+        if "lex" not in tags:
+            # skip this entry, move to next entry in the loop
+            continue
+
+        # get attributes
+        entry_id = xml_entry.attrib['eid']
+        category = xml_entry.attrib['category']
+        size = xml_entry.attrib['size']
+
+        entry = rdf_utils.Entry(category, size, entry_id)
+
+        for element in xml_entry:
+            if element.tag == 'originaltripleset':
+                entry.fill_originaltriple(element)
+            elif element.tag == 'modifiedtripleset':
+                entry.fill_modifiedtriple(element)
+            elif element.tag == 'lex':
+                entry.create_lex(element)
+
+        entries.append(entry)
+
+    return entries
+
+
+def generate_instances(dir, extended=False):
+    """
+    Traverse through a path, visit all subdirectories, and return a dict of
+    entries accessible by size: size --> list of entries
+    :param dir: path to data files (dtype: string)
+    :param extended: should it generate entities and properties?
+        (dtype: bool, default: False)
+    """
+
+    subfolders = [f.path for f in os.scandir(dir) if f.is_dir() ]
+
+    instances = defaultdict(list)
+
+    global_entities = set()
+    global_properties = set()
+
+    # loop through each dir
+    for d in sorted(subfolders):
+        xml_files = [f for f in os.listdir(d) if f.endswith('.xml')]
+
+        # loop through each file in the directory
+        for f in xml_files:
+            # create new XMLParser object
+            entries = parseXML(d + '/' + f)
+
+            for entry in entries:
+                for lex in entry.lexs:
+                    rdfInstance = RDFInstance(entry.category,
+                                    entry.size,
+                                    entry.originaltripleset,
+                                    entry.modifiedtripleset,
+                                    lex)
+
+                    # append to list of instances
+                    instances[entry.size].append(rdfInstance)
+
+                    if extended:
+                        global_entities.update(rdfInstance.entities)
+                        global_properties.update(rdfInstance.properties)
+
+    return instances, global_entities, global_properties

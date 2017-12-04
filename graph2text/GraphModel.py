@@ -2,9 +2,7 @@
 A module for RDFEntity, RDFProperty, and KnowledgeGraph.
 """
 
-from utils import text_utils
-from utils import rdf_utils
-from utils import sparql_utils
+from utils import text_utils, rdf_utils, sparql_utils
 import xml.etree.ElementTree as et
 import re
 import string
@@ -265,14 +263,12 @@ class KnowledgeGraph:
 
             # 2. try lowercased search 1122
             elif entity_string.lower() in self.lexicalization.lower():
-                start_idx = delex_text.find(entity_string.lower())
+                start_idx = delex_text.lower().find(entity_string.lower())
                 end_idx = start_idx + len(entity_string)
 
                 delex_text = delex_text[:start_idx] + ' ' \
                                 + entity.ID + ' ' +  delex_text[end_idx + 1:]
                 matchFound = True
-                print(entity_string, delex_text, delex_text[start_idx:end_idx+1], self.lexicalization)
-
 
             # 3. Try handling entities with the subtring (semanticType) 1006
             # e.g. Ballistic (comicsCharacter) --> Ballistic
@@ -309,8 +305,9 @@ class KnowledgeGraph:
 
                 if date_strings:
                     best_match = date_strings[0]
-
+                    delex_text = text_utils.tokenize_and_concat(delex_text)
                     delex_text = delex_text.replace(best_match, ' ' + entity.ID + ' ')
+
                     matchFound = True
 
             # 5. try abbreviation handling
@@ -335,19 +332,14 @@ class KnowledgeGraph:
                 best_match = text_utils.find_best_match(entity_string, delex_text)
 
                 if best_match:
-                    #print('\nBEFORE:', best_match, '§' , entity.mlex_form, '§', delex_text)
-
                     delex_text = delex_text.replace(best_match,
                                     ' ' + entity.ID + ' ')
-
-                    #print('AFTER:', best_match, '§' ,entity.mlex_form, '§', delex_text)
 
                     matchFound = True
 
             if not matchFound:
                 no_match_list.append((entity_string, self.lexicalization))
 
-        print('TEXT:', self.lexicalization, '\n', 'delex:', delex_text)
         return delex_text #, no_match_list
 
 

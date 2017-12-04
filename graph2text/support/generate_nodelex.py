@@ -3,7 +3,7 @@ A program to generate a list of entities which could not be delex.
 NOTE: Only for testing purposes.
 """
 
-from utils import IO_utils
+from utils import rdf_utils
 import argparse
 from GraphModel import *
 
@@ -19,7 +19,7 @@ def generate():
 
     args = parser.parse_args()
 
-    instances, _, _ = IO_utils.generate_instances(args.path)
+    instances, _, _ = rdf_utils.generate_instances(args.path)
 
     not_delex = set()
 

@@ -131,6 +131,7 @@ def generate_abbrs(text):
         c_ngrams = [''.join(g) for g in char_ngrams(char_set)] + \
             [' '.join(g) for g in char_ngrams(char_set)] + \
             ['.'.join(g) + '.' for g in char_ngrams(char_set)] + \
+            ['.'.join(g) for g in char_ngrams(char_set)] + \
             ['. '.join(g) + '.' for g in char_ngrams(char_set)]
 
         abbrs_pool.extend(c_ngrams)

@@ -2,7 +2,7 @@
 A program to process RDF data and generate lists of entities and properties.
 """
 
-from utils import IO_utils
+from utils import rdf_utils
 import argparse
 import os
 
@@ -29,7 +29,7 @@ def generate():
     p_list = set()
 
     for data_dir in subdirs:
-        _, entities, properties = IO_utils.generate_instances(data_dir, True)
+        _, entities, properties = rdf_utils.generate_instances(data_dir, True)
         e_list.update(entities)
         p_list.update(properties)
 
