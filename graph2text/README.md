@@ -4,7 +4,7 @@ This project is still under development. All modules in this project have been d
 and tested with python 3.6. The only non-core library that is required is NLTK.
 
 For now, the code can be used to parse RDF data from XML files,
-apply some text preprocessing, retrieve semantic types for RDF entities, performance
+apply text preprocessing, retrieve semantic types for RDF entities, perform
 delexicalization on the target sentences and generate datasets to be used for
 training and evaluations sequence to sequence models for NLG from fact graphs.
 
@@ -21,9 +21,12 @@ python generate_train_dataset.py \
   -tgt ../datasets/train.tgt
 ```
 
-Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represnted as follows
+Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represented as follows:
+```
 src: ENTITY_1 CITY | country | ENTITY_2 COUNTRY
+
 tgt: ENTITY_1 is in the ENTITY_2  .
+```
 
 
 ### Structured sequences in the source side
@@ -35,14 +38,16 @@ python generate_train_dataset.py \
   -tgt ../datasets/train.tgt
 ```
 
-Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represnted as follows
-
+Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represented as follows:
+```
 src: ( ( ENTITY_1 CITY ( country ( ENTITY_2 COUNTRY ) ) ) )
 
 tgt: ENTITY_1 is in the ENTITY_2  .
+```
 
 ## Generating Evaluation Datasets
 To use the module for generating evaluation (dev and test) datasets, use:
+
 (Running this script would generate 5 files: dev.src, dev.tgt, dev.ref1, dev.ref2, and dev.ref3)
 
 ### Flat sequences in the source side
