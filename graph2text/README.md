@@ -36,7 +36,9 @@ python generate_train_dataset.py \
 ```
 
 Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represnted as follows
+
 src: ( ( ENTITY_1 CITY ( country ( ENTITY_2 COUNTRY ) ) ) )
+
 tgt: ENTITY_1 is in the ENTITY_2  .
 
 ## Generating Evaluation Datasets
