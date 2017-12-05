@@ -152,7 +152,7 @@ def parseXML(xml_file):
     return entries
 
 
-def generate_instances(dir, extended=False):
+def generate_instances(dir, extended=False, eval=False):
     """
     Traverse through a path, visit all subdirectories, and return a dict of
     entries accessible by size: size --> list of entries
@@ -177,13 +177,13 @@ def generate_instances(dir, extended=False):
             # create new XMLParser object
             entries = parseXML(d + '/' + f)
 
-            for entry in entries:
-                for lex in entry.lexs:
+            if eval:
+                for entry in entries:
                     rdfInstance = RDFInstance(entry.category,
-                                    entry.size,
-                                    entry.originaltripleset,
-                                    entry.modifiedtripleset,
-                                    lex)
+                                entry.size,
+                                entry.originaltripleset,
+                                entry.modifiedtripleset,
+                                entry.lexs)
 
                     # append to list of instances
                     instances[entry.size].append(rdfInstance)
@@ -191,5 +191,21 @@ def generate_instances(dir, extended=False):
                     if extended:
                         global_entities.update(rdfInstance.entities)
                         global_properties.update(rdfInstance.properties)
+
+            else:
+                for entry in entries:
+                    for lex in entry.lexs:
+                        rdfInstance = RDFInstance(entry.category,
+                                        entry.size,
+                                        entry.originaltripleset,
+                                        entry.modifiedtripleset,
+                                        lex)
+
+                        # append to list of instances
+                        instances[entry.size].append(rdfInstance)
+
+                        if extended:
+                            global_entities.update(rdfInstance.entities)
+                            global_properties.update(rdfInstance.properties)
 
     return instances, global_entities, global_properties

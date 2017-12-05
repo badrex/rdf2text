@@ -1,5 +1,5 @@
 """
-A module for RDFEntity, RDFProperty, and KnowledgeGraph.
+A module for RDF Entity, RDF Property, and KnowledgeGraph.
 """
 
 from utils import text_utils, rdf_utils, sparql_utils
@@ -51,9 +51,9 @@ class RDFEntity:
 
         self.aliases = self.get_aliases()
 
-    def text_split(self, entity_string):
+    def text_split(self, entity_str):
         """Return the text of the entity after split."""
-        return ' '.join(entity_string.split('_'))
+        return ' '.join(entity_str.split('_'))
 
     def get_aliases(self):
         """Return a list of aliases for the entity."""
@@ -252,19 +252,19 @@ class KnowledgeGraph:
             matchFound = False
 
             # remove quotes from the entity string
-            entity_string = entity.mlex_form.replace('"', '')
+            entity_str = entity.mlex_form.replace('"', '')
 
             # Simple text matching
             # 1. try exact matching 1258
-            if entity_string in self.lexicalization:
-                delex_text = delex_text.replace(entity_string,
+            if entity_str in self.lexicalization:
+                delex_text = delex_text.replace(entity_str,
                                 ' ' + entity.ID + ' ')
                 matchFound = True
 
             # 2. try lowercased search 1122
-            elif entity_string.lower() in self.lexicalization.lower():
-                start_idx = delex_text.lower().find(entity_string.lower())
-                end_idx = start_idx + len(entity_string)
+            elif entity_str.lower() in self.lexicalization.lower():
+                start_idx = delex_text.lower().find(entity_str.lower())
+                end_idx = start_idx + len(entity_str)
 
                 delex_text = delex_text[:start_idx] + ' ' \
                                 + entity.ID + ' ' +  delex_text[end_idx + 1:]
@@ -272,18 +272,16 @@ class KnowledgeGraph:
 
             # 3. Try handling entities with the subtring (semanticType) 1006
             # e.g. Ballistic (comicsCharacter) --> Ballistic
-            elif entity_string.endswith(')'):
-                left_idx = entity_string.find('(')
+            elif entity_str.endswith(')'):
+                left_idx = entity_str.find('(')
 
-                entity_string = entity_string[:left_idx].strip()
+                entity_str = entity_str[:left_idx].strip()
 
-                if entity_string in self.lexicalization:
-                    delex_text = delex_text.replace(entity_string,
+                if entity_str in self.lexicalization:
+                    delex_text = delex_text.replace(entity_str,
                                     ' ' + entity.ID + ' ')
                     matchFound = True
 
-            else:
-                pass
 
             # if search succeeded, go to next entity, otherwise keep searching
             if matchFound or not advanced:
@@ -291,7 +289,7 @@ class KnowledgeGraph:
 
             # simple search not succeeded, do non-trivial text matching
             # 4. try date format handling
-            if text_utils.is_date_format(entity_string):
+            if text_utils.is_date_format(entity_str):
                 entity_ngrams = text_utils.find_ngrams(self.lexicalization)
 
                 entity_ngrams = [text_utils.tokenize_and_concat(' '.join(ngram))
@@ -311,25 +309,31 @@ class KnowledgeGraph:
                     matchFound = True
 
             # 5. try abbreviation handling
-            # if entity_string contains more than one capitalized word, try to find
-            # a potential an abbreviation of it in the text
-            if len(text_utils.get_capitalized(entity_string)) > 1 and not matchFound:
+            # if entity_str contains more than one capitalized word, try to find
+            # a potential abbreviation of it in the text
+            if len(text_utils.get_capitalized(entity_str)) > 1 and not matchFound:
                 # from the entity string, make a list of possible abbreviations
-                abbr_candidates = text_utils.generate_abbrs(entity_string)
+                abbr_candidates = text_utils.generate_abbrs(entity_str)
                 abbr_candidates.sort(key=len, reverse=True)
 
                 # get a list of unigrams in the text sentence
                 text_unigrams = text_utils.find_ngrams(self.lexicalization, N=1)
+                text_unigrams = [' '.join(unigram) for unigram in text_unigrams]
 
                 for abbr in abbr_candidates:
-                    if abbr in text_unigrams: # SUCCESS
+                    # make sure candidate abbr contains more than 1 capital letter
+                    nCaps = len([c for c in abbr if c.isupper()])
+
+                    if abbr in text_unigrams and nCaps > 1: # SUCCESS
+                        print('before:', entity_str, abbr, delex_text)
                         delex_text = delex_text.replace(abbr, ' ' + entity.ID + ' ')
+                        print('after:', entity_str, abbr, delex_text)
                         matchFound = True
 
             # 6. try character-level string matching (last hope)
             if not matchFound:
                 delex_text = text_utils.tokenize_and_concat(delex_text)
-                best_match = text_utils.find_best_match(entity_string, delex_text)
+                best_match = text_utils.find_best_match(entity_str, delex_text)
 
                 if best_match:
                     delex_text = delex_text.replace(best_match,
@@ -338,9 +342,14 @@ class KnowledgeGraph:
                     matchFound = True
 
             if not matchFound:
-                no_match_list.append((entity_string, self.lexicalization))
+                no_match_list.append((entity_str, self.lexicalization))
 
-        return delex_text #, no_match_list
+        final_delex = text_utils.tokenize_and_concat(delex_text)
+
+        # make sure the text ends with a period
+        final_delex = final_delex if final_delex[-1] == '.' else final_delex + ' .'
+
+        return  final_delex # , no_match_list
 
 
     def get_entityGraph(self):

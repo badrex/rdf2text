@@ -100,7 +100,7 @@ def is_date_format(text):
     try:
         parser.parse(text)
         return True
-    except ValueError:
+    except (ValueError, OverflowError) as e:
         return False
 
 def char_ngrams(chars, N=None):

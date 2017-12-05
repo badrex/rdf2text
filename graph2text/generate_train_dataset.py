@@ -1,5 +1,5 @@
 """
-A program to process RDF data and generate dataset for training and testing.
+A program to process RDF data and generate dataset for training.
 """
 
 from utils import rdf_utils
@@ -14,7 +14,7 @@ def generate():
     DISCR = 'Generate dataset from XML files of RDF to Text Entries.'
     parser = argparse.ArgumentParser(description=DISCR)
     parser.add_argument('-path', type=str, help='Path to data.', required=True)
-    parser.add_argument('-src_mode', help='Input mode: flat or structured.',
+    parser.add_argument('-src_mode', help='source mode: flat or structured.',
                 choices=['flat', 'structured'], default = 'flat', nargs = '?')
 
     parser.add_argument('-src', type=str, help='Path to output file for src.',

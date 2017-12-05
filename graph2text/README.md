@@ -1,53 +1,72 @@
 # Learning to generate text from knowledge graphs with Seq2Seq models
 
-This project is under development. So far, it has been developed
-and tested with python 3.6.
+This project is still under development. All modules in this project have been developed
+and tested with python 3.6. The only non-core library that is required is NLTK.
 
 For now, the code can be used to parse RDF data from XML files,
-apply some preprocessing, and generate datasets to be used for
-sequence to sequence models.
+apply some text preprocessing, retrieve semantic types for RDF entities, performance
+delexicalization on the target sentences and generate datasets to be used for
+training and evaluations sequence to sequence models for NLG from fact graphs.
 
-To use the module for generating datasets (either training or dev):
+## Generating Training Datasets
+To use the module for generating training datasets, use:
 
-For flat sequences in the source side
+### Flat sequences in the source side
 ```
-python generate_dataset.py \
+mkdir ../datasets
+python generate_train_dataset.py \
   -path ../challenge_data_train_dev/train \
-  -input_mode  flat \
+  -src_mode  flat \
   -src ../datasets/train.src \
   -tgt ../datasets/train.tgt
 ```
 
-Source sequences will be like:
-```ENTITY-1 WORK author ENTITY-2 PERSON```
-
-NOTE: The module is still under development. For now, the source sequence would be like this example:
-
-```ENTITY-1 AGENT author ENTITY-2 PATIENT```
+Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represnted as follows
+src: ENTITY_1 CITY | country | ENTITY_2 COUNTRY
+tgt: ENTITY_1 is in the ENTITY_2  .
 
 
-For structured sequences in the source side
+### Structured sequences in the source side
 ```
-python generate_dataset.py \
+python generate_train_dataset.py \
   -path ../challenge_data_train_dev/train \
-  -input_mode  structured \
+  -src_mode  structured \
   -src ../datasets/train.src \
-  -tgt ../datasets/train.tgt 
+  -tgt ../datasets/train.tgt
 ```
 
-Source sequences will be like:
-```¹( ²( ENTITY-1 WORK ³( author ^( ENTITY-2 PERSON )^ )³ )² )¹```
+Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represnted as follows
+src: ( ( ENTITY_1 CITY ( country ( ENTITY_2 COUNTRY ) ) ) )
+tgt: ENTITY_1 is in the ENTITY_2  .
 
-NOTE: The module is still under development. For now, the source sequence would be like this example:
+## Generating Evaluation Datasets
+To use the module for generating evaluation (dev and test) datasets, use:
+(Running this script would generate 5 files: dev.src, dev.tgt, dev.ref1, dev.ref2, and dev.ref3)
 
-```¹( ²( ENTITY-1 AGENT ³( author ^( ENTITY-2 PATIENT )^ )³ )² )¹```
+### Flat sequences in the source side
+```
+mkdir ../datasets
+python generate_eval_dataset.py \
+  -path ../challenge_data_train_dev/dev \
+  -src_mode  flat \
+  -src ../datasets/dev.src \
+  -tgt ../datasets/dev.tgt \
+  -ref ../datasets/dev.ref
+```
 
-The target sequences would be the original target sentences (target sentence delexicalization is still under development).
+### Structured sequences in the source side
+```
+python generate_eval_dataset.py \
+  -path ../challenge_data_train_dev/dev \
+  -src_mode  flat \
+  -src ../datasets/dev.src \
+  -tgt ../datasets/dev.tgt \
+  -ref ../datasets/dev.ref
+```
 
 ## TODO:
-1. Develope a SPARQL module (in utils) for communicating with DBpedia.
-2. Get semantic types from DBpedia (using property schema?).
-3. Build offline dictionaries for property schemas, entity aliases, etc.  
-4. Implement delexicalize_sentence() method with text matching.
-5. Develop evaluation module.
-6. Run some experiments with seq2seq model.
+1. Write code for relexicalization procedure (to be used after training).
+2. Improve the evaluation module (development already started, but not in GitLab yet).
+3. Run some experiments with seq2seq model in OpenNMT-Lua.
+4. Perform error analysis.
+5. Write the report.
