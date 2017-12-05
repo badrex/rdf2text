@@ -17,6 +17,9 @@ def generate():
     parser.add_argument('-src_mode', help='source mode: flat or structured.',
                 choices=['flat', 'structured'], default = 'flat', nargs = '?')
 
+    parser.add_argument('-delex_mode', type=str, help='Advanced or simple delexicalization',
+                choices=['simple', 'adv'], default = 'adv', nargs = '?')
+
     parser.add_argument('-src', type=str, help='Path to output file for src.',
                     required=True)
     parser.add_argument('-tgt', type=str, help='Path to output file for tgt.',
@@ -37,8 +40,11 @@ def generate():
                 else:
                     srcFile.write(G.linearize_graph() + '\n')
 
+            # write tgt
+            adv_delex = False if args.delex_mode == 'simple' else True
+
             with open(args.tgt, 'a+', encoding="utf8") as tgtFile:
-                tgtFile.write(G.delexicalize_text(advanced=True)  + '\n')
+                tgtFile.write(G.delexicalize_text(adv_delex).replace('\n', ' ')  + '\n')
 
 
 def main():

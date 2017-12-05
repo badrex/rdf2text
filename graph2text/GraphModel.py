@@ -10,7 +10,7 @@ from collections import defaultdict
 
 
 # populate a dict for schema properties: prop --> (domain, range)
-prop2schema = defaultdict()
+prop2schema = {}
 
 with open('metadata/prop_schema.list', encoding="utf8") as f:
     for line in f.readlines():
@@ -18,15 +18,18 @@ with open('metadata/prop_schema.list', encoding="utf8") as f:
         prop2schema[p] = (d, r)
 
 # populate a dict for semantic types of entities: entity --> type
-entity2type = defaultdict()
+entity2type = {}
 
 with open('metadata/entity_type.list', encoding="utf8") as f:
     for line in f.readlines():
         last_space_idx = line.rfind(' ')
         entity = line[:last_space_idx]
-        type = line[last_space_idx:]
+        stype = line[last_space_idx:]
 
-        entity2type[entity] = type.strip()
+        hash_idx = stype.find('#')
+        stype = stype[hash_idx + 1:]
+
+        entity2type[entity] = stype.strip()
 
 
 class RDFEntity:
@@ -47,6 +50,8 @@ class RDFEntity:
         if semantic_type is None:
             self.stype =  entity2type[o_rdf_entity]
         else:
+            hash_idx = semantic_type.find('#')
+            semantic_type = semantic_type[hash_idx + 1:]
             self.stype = semantic_type
 
         self.aliases = self.get_aliases()
@@ -96,7 +101,7 @@ class KnowledgeGraph:
 
     def __init__(self, tripleset_tuple, lexicalization=None):
         """
-        Initialize and construct a graph or (graph, text) pair.
+        Initialize and construct a graph from RDF triples.
         :param rdf_triples: a set of structured RDF triples (dtype: Tripleset)
         :param lexicalization: a text that realises the triple set for training
         instances
@@ -123,6 +128,9 @@ class KnowledgeGraph:
         # this dict maps from lex_form of entity to entity object
         self.entities = {}
 
+        # id2entity dict is used for relexicalization for eval datasets
+        self.id2entity = {}
+
         # a dict for properties in the graph instance
         # this dict maps from lex_form of property to property object
         self.properties = {}
@@ -146,7 +154,7 @@ class KnowledgeGraph:
         """
         entityID = 0
 
-        # loop through each triple
+        # loop through each zipped triple
         for (otriple, mtriple) in zip(self.o_rdf_triples, self.m_rdf_triples):
             # extract nodes (entities) and edges (properties) from original
             o_subj = otriple.subject
@@ -165,14 +173,17 @@ class KnowledgeGraph:
             # update entities dict by instantiating RDFEntity objects
             if o_subj not in self.entities:
                 entityID += 1
-                # we first try to use the domain of the property
+                # first try to use the domain of the property
                 if self.properties[o_prop].domain != '*':
                     self.entities[o_subj] = RDFEntity(entityID, o_subj, m_subj,
                                             self.properties[o_prop].domain)
 
-                # we directly retrieve the type of the subj
+                # directly retrieve the type of the subj
                 else:
                     self.entities[o_subj] = RDFEntity(entityID, o_subj, m_subj)
+
+                # add to id2entity dicr
+                self.id2entity[entityID] = self.entities[o_subj].mlex_form
 
             if o_obj not in self.entities:
                 entityID += 1
@@ -189,6 +200,8 @@ class KnowledgeGraph:
                     if self.entities[o_obj].stype == 'THING':
                         self.entities[o_obj].set_stype(self.properties[o_prop].type_form)
 
+                # add to id2entity dicr
+                self.id2entity[entityID] = self.entities[o_obj].mlex_form
 
             # populate the subj2obj and obj2subj dicst with (prop, [objs]) or
             # (prop, [subjs]) tuples
@@ -369,7 +382,7 @@ class KnowledgeGraph:
             seq = ''
 
             # to generate a flat sequence, linearize rdf_triples
-            for triple in self.m_rdf_triples:
+            for triple in self.o_rdf_triples:
                 # extract nodes (entities) and edges (properties)
                 subj = triple.subject
                 obj = triple.object
