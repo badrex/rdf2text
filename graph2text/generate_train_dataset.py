@@ -36,7 +36,7 @@ def generate():
 
             with open(args.src, 'a+', encoding="utf8") as srcFile:
                 if args.src_mode == 'structured':
-                    srcFile.write(G.linearize_graph(structured=True) + '\n')
+                    srcFile.write(G.linearize_graph(structured=True, incoming_edges=True) + '\n')
                 else:
                     srcFile.write(G.linearize_graph() + '\n')
 
