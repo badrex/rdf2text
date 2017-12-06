@@ -48,7 +48,7 @@ tgt: ENTITY_1 is in the ENTITY_2  .
 ## Generating Evaluation Datasets
 To use the module for generating evaluation (dev and test) datasets, use:
 
-(Running this script would generate 5 files: dev.src, dev.tgt, dev.ref1, dev.ref2, and dev.ref3)
+(Running this script would generate 5 files: dev.src, dev.tgt, dev.ref1, dev.ref2, dev.ref3, and dev.relex)
 
 ### Flat sequences in the source side
 ```
@@ -58,7 +58,8 @@ python generate_eval_dataset.py \
   -src_mode  flat \
   -src ../datasets/dev.src \
   -tgt ../datasets/dev.tgt \
-  -ref ../datasets/dev.ref
+  -ref ../datasets/dev.ref \
+  -relex ../datasets/dev.relex
 ```
 
 ### Structured sequences in the source side
@@ -68,12 +69,12 @@ python generate_eval_dataset.py \
   -src_mode  flat \
   -src ../datasets/dev.src \
   -tgt ../datasets/dev.tgt \
-  -ref ../datasets/dev.ref
+  -ref ../datasets/dev.ref-ref \
+  -relex ../datasets/dev.relex
 ```
 
 ## TODO:
-1. Write code for relexicalization procedure (to be used after training).
-2. Improve the evaluation module (development already started, but not in GitLab yet).
-3. Run some experiments with seq2seq model in OpenNMT-Lua.
-4. Perform error analysis.
-5. Write the report.
+1. Improve the evaluation module (development already started, but not in GitLab yet).
+2. Run some more experiments with seq2seq model in OpenNMT-Lua.
+3. Perform error analysis.
+4. Write the report.
