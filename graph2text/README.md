@@ -66,7 +66,7 @@ python generate_eval_dataset.py \
 ```
 python generate_eval_dataset.py \
   -path ../challenge_data_train_dev/dev \
-  -src_mode  flat \
+  -src_mode  structured \
   -src ../datasets/dev.src \
   -tgt ../datasets/dev.tgt \
   -ref ../datasets/dev.ref-ref \
