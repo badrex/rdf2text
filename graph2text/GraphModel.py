@@ -48,7 +48,7 @@ class RDFEntity:
         self.mlex_form = ' '.join(self.text_split(m_rdf_entity).split())
 
         if semantic_type is None:
-            self.stype =  entity2type[o_rdf_entity]
+            self.stype = entity2type[o_rdf_entity]
         else:
             hash_idx = semantic_type.find('#')
             semantic_type = semantic_type[hash_idx + 1:]
@@ -146,7 +146,6 @@ class KnowledgeGraph:
         # call method to construct entity graph and populate other dicts
         self._contruct_graph()
 
-
     def _contruct_graph(self):
         """
         Build the graph.
@@ -158,12 +157,12 @@ class KnowledgeGraph:
         for (otriple, mtriple) in zip(self.o_rdf_triples, self.m_rdf_triples):
             # extract nodes (entities) and edges (properties) from original
             o_subj = otriple.subject
-            o_obj  = otriple.object
+            o_obj = otriple.object
             o_prop = otriple.property
 
             # extract nodes (entities) and edges (properties) from modified
             m_subj = mtriple.subject
-            m_obj  = mtriple.object
+            m_obj = mtriple.object
             m_prop = mtriple.property
 
             # update properties dict by instantiating RDFProperty objects
