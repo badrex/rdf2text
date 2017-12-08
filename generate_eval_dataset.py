@@ -41,7 +41,7 @@ def generate():
                 lexs.append(rdf_utils.Lexicalisation('', '', ''))
 
             tripleset = (i.originaltripleset, i.modifiedtripleset)
-            G = KnowledgeGraph(tripleset, lexs[0].lex)
+            G = FactGraph(tripleset, lexs[0].lex)
 
             print(G.lexicalization)
 

@@ -32,7 +32,7 @@ def generate():
     for (size, ins) in instances.items():
         for i in ins:
             tripleset = (i.originaltripleset, i.modifiedtripleset)
-            G = KnowledgeGraph(tripleset, i.Lexicalisation.lex)
+            G = FactGraph(tripleset, i.Lexicalisation.lex)
 
             with open(args.src, 'a+', encoding="utf8") as srcFile:
                 if args.src_mode == 'structured':

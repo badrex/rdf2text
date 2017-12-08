@@ -27,7 +27,7 @@ def generate():
     for (size, ins) in instances.items():
         for i in ins:
             tripleset = (i.originaltripleset, i.modifiedtripleset)
-            G = KnowledgeGraph(tripleset, i.Lexicalisation.lex)
+            G = FactGraph(tripleset, i.Lexicalisation.lex)
             _, nodelex = G.delexicalize_text(advanced=True)
 
             not_delex.update(nodelex)

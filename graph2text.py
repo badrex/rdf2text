@@ -1,5 +1,5 @@
 """
-A module for RDF Entity, RDF Property, and KnowledgeGraph.
+A module for RDF Entity, RDF Property, and FactGraph.
 """
 
 from utils import text_utils, rdf_utils, sparql_utils
@@ -91,7 +91,7 @@ class RDFProperty:
         return text_utils.camel_case_split(property_string)
 
 
-class KnowledgeGraph:
+class FactGraph:
     """
     A class to represent RDF graph instances for natural language generation
     from structed input (e.g. RDF triples from a knowledge base).
@@ -462,7 +462,7 @@ def test():
     t_mod = rdf_utils.Tripleset()
     t_mod.fill_tripleset(otriple_set)
 
-    test_case = KnowledgeGraph(([t_org], t_mod), s)
+    test_case = FactGraph(([t_org], t_mod), s)
 
     print('Properties: ', [*test_case.properties])
     print('Entities: ', [*test_case.entities])
