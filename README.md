@@ -1,6 +1,6 @@
 # Learning to generate text from RDF fact graphs with seq2seq models
 
-### Project work by Badr Abdullah, François Buet, and Reem Mathbout.
+#### Project work by Badr Abdullah, François Buet, and Reem Mathbout.
 
 This project is still under development. All modules in this project have been developed
 and tested with python 3.6. There are only two non-core Python libraries required to run the modules: NLTK and SPARQLWrapper.
@@ -13,7 +13,7 @@ training and evaluations sequence to sequence models for NLG from fact graphs.
 ## Generating Training Datasets
 To use the module for generating training datasets, use:
 
-### Flat sequences in the source side
+###### Flat sequences in the source side
 ```
 mkdir ../datasets
 python generate_train_dataset.py \
@@ -23,15 +23,15 @@ python generate_train_dataset.py \
   -tgt ../datasets/train.tgt
 ```
 
-Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represented as follows:
+Example: the pair {*triple:* Albany , Oregon | country | United States, *text:* "Albany , Oregon is in the U.S."} would be represented as follows:
 ```
-src: ENTITY_1 CITY country ENTITY_2 COUNTRY
+**src*:* ENTITY_1 CITY country ENTITY_2 COUNTRY
 
-tgt: ENTITY_1 is in the ENTITY_2  .
+*tgt:* ENTITY_1 is in the ENTITY_2  .
 ```
 
 
-### Structured sequences in the source side
+###### Structured sequences in the source side
 ```
 python generate_train_dataset.py \
   -path ../challenge_data_train_dev/train \
@@ -42,9 +42,9 @@ python generate_train_dataset.py \
 
 Example: the pair (triple: Albany , Oregon | country | United States, "Albany , Oregon is in the U.S.") would be represented as follows:
 ```
-src: ( ( ENTITY_1 CITY ( country ( ENTITY_2 COUNTRY ) ) ) )
+*src*: ( ( ENTITY_1 CITY ( country ( ENTITY_2 COUNTRY ) ) ) )
 
-tgt: ENTITY_1 is in the ENTITY_2  .
+*tgt*: ENTITY_1 is in the ENTITY_2  .
 ```
 
 ## Generating Evaluation Datasets
@@ -52,7 +52,7 @@ To use the module for generating evaluation (dev and test) datasets, use:
 
 (Running this script would generate 5 files: dev.src, dev.tgt, dev.ref1, dev.ref2, dev.ref3, and dev.relex)
 
-### Flat sequences in the source side
+###### Flat sequences in the source side
 ```
 mkdir ../datasets
 python generate_eval_dataset.py \
@@ -64,7 +64,7 @@ python generate_eval_dataset.py \
   -relex ../datasets/dev.relex
 ```
 
-### Structured sequences in the source side
+###### Structured sequences in the source side
 ```
 python generate_eval_dataset.py \
   -path ../challenge_data_train_dev/dev \

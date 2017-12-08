@@ -5,7 +5,7 @@ NOTE: Only for testing purposes.
 
 from utils import rdf_utils
 import argparse
-from GraphModel import *
+from graph2text import *
 
 def generate():
     """

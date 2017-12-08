@@ -4,7 +4,7 @@ A program to process RDF data and generate dataset for evaluation and testing.
 
 from utils import rdf_utils
 import argparse
-from GraphModel import *
+from graph2text import *
 
 def generate():
     """
