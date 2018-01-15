@@ -15,9 +15,9 @@ def get_Ter_Meteor(maindir):
     :return
     """
 
-    categories_ref=[('Astronaut',7),('University',4),('Food',4),('SportsTeam',3),('City',3)]
+    categories_ref=[('Athlete',3),('Artist',3),('Politician',3)]
     for catr in categories_ref:
-        tripledir=maindir+'dev_'+catr[0]+'/'
+        tripledir=maindir+catr[0]+'Unseen_Baseline/'
         print('current category folder is '+tripledir)
         # pass the directory of cuurent category and its max reference number
         prepare_files_ter(tripledir,catr[1])

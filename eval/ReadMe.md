@@ -32,7 +32,7 @@
 
 # tripleFlatSeen --> contain all files and scripts for evalauting seen dataset according to different triple-size for flat model, where the file (flat_Triple_Size.md) in it explain the evalauting steps and the associated commands 
 
-# tripleSeenScore --> contain all the score files for: modified-baseline, flat for seen dataset according to different triple size, where the script (generateLxtable_Triple.py) generate latex tables.
+# tripleSeenScore --> contain all the score files for: modified-baseline, flat for seen dataset according to different triple size, where the script (generateLxtable_Triple.py) generate latex tables for them.
 
 
 # Category_Baseline_Seen --> contain all files and scripts for evalauting seen dataset according to different DBpedia categories for the modified-baseline, where the file (Instruction.md) in it explain the preprocessing steps and the associated commands
@@ -40,3 +40,15 @@
 # Category_Flat_Seen --> contain all files and scripts for evalauting seen dataset according to different DBpedia categories for flat model, where the file (Seen_Category_Evaluation.md) in it explain the evalauting steps and the associated commands
 
 # Category_Seen_Score --> contain all the score files for: modified-baseline, flat for seen dataset according to different DBpedia categories, where the script (generateLxtable_Category.py) generate latex tables.
+
+# triple_baseline_Unseen -->  contain all files and scripts for evalauting unseen dataset according to different triple-size for the modified-baseline, where the file Instruction.md in it explain the preprocessing steps and the associated commands 
+
+# triple_flat_Unseen --> contain all files and scripts for evalauting unseen dataset according to different triple-size for flat model, where the file (flat_TripleSize_Unseen.md) in it explain the evalauting steps and the associated commands 
+
+# triple_unseenScore --> contain all the score files for: modified-baseline, flat for unseen dataset according to different triple size, where the script (generateLxtable_Triple.py) generate latex tables.
+
+# Category_Baseline_unseen --> contain all files and scripts for evalauting unseen dataset according to different DBpedia categories for the modified-baseline, where the file (category_Unseen.md) in it explain the preprocessing steps and the associated commands
+
+# Category_Flat_unseen --> contain all files and scripts for evalauting unseen dataset according to different DBpedia categories for flat model, where the file (unseen_Category_Evaluation.md) in it explain the evalauting steps and the associated commands
+
+# Category_unseen_Score --> contain all the score files for: modified-baseline, flat for unseen dataset according to different DBpedia categories, where the script (generateLxtable_Category.py) generate latex tables for them.

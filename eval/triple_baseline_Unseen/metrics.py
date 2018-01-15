@@ -6,31 +6,27 @@ import getopt
 # the code the write output files in current triple size folder
 
 #maindir the directory where all folders of different tiple size are 
+def get_ref_maxref(maindir):
 
-def get_Ter_Meteor(maindir):
-    """
-    Pass each category directory with its max number of references to get Ter and Meteor files
-    for it
-    :param maindir: the directory where are all folders of different categories  
-    :return
-    """
-
-    categories_ref=[('Astronaut',7),('University',4),('Food',4),('SportsTeam',3),('City',3)]
-    for catr in categories_ref:
-        tripledir=maindir+'dev_'+catr[0]+'/'
-        print('current category folder is '+tripledir)
-        # pass the directory of cuurent category and its max reference number
-        prepare_files_ter(tripledir,catr[1])
+    max_ref_list=[5,3,3,3,3]
+    size=1
+    for i in max_ref_list:
+        tripledir='triple'+str(size)+'Unseen_Baseline/'
+        print('current triple size is '+tripledir)
+        prepare_files_ter(tripledir,i,size)
+        size+=1
         
 
 #inputdir path of current triple size folder
 #ref_max number of reference for current triple size
 #size of current triple
-def prepare_files_ter(inputdir,ref_max):
+def prepare_files_ter(inputdir,ref_max,size):
     """
-    Generate files for METEOR and TER 
+    Generate files for METEOR and TER input.
     :param inputdir: directory with bleu files
-    :param ref_max: the max number of reference 
+    :ref_max: the max number of references for current triple size
+    : size: the size of current triple set 
+    :return:
     """
     references = []  # each element is a list of references # for Ter
     pure_references = [] # for Meteor
@@ -80,8 +76,8 @@ def prepare_files_ter(inputdir,ref_max):
     print('Input files for METEOR and TER generated successfully.')
 
 def main(argv):
-    usage = 'usage:\npython3 metrics_dev.py -i <data-directory>' \
-           '\ndata-directory is the directory where all folders of different categories'
+    usage = 'usage:\npython3 metrics.py -i <data-directory>' \
+           '\ndata-directory is the directory where all folders of different triple size'
     try:
         opts, args = getopt.getopt(argv, 'i:', ['inputdir='])
     except getopt.GetoptError:
@@ -99,7 +95,7 @@ def main(argv):
         print(usage)
         sys.exit(2)
     print('Input directory is ', inputdir)
-    get_Ter_Meteor(inputdir)
+    get_ref_maxref(inputdir)
 
     
 

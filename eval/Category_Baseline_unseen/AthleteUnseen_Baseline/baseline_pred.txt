@@ -1,0 +1,428 @@
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERCLUB play in the SOCCERLEAGUE .
+The name of the NOT_FOUND is `` NOT_FOUND '' .
+SETTLEMENT is the birthplace of the COMPANY which was founded in Washington , D.C .
+The chairman of SOCCERCLUB is OFFICEHOLDER .
+SOCCERMANAGER was born in CITY .
+CITY is a city in CITY .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The full name of the SOCCERCLUB is `` FULLNAME '' and it was born in VILLAGE .
+The manager of SOCCERCLUB is SOCCERMANAGER , who has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+The native name for the MONUMENT is `` CHAIRMANTITLE '' .
+The manager of the NOT_FOUND is NOT_FOUND . The club has NUMBEROFMEMBERS members .
+The comic book character Auron was created by CREATOR .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+The BIRD is the location of the ground of AS Livorno Calcio , which is located in the SOCCERLEAGUE .
+SOCCERMANAGER manages SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+The city of CITY is the location of the home ground of AS Gubbio 1910 , which has the full name of `` FULLNAME '' .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The Estadio Municipal Coaracy da Mata Fonseca is in SETTLEMENT .
+The native name of the POLITICALPARTY is `` Türk Sehitleri Arapiraquense '' . It is also home to the DEDICATEDTO .
+The leader of MUSICALARTIST is Margrethe II and the national language is Indonesian . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and is part of the club CLUB .
+SOCCERMANAGER has been the manager of A C Cesena .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground in SETTLEMENT .
+CITY is the birthplace of the second runway of Ardmore Airport , New Zealand . The school has a UTC offset of `` LATINNAME '' .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERCLUB are managed by SOCCERMANAGER who plays for SOCCERCLUB and SOCCERCLUB .
+The native name of the POLITICALPARTY is `` Türk Sehitleri Arapiraquense '' . It is also home to the DEDICATEDTO .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and has been the manager of A C Cesena .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The ground of SOCCERCLUB is located at TOWN and their ground is in TOWN .
+SOCCERMANAGER was born in CITY .
+SOCCERCLUB are managed by SOCCERMANAGER .
+The owner of SOCCERCLUB is PERSON .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+The chairman of SOCCERCLUB is OFFICEHOLDER .
+The birth name of the MONUMENT is `` Türk Sehitleri Aniti '' . It was born in MUSICALARTIST and is the location of the second series of SPORT .
+Born in SETTLEMENT , SETTLEMENT is the location of the home ground of AS Roma , which was shown on the COMPANY .
+SOCCERMANAGER was born in CITY .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground in SETTLEMENT .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The ground of SOCCERCLUB is located in COUNTRY , where the leader is OFFICEHOLDER and the leader is OFFICEHOLDER .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the Superleague of Greece and has been the manager of A C Cesena . He also plays for SOCCERCLUB and SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for SOCCERCLUB and is in the SOCCERLEAGUE league . He also plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER manages SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+Associazione Calcio ChievoVerona is managed by SOCCERMANAGER , who was born in CITY . He has also been the manager of A C Cesena and is part of the SOCCERCLUB club .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .
+The STADIUM is the home ground of the home ground of AS Livorno Calcio which is located in the city of Blackpool .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERMANAGER was born on October 3rd , 1933 .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER was born in COUNTRY .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER was born on October 3rd , 1933 .
+The LANGUAGE is spoken in MUSICALARTIST .
+The leader of the COUNTRY is GOVERNOR . The club has been the manager of A C Cesena , who played for the SOCCERCLUB and SOCCERCLUB .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+The name of the NOT_FOUND is `` NOT_FOUND '' .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+Born in SETTLEMENT , SETTLEMENT is the location of the home ground of AS Roma , which was shown on the COMPANY .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground called the Estadio Minicipal Coaracy da Mata Fonseca in SETTLEMENT .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The birth place of the MUSICALARTIST is the LANGUAGE and the language spoken is LANGUAGE .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+CITY is a city in CITY .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERCLUB are managed by SOCCERMANAGER who plays for SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB .
+The Olympic Stadium , whose ground is in Athens , plays in the SOCCERLEAGUE .
+The manager of SOCCERCLUB is SOCCERMANAGER , who has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+The birth place of the MONUMENT is MUSICALARTIST .
+SOCCERMANAGER manages SOCCERCLUB .
+The name of the NOT_FOUND is `` NOT_FOUND '' .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERPLAYER was born in TOWN .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+A.D. Isidro SETTLEMENT 's ground is in Metapán and they have a ground in SETTLEMENT .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground called the Estadio Minicipal Coaracy da Mata Fonseca in SETTLEMENT .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The leader of MUSICALARTIST is Margrethe II and the national language is Indonesian . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+The manager of the NOT_FOUND is NOT_FOUND . The club has NUMBEROFMEMBERS members .
+The comic book character Auron was created by CREATOR and is located in the town of NOT_FOUND . It was created by CREATOR .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .
+The LANGUAGE is spoken in MUSICALARTIST .
+The governing body of the Democratic Party is REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB .
+The leader of MUSICALARTIST is Margrethe II and the language spoken is LANGUAGE . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+SOCCERMANAGER has been the manager of A C Cesena and is part of the club CLUB .
+The LANGUAGE is spoken in COUNTRY .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+MUSICALARTIST 's anthem is the MUSICALWORK and the national anthem is the MUSICALWORK .
+The leader of MUSICALARTIST is Margrethe II . The country is the location of the Baku Turkish Martyrs memorial which was given the 'Technical Campus ' .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERCLUB are the champions of the SOCCERLEAGUE , which SOCCERCLUB play .
+The Olympic Stadium , in MUSICALARTIST , has been the manager of A C Cesena . The club has been the manager of A C Cesena .
+The STADIUM is the home ground of the home ground of AS Livorno Calcio which is located in the city of Blackpool .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The full name of the MONUMENT is `` FULLNAME '' . It is in the city of CITY and is in the city of CITY . It is governed by the Democratic Party .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+NOT_FOUND is the creator of the NOT_FOUND which is located in the town of NOT_FOUND and has the full name of NOT_FOUND .
+SOCCERMANAGER ( born in COUNTRY ) is the manager of AC Chievo Verona . The club has been manager of A C Cesena .
+The city of CITY is the location of the home ground of AS Gubbio 1910 , which has the full name of `` FULLNAME '' .
+SETTLEMENT is the location of the ground of AS Livorno Calcio , which is located in SETTLEMENT .
+The NOT_FOUND is in CITY .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERCLUB 's ground is the STADIUM .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+The NOT_FOUND is in the state of STATE .
+SOCCERMANAGER was born in COUNTRY .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The leader of the COUNTRY is GOVERNOR . The club has been the manager of A C Cesena , who played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and is part of the club CLUB .
+Born in SETTLEMENT , SETTLEMENT is the location of the home ground of AS Roma , which was shown on the COMPANY .
+The manager of 1 . FC Koln is Peter Stoger who is in the Superleague of Greece . They played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER manages SOCCERCLUB .
+SOCCERCLUB are managed by SOCCERMANAGER .
+The headquarters of the SKIAREA in MUSICALARTIST are `` squeezed '' or `` smashed '' chicken '' and is known as NATIVENAME .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club and plays for SOCCERCLUB and SOCCERCLUB .
+The native name of the SOCCERCLUB is `` FULLNAME '' .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+OFFICEHOLDER is the leader of ADMINISTRATIVEREGION , where the currency is the CURRENCY and the currency is the CURRENCY .
+The full name of the SOCCERCLUB is `` FULLNAME '' and it was born in VILLAGE .
+SOCCERCLUB 's ground is the STADIUM .
+The name of the NOT_FOUND is `` NOT_FOUND '' .
+The ground of SOCCERCLUB is located at TOWN and their ground is in TOWN .
+MUSICALARTIST 's anthem is the MUSICALWORK and the national anthem is the MUSICALWORK .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The Library of William and Social Sciences at the CITY University was inaugurated in the year ESTABLISHED .
+The governing body of the Democratic Party is REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and plays for both SOCCERCLUB and SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERCLUB are the champions of the SOCCERLEAGUE , which SOCCERCLUB play .
+The LANGUAGE is spoken in MUSICALARTIST .
+CITY is a city in CITY .
+The native name for the MONUMENT is `` Türk Sehitleri Arapiraquense '' .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB . He also plays for SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the Superleague of Greece and has been the manager of A C Cesena . He also plays for SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+A.D. Isidro Metapan 's ground is in Metapán and they have NUMBEROFMEMBERS members .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERPLAYER is in the SOCCERCLUB club .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SETTLEMENT is the location of the ground of AS Livorno Calcio , which is located in SETTLEMENT .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB . He also plays for SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The birth name of the MONUMENT is `` Türk Sehitleri Aniti '' . It was born in MUSICALARTIST and is the location of the second series of SPORT .
+SOCCERMANAGER was born in COUNTRY .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+The leader of MUSICALARTIST is Margrethe II . The country is the location of the Baku Turkish Martyrs memorial which was given the 'Technical Campus ' .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club and plays for SOCCERCLUB and SOCCERCLUB .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+Associazione Calcio ChievoVerona is managed by SOCCERMANAGER , who was born in CITY . He has also been the manager of A C Cesena and is part of the SOCCERCLUB club .
+The reference number for the MONUMENT is REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The native name for the MONUMENT is `` Türk Sehitleri Arapiraquense '' .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+NOT_FOUND is the creator of the NOT_FOUND which is located in the town of NOT_FOUND and has the full name of NOT_FOUND .
+The headquarters of the Democratic Party in MUSICALARTIST are `` Squeezed '' or `` smashed '' . It was added to the National Register of Historic Places on 23 April 1980 .
+The headquarters of the SKIAREA in MUSICALARTIST are `` squeezed '' or `` smashed '' chicken '' and is known as NATIVENAME .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+CITY is part of the SETTLEMENT and is lead by MAYOR . The city is the location of the second Party .
+A.D. Isidro Metapan 's ground is in Metapán and they have NUMBEROFMEMBERS members .
+SOCCERMANAGER manages SOCCERCLUB .
+COMEDIAN was born on October 3rd , 1983 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+The leader of MUSICALARTIST is Margrethe II and the national language is Indonesian . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and is part of the club CLUB .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and has been the manager of A C Cesena .
+`` NOT_FOUND '' is the creator of the comic character of Auron who was created by CREATOR and is located in the town of NOT_FOUND .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and plays for both SOCCERCLUB and SOCCERCLUB .
+The owner of SOCCERCLUB is PERSON .
+The manager of 1 . FC Koln is Peter Stoger , who has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB . He also plays for SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .
+The POLITICALPARTY are the leaders of CITY where the POLITICALPARTY are the leading party .
+SETTLEMENT is the location of the ground of AS Livorno Calcio , which is located in SETTLEMENT .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+The owner of SOCCERCLUB is PERSON .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The name of the NOT_FOUND is `` NOT_FOUND '' .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and SOCCERCLUB .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground called the Estadio Minicipal Coaracy da Mata Fonseca in SETTLEMENT .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+The native name for the MONUMENT is `` Türk Sehitleri Arapiraquense '' .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+CITY is a city in CITY .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+`` NOT_FOUND '' is the creator of the comic character of Auron who was created by CREATOR and is located in the town of NOT_FOUND .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+The full name of the MONUMENT is `` FULLNAME '' . It is in the city of CITY and is in the city of CITY . It is governed by the Democratic Party .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The native name for the MONUMENT is `` CHAIRMANTITLE '' .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+The native name of the MONUMENT is `` NOT_FOUND '' . It was inaugurated on the 1st of October , 1933 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .
+The native name for the MONUMENT is `` NOT_FOUND '' . It was given the 'Technical Campus ' status by the Aktieselkab organisation .
+SETTLEMENT is the birthplace of the MONUMENT .
+SETTLEMENT is the birthplace of the COMPANY which was founded in Washington , D.C .
+SOCCERMANAGER was born in CITY .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The NOT_FOUND is in CITY .
+SETTLEMENT is the birthplace of the MONUMENT .
+SOCCERMANAGER has been the manager of A C Cesena .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The manager of 1 . FC Koln is Peter Stoger who is part of the SOCCERCLUB club and is part of the SOCCERCLUB club .
+The leader of MUSICALARTIST is Margrethe II and the language spoken is LANGUAGE . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+The headquarters of the Democratic Party in MUSICALARTIST are `` Squeezed '' or `` smashed '' . It was added to the National Register of Historic Places on 23 April 1980 .
+SOCCERMANAGER has been the manager of A C Cesena and is part of the club CLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+BUILDING was constructed in YEAROFCONSTRUCTION and was added to the National Register of Historic Places on 23rd April 1980 .
+The comic book character Auron was created by CREATOR and was inaugurated on CREATOR .
+The BIRD is the location of the ground of AS Livorno Calcio , which is located in the SOCCERLEAGUE .
+The ground for AEK Athens FC is the STADIUM . The club has NUMBEROFMEMBERS members and their ground is the STADIUM .
+The manager of 1 . FC Koln is Peter Stoger who is part of the SOCCERCLUB club and is part of the SOCCERCLUB club .
+The comic book character Auron was created by CREATOR and was inaugurated on CREATOR .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The Democratic Party is the birthplace of the MONUMENT .
+The comic book character Auron was created by CREATOR and is the NOT_FOUND .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+The full name of the MONUMENT is `` FULLNAME '' . It is in the city of CITY and is in the city of CITY . It is governed by the Democratic Party .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The native name of the MONUMENT is `` NOT_FOUND '' . It was inaugurated on the 1st of October , 1933 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+Associazione Calcio ChievoVerona is managed by SOCCERMANAGER , who was born in CITY . He has also been the manager of A C Cesena and is part of the SOCCERCLUB club .
+The headquarters of the Democratic Party in MUSICALARTIST are `` Squeezed '' or `` smashed '' . It was added to the National Register of Historic Places on 23 April 1980 .
+The Olympic Stadium , in MUSICALARTIST , has been the manager of A C Cesena . The club has been the manager of A C Cesena .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+The comic book character Auron was created by CREATOR and is located in the town of NOT_FOUND . It was created by CREATOR .
+BUILDING was constructed in YEAROFCONSTRUCTION and was added to the National Register of Historic Places on 23rd April 1980 .
+The NOT_FOUND is in the state of STATE .
+The Democratic Party is the birthplace of the MONUMENT .
+The comic book character Auron was created by CREATOR .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The Estadio Municipal Coaracy da Mata Fonseca is in SETTLEMENT .
+The birth name of the MONUMENT is `` Türk Sehitleri Aniti '' . It was born in MUSICALARTIST and is the location of the second series of SPORT .
+The leader of MUSICALARTIST is Margrethe II . The country is the location of the Baku Turkish Martyrs memorial which was given the 'Technical Campus ' .
+The Olympic Stadium , in New Zealand , is the ground of SOCCERCLUB . The club has NUMBEROFMEMBERS members and their ground is in TOWN .
+The chairman of SOCCERCLUB is OFFICEHOLDER .
+The manager of 1 . FC Koln is Peter Stoger who is part of the SOCCERCLUB club and is part of the SOCCERCLUB club .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERCLUB are managed by SOCCERMANAGER who plays for SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club .
+Stuart Parker , who was born in COUNTRY , has been the manager of A C Cesena and plays for the SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for SOCCERCLUB and is in the SOCCERLEAGUE league . He also plays for SOCCERCLUB .
+CITY is the birthplace of the second runway of Ardmore Airport , New Zealand . The school has a UTC offset of `` LATINNAME '' .
+The manager of SOCCERCLUB is SOCCERMANAGER , who has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERCLUB are the champions of the SOCCERLEAGUE , which SOCCERCLUB play .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club played for the SOCCERCLUB and SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB . The club has been the manager of A C Cesena and plays for the SOCCERCLUB .
+The reference number for the MONUMENT is REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+SOCCERCLUB play in the SOCCERLEAGUE .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB . The club has been the manager of A C Cesena and plays for the SOCCERCLUB .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club .
+The native name of the SOCCERCLUB is `` FULLNAME '' .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and manages SOCCERCLUB .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+The native name for the MONUMENT is `` NOT_FOUND '' . It was given the 'Technical Campus ' status by the Aktieselkab organisation .
+The leader of the COUNTRY is GOVERNOR . The club has been the manager of A C Cesena , who played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The STADIUM is the home ground of the home ground of AS Livorno Calcio which is located in the city of Blackpool .
+The comic book character Auron was created by CREATOR and is the NOT_FOUND .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and manages SOCCERCLUB .
+The headquarters of the SKIAREA in MUSICALARTIST are `` squeezed '' or `` smashed '' chicken '' and is known as NATIVENAME .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the Superleague of Greece and has been the manager of A C Cesena . He also plays for SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and is part of the club CLUB .
+The Olympic Stadium , in New Zealand , is the ground of SOCCERCLUB . The club has NUMBEROFMEMBERS members and their ground is in TOWN .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB . The club has been the manager of A C Cesena and plays for the SOCCERCLUB .
+The Olympic Stadium , whose ground is in Athens , plays in the SOCCERLEAGUE .
+`` NOT_FOUND '' is the creator of the comic character of Auron who was created by CREATOR and is located in the town of NOT_FOUND .
+The LANGUAGE is spoken in MUSICALARTIST .
+The manager of 1 . FC Koln is Peter Stoger who is in the Superleague of Greece . They played for the SOCCERCLUB and SOCCERCLUB .
+CITY is in the COUNTRY .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+The BIRD is the location of the MONUMENT which is located in CITY . It was added to the National Register of Historic Places on 27 July 1932 .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+CITY is a city in CITY .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger , who is in the SOCCERCLUB club and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERPLAYER is in the SOCCERCLUB club .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The native name for the MONUMENT is `` NOT_FOUND '' . It was given the 'Technical Campus ' status by the Aktieselkab organisation .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER ( born in COUNTRY ) is the manager of AC Chievo Verona . The club has been manager of A C Cesena .
+The Olympic Stadium , whose ground is in Athens , plays in the SOCCERLEAGUE .
+The chairman of SOCCERCLUB is OFFICEHOLDER .
+The LANGUAGE is spoken in MUSICALARTIST .
+The native name for the MONUMENT is `` REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The latin name of the NOT_FOUND is `` LATINNAME '' .
+SOCCERMANAGER was born on October 3rd , 1933 .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+CITY is part of the SETTLEMENT and is lead by MAYOR . The city is the location of the second Party .
+The POLITICALPARTY are the leaders of CITY where the POLITICALPARTY are the leading party .
+The ground for AEK Athens FC is the STADIUM and their ground is the STADIUM .
+The birth place of the MUSICALARTIST is the LANGUAGE and the language spoken is LANGUAGE .
+The Democratic Party is the birthplace of the MONUMENT .
+SOCCERMANAGER is in the SOCCERCLUB club .
+Stuart Parker , who was born in COUNTRY , has been the manager of A C Cesena and plays for the SOCCERCLUB .
+SOCCERCLUB play in the SOCCERLEAGUE .
+COMEDIAN was born on October 3rd , 1983 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+The city of CITY is the location of the home ground of AS Gubbio 1910 , which has the full name of `` FULLNAME '' .
+A.D. Isidro SETTLEMENT 's ground is in Metapán and they have a ground in SETTLEMENT .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club . They played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER was born in COUNTRY .
+The leader of MUSICALARTIST is Margrethe II and the language spoken is LANGUAGE . The country is the location of the Baku Turkish Martyrs memorial which was founded in ESTABLISHED .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+CITY is a city in CITY .
+CITY is a city in CITY .
+The manager of 1 . FC Koln is Peter Stoger , who was at the club ASD Licita 1931 and the SOCCERCLUB .
+The comic book character Auron was created by CREATOR and was inaugurated on CREATOR .
+OFFICEHOLDER is the leader of ADMINISTRATIVEREGION , where the currency is the CURRENCY and the currency is the CURRENCY .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER manages SOCCERCLUB .
+NOT_FOUND is the creator of the NOT_FOUND which is located in the town of NOT_FOUND and has the full name of NOT_FOUND .
+The Olympic Stadium , in New Zealand , is the ground of SOCCERCLUB . The club has NUMBEROFMEMBERS members and their ground is in TOWN .
+BUILDING was constructed in YEAROFCONSTRUCTION and was added to the National Register of Historic Places on 23rd April 1980 .
+The BIRD is the location of the ground of AS Livorno Calcio , which is located in the SOCCERLEAGUE .
+The reference number for the MONUMENT is REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The manager of the NOT_FOUND is NOT_FOUND . The club has NUMBEROFMEMBERS members .
+The BIRD is the location of the MONUMENT which is located in CITY . It was added to the National Register of Historic Places on 27 July 1932 .
+The native name of the POLITICALPARTY is `` Türk Sehitleri Arapiraquense '' . It is also home to the DEDICATEDTO .
+Stuart Parker , who was born in COUNTRY , has been the manager of A C Cesena and plays for the SOCCERCLUB .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for SOCCERCLUB and is in the SOCCERLEAGUE league . He also plays for SOCCERCLUB .
+The LANGUAGE is spoken in COUNTRY .
+The BIRD is the location of the MONUMENT which is located in CITY . It was added to the National Register of Historic Places on 27 July 1932 .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The birth place of the MONUMENT is MUSICALARTIST .
+OFFICEHOLDER is the leader of ADMINISTRATIVEREGION , where the currency is the CURRENCY and the currency is the CURRENCY .
+The manager of 1 . FC Koln is Peter Stoger , who has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The POLITICALPARTY are the leaders of CITY where the POLITICALPARTY are the leading party .
+The ground of SOCCERCLUB is located at TOWN and their ground is in TOWN .
+The native name for the MONUMENT is `` REFERENCENUMBER IN THE NATIONAL REGISTER OF HISTORIC PLACES '' .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who is in the Superleague of Greece . They played for the SOCCERCLUB and SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The Library of William and Social Sciences at the CITY University was inaugurated in the year ESTABLISHED .
+COMEDIAN was born on October 3rd , 1983 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+A.D. Isidro SETTLEMENT 's ground is in Metapán and they have a ground in SETTLEMENT .
+NOT_FOUND is the creator of the NOT_FOUND which is in the town of NOT_FOUND . It has the latin name of `` LATINNAME '' and its rector is NOT_FOUND .
+The LANGUAGE is spoken in MUSICALARTIST .
+The Olympic Stadium , in MUSICALARTIST , has been the manager of A C Cesena . The club has been the manager of A C Cesena .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+The ground for AEK Athens FC is the ground of AS Livorno Calcio and their ground is in SETTLEMENT . The club has NUMBEROFMEMBERS members and their ground is in SETTLEMENT .
+The full name of the SOCCERCLUB is `` FULLNAME '' and it was born in VILLAGE .
+The manager of 1 . FC Koln is Peter Stoger who is in the SOCCERCLUB club . The club has been the manager of A C Cesena and plays for the SOCCERCLUB and SOCCERCLUB .
+MUSICALARTIST 's anthem is the MUSICALWORK and the national anthem is the MUSICALWORK .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+CITY is part of the SETTLEMENT and is lead by MAYOR . The city is the location of the second Party .
+SOCCERPLAYER is in the SOCCERCLUB club .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB and the SOCCERCLUB .
+SOCCERMANAGER is in the SOCCERCLUB club .
+The Library of William and Social Sciences at the CITY University was inaugurated in the year ESTABLISHED .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and manages SOCCERCLUB .
+The manager of 1 . FC Koln is Peter Stoger who plays for SOCCERCLUB .
+SOCCERMANAGER was born in CITY .
+The comic book character Auron was created by CREATOR and is the NOT_FOUND .
+The ground of SOCCERCLUB is located in COUNTRY , where the leader is OFFICEHOLDER and the leader is OFFICEHOLDER .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+SOCCERPLAYER was born in TOWN .
+The native name of the SOCCERCLUB is `` FULLNAME '' .
+The manager of SOCCERCLUB is SOCCERMANAGER who is in the SOCCERCLUB club and plays for SOCCERCLUB and SOCCERCLUB .
+The native name of the MONUMENT is `` NOT_FOUND '' . It was inaugurated on the 1st of October , 1933 and was added to the National Register of Historic Places on ADDED TO THE NATIONAL REGISTER OF HISTORIC PLACES .
+The native name for the MONUMENT is `` Türk Sehitleri Aniti '' . They were given the 'Technical Campus ' status by the Democratic Party .
+The ground of SOCCERCLUB is located in COUNTRY , where the leader is OFFICEHOLDER and the leader is OFFICEHOLDER .
+SOCCERMANAGER has been the manager of A C Cesena and is a member of the Calcio Cantania . He is in the SOCCERCLUB club and has been the manager of A C Cesena .
+A.D. Isidro Metapan 's ground is in Metapán and they have a ground in SETTLEMENT .
+SOCCERCLUB 's ground is the STADIUM .
+SOCCERMANAGER is in the SOCCERCLUB club .
+SOCCERMANAGER has been the manager of A C Cesena and plays for both SOCCERCLUB and SOCCERCLUB .
+The comic book character Auron was created by CREATOR and is located in the town of NOT_FOUND . It was created by CREATOR .
+SOCCERMANAGER ( born in COUNTRY ) is the manager of AC Chievo Verona . The club has been manager of A C Cesena .
+SOCCERPLAYER was born in TOWN .
+The manager of SOCCERCLUB is SOCCERMANAGER who played for the SOCCERCLUB and SOCCERCLUB .

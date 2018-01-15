@@ -1,0 +1,115 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=1cm,lmargin=5cm]{geometry}%
+\usepackage{multirow}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section{The evaluation scores for different DBpedia categories of Unseen dataset:}%
+\textit{=============================================\newline%
+}%
+Comparing the evaluation scores between two model: (flat, modify baseline) according to different DBpedia categories, which are:Athlete,Artist,Politician \newline%
+%
+\textit{We mean by "flat" one model from the extended system which contains 3 model:flat,str1,str2\newline%
+}%
+\textit{Where we evaluate just this model in term of different DBpedia categories, because the result of other models i.e. str1\&str2 for the whole dataset unseen and unseen not very good comparing by this model\newline%
+}%
+\textit{We mean by "Modify baseline" the modified baseline of webnlg challeng \newline%
+}%
+\subsection{Table of Evaluation in term of BLEU \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{BLEU}\\%
+\hline%
+\multirow{3}{*}{Athlete}&Modify Baseline&16.24\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{26.41}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Artist}&Modify Baseline&6.31\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{14.15}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Politician}&Modify Baseline&11.12\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{28.65}\\%
+\hline%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of METEOR \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{METEOR}\\%
+\hline%
+\multirow{3}{*}{Athlete}&Modify Baseline&0.19\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.32}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Artist}&Modify Baseline&0.13\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.27}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Politician}&Modify Baseline&0.15\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.31}\\%
+\hline%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of TER \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{TER}\\%
+\hline%
+\multirow{3}{*}{Athlete}&Modify Baseline&0.79\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.58}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Artist}&Modify Baseline&1.03\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.78}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Politician}&Modify Baseline&0.85\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.56}\\%
+\hline%
+\hline%
+\end{tabular}
+
+%
+\end{document}
