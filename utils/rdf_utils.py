@@ -1,12 +1,11 @@
 """
-This module contains some useful classes and functions to deal with RDF data
+This module contains some useful classes and functions to deal with RDF data and
 read and process XML files.
 """
 
 from nltk.tokenize import word_tokenize
 import xml.etree.ElementTree as et
 from collections import defaultdict
-from . import rdf_utils
 import argparse
 import os
 

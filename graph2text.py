@@ -482,11 +482,11 @@ def test():
 
     assert test_case.entities.keys() == \
         {'Donald Trump', 'USA', 'Washington DC', 'Melania Knauss', \
-            'Slovenia', 'USA'}, \
+            'Slovenia', '"1923-11-18"'}, \
         "Test case failed! Entities do not match."
 
     assert test_case.properties.keys() == \
-        {'leaderName', 'birthPlace', 'capital', 'spouse', 'nationality'}, \
+        {'leaderName', 'birthPlace', 'capital', 'spouse', 'nationality', 'birthDate'}, \
         "Test case failed! Properties do not match."
 
     assert test_case.subj2obj == \
@@ -499,7 +499,8 @@ def test():
             ('capital', ['Washington DC'])
             ],
         'Melania Knauss': [
-            ('nationality', ['Slovenia', 'USA'])
+            ('nationality', ['Slovenia', 'USA']),
+            ('birthDate', ['"1923-11-18"'])
             ]
         }, "Test case failed! entityGraph does not match."
 
