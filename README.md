@@ -74,3 +74,41 @@ python generate_eval_dataset.py \
   -ref ../datasets/dev.ref-ref \
   -relex ../datasets/dev.relex
 ```
+
+## Using OpenNTM
+Once we have the data, we can train a seq2seq model. We show how to use OpenNMT for this task:
+(probably you would want to move the datasets directory to where you have installed OpenNMT)
+
+### 1. Preprocess the data.
+
+```
+th preprocess.lua \
+    -train_src datasets/train.src \
+    -train_tgt datasets/train.tgt \
+    -valid_src datasets/dev.src \
+    -valid_tgt datasets/dev.tgt \
+    -save_data datasets/data_tensor
+```
+
+### 2. Train a model.
+```
+th train.lua -data datasets/data_tensor-train.t7 -save_model s2s_model
+```
+
+### 3. Use the model for inference.
+```
+th translate.lua -model s2s_model_epochX_PPL.t7 -src datasets/dev.src -output predictions.dev
+```
+
+### 4. Relexicalize predictions.
+```
+python relex_preditions.py \
+    -pred predictions.dev \
+    -relex datasets/dev.relex \
+    -output predictions.relex
+```
+
+### 5. Evaluate with BLEU script.
+```
+multi-bleu.perl  datasets/dev.tgt < predictions.relex
+```

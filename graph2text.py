@@ -337,8 +337,9 @@ class FactGraph:
                     nCaps = len([c for c in abbr if c.isupper()])
 
                     if abbr in text_unigrams and nCaps > 1: # SUCCESS
-                        print('delexicalizing:', entity_str, '! found:', abbr)
+                        print('before:', entity_str, abbr, delex_text)
                         delex_text = delex_text.replace(abbr, ' ' + entity.ID + ' ')
+                        print('after:', entity_str, abbr, delex_text)
                         matchFound = True
 
             # 6. try character-level string matching (last hope)
@@ -510,3 +511,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+python generate_train_dataset.py -path ../challenge_data_train_dev/train -src_mode  flat  -src ../datasetsX/train.src  -tgt ../datasetsX/train.tgt
