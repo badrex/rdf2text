@@ -1,0 +1,109 @@
+ 
+ Blue score 
+ BLEU = 46.92, 76.1/58.9/45.4/33.7 (BP=0.917, ratio=0.920, hyp_len=289, ref_len=314)
+
+ Meteor score 
+Meteor version: 1.5
+
+Eval ID:        meteor-1.5-wo-en-norm-0.85_0.2_0.6_0.75-ex_st_sy_pa-1.0_0.6_0.8_0.6
+
+Language:       English
+Format:         plaintext
+Task:           Ranking
+Modules:        exact stem synonym paraphrase
+Weights:        1.0 0.6 0.8 0.6
+Parameters:     0.85 0.2 0.6 0.75
+
+Segment 1 score:	0.5280778233646453
+Segment 2 score:	0.5177780700741892
+Segment 3 score:	0.35845822704712027
+Segment 4 score:	0.46965776097474515
+Segment 5 score:	0.4105675520352983
+Segment 6 score:	0.4434789572240145
+Segment 7 score:	0.30921610971493535
+Segment 8 score:	0.44432978887683816
+Segment 9 score:	0.5388549218006583
+Segment 10 score:	1.0
+Segment 11 score:	0.5420932391303431
+Segment 12 score:	0.21618439238380247
+Segment 13 score:	0.48636057568503926
+Segment 14 score:	0.2621499443403637
+Segment 15 score:	0.3757823391575132
+Segment 16 score:	0.4539004398967384
+Segment 17 score:	1.0
+Segment 18 score:	0.4251966065539792
+Segment 19 score:	0.5425269137216473
+Segment 20 score:	0.5112614165460022
+Segment 21 score:	0.5164575289629781
+Segment 22 score:	0.4936714885179634
+Segment 23 score:	1.0
+Segment 24 score:	1.0
+Segment 25 score:	0.36453733734181487
+Segment 26 score:	1.0
+Segment 27 score:	0.23883483101116276
+Segment 28 score:	0.5175586725868697
+Segment 29 score:	0.3802002154135859
+Segment 30 score:	0.5012258995950178
+Segment 31 score:	0.5676051483896002
+
+System level statistics:
+
+
+           Test Matches                  Reference Matches
+Stage      Content  Function    Total    Content  Function    Total
+1              143       127      270        143       127      270
+2                0         0        0          0         0        0
+3                3         0        3          3         0        3
+4                0         1        1          0         2        2
+Total          146       128      274        146       129      275
+
+Test words:             329
+Reference words:        322
+Chunks:                 73
+Precision:              0.8478195488721806
+Recall:                 0.8577507598784196
+f1:                     0.8527562406003756
+fMean:                  0.8562462718519794
+Fragmentation penalty:  0.4603703578278006
+
+Final score:            0.46205586929076337
+
+ TER score 
+"../Category_Baseline_Seen/dev_City/relexicalised_predictions-ter.txt" was successfully parsed as Trans text
+"../Category_Baseline_Seen/dev_City/all-notdelex-refs-ter.txt" was successfully parsed as Trans text
+** Warning: XML ouput may not have correct doc id for Trans format inputs
+Processing id0:1
+Processing id1:1
+Processing id2:1
+Processing id3:1
+Processing id4:1
+Processing id5:1
+Processing id6:1
+Processing id7:1
+Processing id8:1
+Processing id9:1
+Processing id10:1
+Processing id11:1
+Processing id12:1
+Processing id13:1
+Processing id14:1
+Processing id15:1
+Processing id16:1
+Processing id17:1
+Processing id18:1
+Processing id19:1
+Processing id20:1
+Processing id21:1
+Processing id22:1
+Processing id23:1
+Processing id24:1
+Processing id25:1
+Processing id26:1
+Processing id27:1
+Processing id28:1
+Processing id29:1
+Processing id30:1
+Total TER: 0.38729508196721313 (126.0/325.3333333333333)
+Number of calls to beam search: 236
+Number of segments scored: 72
+Number of shifts tried: 164

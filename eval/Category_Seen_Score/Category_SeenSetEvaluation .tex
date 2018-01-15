@@ -1,0 +1,154 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[lmargin=5cm,tmargin=1cm]{geometry}%
+\usepackage{multirow}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section{The evaluation scores for different DBpedia categories of Seen dataset:}%
+\textit{=============================================\newline%
+}%
+Comparing the evaluation scores between two model: (flat, modify baseline) according to different DBpedia categories, which are: Astronaut,City,University,Food,SportsTeam.\newline%
+%
+\textit{We mean by "flat" one model from the extended system which contains 3 model:flat,str1,str2\newline%
+}%
+\textit{Where we evaluate just this model in term of different DBpedia categories, because the result of other models i.e. str1\&str2 for the whole dataset seen and unseen not very good comparing by this model\newline%
+}%
+\textit{We mean by "Modify baseline" the modified baseline of webnlg challeng \newline%
+}%
+\subsection{Table of Evaluation in term of BLEU \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{BLEU}\\%
+\hline%
+\multirow{3}{*}{Astronaut}&Modify Baseline&50.02\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{45.38}\\%
+\hline%
+\hline%
+\multirow{3}{*}{City}&Modify Baseline&46.92\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{47.81}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Food}&Modify Baseline&39.35\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{37.77}\\%
+\hline%
+\hline%
+\multirow{3}{*}{SportTeam}&Modify Baseline&43.20\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{45.02}\\%
+\hline%
+\hline%
+\multirow{3}{*}{University}&Modify Baseline&54.45\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{63.10}\\%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of METEOR \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{METEOR}\\%
+\hline%
+\multirow{3}{*}{Astronaut}&Modify Baseline&0.37\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.38}\\%
+\hline%
+\hline%
+\multirow{3}{*}{City}&Modify Baseline&0.46\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.50}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Food}&Modify Baseline&0.34\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.37}\\%
+\hline%
+\hline%
+\multirow{3}{*}{SportTeam}&Modify Baseline&0.37\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.39}\\%
+\hline%
+\hline%
+\multirow{3}{*}{University}&Modify Baseline&0.37\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.44}\\%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of TER \newline%
+}%
+\begin{tabular}{|c|c|c|}%
+\hline%
+\textbf{Category Name}&\textbf{Model}&\textbf{TER}\\%
+\hline%
+\multirow{3}{*}{Astronaut}&Modify Baseline&0.42\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.45}\\%
+\hline%
+\hline%
+\multirow{3}{*}{City}&Modify Baseline&0.39\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.39}\\%
+\hline%
+\hline%
+\multirow{3}{*}{Food}&Modify Baseline&0.52\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.51}\\%
+\hline%
+\hline%
+\multirow{3}{*}{SportTeam}&Modify Baseline&0.48\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.45}\\%
+\hline%
+\hline%
+\multirow{3}{*}{University}&Modify Baseline&0.41\\%
+\cline{2%
+-%
+3}%
+&Flat&\textbf{0.32}\\%
+\hline%
+\end{tabular}
+
+%
+\end{document}

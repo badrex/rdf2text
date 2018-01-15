@@ -1,0 +1,79 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[tmargin=1cm,lmargin=5cm]{geometry}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\section{The evaluation scores for UnSeen set}%
+\textit{========================================\newline%
+}%
+\textit{We mean by system the extended system which contain 3 model: flat,str1,str2\newline%
+}%
+\textit{baseline the basic baseline of webnlg challeng \newline%
+}%
+\textit{modify baseline the modified baseline of webnlg challeng \newline%
+}%
+\subsection{Table of Evaluation in term of BLEU \newline%
+}%
+\begin{tabular}{|r|c|}%
+\hline%
+\textbf{System}&\textbf{Bleu}\\%
+\hline%
+baseline&06.13\\%
+\hline%
+Modify baseline&10.59\\%
+\hline%
+Flat&\textbf{22.02}\\%
+\hline%
+Structure1&15.69\\%
+\hline%
+Structure2&17.30\\%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of METEOR \newline%
+}%
+\begin{tabular}{|r|c|}%
+\hline%
+\textbf{System}&\textbf{METEOR}\\%
+\hline%
+baseline&0.07\\%
+\hline%
+Modify baseline&0.14\\%
+\hline%
+Flat&\textbf{0.29}\\%
+\hline%
+Structure1&0.28\\%
+\hline%
+Structure2&0.26\\%
+\hline%
+\end{tabular}
+
+%
+\subsection{Table of Evaluation in term of TER \newline%
+}%
+\begin{tabular}{|r|c|}%
+\hline%
+\textbf{System}&\textbf{TER}\\%
+\hline%
+baseline&0.80\\%
+\hline%
+Modify baseline&0.88\\%
+\hline%
+Flat&\textbf{0.65}\\%
+\hline%
+Structure1&0.60\\%
+\hline%
+Structure2&0.70\\%
+\hline%
+\end{tabular}
+
+%
+\end{document}

@@ -1,0 +1,149 @@
+ 
+ Blue score 
+ BLEU = 54.45, 83.3/65.7/54.0/45.3 (BP=0.900, ratio=0.905, hyp_len=1412, ref_len=1560)
+
+ Meteor score 
+Meteor version: 1.5
+
+Eval ID:        meteor-1.5-wo-en-norm-0.85_0.2_0.6_0.75-ex_st_sy_pa-1.0_0.6_0.8_0.6
+
+Language:       English
+Format:         plaintext
+Task:           Ranking
+Modules:        exact stem synonym paraphrase
+Weights:        1.0 0.6 0.8 0.6
+Parameters:     0.85 0.2 0.6 0.75
+
+Segment 1 score:	1.0
+Segment 2 score:	0.3822835653687965
+Segment 3 score:	0.5920426652117575
+Segment 4 score:	0.385017595258147
+Segment 5 score:	0.3783059360555178
+Segment 6 score:	0.5886206730748653
+Segment 7 score:	0.41620189536819074
+Segment 8 score:	0.3523701680119274
+Segment 9 score:	0.44995941256034383
+Segment 10 score:	0.36190417193164165
+Segment 11 score:	0.29158666719211696
+Segment 12 score:	0.1450620511969762
+Segment 13 score:	0.2376777600112211
+Segment 14 score:	0.288135411617461
+Segment 15 score:	0.26436991506164254
+Segment 16 score:	0.4063824944705111
+Segment 17 score:	0.35211230639798563
+Segment 18 score:	0.4505795355365814
+Segment 19 score:	0.2899132538581981
+Segment 20 score:	0.39478003651207316
+Segment 21 score:	0.3121836671786196
+Segment 22 score:	0.33794913655829384
+Segment 23 score:	0.3466912810135565
+Segment 24 score:	0.38621215844613
+Segment 25 score:	0.2753820642524861
+Segment 26 score:	0.1626673664602969
+Segment 27 score:	0.3037227641207707
+Segment 28 score:	0.30223105113401993
+Segment 29 score:	0.5119556177223324
+Segment 30 score:	1.0
+Segment 31 score:	0.2615056869349597
+Segment 32 score:	0.21037590708994336
+Segment 33 score:	0.3454752359491928
+Segment 34 score:	0.2687910615958926
+Segment 35 score:	0.29137142270004496
+Segment 36 score:	0.3756266153691065
+Segment 37 score:	0.360368451110477
+Segment 38 score:	0.4662290256470235
+Segment 39 score:	0.4407621889475105
+Segment 40 score:	0.3887662972078962
+Segment 41 score:	0.16946283924060332
+Segment 42 score:	0.35718669648428764
+Segment 43 score:	1.0
+Segment 44 score:	0.38719363494067244
+Segment 45 score:	0.40363629005718904
+Segment 46 score:	0.4543310564048523
+Segment 47 score:	0.45923720511319865
+Segment 48 score:	0.3896377215859662
+Segment 49 score:	0.4874136343414746
+Segment 50 score:	1.0
+Segment 51 score:	0.39054504900790227
+
+System level statistics:
+
+
+           Test Matches                  Reference Matches
+Stage      Content  Function    Total    Content  Function    Total
+1              579       542     1121        579       542     1121
+2                0         1        1          0         1        1
+3                1         2        3          1         2        3
+4               13        16       29         16        15       31
+Total          593       561     1154        596       560     1156
+
+Test words:             1433
+Reference words:        1640
+Chunks:                 367
+Precision:              0.7919999999999999
+Recall:                 0.689251781472684
+f1:                     0.7370622844195142
+fMean:                  0.7029307361869459
+Fragmentation penalty:  0.4770545763807413
+
+Final score:            0.36759441161027984
+
+ TER score 
+"../Category_Baseline_Seen/dev_University/relexicalised_predictions-ter.txt" was successfully parsed as Trans text
+"../Category_Baseline_Seen/dev_University/all-notdelex-refs-ter.txt" was successfully parsed as Trans text
+** Warning: XML ouput may not have correct doc id for Trans format inputs
+Processing id0:1
+Processing id1:1
+Processing id2:1
+Processing id3:1
+Processing id4:1
+Processing id5:1
+Processing id6:1
+Processing id7:1
+Processing id8:1
+Processing id9:1
+Processing id10:1
+Processing id11:1
+Processing id12:1
+Processing id13:1
+Processing id14:1
+Processing id15:1
+Processing id16:1
+Processing id17:1
+Processing id18:1
+Processing id19:1
+Processing id20:1
+Processing id21:1
+Processing id22:1
+Processing id23:1
+Processing id24:1
+Processing id25:1
+Processing id26:1
+Processing id27:1
+Processing id28:1
+Processing id29:1
+Processing id30:1
+Processing id31:1
+Processing id32:1
+Processing id33:1
+Processing id34:1
+Processing id35:1
+Processing id36:1
+Processing id37:1
+Processing id38:1
+Processing id39:1
+Processing id40:1
+Processing id41:1
+Processing id42:1
+Processing id43:1
+Processing id44:1
+Processing id45:1
+Processing id46:1
+Processing id47:1
+Processing id48:1
+Processing id49:1
+Processing id50:1
+Total TER: 0.41213817927310903 (687.0/1666.9166666666667)
+Number of calls to beam search: 7441
+Number of segments scored: 142
+Number of shifts tried: 7299

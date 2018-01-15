@@ -1,0 +1,499 @@
+ 
+ Blue score 
+ BLEU = 59.26, 86.2/68.2/53.8/43.3 (BP=0.974, ratio=0.974, hyp_len=2156, ref_len=2213)
+
+ Meteor score 
+Meteor version: 1.5
+
+Eval ID:        meteor-1.5-wo-en-norm-0.85_0.2_0.6_0.75-ex_st_sy_pa-1.0_0.6_0.8_0.6
+
+Language:       English
+Format:         plaintext
+Task:           Ranking
+Modules:        exact stem synonym paraphrase
+Weights:        1.0 0.6 0.8 0.6
+Parameters:     0.85 0.2 0.6 0.75
+
+Segment 1 score:	0.5280778233646453
+Segment 2 score:	0.5177780700741892
+Segment 3 score:	0.5004680755588762
+Segment 4 score:	0.47425737463681794
+Segment 5 score:	0.4105675520352983
+Segment 6 score:	0.43814616752875246
+Segment 7 score:	0.43068869577803826
+Segment 8 score:	0.44432978887683816
+Segment 9 score:	0.5388549218006583
+Segment 10 score:	0.5320683358837734
+Segment 11 score:	0.5420932391303431
+Segment 12 score:	0.6014939768701751
+Segment 13 score:	0.48636057568503926
+Segment 14 score:	0.46612626771545046
+Segment 15 score:	0.42602737077421904
+Segment 16 score:	0.41246324304554705
+Segment 17 score:	1.0
+Segment 18 score:	0.4096796573878492
+Segment 19 score:	0.5425269137216473
+Segment 20 score:	0.5426704806430376
+Segment 21 score:	0.5164575289629781
+Segment 22 score:	0.4936714885179634
+Segment 23 score:	0.45238260038737016
+Segment 24 score:	1.0
+Segment 25 score:	0.4641985638303238
+Segment 26 score:	1.0
+Segment 27 score:	0.5369212318898904
+Segment 28 score:	0.5175586725868697
+Segment 29 score:	0.5369212318898904
+Segment 30 score:	1.0
+Segment 31 score:	0.5676051483896002
+Segment 32 score:	0.4833579738097538
+Segment 33 score:	0.5465014698661282
+Segment 34 score:	0.5631066460480508
+Segment 35 score:	0.5034230240936269
+Segment 36 score:	0.5458017240660435
+Segment 37 score:	0.9076923076923079
+Segment 38 score:	0.5347623527743243
+Segment 39 score:	0.5075977857802834
+Segment 40 score:	0.38194583585337166
+Segment 41 score:	0.5043279509815436
+Segment 42 score:	0.6103333185384839
+Segment 43 score:	0.3102381024129367
+Segment 44 score:	0.47931390179180355
+Segment 45 score:	0.4391765910074265
+Segment 46 score:	1.0
+Segment 47 score:	1.0
+Segment 48 score:	1.0
+Segment 49 score:	0.936
+Segment 50 score:	0.534247105415274
+Segment 51 score:	1.0
+Segment 52 score:	0.4626820050876881
+Segment 53 score:	0.5256244604242634
+Segment 54 score:	0.4960517038703791
+Segment 55 score:	0.5320683358837734
+Segment 56 score:	0.31757261009973636
+Segment 57 score:	1.0
+Segment 58 score:	0.2965137315302783
+Segment 59 score:	1.0
+Segment 60 score:	0.4723265842805752
+Segment 61 score:	0.9142857142857143
+Segment 62 score:	0.4818511011945416
+Segment 63 score:	0.5407785421952535
+Segment 64 score:	1.0
+Segment 65 score:	1.0
+Segment 66 score:	0.40049339349715146
+Segment 67 score:	0.45468788892682177
+Segment 68 score:	1.0
+Segment 69 score:	0.4742755922058137
+Segment 70 score:	0.35012039297290104
+Segment 71 score:	1.0
+Segment 72 score:	0.5177780700741892
+Segment 73 score:	0.5449129206456947
+Segment 74 score:	0.5320683358837734
+Segment 75 score:	0.47254634942594387
+Segment 76 score:	0.5375254880901473
+Segment 77 score:	0.5119556177223324
+Segment 78 score:	1.0
+Segment 79 score:	0.45618700603034906
+Segment 80 score:	0.49442952206555146
+Segment 81 score:	0.6335422254241759
+Segment 82 score:	0.3403140081360774
+Segment 83 score:	0.28446828507533034
+Segment 84 score:	0.4773512112735856
+Segment 85 score:	0.5095676447825225
+Segment 86 score:	0.3246994803645604
+Segment 87 score:	1.0
+Segment 88 score:	0.47688900200173595
+Segment 89 score:	0.5555174762430226
+Segment 90 score:	1.0
+Segment 91 score:	0.571578962227484
+Segment 92 score:	0.5306366311085248
+Segment 93 score:	0.5094155635056228
+Segment 94 score:	1.0
+Segment 95 score:	1.0
+Segment 96 score:	0.5066702498837223
+Segment 97 score:	1.0
+Segment 98 score:	0.5010985096154373
+Segment 99 score:	1.0
+Segment 100 score:	1.0
+Segment 101 score:	1.0
+Segment 102 score:	0.9555555555555557
+Segment 103 score:	0.5425269137216473
+Segment 104 score:	1.0
+Segment 105 score:	0.5004680755588762
+Segment 106 score:	1.0
+Segment 107 score:	0.46187463003692253
+Segment 108 score:	1.0
+Segment 109 score:	1.0
+Segment 110 score:	0.375
+Segment 111 score:	1.0
+Segment 112 score:	1.0
+Segment 113 score:	0.48983019974968367
+Segment 114 score:	0.4187129531077311
+Segment 115 score:	0.45383073909217597
+Segment 116 score:	1.0
+Segment 117 score:	0.5420932391303431
+Segment 118 score:	1.0
+Segment 119 score:	0.544109778531922
+Segment 120 score:	0.5036847347180307
+Segment 121 score:	0.5519290427103422
+Segment 122 score:	0.5529095463155477
+Segment 123 score:	0.5071881799856081
+Segment 124 score:	1.0
+Segment 125 score:	0.9916666666666667
+Segment 126 score:	1.0
+Segment 127 score:	0.37576548252241093
+Segment 128 score:	0.4669319701329494
+Segment 129 score:	1.0
+Segment 130 score:	0.44595353773838425
+Segment 131 score:	0.3813621375268217
+Segment 132 score:	1.0
+Segment 133 score:	1.0
+Segment 134 score:	1.0
+Segment 135 score:	0.46336453034762315
+Segment 136 score:	0.4885229249294467
+Segment 137 score:	0.544109778531922
+Segment 138 score:	1.0
+Segment 139 score:	0.4985650339129499
+Segment 140 score:	0.4704015108653546
+Segment 141 score:	1.0
+Segment 142 score:	0.5228268303090852
+Segment 143 score:	0.5610006045113963
+Segment 144 score:	0.48157805952184685
+Segment 145 score:	0.4797325288421621
+Segment 146 score:	0.474434878758066
+Segment 147 score:	0.4871813124909414
+Segment 148 score:	0.3915100812490101
+Segment 149 score:	0.5320683358837734
+Segment 150 score:	0.45266766869333325
+Segment 151 score:	0.3497809882085679
+Segment 152 score:	0.24578787051177828
+Segment 153 score:	1.0
+Segment 154 score:	0.5364139781839593
+Segment 155 score:	0.42026778512132557
+Segment 156 score:	0.5616940097519927
+Segment 157 score:	0.4330443609938043
+Segment 158 score:	0.3887662972078962
+Segment 159 score:	1.0
+Segment 160 score:	0.4635322236052113
+Segment 161 score:	0.9676320272572401
+Segment 162 score:	1.0
+Segment 163 score:	0.5177780700741892
+Segment 164 score:	1.0
+Segment 165 score:	1.0
+Segment 166 score:	1.0
+Segment 167 score:	1.0
+Segment 168 score:	0.3971387452268789
+Segment 169 score:	0.2965287659086432
+Segment 170 score:	0.3066502276716621
+Segment 171 score:	1.0
+Segment 172 score:	0.45745303186489505
+Segment 173 score:	0.3308768096256193
+Segment 174 score:	0.48983019974968367
+Segment 175 score:	0.2769230769230769
+Segment 176 score:	1.0
+Segment 177 score:	0.4776696620223255
+Segment 178 score:	0.3417646745111195
+Segment 179 score:	0.8477611940298508
+Segment 180 score:	0.4207446337339611
+Segment 181 score:	0.32970824458503967
+Segment 182 score:	0.45383073909217597
+Segment 183 score:	0.36743407968705777
+Segment 184 score:	0.4224823034085896
+Segment 185 score:	0.4183417140849487
+Segment 186 score:	0.41974741821067035
+Segment 187 score:	1.0
+Segment 188 score:	0.4607949555862112
+Segment 189 score:	1.0
+Segment 190 score:	1.0
+Segment 191 score:	0.9333333333333331
+Segment 192 score:	1.0
+Segment 193 score:	0.9448275862068967
+Segment 194 score:	0.40144998971435597
+Segment 195 score:	0.49707890123229237
+Segment 196 score:	0.5519290427103422
+Segment 197 score:	0.324809276487442
+Segment 198 score:	0.36906804383617353
+Segment 199 score:	0.5163642363541129
+Segment 200 score:	1.0
+Segment 201 score:	0.574290437380366
+Segment 202 score:	0.418616445772876
+Segment 203 score:	0.33430056419613047
+Segment 204 score:	0.3719082526694505
+Segment 205 score:	1.0
+Segment 206 score:	0.4264132651318043
+Segment 207 score:	1.0
+Segment 208 score:	0.12704562787805054
+Segment 209 score:	1.0
+Segment 210 score:	0.5587666389671955
+Segment 211 score:	1.0
+Segment 212 score:	0.2977991854565214
+Segment 213 score:	0.5091857548700987
+Segment 214 score:	0.5542000550512676
+Segment 215 score:	1.0
+Segment 216 score:	0.4635322236052113
+Segment 217 score:	1.0
+Segment 218 score:	0.453031023808903
+Segment 219 score:	0.33436876341562777
+Segment 220 score:	1.0
+Segment 221 score:	0.4054836471149587
+Segment 222 score:	0.3679108595478941
+Segment 223 score:	1.0
+Segment 224 score:	1.0
+Segment 225 score:	0.5661534768001543
+Segment 226 score:	0.4342451472930232
+
+System level statistics:
+
+
+           Test Matches                  Reference Matches
+Stage      Content  Function    Total    Content  Function    Total
+1             1179       817     1996       1179       817     1996
+2                7         0        7          7         0        7
+3                6         8       14          6         8       14
+4               18        40       58         16        49       65
+Total         1210       865     2075       1208       874     2082
+
+Test words:             2318
+Reference words:        2292
+Chunks:                 460
+Precision:              0.9039462978030918
+Recall:                 0.9143562320032907
+f1:                     0.9091214660308156
+fMean:                  0.9127794832987176
+Fragmentation penalty:  0.4437647596298765
+
+Final score:            0.5077201152975793
+
+ TER score 
+"../tripleFlatSeen/triple1/relexicalised_predictions-ter.txt" was successfully parsed as Trans text
+"../tripleFlatSeen/triple1/all-notdelex-refs-ter.txt" was successfully parsed as Trans text
+** Warning: XML ouput may not have correct doc id for Trans format inputs
+Processing id0:1
+Processing id1:1
+Processing id2:1
+Processing id3:1
+Processing id4:1
+Processing id5:1
+Processing id6:1
+Processing id7:1
+Processing id8:1
+Processing id9:1
+Processing id10:1
+Processing id11:1
+Processing id12:1
+Processing id13:1
+Processing id14:1
+Processing id15:1
+Processing id16:1
+Processing id17:1
+Processing id18:1
+Processing id19:1
+Processing id20:1
+Processing id21:1
+Processing id22:1
+Processing id23:1
+Processing id24:1
+Processing id25:1
+Processing id26:1
+Processing id27:1
+Processing id28:1
+Processing id29:1
+Processing id30:1
+Processing id31:1
+Processing id32:1
+Processing id33:1
+Processing id34:1
+Processing id35:1
+Processing id36:1
+Processing id37:1
+Processing id38:1
+Processing id39:1
+Processing id40:1
+Processing id41:1
+Processing id42:1
+Processing id43:1
+Processing id44:1
+Processing id45:1
+Processing id46:1
+Processing id47:1
+Processing id48:1
+Processing id49:1
+Processing id50:1
+Processing id51:1
+Processing id52:1
+Processing id53:1
+Processing id54:1
+Processing id55:1
+Processing id56:1
+Processing id57:1
+Processing id58:1
+Processing id59:1
+Processing id60:1
+Processing id61:1
+Processing id62:1
+Processing id63:1
+Processing id64:1
+Processing id65:1
+Processing id66:1
+Processing id67:1
+Processing id68:1
+Processing id69:1
+Processing id70:1
+Processing id71:1
+Processing id72:1
+Processing id73:1
+Processing id74:1
+Processing id75:1
+Processing id76:1
+Processing id77:1
+Processing id78:1
+Processing id79:1
+Processing id80:1
+Processing id81:1
+Processing id82:1
+Processing id83:1
+Processing id84:1
+Processing id85:1
+Processing id86:1
+Processing id87:1
+Processing id88:1
+Processing id89:1
+Processing id90:1
+Processing id91:1
+Processing id92:1
+Processing id93:1
+Processing id94:1
+Processing id95:1
+Processing id96:1
+Processing id97:1
+Processing id98:1
+Processing id99:1
+Processing id100:1
+Processing id101:1
+Processing id102:1
+Processing id103:1
+Processing id104:1
+Processing id105:1
+Processing id106:1
+Processing id107:1
+Processing id108:1
+Processing id109:1
+Processing id110:1
+Processing id111:1
+Processing id112:1
+Processing id113:1
+Processing id114:1
+Processing id115:1
+Processing id116:1
+Processing id117:1
+Processing id118:1
+Processing id119:1
+Processing id120:1
+Processing id121:1
+Processing id122:1
+Processing id123:1
+Processing id124:1
+Processing id125:1
+Processing id126:1
+Processing id127:1
+Processing id128:1
+Processing id129:1
+Processing id130:1
+Processing id131:1
+Processing id132:1
+Processing id133:1
+Processing id134:1
+Processing id135:1
+Processing id136:1
+Processing id137:1
+Processing id138:1
+Processing id139:1
+Processing id140:1
+Processing id141:1
+Processing id142:1
+Processing id143:1
+Processing id144:1
+Processing id145:1
+Processing id146:1
+Processing id147:1
+Processing id148:1
+Processing id149:1
+Processing id150:1
+Processing id151:1
+Processing id152:1
+Processing id153:1
+Processing id154:1
+Processing id155:1
+Processing id156:1
+Processing id157:1
+Processing id158:1
+Processing id159:1
+Processing id160:1
+Processing id161:1
+Processing id162:1
+Processing id163:1
+Processing id164:1
+Processing id165:1
+Processing id166:1
+Processing id167:1
+Processing id168:1
+Processing id169:1
+Processing id170:1
+Processing id171:1
+Processing id172:1
+Processing id173:1
+Processing id174:1
+Processing id175:1
+Processing id176:1
+Processing id177:1
+Processing id178:1
+Processing id179:1
+Processing id180:1
+Processing id181:1
+Processing id182:1
+Processing id183:1
+Processing id184:1
+Processing id185:1
+Processing id186:1
+Processing id187:1
+Processing id188:1
+Processing id189:1
+Processing id190:1
+Processing id191:1
+Processing id192:1
+Processing id193:1
+Processing id194:1
+Processing id195:1
+Processing id196:1
+Processing id197:1
+Processing id198:1
+Processing id199:1
+Processing id200:1
+Processing id201:1
+Processing id202:1
+Processing id203:1
+Processing id204:1
+Processing id205:1
+Processing id206:1
+Processing id207:1
+Processing id208:1
+Processing id209:1
+Processing id210:1
+Processing id211:1
+Processing id212:1
+Processing id213:1
+Processing id214:1
+Processing id215:1
+Processing id216:1
+Processing id217:1
+Processing id218:1
+Processing id219:1
+Processing id220:1
+Processing id221:1
+Processing id222:1
+Processing id223:1
+Processing id224:1
+Processing id225:1
+Total TER: 0.2524774441650643 (569.0/2253.666666666667)
+Number of calls to beam search: 2134
+Number of segments scored: 509
+Number of shifts tried: 1625

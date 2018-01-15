@@ -1,0 +1,872 @@
+1	1	City	SEEN	The area code for Abilene, Texas is 325  .
+2	1	City	SEEN	Abilene, Texas is part of Texas  .
+3	1	City	SEEN	The leader of Albany, Georgia is Mayor  .
+4	1	City	SEEN	The total area of Albany, Oregon is 45.97 (square kilometres)  square kilometres .
+5	1	City	SEEN	Albany, Oregon is in the United States  .
+6	1	City	SEEN	The leader of Albuquerque, New Mexico is State Senate  .
+7	1	City	SEEN	The leader of Albuquerque, New Mexico is Albuquerque City Council  .
+8	1	City	SEEN	Amarillo, Texas is in the United States  .
+9	1	City	SEEN	Amarillo, Texas is part of Potter County, Texas  .
+10	1	City	SEEN	Amarillo, Texas is part of United States  .
+11	1	City	SEEN	The area code for Anaheim, California is 657  .
+12	1	City	SEEN	Anderson, Indiana is part of Adams, Fall Creek, Lafayette, Richland, Union  .
+13	1	City	SEEN	Angola, Indiana is part of Pleasant Township, Steuben County, Indiana  .
+14	1	City	SEEN	The leader of Ann Arbor, Michigan is City Administrator  .
+15	1	City	SEEN	The leader of Ann Arbor, Michigan is Mayor  .
+16	1	City	SEEN	The total area of Ann Arbor, Michigan is 1580.7 (inhabitants per square kilometre)  square kilometres .
+17	1	City	SEEN	Antioch, California serves the city of 13.0  .
+18	1	City	SEEN	The leader of Antioch, California is California's 11th State Assembly district  .
+19	1	City	SEEN	Arlington, Texas serves the city of 184.0  .
+20	1	City	SEEN	Atlantic County, New Jersey is in the United States  .
+21	1	City	SEEN	Attica, Indiana is part of Fountain County, Indiana  .
+22	1	City	SEEN	Auburn, Alabama is part of Alabama  .
+23	1	City	SEEN	California is in the United States  .
+24	1	City	SEEN	Atlanta  is the largest city in Fulton County, Georgia .
+25	1	City	SEEN	Georgia (U.S. state) is in the United States  .
+26	1	City	SEEN	Indianapolis  is the capital of Indiana .
+27	1	City	SEEN	Lee County, Alabama is located in Alabama  .
+28	1	City	SEEN	Trenton, New Jersey  is the capital of New Jersey .
+29	1	City	SEEN	Potter County, Texas is located in Texas  .
+30	1	City	SEEN	Tarrant County, Texas is in the United States  .
+31	1	City	SEEN	Ann Arbor, Michigan  is the largest city in Washtenaw County, Michigan .
+32	1	ComicsCharacter	SEEN	Asterix (comicsCharacter) was created by René Goscinny  .
+33	1	ComicsCharacter	SEEN	The comic book character Auron (comicsCharacter) was created by Marv Wolfman  .
+34	1	ComicsCharacter	SEEN	Balder (comicsCharacter) was created by Jack Kirby  .
+35	1	ComicsCharacter	SEEN	Bananaman was born in STV  .
+36	1	ComicsCharacter	SEEN	Bananaman was preceded by 1983-10-03  .
+37	1	ComicsCharacter	SEEN	Bananaman was written by Bill Oddie  .
+38	1	ComicsCharacter	SEEN	Baymax was written by Big Hero 6 (film)  .
+39	1	ComicsCharacter	SEEN	Bill Everett won the Eisner Award  .
+40	1	ComicsCharacter	SEEN	Bill Oddie was born in Kate Hardie  .
+41	1	ComicsCharacter	SEEN	Bolt (comicsCharacter) was created by Dan Mishkin  .
+42	1	ComicsCharacter	SEEN	Bozo the Iron Man was preceded by Hugh Hazzard  .
+43	1	ComicsCharacter	SEEN	John Buscema won the Eagle Award (comics)  .
+44	1	ComicsCharacter	SEEN	Marv Wolfman won the Eagle Award (comics)  .
+45	1	Building	SEEN	The architect of 103 Colmore Row was John Madin  .
+46	1	Building	SEEN	103 Colmore Row is located in Colmore Row  .
+47	1	Building	SEEN	11 Diagonal Street was completed in 1983  .
+48	1	Building	SEEN	200 Public Square was completed in 1985  .
+49	1	Building	SEEN	20 Fenchurch Street has January 2009  floors .
+50	1	Building	SEEN	20 Fenchurch Street is located in United Kingdom  .
+51	1	Building	SEEN	300 North LaSalle is located in 60  .
+52	1	Building	SEEN	The architect of 3Arena was HOK SVE  .
+53	1	Building	SEEN	3Arena is located in East Link Bridge  .
+54	1	Building	SEEN	Adare Manor has 1700  floors .
+55	1	Building	SEEN	Adare Manor is in the Republic of Ireland  .
+56	1	Building	SEEN	Akita Museum of Art was completed in 2013-09-28  .
+57	1	Building	SEEN	Alan B. Miller Hall was completed in Mason School of Business  .
+58	1	Building	SEEN	The architect of Amdavad ni Gufa was B. V. Doshi  .
+59	1	Building	SEEN	Ampara Hospital is in the Sri Lanka  .
+60	1	Building	SEEN	Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places on 1988-11-22  .
+61	1	Building	SEEN	Asser Levy Public Baths has a total area of 1904  square kilometres .
+62	1	Building	SEEN	Birmingham has a population density of B postcode area  inhabitants per square kilometre .
+63	1	Building	SEEN	Chicago is part of DuPage County, Illinois  .
+64	1	Building	SEEN	Dublin is in the Republic of Ireland  .
+65	1	Building	SEEN	Dublin is part of Leinster  .
+66	1	Building	SEEN	Sumitra Mahajan  is the leader of India .
+67	1	Building	SEEN	Brazilians in Japan  is the leader of Japan .
+68	1	Building	SEEN	Tarō Asō  is the leader of Japan .
+69	1	Building	SEEN	Marriott International was preceded by Bill Marriott  .
+70	1	Building	SEEN	The capital of Republic of Ireland is English language  .
+71	1	Building	SEEN	Cape Town  is the capital of South Africa .
+72	1	Building	SEEN	London  is the capital of United Kingdom .
+73	1	Building	SEEN	Native Americans in the United States  is the leader of United States .
+74	1	Building	SEEN	Paul Ryan  is the leader of United States .
+75	1	University	SEEN	Accademia di Architettura di Mendrisio has 100  floors .
+76	1	University	SEEN	Acharya Institute of Technology was born in In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.  .
+77	1	University	SEEN	Alba Iulia is in the Romania  .
+78	1	University	SEEN	Alba Iulia is part of Alba County  .
+79	1	University	SEEN	Romania was born in Andrew the Apostle  .
+80	1	University	SEEN	School of Business and Social Sciences at the Aarhus University has 737  floors .
+81	1	University	SEEN	School of Business and Social Sciences at the Aarhus University is in the Denmark  .
+82	1	Monument	SEEN	The architect of Atatürk Monument (İzmir) was Pietro Canonica  .
+83	1	Monument	SEEN	The Atatürk Monument (İzmir) is located at Bronze  .
+84	1	Monument	SEEN	Artur Rasizade  is the leader of Azerbaijan .
+85	1	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan  .
+86	1	Monument	SEEN	The Baku Turkish Martyrs' Memorial is located at Red granite and white marble  .
+87	1	Airport	SEEN	Jacob Bundsgaard  is the leader of Aarhus .
+88	1	Airport	SEEN	The runway length of Aarhus Airport is 2702.0  .
+89	1	Airport	SEEN	Adirondack Regional Airport is 507  metres above sea level .
+90	1	Airport	SEEN	Adirondack Regional Airport is located in Harrietstown, New York  .
+91	1	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in San Sebastián de los Reyes  .
+92	1	Airport	SEEN	The runway length of Adolfo Suárez Madrid–Barajas Airport is 14L/32R  .
+93	1	Airport	SEEN	The runway length of Adolfo Suárez Madrid–Barajas Airport is 14R/32L  .
+94	1	Airport	SEEN	Afonso Pena International Airport is operated by the Infraero  .
+95	1	Airport	SEEN	Agra Airport is located in Agra  .
+96	1	Airport	SEEN	Al-Taqaddum Air Base is 84.0  metres above sea level .
+97	1	Airport	SEEN	Alderney Airport is operated by the Alderney  .
+98	1	Airport	SEEN	The runway length of Allama Iqbal International Airport is 18R/36L  .
+99	1	Airport	SEEN	The runway length of Alpena County Regional Airport is 1533.0  .
+100	1	Airport	SEEN	The runway length of Alpena County Regional Airport is 1/19  .
+101	1	Airport	SEEN	Amsterdam Airport Schiphol is operated by the Amsterdam  .
+102	1	Airport	SEEN	Andrews County, Texas 's currency is the Andrews, Texas  .
+103	1	Airport	SEEN	Andrews County Airport is operated by the Andrews, Texas  .
+104	1	Airport	SEEN	The runway length of Andrews County Airport is 11/29  .
+105	1	Airport	SEEN	The runway length of Andrews County Airport is Helipad  .
+106	1	Airport	SEEN	Angola International Airport is operated by the Luanda  .
+107	1	Airport	SEEN	Ardmore Airport (New Zealand) is located in Auckland  .
+108	1	Airport	SEEN	The architect of Athens is Giorgos Kaminis  .
+109	1	Airport	SEEN	Athens International Airport is located in Spata  .
+110	1	Airport	SEEN	The capital of Belgium is German language  .
+111	1	Airport	SEEN	Philippe of Belgium  is the leader of Belgium .
+112	1	Airport	SEEN	Copenhagen  is the capital of Denmark .
+113	1	Airport	SEEN	Lars Løkke Rasmussen  is the leader of Denmark .
+114	1	Airport	SEEN	Flemish Government  is the leader of Flemish Region .
+115	1	Airport	SEEN	The capital of Greece is Greek language  .
+116	1	Airport	SEEN	Nikos Voutsis  is the leader of Greece .
+117	1	Airport	SEEN	Harrietstown, New York is part of United States  .
+118	1	Airport	SEEN	Anwar Zaheer Jamali  is the leader of Pakistan .
+119	1	Airport	SEEN	Paracuellos de Jarama is part of Community of Madrid  .
+120	1	Airport	SEEN	Port Authority of New York and New Jersey was born in Four World Trade Center  .
+121	1	Airport	SEEN	San Sebastián de los Reyes is in the Spain  .
+122	1	Airport	SEEN	Saranac Lake, New York is part of United States  .
+123	1	Airport	SEEN	South Jersey Transportation Authority was born in Stephen Dilts  .
+124	1	WrittenWork	SEEN	1634: The Bavarian Crisis was written by Eric Flint  .
+125	1	WrittenWork	SEEN	1634: The Bavarian Crisis was preceded by The Grantville Gazettes  .
+126	1	WrittenWork	SEEN	1634: The Ram Rebellion was preceded by 1635: The Cannon Law  .
+127	1	WrittenWork	SEEN	AIP Advances has 2158  members .
+128	1	WrittenWork	SEEN	A Fortress of Grey Ice was published by Hardcover  .
+129	1	WrittenWork	SEEN	The ISSN number of A Long Long Way is 0-670-03380-4  .
+130	1	WrittenWork	SEEN	The ISSN number of A Loyal Character Dancer is 1-56947-301-3  .
+131	1	WrittenWork	SEEN	A Severed Wasp was written by Madeleine L'Engle  .
+132	1	WrittenWork	SEEN	English language  is an ingredient in A Wizard of Mars .
+133	1	WrittenWork	SEEN	The ISSN number of Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg is 32024459  .
+134	1	WrittenWork	SEEN	Above the Veil was published by Hardcover  .
+135	1	WrittenWork	SEEN	The ISSN number of Acta Mathematica Hungarica is Acta Math. Hungar.  .
+136	1	WrittenWork	SEEN	The ISSN number of Acta Mathematica Hungarica is Mathematics  .
+137	1	WrittenWork	SEEN	The ISSN number of Acta Palaeontologica Polonica is APGPAC  .
+138	1	WrittenWork	SEEN	The ISSN number of Addiction (journal) is 27367194  .
+139	1	WrittenWork	SEEN	Addiction (journal) is published by Wiley-Blackwell  .
+140	1	WrittenWork	SEEN	The ISSN number of Administrative Science Quarterly is 57059226  .
+141	1	WrittenWork	SEEN	The ISSN number of Aenir is 45644811  .
+142	1	WrittenWork	SEEN	The ISSN number of Alcatraz Versus the Evil Librarians is 78771100  .
+143	1	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians was preceded by Alcatraz Versus the Scrivener's Bones  .
+144	1	WrittenWork	SEEN	American Journal of Mathematics was completed in 1.337  .
+145	1	WrittenWork	SEEN	Castle (novel) was preceded by Aenir  .
+146	1	WrittenWork	SEEN	Cornell University has Cornell Big Red  members .
+147	1	WrittenWork	SEEN	HIV is a Lentivirus  .
+148	1	WrittenWork	SEEN	John Cowper Powys was born in Wolf Solent  .
+149	1	WrittenWork	SEEN	Elizabeth II  is the leader of United Kingdom .
+150	1	WrittenWork	SEEN	Joe Biden  is the leader of United States .
+151	1	WrittenWork	SEEN	Wolf Solent was written by John Cowper Powys  .
+152	1	Food	SEEN	Ajoblanco was preceded by Ajo blanco  .
+153	1	Food	SEEN	Bread, almonds, garlic, water, olive oil  is a variation of Ajoblanco .
+154	1	Food	SEEN	Arem-arem is from the Nationwide in Indonesia, but more specific to Java  region .
+155	1	Food	SEEN	Arem-arem is from the Indonesia  region .
+156	1	Food	SEEN	The main ingredients of Arrabbiata sauce are Tomatoes, red chili, garlic, olive oil  .
+157	1	Food	SEEN	Cuttlefish  is an ingredient in Arròs negre .
+158	1	Food	SEEN	Squid  is an ingredient in Arròs negre .
+159	1	Food	SEEN	Asam pedas is from the Malaysia  region .
+160	1	Food	SEEN	Avocado is a Persea  .
+161	1	Food	SEEN	The main ingredients of Ayam penyet are Hot  .
+162	1	Food	SEEN	Baked Alaska is a Dessert  .
+163	1	Food	SEEN	Frangipane  is an ingredient in Bakewell tart .
+164	1	Food	SEEN	Noodle  is an ingredient in Bakso .
+165	1	Food	SEEN	Vermicelli  is an ingredient in Bakso .
+166	1	Food	SEEN	Chorizo  is an ingredient in Bandeja paisa .
+167	1	Food	SEEN	Barny Cakes was born in Mondelez International  .
+168	1	Food	SEEN	The main ingredients of Barny Cakes are Chocolate  .
+169	1	Food	SEEN	Barny Cakes was preceded by 1.8 g  .
+170	1	Food	SEEN	Batchoy is from the Philippines  region .
+171	1	Food	SEEN	Chicken  is an ingredient in Batchoy .
+172	1	Food	SEEN	Vegetable  is an ingredient in Batchoy .
+173	1	Food	SEEN	Binignit is from the Visayas  region .
+174	1	Food	SEEN	Patrick McLoughlin  is the leader of Derbyshire Dales .
+175	1	Food	SEEN	Dessert is part of Cake  .
+176	1	Food	SEEN	Dessert is part of Ice cream  .
+177	1	Food	SEEN	Jusuf Kalla  is the leader of Indonesia .
+178	1	Food	SEEN	Italians  is the capital of Italy .
+179	1	Food	SEEN	Baduy  is the leader of Java .
+180	1	Food	SEEN	Rosids  is an ingredient in Lemon .
+181	1	Food	SEEN	Mexicans  is the capital of Mexico .
+182	1	Food	SEEN	The capital of Mexico is Spanish language  .
+183	1	Food	SEEN	The capital of Philippines is Arabic  .
+184	1	Food	SEEN	Shumai  is an ingredient in Siomay .
+185	1	Food	SEEN	Native Americans in the United States  is the leader of United States .
+186	1	Astronaut	SEEN	Alan Shepard won the Distinguished Service Medal (United States Navy)  .
+187	1	Astronaut	SEEN	Alan Shepard died in California  .
+188	1	Astronaut	SEEN	Apollo 11 was born in William Anders  .
+189	1	Astronaut	SEEN	Apollo 14 is owned by NASA  .
+190	1	Astronaut	SEEN	Apollo 8 is owned by NASA  .
+191	1	Astronaut	SEEN	Buzz Aldrin is an American .
+192	1	Astronaut	SEEN	Elliot See won the Test pilot  .
+193	1	Astronaut	SEEN	University of Texas System  is the publisher of University of Texas at Austin .
+194	1	Astronaut	SEEN	University of Texas at Austin was completed in Hook 'em (mascot)  .
+195	1	SportsTeam	SEEN	1. FC Köln plays for Peter Stöger  .
+196	1	SportsTeam	SEEN	1. FC Magdeburg has 2014  members .
+197	1	SportsTeam	SEEN	A.C. Lumezzane play in 2014–15 Lega Pro  .
+198	1	SportsTeam	SEEN	A.D. Isidro Metapán has Asociación Deportiva  members .
+199	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis has A.E Dimitra Efxeinoupolis  members .
+200	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis has 2014  members .
+201	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis play in 2014–15 A EPSTH, Greece  .
+202	1	SportsTeam	SEEN	A.F.C. Blackpool has 1500  members .
+203	1	SportsTeam	SEEN	A.F.C. Fylde 's ground is in The Fylde  .
+204	1	SportsTeam	SEEN	A.S. Gubbio 1910 's ground is in Italy  .
+205	1	SportsTeam	SEEN	A.S. Livorno Calcio has 19238  members .
+206	1	SportsTeam	SEEN	A.S. Roma play in 2014–15 Serie A  .
+207	1	SportsTeam	SEEN	AFC Ajax plays for Frank de Boer  .
+208	1	SportsTeam	SEEN	AFC Ajax (amateurs) has Joden , Godenzonen  members .
+209	1	SportsTeam	SEEN	AFC Ajax (amateurs) has 5000  members .
+210	1	SportsTeam	SEEN	AZAL PFK is located in Shuvalan, Baku, Azerbaijan  .
+211	1	SportsTeam	SEEN	AZ Alkmaar has 17023  members .
+212	1	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense plays for Vica  .
+213	1	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense has 2015 Campeonato Brasileiro Série C  members .
+214	1	SportsTeam	SEEN	Akron Summit Assault 's ground is in St. Vincent–St. Mary High School  .
+215	1	SportsTeam	SEEN	Akron Summit Assault has 3000  members .
+216	1	SportsTeam	SEEN	Amsterdam is in the Amsterdam-Centrum  .
+217	1	SportsTeam	SEEN	Nikos Voutsis  is the capital of Greece .
+218	1	SportsTeam	SEEN	Gus Poyet plays for AEK Athens F.C.  .
+219	1	SportsTeam	SEEN	Jens Härtel plays for SV Germania Schöneiche  .
+220	1	SportsTeam	SEEN	John van den Brom plays for AZ Alkmaar  .
+221	1	SportsTeam	SEEN	Jorge Humberto Rodríguez plays for A.D. Isidro Metapán  .
+222	1	SportsTeam	SEEN	Massimo Drago plays for Delfino Pescara 1936  .
+223	1	SportsTeam	SEEN	Massimo Drago plays for S.S. Chieti Calcio  .
+224	1	SportsTeam	SEEN	Olympic Stadium (Athens) is located in Marousi  .
+225	1	SportsTeam	SEEN	Premier Development League plays for K-W United FC  .
+226	1	SportsTeam	SEEN	Stuart Parker (footballer) plays for Bury F.C.  .
+227	2	Building	SEEN	11 Diagonal Street is located in South Africa , Coloured  .
+228	2	Building	SEEN	200 Public Square is located in Cleveland , 45  .
+229	2	Building	SEEN	20 Fenchurch Street is located in London , European Parliament  .
+230	2	Building	SEEN	250 Delaware Avenue is located in United States , Barack Obama  .
+231	2	Building	SEEN	300 North LaSalle is located in Illinois , 60  .
+232	2	Building	SEEN	3Arena is located in North Wall, Dublin , HOK SVE  .
+233	2	Building	SEEN	3Arena is located in Live Nation Entertainment , East Link Bridge  .
+234	2	Building	SEEN	The tenant of the Beverly Hills, California  is the 3Arena Hotel which was founded in Live Nation Entertainment .
+235	2	Building	SEEN	The architect of AC Hotel Bella Sky Copenhagen was Marriott International , who was born in 23  .
+236	2	Building	SEEN	The Addis Ababa City Hall was established in Government of Addis Ababa in 42 m  .
+237	2	Building	SEEN	Adisham Hall is located in Tudor and Jacabian and has the reference number Haputale, Sri Lanka  in the National Register of Historic Places .
+238	2	Building	SEEN	Adisham Hall is written in English which is the language spoken in Tamil language  .
+239	2	Building	SEEN	Alan B. Miller Hall was created by 30 March 2007 and 101 Ukrop Way  .
+240	2	Building	SEEN	Alan B. Miller Hall is located in College of William & Mary , Williamsburg, Virginia  .
+241	2	Building	SEEN	Alan B. Miller Hall was completed in Robert A. M. Stern  and is owned by Mason School of Business .
+242	2	Building	SEEN	Ampara District  is an ingredient of Ampara Hospital which is a food found in Sri Lanka .
+243	2	Building	SEEN	Ampara Hospital is a food found in Sri Lanka where the leader is Sri Jayawardenepura Kotte  .
+244	2	Building	SEEN	Asher and Mary Isabelle Richardson House is located in U.S. Route 83 and has the reference number 88002539  in the National Register of Historic Places .
+245	2	Building	SEEN	Asilomar Conference Grounds is located in Asilomar Blvd., Pacific Grove, California and has the reference number 87000823  in the National Register of Historic Places .
+246	2	Building	SEEN	Asilomar Conference Grounds is located in Pacific Grove, California , 1987-02-27  .
+247	2	Building	SEEN	Asser Levy Public Baths is located in 23rd Street (Manhattan) , 1904  .
+248	2	Building	SEEN	Anandiben Patel is the leader of Gujarat where Amdavad ni Gufa  is located .
+249	2	WrittenWork	SEEN	1634: The Bavarian Crisis was created by Grantville Gazette III and Virginia DeMarce and Eric Flint  .
+250	2	WrittenWork	SEEN	1634: The Ram Rebellion was written by Eric Flint and published in E-book  .
+251	2	WrittenWork	SEEN	1634: The Ram Rebellion was written by Eric Flint and published in Hardcover  .
+252	2	WrittenWork	SEEN	ACM Transactions on Information Systems is abbreviated to ACM Trans. Inf. Syst. and has the LCCN number ATISET  .
+253	2	WrittenWork	SEEN	AIDS (journal) is a food found in United Kingdom where the leader is Elizabeth II  .
+254	2	WrittenWork	SEEN	A Fortress of Grey Ice , written by J. V. Jones , has the ISBN number 0-7653-0633-6  .
+255	2	WrittenWork	SEEN	A Glastonbury Romance , ISBN number 0-7156-3648-0  , is published by Print .
+256	2	WrittenWork	SEEN	A Glastonbury Romance , ISBN number 0-7156-3648-0  , is published by Hardcover .
+257	2	WrittenWork	SEEN	A Glastonbury Romance , which has Print  floors , was completed in 1174 .
+258	2	WrittenWork	SEEN	A Long Long Way is abbreviated to 57392246 and has the LCCN number 0-670-03380-4  .
+259	2	WrittenWork	SEEN	A Loyal Character Dancer is a food found in United States where the leader is Asian Americans  .
+260	2	WrittenWork	SEEN	United States  is the parent company of Soho Press who published A Loyal Character Dancer .
+261	2	WrittenWork	SEEN	A Wizard of Mars , written by Diane Duane , has the ISBN number 318875313  .
+262	2	WrittenWork	SEEN	A Wizard of Mars , ISBN number 978-0-15-204770-2  , is published by Hardcover .
+263	2	WrittenWork	SEEN	A Wizard of Mars is abbreviated to 560 and has the CODEN code 978-0-15-204770-2  .
+264	2	WrittenWork	SEEN	Above the Veil was written in Australians and published by Aenir  .
+265	2	WrittenWork	SEEN	Above the Veil is written in English and published by Aenir  .
+266	2	WrittenWork	SEEN	Above the Veil was born in Castle (novel)  , Aenir .
+267	2	WrittenWork	SEEN	Julius Springer  is the parent company of Springer Science+Business Media who published Acta Mathematica Hungarica .
+268	2	WrittenWork	SEEN	Administrative Science Quarterly has the abbreviation of `` ASCQAG `` and the LCCN number Admin. Sci. Q.  .
+269	2	WrittenWork	SEEN	Association of Public and Land-grant Universities  is the parent company of Cornell University who published Administrative Science Quarterly .
+270	2	WrittenWork	SEEN	Aenir , written by Garth Nix , has the ISBN number 0-439-17684-0  .
+271	2	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians , ISBN number 0-439-92550-9  , is published by Hardcover .
+272	2	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is abbreviated to 320 and has the CODEN code 0-439-92550-9  .
+273	2	WrittenWork	SEEN	HIV , which has AIDS (journal)  in it , is a dish served for Orthoretrovirinae .
+274	2	WrittenWork	SEEN	A Fortress of Grey Ice  is from the United States where English language is the leader .
+275	2	SportsTeam	SEEN	The manager of A.C. Cesena is Serie B , who played for Carpi F.C. 1909  .
+276	2	SportsTeam	SEEN	A.C. Chievo Verona has Serie A  members and played in the Stadio Marc'Antonio Bentegodi season .
+277	2	SportsTeam	SEEN	A.C. Lumezzane are managed by Italy who played for Pietro Grasso  .
+278	2	SportsTeam	SEEN	Jorge Humberto Rodríguez is the manager of A.D. Isidro Metapán and plays for C.D. FAS  .
+279	2	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis has A EPSTH 2nd GROUP  members and played in the 1500 season .
+280	2	SportsTeam	SEEN	Stuart Parker (footballer) is the manager of A.F.C. Blackpool and plays for Runcorn F.C. Halton  .
+281	2	SportsTeam	SEEN	Stuart Parker (footballer) is the manager of A.F.C. Blackpool and plays for Sparta Rotterdam  .
+282	2	SportsTeam	SEEN	A.F.C. Fylde , with 3180  members , played in the The Fylde season .
+283	2	SportsTeam	SEEN	A.F.C. Fylde has Bryning Lane  members and played in the 3180 season .
+284	2	SportsTeam	SEEN	Christian Panucci is the manager of A.S. Livorno Calcio and plays for Italy national football team  .
+285	2	SportsTeam	SEEN	A.S. Roma has Serie A  members and played in the Rome, Italy season .
+286	2	SportsTeam	SEEN	The manager of ACF Fiorentina is Serie A , who played for Italy  .
+287	2	SportsTeam	SEEN	Frank de Boer is the manager of AFC Ajax and plays for Ajax Youth Academy  .
+288	2	SportsTeam	SEEN	The full name of AFC Ajax is 53502  and it has AFC Ajax N.V. members .
+289	2	SportsTeam	SEEN	AFC Ajax (amateurs) are managed by Amsterdam who played for Eberhard van der Laan  .
+290	2	SportsTeam	SEEN	AFC Ajax (amateurs) has 5000  members and their ground is the 2014–15 Topklasse .
+291	2	SportsTeam	SEEN	AZAL Arena is in Shuvalan , AZAL PFK  .
+292	2	SportsTeam	SEEN	AZ Alkmaar has 17023  members and their ground is the Alkmaar Zaanstreek .
+293	2	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense are managed by Estádio Municipal Coaracy da Mata Fonseca who played for Brazil  .
+294	2	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense has Agremiação Sportiva Arapiraquense  members and played in the 17000 season .
+295	2	SportsTeam	SEEN	Akron Summit Assault are managed by Akron, Ohio who played for United States  .
+296	2	SportsTeam	SEEN	The manager of Massimo Drago is S.S. Chieti Calcio , who played for A.C. Cesena  .
+297	2	University	SEEN	Acharya Institute of Technology was created by Dr. G. P. Prabhukumar and In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.  .
+298	2	University	SEEN	The Acharya Institute of Technology was established in All India Council for Technical Education  in Blue, White and Orange .
+299	2	University	SEEN	Acharya Institute of Technology , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on International Tennis Federation  , retired Tennis .
+300	2	University	SEEN	The architect of European University Association was Brussels , who was born in School of Business and Social Sciences at the Aarhus University  .
+301	2	University	SEEN	Karnataka is operated by the Arabian Sea and is located in Acharya Institute of Technology  .
+302	2	Monument	SEEN	Atatürk Monument (İzmir) is located in 1932-07-27 , Turkey  .
+303	2	Monument	SEEN	Baku Turkish Martyrs' Memorial is operated by the Ottoman Army soldiers killed in the Battle of Baku and is located in Red granite and white marble  .
+304	2	Monument	SEEN	Baku Turkish Martyrs' Memorial , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Red granite and white marble  , retired Türk Şehitleri Anıtı .
+305	2	Monument	SEEN	Dead Man's Plack was completed in Rock (geology)  and is owned by Æthelwald, Ealdorman of East Anglia .
+306	2	ComicsCharacter	SEEN	Asterix (comicsCharacter) was created by René Goscinny and Albert Uderzo  .
+307	2	ComicsCharacter	SEEN	Aurakles was created by Len Wein and Aurakles  .
+308	2	ComicsCharacter	SEEN	Ballistic (comicsCharacter) was created by Doug Moench and Kelvin Mao  .
+309	2	ComicsCharacter	SEEN	Bananaman was created by BBC and Graeme Garden  .
+310	2	ComicsCharacter	SEEN	Bill Oddie , born in Lancashire  , starred in Bananaman .
+311	2	ComicsCharacter	SEEN	The comic book character Bibbo Bibbowski was created by both Jerry Ordway and Jerry Ordway  .
+312	2	ComicsCharacter	SEEN	Black Pirate was created by Sheldon Moldoff and Jon Valor  .
+313	2	ComicsCharacter	SEEN	Blockbuster (comicsCharacter) was created by Roger Stern and Tom Lyle  .
+314	2	ComicsCharacter	SEEN	Bolt (comicsCharacter) was created by Paris Cullins and Gary Cohn (comics)  .
+315	2	Food	SEEN	Ajoblanco is a food found in Spain and it contains Bread  .
+316	2	Food	SEEN	Almond is an ingredient in Ajoblanco which comes from the Andalusia  .
+317	2	Food	SEEN	Tomato  is an ingredient of Amatriciana sauce which is a food found in Lazio .
+318	2	Food	SEEN	Bandeja paisa  is an ingredient of Antioquia Department which is a food found in Colombia .
+319	2	Food	SEEN	Banana leaf  is an ingredient of Arem-arem which is a food found in Indonesia .
+320	2	Food	SEEN	Arrabbiata sauce is a food found in Italy and it contains Olive oil  .
+321	2	Food	SEEN	Arrabbiata sauce is a food found in Italy where the leader is Rome  .
+322	2	Food	SEEN	Tomato is an ingredient in Arrabbiata sauce which comes from the Italy  .
+323	2	Food	SEEN	Squid  is an ingredient of Arròs negre which is a food found in Spain .
+324	2	Food	SEEN	Cuttlefish  is an ingredient of Arròs negre which is a food found in Valencian Community .
+325	2	Food	SEEN	Squeezed or smashed fried chicken served with sambal  is an ingredient of Ayam penyet which is a food found in Java .
+326	2	Food	SEEN	Bacon Explosion is a food found in United States and it contains Sausage  .
+327	2	Food	SEEN	Bacon Explosion is a food found in United States where the leader is John Roberts  .
+328	2	Food	SEEN	Bacon is an ingredient in Bacon Explosion which comes from the Main course  .
+329	2	Food	SEEN	Bread  is the alternative name for the comic character , Bacon sandwich , which was created by Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin .
+330	2	Food	SEEN	Baked Alaska is a food found in France, United States or China and it contains Christmas pudding  .
+331	2	Food	SEEN	Baked Alaska is a food found in China where the leader is Standard Chinese  .
+332	2	Food	SEEN	Cookie  is a dish that can be served as a Dessert as is Baked Alaska .
+333	2	Food	SEEN	The comic book character Bakewell pudding was created by both Rutland Arms, Bakewell, in 1820 and Ground almond, jam, butter, eggs  .
+334	2	Food	SEEN	Bakewell tart is an ingredient in Bakewell pudding which comes from the Shortcrust pastry  .
+335	2	Food	SEEN	Lemon is an ingredient in Bandeja paisa which comes from the Citrus  .
+336	2	Food	SEEN	Batchoy is a food found in Philippines and it contains Shrimp  .
+337	2	Food	SEEN	Batchoy is a food found in Philippines where the leader is Chinese Filipino  .
+338	2	Food	SEEN	Beef kway teow is a food found in Singapore where the leader is Standard Chinese  .
+339	2	Food	SEEN	Beef kway teow is a food found in Singapore where the leader is Tony Tan  .
+340	2	Food	SEEN	Bhajji is a food found in India where the leader is Sumitra Mahajan  .
+341	2	Food	SEEN	Pakora and other fritters made from wheat or corn flour is an ingredient in Bhajji which comes from the Gram flour  .
+342	2	Food	SEEN	Sweet potato is an ingredient in Binignit which comes from the Banana  .
+343	2	Food	SEEN	Sweet potato is an ingredient in Binignit which comes from the Sago  .
+344	2	Food	SEEN	Sweet potato is an ingredient in Binignit which comes from the Flowering plant  .
+345	2	Food	SEEN	Binignit is published in the Sweet potato by Solanales  .
+346	2	Food	SEEN	The main ingredients of Bionico are Dessert and Granola  .
+347	2	Food	SEEN	Honey is an ingredient in Bionico which comes from the Dessert  .
+348	2	Food	SEEN	Dessert is a Bionico  that contains Ice cream .
+349	2	Food	SEEN	Peanut sauce is an ingredient in Siomay which comes from the Batagor  .
+350	2	Airport	SEEN	Abilene Regional Airport serves the city of Abilene, Texas , Texas  .
+351	2	Airport	SEEN	The runway at Adolfo Suárez Madrid–Barajas Airport in Alcobendas has a length of 3500.0  .
+352	2	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport has a runway length of 3500.0 and is located in San Sebastián de los Reyes  .
+353	2	Airport	SEEN	Agra Airport is located in India , T. S. Thakur  .
+354	2	Airport	SEEN	Al Asad Airbase is operated by the 618 and serves the city of Al Anbar Province, Iraq  .
+355	2	Airport	SEEN	Al Asad Airbase serves the city of United States Air Force , Operation Enduring Freedom  .
+356	2	Airport	SEEN	Al Asad Airbase serves the city of United States Air Force , United States invasion of Panama  .
+357	2	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport  is located in Alcobendas , Community of Madrid .
+358	2	Airport	SEEN	Alderney Airport is located in Poaceae and has a runway length of 877.0  .
+359	2	Airport	SEEN	Allama Iqbal International Airport serves the city of Pakistan Civil Aviation Authority , Jinnah International Airport  .
+360	2	Airport	SEEN	Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan , United States  .
+361	2	Airport	SEEN	Amsterdam Airport Schiphol is operated by the -3.3528 and serves the city of Schiphol Group  .
+362	2	Airport	SEEN	Andrews County Airport is operated by the Asphalt and is 973.0  metres above sea level .
+363	2	Airport	SEEN	Andrews County Airport is located in Texas , Austin, Texas  .
+364	2	Airport	SEEN	Angola International Airport is operated by the Luanda and serves the city of 159  .
+365	2	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola  .
+366	2	Airport	SEEN	Antwerp International Airport is operated by the Flemish department of Mobility and Public Works and is located in 12.0  .
+367	2	Airport	SEEN	Appleton International Airport serves the city of Appleton, Wisconsin , Grand Chute, Wisconsin  .
+368	2	Airport	SEEN	The surface of the 1st runway at Ardmore Airport (New Zealand) is Poaceae which is of the order Poales  .
+369	2	Airport	SEEN	The surface of the 1st runway at Ardmore Airport (New Zealand) is Poaceae which is of the order Monocotyledon  .
+370	2	Airport	SEEN	Ashgabat International Airport has a runway length of 3800.0 and is located in Ashgabat  .
+371	2	Airport	SEEN	Athens International Airport is operated by the Athens and serves the city of Spata  .
+372	2	Airport	SEEN	The runway at Athens International Airport in Athens has a length of 3800.0  .
+373	2	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport  is located in San Sebastián de los Reyes , Community of Madrid .
+374	2	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1974-08-01  , retired Apollo 14 .
+375	2	Astronaut	SEEN	Buzz Aldrin was born in United States  , Glen Ridge, New Jersey .
+376	2	Astronaut	SEEN	Buzz Aldrin was born in Retired  and died in Fighter pilot .
+377	2	Astronaut	SEEN	Buzz Aldrin was a crew member of NASA  's Apollo 11 .
+378	2	Astronaut	SEEN	Buzz Aldrin was a crew member of Fighter pilot  's Apollo 11 .
+379	3	Airport	SEEN	Abilene Regional Airport serves the city of Abilene, Texas , Taylor County, Texas . The leader of Abilene, Texas is United States  .
+380	3	Airport	SEEN	Adirondack Regional Airport is operated by the Aktieselkab organisation . Its runway 's name is Saranac Lake, New York  and is 1219.0 feet in length .
+381	3	Airport	SEEN	The runway length of Adolfo Suárez Madrid–Barajas Airport is 4100.0 , it is elevated Madrid metres above sea level .
+382	3	Airport	SEEN	Agra Airport is located in India , Indian Air Force , VIAG  .
+383	3	Airport	SEEN	Al Asad Airbase is operated by the Aktieselkab organisation . Its runway 's name is 3078.48  and is United States Air Force feet in length .
+384	3	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Korean War  and is located in Invasion of Grenada .
+385	3	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Operation Enduring Freedom  and is located in Invasion of Grenada .
+386	3	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Operation Enduring Freedom  and is located in Korean War .
+387	3	Airport	SEEN	Alderney Airport is operated by the Aktieselkab organisation . Its runway 's name is Alderney  and is Poaceae feet in length .
+388	3	Airport	SEEN	Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan and has the reference number 1533.0 in the the National Register of Historic Places .
+389	3	Airport	SEEN	Amsterdam Airport Schiphol is operated by the Aktieselkab organisation . Its runway 's name is -3.3528  and is Amsterdam feet in length .
+390	3	Airport	SEEN	Andrews County Airport is located in Texas , Houston , United States  .
+391	3	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , 4000.0  .
+392	3	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , South Runway  .
+393	3	Airport	SEEN	Antwerp International Airport is operated by the Aktieselkab organisation . Its runway 's name is 12.0  and is Flemish Government feet in length .
+394	3	Airport	SEEN	The Antwerp International Airport was established in Flemish department of Mobility and Public Works in Antwerp  , Flemish Region .
+395	3	Airport	SEEN	Little Chute, Wisconsin serves the city of Saranac Lake which is part of Kimberly, Wisconsin , in the Appleton International Airport  .
+396	3	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , United States , Clayton, Winnebago County, Wisconsin  .
+397	3	Airport	SEEN	The surface of the 1st runway at Flowering plant is Ardmore Airport (New Zealand) which belongs to the division of Poaceae and is of the order Poales  .
+398	3	Airport	SEEN	Ashgabat International Airport is located in Ashgabat and has the reference number 3800.0 in the the National Register of Historic Places .
+399	3	Airport	SEEN	Athens International Airport serves the city of Athens in Greece . The leader of Athens is Alexis Tsipras  .
+400	3	Airport	SEEN	Atlantic City International Airport is operated by the 4/22 which is located in Egg Harbor Township, New Jersey , United States  .
+401	3	Airport	SEEN	Antwerp International Airport is located in Antwerp  , Belgium . Philippe of Belgium is the leader of Belgium .
+402	3	Airport	SEEN	Poaceae , which has Commelinids in it , is a dish served for Monocotyledon and Ardmore Airport (New Zealand)  .
+403	3	SportsTeam	SEEN	A.C. Cesena has 23900  members and play in the Cesena league in Serie B .
+404	3	SportsTeam	SEEN	The manager of A.C. Cesena is Massimo Drago who plays for S.S.D. Potenza Calcio and Calcio Catania  .
+405	3	SportsTeam	SEEN	The full name of AC Chievo 2014 , which has 4150  members , is `` Lega Pro/A `` and the club has 2014 members .
+406	3	SportsTeam	SEEN	The full name of A.D. Isidro Metapán is `` 10000  `` and they have Isidro Metapán members . They play in the Estadio Jorge Calero Suárez league .
+407	3	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in Greece , Nikos Voutsis , Prokopis Pavlopoulos  .
+408	3	SportsTeam	SEEN	The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for Drogheda United F.C. and Runcorn F.C. Halton  .
+409	3	SportsTeam	SEEN	The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for Drogheda United F.C. and Stockport County F.C.  .
+410	3	SportsTeam	SEEN	The manager of A.F.C. Blackpool is Stuart Parker (footballer) who plays for KV Mechelen and Irlam Town F.C.  .
+411	3	SportsTeam	SEEN	A.F.C. Fylde has Association Football Club Fylde  members and play in the Warton, Fylde league in 3180 .
+412	3	SportsTeam	SEEN	The manager of A.S. Livorno Calcio is Christian Panucci who plays for Genoa C.F.C. and Real Madrid C.F.  .
+413	3	SportsTeam	SEEN	The full name of AC Chievo Rome, Italy , which has 70634  members , is `` Associazione Sportiva Roma S.p.A. `` and the club has Rome, Italy members .
+414	3	SportsTeam	SEEN	The full name of AEK Athens F.C. is ENTITY_5 . They have Superleague Greece members and played in the Athens season .
+415	3	SportsTeam	SEEN	The full name of AFC Ajax (amateurs) is `` 2014  `` and they have Hoofdklasse members . They play in the 5000 league .
+416	3	SportsTeam	SEEN	The ground of AZAL PFK is located in the town of Qarabağ FK and has Azerbaijan Premier League members .
+417	3	SportsTeam	SEEN	The full name of AZ Alkmaar is `` 17023  `` and they have 2014 members . They play in the Alkmaar Zaanstreek league .
+418	3	SportsTeam	SEEN	The manager of AZ Alkmaar is John van den Brom who plays for Vitesse Arnhem and De Graafschap  .
+419	3	SportsTeam	SEEN	The manager of Agremiação Sportiva Arapiraquense is Campeonato Brasileiro Série C who plays for Estádio Municipal Coaracy da Mata Fonseca and Vila Nova Futebol Clube  .
+420	3	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense 's ground is St. Vincent-St. Mary High School in the city of Brazil , Vila Nova Futebol Clube  .
+421	3	SportsTeam	SEEN	The ground of Akron Summit Assault is located in the town of Premier Development League and has St. Vincent–St. Mary High School members .
+422	3	SportsTeam	SEEN	The ground of Akron Summit Assault is located in the town of Premier Development League and has 3000 members .
+423	3	SportsTeam	SEEN	Sergio Mattarella is from the Italy where the language is English and one of the ethnic groups is African American .
+424	3	SportsTeam	SEEN	Olympic Stadium (Athens) is located in Athens , Giorgos Kaminis and has AEK Athens F.C.  floors .
+425	3	Food	SEEN	Bread  is an ingredient of Ajoblanco which is a food found in Ajo blanco , in Spain .
+426	3	Food	SEEN	Water  is an ingredient of Ajoblanco which is a food found in Andalusia , in Spain .
+427	3	Food	SEEN	Arem-arem is a food found in Indonesia , which leader is Jusuf Kalla  and its capital is Joko Widodo .
+428	3	Food	SEEN	Arem-arem is a food found in Indonesia , which leader is Nationwide in Indonesia, but more specific to Java  and its capital is Jusuf Kalla .
+429	3	Food	SEEN	Arrabbiata sauce is a food found in Italy , which leader is Sergio Mattarella  and its capital is Italian language .
+430	3	Food	SEEN	Chili pepper is an ingredient in Arrabbiata sauce , a dish from the Italy region , in Rome  .
+431	3	Food	SEEN	Garlic is an ingredient in Arrabbiata sauce , a dish from the Italy region , in Rome  .
+432	3	Food	SEEN	Squid  is an ingredient in Arròs negre which is a food found in Catalonia , in Spain .
+433	3	Food	SEEN	Arròs negre is a food found in Valencian Community , which leader is Cuttlefish  and its capital is Spain .
+434	3	Food	SEEN	Fish cooked in sour and hot sauce  is an ingredient of Asam pedas which is a food found in Sumatra and Malay Peninsula , in Malaysia .
+435	3	Food	SEEN	Squeezed or smashed fried chicken served with sambal  is an ingredient of Ayam penyet which is a food found in Java , in Malaysia .
+436	3	Food	SEEN	Sausage  is an ingredient of Bacon Explosion which is a food found in Bacon , in United States .
+437	3	Food	SEEN	Bacon Explosion is a food found in United States , which leader is Washington, D.C.  and its capital is Native Americans in the United States .
+438	3	Food	SEEN	Bacon Explosion is a food found in United States , which leader is Washington, D.C.  and its capital is Barack Obama .
+439	3	Food	SEEN	Bacon Explosion is a food found in United States , which leader is African Americans  and its capital is John Roberts .
+440	3	Food	SEEN	BLT is an ingredient in Bacon sandwich , a dish from the United Kingdom region , in Condiment  .
+441	3	Food	SEEN	Meringue  is an ingredient of Baked Alaska which is a food found in New York , in France .
+442	3	Food	SEEN	Sponge cake  is an ingredient of Baked Alaska which is a food found in New York , in United States .
+443	3	Food	SEEN	The main ingredients of Baked Alaska are noodles , pork organs , vegetables , Dessert shrimp , and beef .
+444	3	Food	SEEN	The main ingredients of Baked Alaska are noodles , pork organs , vegetables , Dessert shrimp , and beef .
+445	3	Food	SEEN	Antioquia Department  is an ingredient of Bandeja paisa which is a food found in Kidney bean , in Colombian cuisine .
+446	3	Food	SEEN	Barny Cakes is a food found in France , which leader is Claude Bartolone  and its capital is Gérard Larcher .
+447	3	Food	SEEN	The main ingredients of Barny Cakes are noodles , pork organs , vegetables , Apple shrimp , and beef .
+448	3	Food	SEEN	Beef kway teow is a food found in Singapore , which leader is Halimah Yacob  and its capital is Singapore dollar .
+449	3	Food	SEEN	Singapore and Indonesia  is an ingredient in Beef kway teow which is a food found in Indonesia , in Oyster sauce .
+450	3	Food	SEEN	Beef kway teow is a food found in Singapore , which leader is Tony Tan  and its capital is Indonesia .
+451	3	Food	SEEN	Gram flour  is an ingredient of Bhajji which is a food found in Gram flour, vegetables , in India .
+452	3	Food	SEEN	Bhajji is a food found in India , which leader is T. S. Thakur  and its capital is Indian people .
+453	3	Food	SEEN	Bhajji is a food found in India , which leader is Narendra Modi  and its capital is T. S. Thakur .
+454	3	Food	SEEN	Gram flour  is an ingredient of Bhajji which is a food found in Gram flour, vegetables , in Karnataka .
+455	3	Food	SEEN	Sweet potato is an ingredient in Binignit , a dish from the Banana region , in Philippines  .
+456	3	Food	SEEN	Sour cream  is an ingredient of Bionico which is a food found in Dessert , in Mexico .
+457	3	Food	SEEN	Raisin  is an ingredient of Bionico which is a food found in Jalisco , in Mexico .
+458	3	Food	SEEN	The main ingredients of Celery are noodles , pork organs , vegetables , Apium shrimp , and beef .
+459	3	Food	SEEN	The main ingredients of Dessert are noodles , pork organs , vegetables , Cake shrimp , and beef .
+460	3	Food	SEEN	Jusuf Kalla is from the Indonesia where the language is English and Jakarta are one of the ethnic groups .
+461	3	Food	SEEN	Ayam penyet is from the Java where the language is English and one of the ethnic groups is African American .
+462	3	Food	SEEN	Ayam penyet is from the Java where the language is English and one of the ethnic groups is African American .
+463	3	Food	SEEN	Arròs negre is from the Spain where the language is English and Spanish language are one of the ethnic groups .
+464	3	Monument	SEEN	Adams County, Pennsylvania is operated by the Franklin County, Pennsylvania and is operated by the Frederick County, Maryland . The runway name at the airport is 11th Mississippi Infantry Monument  .
+465	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Ottoman Army soldiers killed in the Battle of Baku  , Azerbaijan . Artur Rasizade is the leader of Azerbaijan .
+466	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is operated by the Aktieselkab organisation . Its runway 's name is Hüseyin Bütüner and Hilmi Güner  and is Ottoman Army soldiers killed in the Battle of Baku feet in length .
+467	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan , Artur Rasizade , Hüseyin Bütüner and Hilmi Güner  .
+468	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan , Türk Şehitleri Anıtı , Hüseyin Bütüner and Hilmi Güner  .
+469	3	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on NASA , retired Apollo 12 .
+470	3	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on California , retired 1998-07-21 .
+471	3	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 11 , retired Edwin E. Aldrin, Jr. .
+472	3	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 52.0(minutes) , retired Glen Ridge, New Jersey .
+473	3	Astronaut	SEEN	California , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Alan Shepard , retired Smilodon .
+474	3	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1966-02-28 , retired St. Louis .
+475	3	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1927-07-23 , retired Deceased .
+476	3	Astronaut	SEEN	William Anders , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on British Hong Kong , retired 1933-10-17 .
+477	3	ComicsCharacter	SEEN	The comic book character Auron (comicsCharacter) was created by both Karl Kesel and Karl Kesel .
+478	3	ComicsCharacter	SEEN	BBC , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Bananaman , retired Tony Hall, Baron Hall of Birkenhead .
+479	3	ComicsCharacter	SEEN	The comic book character Bananaman was created by STV  and the American , Bill Oddie .
+480	3	ComicsCharacter	SEEN	The comic book character Baymax 's alter ego is Duncan Rouleau and it was created by Big Hero 6 (film) and Steven T. Seagle  .
+481	3	ComicsCharacter	SEEN	The comic book character Bibbo Bibbowski was created by Bo Bibbowski  and the American , Jerry Ordway .
+482	3	ComicsCharacter	SEEN	The comic book character Blockbuster (comicsCharacter) was created by Tom Lyle  and the American , Roger Stern .
+483	3	ComicsCharacter	SEEN	The comic character Bolt (comicsCharacter) , also known as Dan Mishkin  , was created by Ernie Colón and Larry Bolatinsky .
+484	3	ComicsCharacter	SEEN	The comic character Bolt (comicsCharacter) , also known as Dan Mishkin  , was created by Paris Cullins and Larry Bolatinsky .
+485	3	WrittenWork	SEEN	1634: The Bavarian Crisis is Virginia DeMarce and Eric Flint metres above sea level and has a runway length of 978-1-4165-4253-7 .
+486	3	WrittenWork	SEEN	Eric Flint , born in 1634: The Baltic War , is the author of 1634: The Bavarian Crisis and Burbank, California  .
+487	3	WrittenWork	SEEN	The comic book character 1634: The Ram Rebellion was created by 512  and the American , Eric Flint .
+488	3	WrittenWork	SEEN	1634: The Ram Rebellion was written by Eric Flint and published in Hardcover with the ISBN number 1-4165-2060-0  .
+489	3	WrittenWork	SEEN	1634: The Ram Rebellion , written by E-book , has the ISBN number 512 and the ISBN number Eric Flint, Virginia DeMarce, et al.  .
+490	3	WrittenWork	SEEN	ACM Transactions on Information Systems ( abbreviated to ACM Trans. Inf. Syst. ) has the LCCN number Computer science and the ISSN number 1046-8188  .
+491	3	WrittenWork	SEEN	ACM Transactions on Information Systems ( abbreviated to Computer science ) has the LCCN number ACM Trans. Inf. Syst. and the ISSN number 1558-2868  .
+492	3	WrittenWork	SEEN	AIDS (journal) is written in English and published by AIDS (journal) in the Elizabeth II  .
+493	3	WrittenWork	SEEN	The comic book character AIP Advances was created by both A.T. Charlie Johnson and United States .
+494	3	WrittenWork	SEEN	AIP Advances , written by A.T. Charlie Johnson , has the ISBN number AIP Adv. and the ISBN number AAIDBI  .
+495	3	WrittenWork	SEEN	A Glastonbury Romance , written by Hardcover , has the ISBN number 76798317 and the ISBN number 0-7156-3648-0  .
+496	3	WrittenWork	SEEN	A Long Long Way is written in English and published by Great Britain in the The Secret Scripture  .
+497	3	WrittenWork	SEEN	A Loyal Character Dancer is published by Soho Press in the United States where Native Americans are one of the ethnic groups .
+498	3	WrittenWork	SEEN	A Loyal Character Dancer is published by Soho Press in the United States where Native Americans are one of the ethnic groups .
+499	3	WrittenWork	SEEN	A Severed Wasp is PS3523.E55 S4 1982 metres above sea level and has a runway length of 8805735 .
+500	3	WrittenWork	SEEN	The A Severed Wasp is abbreviated to 388 It has the LCCN number of Print and the ISSN number 0-374-26131-8  .
+501	3	WrittenWork	SEEN	A Wizard of Mars , written by Hardcover , has the ISBN number 318875313 and the ISBN number Diane Duane  .
+502	3	WrittenWork	SEEN	A Wizard of Mars , written by Hardcover , has the ISBN number Diane Duane and the ISBN number 978-0-15-204770-2  .
+503	3	WrittenWork	SEEN	Above the Veil was written in Australians and published by Aenir which has the OCLC number Castle (novel)  .
+504	3	WrittenWork	SEEN	Acta Mathematica Hungarica ( abbreviated to 83646315 ) has the LCCN number Acta Math. Hungar. and the ISSN number 1588-2632  .
+505	3	WrittenWork	SEEN	Acta Mathematica Hungarica ( abbreviated to Acta Math. Hungar. ) has the LCCN number Mathematics and the ISSN number 0236-5294  .
+506	3	WrittenWork	SEEN	Acta Palaeontologica Polonica ( abbreviated to 1732-2421 ) has the LCCN number 60040714 and the ISSN number Acta Palaeontol. Pol.  .
+507	3	WrittenWork	SEEN	Addiction (journal) ( abbreviated to Addiction ) has the LCCN number Addiction and the ISSN number 0965-2140  .
+508	3	WrittenWork	SEEN	Aenir is Garth Nix metres above sea level and has a runway length of 45644811 .
+509	3	WrittenWork	SEEN	Aenir was written by Garth Nix and published in Print with the ISBN number 0-439-17684-0  .
+510	3	WrittenWork	SEEN	American Journal of Mathematics ( abbreviated to Am. J. Math. ) has the LCCN number Mathematics and the ISSN number 1080-6377  .
+511	3	WrittenWork	SEEN	American Journal of Mathematics ( abbreviated to Am. J. Math. ) has the LCCN number 1878 and the ISSN number 1080-6377  .
+512	3	WrittenWork	SEEN	The comic book character SAGE Publications was created by both Sara Miller McCune and Administrative Science Quarterly .
+513	3	WrittenWork	SEEN	1634 The Ram Rebellion comes from the United Kingdom , where the leader is known as the President and the Native Americans are an ethnic group .
+514	3	WrittenWork	SEEN	Barack Obama is from the United States where the language is English and African Americans are one of the ethnic groups .
+515	3	WrittenWork	SEEN	English language is from the United States where the language is English and one of the ethnic groups is African American .
+516	3	University	SEEN	The Accademia di Architettura di Mendrisio is located in the city of Mario Botta , 600  , Switzerland .
+517	3	University	SEEN	Acharya Institute of Technology is located in Bangalore , Nurturing Excellence , India  .
+518	3	University	SEEN	B.M. Reddy is the author of Acharya Institute of Technology , which is available in Bangalore and has India  pages .
+519	3	University	SEEN	Acharya Institute of Technology , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 2000 , retired Tennis .
+520	3	University	SEEN	India is located in Mumbai , AWH Engineering College , Ganges  .
+521	3	University	SEEN	Klaus Iohannis is located in 1 Decembrie 1918 University  , Romania . Prime Minister of Romania is the leader of Romania .
+522	3	University	SEEN	Romania was born in Universitas Apulensis  and served as a 1 Decembrie 1918 University national .
+523	3	University	SEEN	The School of Business and Social Sciences at the Aarhus University was established in 16000 in 1928  . It has 737 students .
+524	3	Building	SEEN	11 Diagonal Street is located in South Africa , Cape Town , Cyril Ramaphosa  .
+525	3	Building	SEEN	11 Diagonal Street is located in South Africa , Jacob Zuma , Coloured  .
+526	3	Building	SEEN	11 Diagonal Street is located in South Africa , Jacob Zuma , White South African  .
+527	3	Building	SEEN	200 Public Square is located in Cleveland , Frank G. Jackson , United States  .
+528	3	Building	SEEN	250 Delaware Avenue is located in Buffalo, New York , Erie County, New York , New York  .
+529	3	Building	SEEN	300 North LaSalle is located in Chicago , Rahm Emanuel , United States  .
+530	3	Building	SEEN	3Arena is located in Dublin , HOK SVE and was completed in December 2008  .
+531	3	Building	SEEN	3Arena is located in Dublin , Populous (company) and was completed in December 2008  .
+532	3	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Republic of Ireland  .
+533	3	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Denmark , Marriott International and was completed in 3XN  .
+534	3	Building	SEEN	The architect of Adare Manor was 1862 and was completed in J. P. McManus  .
+535	3	Building	SEEN	The Addis Ababa City Hall was established in 140000.0 (square metres) in 42 m  , Government of Addis Ababa .
+536	3	Building	SEEN	Adisham Hall is located in Sri Lanka , Tudor Revival architecture , 1931  .
+537	3	Building	SEEN	Akita Museum of Art is located in 3 , 2013-09-28 and was completed in 3746.66 (square metres)  .
+538	3	Building	SEEN	Akita Museum of Art is located in Akita, Akita , Akita Prefecture , Japan  .
+539	3	Building	SEEN	Alan B. Miller Hall is located in Virginia , College of William & Mary and was completed in 30 March 2007  .
+540	3	Building	SEEN	Alan B. Miller Hall is in Virginia , College of William & Mary , Robert Gates  .
+541	3	Building	SEEN	Alan B. Miller Hall is located in Virginia , Mason School of Business , United States  .
+542	3	Building	SEEN	The Alan B. Miller Hall was established in Williamsburg, Virginia in 30 March 2007  , College of William & Mary .
+543	3	Building	SEEN	476  is an ingredient in Ampara Hospital which is a food found in Ampara District , in Sri Lanka .
+544	3	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ranil Wickremesinghe , Eastern Province, Sri Lanka  .
+545	3	Building	SEEN	Asher and Mary Isabelle Richardson House is located in U.S. Route 83 and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 1988-11-22 .
+546	3	Building	SEEN	Asilomar Conference Grounds is located in Pacific Grove, California and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 1987-02-27 .
+547	3	Building	SEEN	Asser Levy Public Baths is located in Asser Levy Place and East 23rd Street and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 80002709 .
+548	3	Building	SEEN	Asser Levy Public Baths is located in New York City , United States , Manhattan  .
+549	3	Building	SEEN	Amdavad ni Gufa is located in Sumitra Mahajan  , India . T. S. Thakur is the leader of India .
+550	4	WrittenWork	SEEN	1634: The Bavarian Crisis was published by 1634: The Baltic War in the David Weber . The book was followed by Ring of Fire II and English language  .
+551	4	WrittenWork	SEEN	1634: The Ram Rebellion , written by E-book , has the ISBN number 512 and the ISBN number Virginia DeMarce .
+552	4	WrittenWork	SEEN	AIDS (journal) is a food found in United Kingdom where the leader is London and the capital is Lippincott Williams & Wilkins . Elizabeth II  is a leader in United Kingdom .
+553	4	WrittenWork	SEEN	The comic book character A Fortress of Grey Ice was created by 51969173 and the American , J. V. Jones .
+554	4	WrittenWork	SEEN	The comic book character A Long Long Way was created by Viking Press and the American , Annie Dunne .
+555	4	WrittenWork	SEEN	A Severed Wasp ( abbreviated to Print ) has the ISSN number of `` 8805735 `` and the LCCN number of PS3523.E55 S4 1982 . It has the LCCN number of Print .
+556	4	WrittenWork	SEEN	A Severed Wasp is a food found in English language where the leader is Great Britain and the capital is United States . African Americans  is a leader in English language .
+557	4	WrittenWork	SEEN	A Severed Wasp has the abbreviation of `` 8805735 `` and the LCCN number of 388 . It has the LCCN number of Hardcover  and the LCCN number 0-374-26131-8 .
+558	4	WrittenWork	SEEN	A Wizard of Mars , written by Hardcover , has the ISBN number Diane Duane and the ISBN number 318875313 .
+559	4	WrittenWork	SEEN	Addiction (journal) has the abbreviation of `` 93645978 `` and the LCCN number of Addiction . It has the LCCN number of 1360-0443  and the LCCN number Addiction .
+560	4	WrittenWork	SEEN	Administrative Science Quarterly was published by Cornell University in the Association of American Universities . The book was followed by New York and Ithaca, New York  .
+561	4	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is a food found in English language , which leader is Washington, D.C. and its capital is United States . Washington, D.C. is the capital of English language .
+562	4	WrittenWork	SEEN	American Journal of Mathematics has the abbreviation of `` Mathematics `` and the LCCN number of Am. J. Math. . It has the LCCN number of 1080-6377  and the LCCN number Bimonthly .
+563	4	WrittenWork	SEEN	American Journal of Mathematics has the abbreviation of `` 1878 `` and the LCCN number of Mathematics . It has the LCCN number of 1080-6377  and the LCCN number of Am. J. Math. .
+564	4	WrittenWork	SEEN	A Loyal Character Dancer is located in Soho Press , English language . Great Britain is the capital of English language and the leader is United States  .
+565	4	WrittenWork	SEEN	1634 The Ram Rebellion comes from the English language where the leader is known as the President and the capital city is Washington D.C. Asian Americans are one of the ethnic groups there .
+566	4	WrittenWork	SEEN	United States is located in Alcatraz Versus the Evil Librarians , English language . Great Britain is the capital of English language and the leader is Native Americans in the United States  .
+567	4	WrittenWork	SEEN	AIDS (journal) is located in Lippincott Williams & Wilkins , United Kingdom . David Cameron is the capital of United Kingdom and the leader is Elizabeth II  .
+568	4	WrittenWork	SEEN	English language is from the United States where the language is English and African Americans are one of the ethnic groups . The book is written in English .
+569	4	WrittenWork	SEEN	English language is from the United States where the language is English and Asian Americans are one of the ethnic groups . The book is written in English .
+570	4	WrittenWork	SEEN	English language is from the United States where the language is English and Barack Obama are one of the ethnic groups . The leader of the country is A Severed Wasp .
+571	4	Food	SEEN	Andalusia is an ingredient in Ajoblanco which comes from the Bread, almonds, garlic, water, olive oil region of Spain .
+572	4	Food	SEEN	Ajo blanco is an ingredient in Ajoblanco which comes from the Andalusia region of Spain .
+573	4	Food	SEEN	compressed rice cooked in banana leaf with vegetables or minced meat fillings is an ingredient of Arem-arem which comes from the Banana leaf region of Lemper .
+574	4	Food	SEEN	compressed rice cooked in banana leaf with vegetables or minced meat fillings is an ingredient of Arem-arem which comes from the Main course region of Banana leaf .
+575	4	Food	SEEN	Chili pepper is an ingredient in Arrabbiata sauce which is a dish from the Tomatoes, red chili, garlic, olive oil region of the Italy .
+576	4	Food	SEEN	Catalonia is an ingredient of Arròs negre which is a food found in White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers , in Spain .
+577	4	Food	SEEN	Catalonia is an ingredient of Arròs negre which is a food found in White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers , in Spain .
+578	4	Food	SEEN	White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers is an ingredient of Arròs negre which is a food found in Spain , in Valencian Community .
+579	4	Food	SEEN	Fish cooked in sour and hot sauce is an ingredient in Asam pedas which comes from the Sumatra and Malay Peninsula region of Malaysia .
+580	4	Food	SEEN	Asam pedas is a food found in Sumatra , Malaysia . The leader of Malaysia is Malaysian Malay and the capital is Minangkabau people  .
+581	4	Food	SEEN	Kansas City metropolitan area is an ingredient in Bacon Explosion which comes from the Sausage region of United States .
+582	4	Food	SEEN	Bacon Explosion is a food found in United States where the leader is Paul Ryan and the capital is Asian Americans . Washington, D.C.  is a leader in United States .
+583	4	Food	SEEN	Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin is an ingredient of Bacon sandwich which is a food found in United Kingdom , in BLT .
+584	4	Food	SEEN	BLT is an ingredient in Bacon sandwich which is a dish from the United Kingdom region of the Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin .
+585	4	Food	SEEN	The main ingredients of Bacon sandwich are Ketchup The dish comes from the region of the Bread and bacon, with a condiment, often ketchup or brown sauce in United Kingdom .
+586	4	Food	SEEN	The main ingredients of Baked Alaska are noodles , pork organs , vegetables , chicken , Paris, New York or Hong Kong and beef and it comes from the region of the Meringue, ice cream, sponge cake or Christmas pudding .
+587	4	Food	SEEN	The main ingredients of Baked Alaska are noodles , pork organs , vegetables , chicken , United States and beef and it comes from the region of the Meringue, ice cream, sponge cake or Christmas pudding .
+588	4	Food	SEEN	Derbyshire is an ingredient of Bakewell pudding which is a food found in Derbyshire Dales , in Bakewell tart .
+589	4	Food	SEEN	Dessert is an ingredient of Bakewell pudding which comes from the Bakewell tart region of Derbyshire Dales .
+590	4	Food	SEEN	Derbyshire is an ingredient in Bakewell pudding which is from the Bakewell tart region of Derbyshire Dales .
+591	4	Food	SEEN	Rice is an ingredient in Bandeja paisa which is a dish from the red beans, pork belly, white rice, ground meat, chicharon, fried egg, plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon region of the Paisa Region .
+592	4	Food	SEEN	Siomay is an ingredient in Batagor which comes from the Peanut sauce region of Indonesia .
+593	4	Food	SEEN	Siomay is an ingredient in Batagor which comes from the Shumai region of Indonesia .
+594	4	Food	SEEN	Beef kway teow is a food found in Singapore where the leader is Indonesia and the capital is Standard Chinese . Halimah Yacob  is a leader in Singapore .
+595	4	Food	SEEN	Kway teow, beef tender loin, gula Melaka, sliced, dried black beans, garlic, dark soy sauce, lengkuas, oyster sauce, soya sauce, chilli and sesame oil is an ingredient in Beef kway teow which is a dish from the Oyster sauce region of the Indonesia .
+596	4	Food	SEEN	Indonesia is an ingredient in Beef kway teow which comes from the Kway teow, beef tender loin, gula Melaka, sliced, dried black beans, garlic, dark soy sauce, lengkuas, oyster sauce, soya sauce, chilli and sesame oil region of Singapore .
+597	4	Food	SEEN	Beef kway teow is a food found in Singapore , which leader is Singapore and Indonesia and its capital is English language . Tony Tan  is the capital of Singapore .
+598	4	Food	SEEN	Bhajji is a food found in India where the leader is Indian rupee and the capital is T. S. Thakur . Narendra Modi  is a leader in India .
+599	4	Food	SEEN	Bhajji is a food found in India where the leader is Indian people and the capital is T. S. Thakur . Sumitra Mahajan  is a leader in India .
+600	4	Food	SEEN	Bhajji is a food found in Sumitra Mahajan , India . The leader of India is Narendra Modi and the capital is Karnataka  .
+601	4	Food	SEEN	Bhajji is a food found in India , which leader is Karnataka and its capital is T. S. Thakur . Vajubhai Vala  is the capital of India .
+602	4	Food	SEEN	Sweet potato is an ingredient of Binignit which is a member of the Dessert family and Cookie .
+603	4	Food	SEEN	Guadalajara is an ingredient in Bionico which comes from the Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins region of Mexico .
+604	4	Food	SEEN	Jalisco is an ingredient in Bionico which comes from the Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins region of Mexico .
+605	4	Food	SEEN	Jusuf Kalla is from the Indonesia where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is spoken in Chinese cuisine  .
+606	4	Food	SEEN	Bakso is from the Indonesia , where the language is English and Jusuf Kalla are one of the ethnic groups . It is also where Indonesia comes from .
+607	4	Food	SEEN	Matteo Renzi is from the Italy where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in Sergio Mattarella  .
+608	4	Food	SEEN	Singapore is from the Java where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is spoken in Ayam penyet  .
+609	4	Food	SEEN	Ayam penyet is from the Java , where the language is English and Banyumasan people are one of the ethnic groups . It is also where Singapore comes from .
+610	4	Food	SEEN	Philippine Spanish is from the Philippines where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in Moro people  .
+611	4	Food	SEEN	Arròs negre serves the city of Spaniards in Spain where Euro is a leader .
+612	4	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on United States , retired Apollo 12 .
+613	4	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on New Hampshire , retired NWC, M.A. 1957 .
+614	4	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on California , retired Deceased .
+615	4	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Test pilot , retired Apollo 14 .
+616	4	Astronaut	SEEN	Apollo 12 , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Alan Bean , retired Alfred Worden .
+617	4	Astronaut	SEEN	Buzz Aldrin , a US national , was a crew member of Glen Ridge, New Jersey where United States served as backup pilot .
+618	4	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on St. Louis , retired University of Texas at Austin .
+619	4	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on St. Louis , retired University of Texas at Austin .
+620	4	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on University of Texas System , retired University of Texas at Austin .
+621	4	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1927-07-23 , retired St. Louis .
+622	4	Astronaut	SEEN	William Anders , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 8 , retired 1969-09-01 .
+623	4	Monument	SEEN	Adams County, Pennsylvania is operated by the Carroll County, Maryland and is operated by the Cumberland County, Pennsylvania . The runway name is 11th Mississippi Infantry Monument and has a length of Gettysburg, Pennsylvania  .
+624	4	Monument	SEEN	Adams County, Pennsylvania is operated by the Franklin County, Pennsylvania and is operated by the Carroll County, Maryland . The runway name is 11th Mississippi Infantry Monument and has a length of Contributing property  .
+625	4	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Ottoman Army soldiers killed in the Battle of Baku , Azerbaijan , which has Baku to its southeast .
+626	4	Monument	SEEN	Baku is located in Baku Turkish Martyrs' Memorial , Azerbaijan , which is led by Artur Rasizade .
+627	4	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Red granite and white marble , Azerbaijan . Artur Rasizade is the capital of Azerbaijan and the leader is Ottoman Army soldiers killed in the Battle of Baku  .
+628	4	Monument	SEEN	Baku Turkish Martyrs' Memorial serves the city of Ottoman Army soldiers killed in the Battle of Baku in Azerbaijan . The country 's leader is Prime Minister of Azerbaijan and the capital is Artur Rasizade  .
+629	4	SportsTeam	SEEN	The full name of A.C. Chievo Verona is 39371  . They have Associazione Calcio ChievoVerona S.r.l. members and played in the Verona, Italy season . Their full name is `` 2014–15 Serie A `` .
+630	4	SportsTeam	SEEN	The manager of A.C. Chievo Verona is Rolando Maran who plays for Italy and Unione Triestina 2012 S.S.D. .
+631	4	SportsTeam	SEEN	The manager of A.C. Lumezzane is Michele Marcolini who plays for both Italy and Torino F.C. .
+632	4	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in Greece , Alexis Tsipras where Nikos Voutsis is the leader .
+633	4	SportsTeam	SEEN	The full name of A.S. Gubbio 1910 is 5300  . They have Associazione Sportiva Gubbio 1910 Srl members and played in the 2014 season . Their full name is `` Italy `` .
+634	4	SportsTeam	SEEN	The full name of A.S. Gubbio 1910 is 5300  . They have Associazione Sportiva Gubbio 1910 Srl members and played in the 2014 season . Their full name is `` Stadio Pietro Barbetti `` .
+635	4	SportsTeam	SEEN	The full name of A.S. Livorno Calcio is Livorno Calcio S.p.A.  . They have Stadio Armando Picchi members and played in the 19238 season . Their full name is `` 2014–15 Serie B `` .
+636	4	SportsTeam	SEEN	The full name of A.S. Roma is 2014–15 Serie A  . They have 70634 members and played in the Associazione Sportiva Roma S.p.A. season . Their full name is `` Rome `` .
+637	4	SportsTeam	SEEN	The manager of AZAL PFK is Azerbaijan Premier League who plays for Qarabağ FK and AZAL Arena .
+638	4	SportsTeam	SEEN	The ground of AZAL PFK is located in the town of 3500 . They play in the Azerbaijan Premier League league of which Carpi FC 1909 are previous champions .
+639	4	SportsTeam	SEEN	The manager of AZ Alkmaar is John van den Brom who plays for both AFC Ajax and İstanbulspor A.Ş. .
+640	4	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense 's ground is St. Vincent-St. Mary High School in the city of Brazil , Asa Gigante '' .
+641	4	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense 's ground is St. Vincent-St. Mary High School in the city of Brazil , 2015 Campeonato Brasileiro Série C .
+642	4	SportsTeam	SEEN	The full name of Akron Summit Assault is 2011 PDL season  . They have Akron Metro Futbol Club Summit Assault members and played in the 3000 season . Their full name is `` Denzil Antonio `` .
+643	4	SportsTeam	SEEN	Akron Summit Assault 's ground is St. Vincent-St. Mary High School in the city of United States , Premier Development League .
+644	4	SportsTeam	SEEN	Sergio Mattarella is located in A.S. Gubbio 1910 , Italy . Rome is the capital of Italy and the leader is Italian language  .
+645	4	SportsTeam	SEEN	Italian language is from the Italy , where the language is English and Pietro Grasso are one of the ethnic groups . The book is written in English .
+646	4	SportsTeam	SEEN	The manager of Serie A is Juventus F.C. who plays for A.S. Roma and Associazione Sportiva Roma S.p.A. .
+647	4	ComicsCharacter	SEEN	The comic book character Bananaman was created by 1983-10-03 and the American , Tim Brooke-Taylor .
+648	4	ComicsCharacter	SEEN	The comic book character Bolt (comicsCharacter) was created by Puerto Ricans and the American , Ernie Colón .
+649	4	ComicsCharacter	SEEN	Americans was born in Big Hero 6 (film) and was influenced by Robert A Heinlein . He wrote Duncan Rouleau which is the sequel to Baymax .
+650	4	ComicsCharacter	SEEN	Americans , who was born in Big Hero 6 (film) , is the author of Duncan Rouleau which was preceded by Duncan Rouleau and Jamie Chung  .
+651	4	ComicsCharacter	SEEN	Americans was born in Big Hero 6 (film) and was influenced by Robert A Heinlein . He wrote Duncan Rouleau which is the sequel to Baymax .
+652	4	Airport	SEEN	Abilene Regional Airport is operated by the Abilene, Texas , which is located in Texas . The runway name is 1121.0 and has a length of United States  .
+653	4	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in Alcobendas , Madrid , Spain  . The leader of Alcobendas is ENAIRE .
+654	4	Airport	SEEN	The runway length of Adolfo Suárez Madrid–Barajas Airport is 18R/36L , it is elevated 3500.0 metres above sea level and has a runway length of Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas .
+655	4	Airport	SEEN	Agra Airport is operated by the 167.94 which is located in Uttar Pradesh . The runway name of the airport is Awadh and it has a length of Bundelkhand  .
+656	4	Airport	SEEN	Agra Airport is located in Uttar Pradesh , Awadh where Ram Naik is the leader .
+657	4	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Lockheed AC-130 . The airport is located at General Dynamics F-16 Fighting Falcon , USA .
+658	4	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Lockheed AC-130 . The airport is located at General Dynamics F-16 Fighting Falcon , USA .
+659	4	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Lockheed AC-130 . The airport is located at McDonnell Douglas F-15 Eagle , USA .
+660	4	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Invasion of Grenada . The airport is located at Lockheed AC-130 , USA .
+661	4	Airport	SEEN	Allama Iqbal International Airport is operated by the Pakistan Civil Aviation Authority , which is located in Jinnah International Airport . The runway name of the airport is Punjab, Pakistan and it has a length of Provincial Assembly of the Punjab  .
+662	4	Airport	SEEN	Alpena County Regional Airport is located in Maple Ridge Township, Alpena County, Michigan and has a runway length of 1533.0 . The runway name is Alpena, Michigan and its length is 3500 m .
+663	4	Airport	SEEN	Amsterdam Airport Schiphol is operated by the Aktieselkab organisation . Its runway 's name is 2014.0 and is Amsterdam feet in length . Its runway name is -3.3528  .
+664	4	Airport	SEEN	Andrews County Airport is located in Texas , Austin, Texas where English language is the leader .
+665	4	Airport	SEEN	Andrews County Airport is located in Texas , English language where Texan is the leader .
+666	4	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language where Texan is the leader .
+667	4	Airport	SEEN	Andrews County Airport is located in Texas , Houston where Austin, Texas is the leader .
+668	4	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , Luanda Province , Luanda Province .
+669	4	Airport	SEEN	Antwerp International Airport is operated by the Antwerp which is located in Flemish Region . The runway name is Flemish Government and has a length of Belgium  .
+670	4	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin and has a runway length of 2439.0 . The runway name is Appleton, Wisconsin and its length is 3500 m .
+671	4	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , Menasha (town), Wisconsin , Dale, Wisconsin , and has Appleton, Wisconsin  floors .
+672	4	Airport	SEEN	Ardmore Airport (New Zealand) is operated by the Poaceae which is based in the Monocotyledon and has a runway length of Poales .
+673	4	Airport	SEEN	Ardmore Airport (New Zealand) is Poaceae metres above sea level and has a runway length of 597.0 . The runway name is 34.0 .
+674	4	Airport	SEEN	Atlantic City International Airport is operated by the 1873.0 which is located in Egg Harbor Township, New Jersey . The runway name is United States and has a length of Atlantic County, New Jersey  .
+675	4	Airport	SEEN	ENAIRE is located in Madrid , Adolfo Suárez Madrid–Barajas Airport , Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas , Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas .
+676	4	Airport	SEEN	The Egg Harbor Township, New Jersey is located in the city of 3048.0 , Atlantic City International Airport . It was established in 3048.0 and has New Jersey students .
+677	4	Airport	SEEN	Poaceae , which has Commelinids floors , was designed by the architect Monocotyledon who was born in Flowering plant .
+678	4	University	SEEN	Accademia di Architettura di Mendrisio is located in Mendrisio , Switzerland . It was established in Mario Botta and falls under the category of Mendrisio .
+679	4	University	SEEN	Accademia di Architettura di Mendrisio is a food found in Switzerland , which leader is 600 and its capital is 1996 . 600 is the capital of Switzerland .
+680	4	University	SEEN	The Accademia di Architettura di Mendrisio was established in Mendrisio in 1996 . It was established in Mario Botta .
+681	4	University	SEEN	The Visvesvaraya Technological University , which is affiliated with the All India Council for Technical Education , is affiliated with the Association of Public and Land grant Universities and now operates the Acharya Institute of Technology . The Mumbai is located in Acharya Institute of Technology .
+682	4	University	SEEN	Acharya Institute of Technology is located in Bangalore , India , 700 , and has In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.  floors .
+683	4	University	SEEN	Acharya Institute of Technology , written by Dr. G. P. Prabhukumar , is available in 2000 and has the ISBN number India .
+684	4	University	SEEN	Klaus Iohannis is located in Bucharest , Romania . Germans of Romania is the capital of Romania and the leader is 1 Decembrie 1918 University  .
+685	4	University	SEEN	School of Business and Social Sciences at the Aarhus University , which has European University Association floors , was designed by the architect 737 and was completed in Denmark .
+686	4	University	SEEN	School of Business and Social Sciences at the Aarhus University , which has Denmark floors , is located at 737 , 16000 and was completed in 1928  .
+687	4	Building	SEEN	11 Diagonal Street is located in South Africa , Cape Town where Cyril Ramaphosa is the leader .
+688	4	Building	SEEN	11 Diagonal Street is located in South Africa , Asian South Africans where Cape Town is the leader .
+689	4	Building	SEEN	200 Public Square is located in Cleveland , Cuyahoga County, Ohio , Ohio , Ohio .
+690	4	Building	SEEN	250 Delaware Avenue is located in Postmodern architecture and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number January, 2014 .
+691	4	Building	SEEN	300 North LaSalle is located in Chicago , DuPage County, Illinois where United States is the leader .
+692	4	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Críona Ní Dhálaigh , Críona Ní Dhálaigh .
+693	4	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Críona Ní Dhálaigh , Críona Ní Dhálaigh .
+694	4	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Denmark and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number Marriott International .
+695	4	Building	SEEN	AC Hotel Bella Sky Copenhagen , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Marriott International , retired Bella Center .
+696	4	Building	SEEN	Adisham Hall is located in Tudor and Jacabian and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number Sri Lanka .
+697	4	Building	SEEN	Adisham Hall is a food found in Sri Lanka where the leader is Haputale, Sri Lanka and the capital city is Sri Jayawardenepura Kotte .
+698	4	Building	SEEN	Adisham Hall is located in Sri Lanka and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number Tudor Revival architecture .
+699	4	Building	SEEN	Akita Museum of Art is located in Akita, Akita , Akita Prefecture , Japan , Japan .
+700	4	Building	SEEN	Alan B. Miller Hall is located in Virginia , Robert A. M. Stern , Mason School of Business , and has United States  floors .
+701	4	Building	SEEN	Alan B. Miller Hall is located in Virginia , 1 June 2009 , Mason School of Business , and has United States  floors .
+702	4	Building	SEEN	Amdavad ni Gufa is located in Ahmedabad , India where Narendra Modi is the leader .
+703	4	Building	SEEN	Amdavad ni Gufa is located in Gujarat , Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road , India , and has Ahmedabad  floors .
+704	4	Building	SEEN	Amdavad ni Gufa is located in Gujarat , India , T. S. Thakur , T. S. Thakur .
+705	4	Building	SEEN	Ampara Hospital is located in Sri Lankan rupee , Sri Lanka . The leader of Sri Lanka is Ranil Wickremesinghe . Eastern Province, Sri Lanka  is also a dessert .
+706	4	Building	SEEN	The architect of Asilomar Conference Grounds is Julia Morgan , who was born in Los Angeles Herald-Examiner and died in San Francisco .
+707	4	Building	SEEN	The architect of Asilomar Conference Grounds is Julia Morgan , who was born in Riverside Art Museum and died in Los Angeles Herald-Examiner .
+708	4	Building	SEEN	Asser Levy Public Baths is located in New York City , United States where Manhattan is the leader .
+709	4	Building	SEEN	Birmingham , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 103 Colmore Row , retired B postcode area .
+710	4	Building	SEEN	Addis Ababa is located in Addis Ababa Stadium , Ethiopia . Mulatu Teshome is the capital of Ethiopia and the leader is Addis Ababa City Hall  .
+711	4	Building	SEEN	President of the United States is located in Paul Ryan , United States . Washington, D.C. is the capital of United States and the leader is 250 Delaware Avenue  .
+712	5	SportsTeam	SEEN	The manager of 1 . FC Koln is Peter Stoger . The club has Chesterfield F.C. members and played in the KV Mechelen season . Their full name is Blackpool .
+713	5	SportsTeam	SEEN	The manager of AEK Athens F.C. is Superleague Greece who is in the Gus Poyet club and plays for both Olympiacos F.C. and Real Zaragoza .
+714	5	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense 's ground is St. Vincent-St. Mary High School in the city of Brazil , Estádio Municipal Coaracy da Mata Fonseca .
+715	5	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense 's ground is St. Vincent-St. Mary High School in the city of Brazil , Estádio Municipal Coaracy da Mata Fonseca .
+716	5	SportsTeam	SEEN	The manager of Agremiação Sportiva Arapiraquense is Campeonato Brasileiro Série C who is in the Vica club and plays for both Brazil and 17000 .
+717	5	Monument	SEEN	Adams County, Pennsylvania is operated by the Franklin County, Pennsylvania which is located in Carroll County, Maryland . It was established in Cumberland County, Pennsylvania and falls under the category of Cumberland County, Pennsylvania .
+718	5	Monument	SEEN	Prime Minister of Azerbaijan is located in Baku Turkish Martyrs' Memorial , Azerbaijan . Baku is the capital of Azerbaijan and the leader is Artur Rasizade .
+719	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is operated by the Ottoman Army soldiers killed in the Battle of Baku and is located in Azerbaijan . The runway name is Türk Şehitleri Anıtı and has a length of Artur Rasizade .
+720	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is operated by the Aktieselkab organisation . Its runway 's name is Türk Şehitleri Anıtı and is Ottoman Army soldiers killed in the Battle of Baku feet in length and is operated by Azerbaijan .
+721	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is operated by the Red granite and white marble and is located in Azerbaijan . The runway name is Prime Minister of Azerbaijan and has a length of Ottoman Army soldiers killed in the Battle of Baku .
+722	5	ComicsCharacter	SEEN	The comic book character Bananaman was created by John Geering and the American , Tim Brooke-Taylor .
+723	5	ComicsCharacter	SEEN	Americans was born in Steven T. Seagle and is the author of Duncan Rouleau which was preceded by Baymax and Big Hero 6 (film) .
+724	5	Building	SEEN	20 Fenchurch Street is located in United Kingdom , London where Boris Johnson is a leader and the Elizabeth II is spoken .
+725	5	Building	SEEN	250 Delaware Avenue is located in Buffalo, New York and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 110 million (dollars) .
+726	5	Building	SEEN	300 North LaSalle is located in Chicago , Rahm Emanuel where DuPage County, Illinois is the leader and 60 is spoken .
+727	5	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Dáil Éireann , Dáil Éireann .
+728	5	Building	SEEN	Adisham Hall is located in Tudor and Jacabian and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 1931 .
+729	5	Building	SEEN	Adisham Hall is a food found in Sri Lanka where the leader is Haputale, Sri Lanka and the capital is Sri Jayawardenepura Kotte . Tamil language is a leader in Sri Lanka .
+730	5	Building	SEEN	Adisham Hall is a food found in Sri Lanka where the leader is Haputale and the capital is Ranil Wickremesinghe . Sri Jayawardenepura Kotte is a leader in Sri Lanka .
+731	5	Building	SEEN	Akita Museum of Art is located in Akita Prefecture , Japan . The leader of Japan is Akita, Akita and the capital is Tarō Asō .
+732	5	Building	SEEN	Amdavad ni Gufa is located in Gujarat , Ahmedabad , India , India .
+733	5	Building	SEEN	Amdavad ni Gufa is located in Gujarat , India , T. S. Thakur , T. S. Thakur .
+734	5	Building	SEEN	Ampara Hospital is located in 476 , Sri Lanka . The leader of Sri Lanka is Ranil Wickremesinghe and the capital is Eastern Province, Sri Lanka .
+735	5	Building	SEEN	The architect of Asilomar Conference Grounds is Julia Morgan , who was born in Riverside Art Museum and died in Los Angeles Herald-Examiner .
+736	5	Building	SEEN	The architect of Asilomar Conference Grounds is Julia Morgan , who was born in Hearst Castle and died in Riverside Art Museum .
+737	5	Building	SEEN	Asilomar Conference Grounds is located in Pacific Grove, California and was added to the National Register of Historic Places on 23rd April 1980 with the reference number 1987-02-27 in the National Register of Historic Places .
+738	5	Building	SEEN	Asser Levy Public Baths is located in 23rd Street (Manhattan) , 80002709 and was added to the National Register of Historic Places on 23rd April 1980 .
+739	5	Building	SEEN	Asser Levy Public Baths is located in New York City , United States where Manhattan is a leader and the Gale Brewer is spoken .
+740	5	Building	SEEN	Birmingham , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 103 Colmore Row , retired B postcode area .
+741	5	Building	SEEN	Hailemariam Desalegn is located in Addis Ababa , Ethiopia . Mulatu Teshome is the capital of Ethiopia and the leader is Addis Ababa Stadium .
+742	5	Building	SEEN	English language is located in President of the United States , United States . African Americans is the capital of United States and the leader is John Roberts .
+743	5	Building	SEEN	President of the United States is from the United States , where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in 250 Delaware Avenue .
+744	5	WrittenWork	SEEN	The Secret Scripture is an ingredient of A Long Long Way which is a food found in White people , in Ireland .
+745	5	WrittenWork	SEEN	A Long Long Way , written by Ireland , is available in White people and has the OCLC number Annie Dunne .
+746	5	WrittenWork	SEEN	Above the Veil was written in Australians and published by Into Battle (novel) . It was preceded by The Violet Keystone and followed by Aenir .
+747	5	WrittenWork	SEEN	Administrative Science Quarterly was published by Cornell University in the Cornell Big Red . The book was followed by Association of American Universities and New York .
+748	5	WrittenWork	SEEN	Administrative Science Quarterly was published by Cornell University in the Cornell Big Red . The book was followed by Association of Public and Land-grant Universities and New York .
+749	5	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is a food found in English language where the leader is Great Britain and the capital is United States . Barack Obama is a leader in English language .
+750	5	WrittenWork	SEEN	The leader of the English language is known as the President , the capital is Washington D.C. and United States are one of the ethnic groups . The book is written in English which is the language spoken in A Severed Wasp .
+751	5	WrittenWork	SEEN	The leader of the English language is known as the President , the capital is Washington D.C. and United States are one of the ethnic groups . The book is written in English which is the language spoken in Alcatraz Versus the Evil Librarians .
+752	5	WrittenWork	SEEN	David Cameron is from the United Kingdom , where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in London .
+753	5	WrittenWork	SEEN	David Cameron is from the United Kingdom , where the language is English and Elizabeth II are one of the ethnic groups . The book is written in English which is the language spoken in Lippincott Williams & Wilkins .
+754	5	WrittenWork	SEEN	A Severed Wasp is from the United States where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in Great Britain .
+755	5	WrittenWork	SEEN	English language is from the United States where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in A Severed Wasp .
+756	5	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on United States , retired Apollo 12 .
+757	5	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on California , retired NWC, M.A. 1957 .
+758	5	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on NWC, M.A. 1957 , retired Deceased .
+759	5	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Deceased , retired Apollo 14 .
+760	5	Astronaut	SEEN	Apollo 12 , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Alan Bean , retired Alfred Worden .
+761	5	Astronaut	SEEN	Distinguished Service Medal (United States Navy) was born in California and served as Chief of the Astronaut Office in Department of Commerce Gold Medal . He was born in Alan Shepard .
+762	5	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Dallas , retired University of Texas at Austin .
+763	5	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Deceased , retired University of Texas at Austin .
+764	5	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on University of Texas System , retired University of Texas at Austin .
+765	5	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on University of Texas System , retired University of Texas at Austin .
+766	5	Astronaut	SEEN	William Anders , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 8 , retired 1969-09-01 .
+767	5	Airport	SEEN	Abilene Regional Airport serves the city of Abilene, Texas which is part of the Central Texas region , in Texas where the leader is 2194.0 .
+768	5	Airport	SEEN	Abilene Regional Airport is operated by the Aktieselkab organisation . Its runway 's name is 546 and is Abilene, Texas feet in length . Its runway name is KABI .
+769	5	Airport	SEEN	Abilene Regional Airport is operated by the Aktieselkab organisation . Its runway 's name is 546 and is Abilene, Texas feet in length . Its runway name is KABI .
+770	5	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport has a runway length of 4349.0 and is operated by Madrid . The runway name is 610.0 and has a length of ENAIRE .
+771	5	Airport	SEEN	Agra Airport is operated by the VIAG which is located in Uttar Pradesh . The runway name of the airport is Awadh and it has a length of Ram Naik .
+772	5	Airport	SEEN	Agra Airport , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Uttar Pradesh , retired Kheria Air Force Station .
+773	5	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Lockheed AC-130 . The airport is located in Boeing C-17 Globemaster III , General Dynamics F-16 Fighting Falcon .
+774	5	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Lockheed AC-130 . The airport is located in Boeing C-17 Globemaster III , McDonnell Douglas F-15 Eagle .
+775	5	Airport	SEEN	Al Asad Airbase serves the city of United States Air Force which is part of the Central Invasion of Grenada region , in Invasion of Grenada where the Lockheed AC-130 is spoken .
+776	5	Airport	SEEN	The United States Air Force is the operating organisation for Al Asad Airbase which has a runway length of Invasion of Grenada . The airport is located in Lockheed AC-130 , Boeing C-17 Globemaster III .
+777	5	Airport	SEEN	Allama Iqbal International Airport is operated by the Pakistan Civil Aviation Authority which is located in Lahore . The leader of the country is Pakistan and the leader is Punjab, Pakistan .
+778	5	Airport	SEEN	Allama Iqbal International Airport is operated by the Pakistan Civil Aviation Authority which is located in Punjab, Pakistan . The runway name is Shehbaz Sharif and has a length of Lahore .
+779	5	Airport	SEEN	Andrews County Airport is located in Texas and has a runway length of 896.0 . The runway name is Andrews, Texas and its length is 3500 m .
+780	5	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language where Houston is the leader .
+781	5	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language where Houston is the leader .
+782	5	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , Luanda , Luanda .
+783	5	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , 4000.0 , 4000.0 .
+784	5	Airport	SEEN	Antwerp International Airport is located in Flemish Region , Flemish department of Mobility and Public Works , Antwerp , and has 12.0 floors .
+785	5	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin and has a runway length of 2439.0 . The runway name is Appleton, Wisconsin and its length is 3500 m .
+786	5	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , Menasha (town), Wisconsin where United States is the capital and Appleton, Wisconsin is the leader .
+787	5	Airport	SEEN	Ardmore Airport (New Zealand) is Poaceae metres above sea level and has a runway length of 1411.0 . It is operated by Civil Aviation Authority of New Zealand which is located in 34.0 .
+788	5	Airport	SEEN	Ashgabat International Airport is operated by the Aktieselkab organisation . Its runway 's name is 2989.0 and is Turkmenistan Airlines feet in length . Its runway name is 211 .
+789	5	Airport	SEEN	Atlantic City International Airport is Port Authority of New York and New Jersey metres above sea level and has a runway length of 1873.0 . It is operated by 23.0 which is located in KACY .
+790	5	Airport	SEEN	Antwerp International Airport serves the city of Antwerp in Belgium . The country 's leader is Charles Michel and the capital is Flemish Region .
+791	5	Airport	SEEN	Essex County, New York serves the city of Adirondack Regional Airport in Saranac Lake, New York . The country 's leader is Harrietstown, New York and the capital is Lake Placid, New York .
+792	5	Food	SEEN	Andalusia is an ingredient in Ajoblanco which comes from the Bread, almonds, garlic, water, olive oil region of Spain .
+793	5	Food	SEEN	Guanciale is an ingredient in Amatriciana sauce which comes from the Italy region of Lazio .
+794	5	Food	SEEN	Arem-arem is a food found in Indonesia where the leader is Javanese cuisine and the capital is Joko Widodo . Indonesian rupiah is a leader in Indonesia .
+795	5	Food	SEEN	Arrabbiata sauce is a food found in Italy where the leader is Italians and the capital is Rome . Italian language is a leader in Italy .
+796	5	Food	SEEN	Arròs negre is a food found in Valencian Community where the leader is Ximo Puig and the capital is Spain . Spaniards is a leader in Valencian Community .
+797	5	Food	SEEN	Asam pedas is a food found in Kuala Lumpur , Malaysia . The leader of Malaysia is Malaysian Chinese and the capital is Malaysian Indian .
+798	5	Food	SEEN	Asam pedas is a food found in Arifin Zakaria , Malaysia . The leader of Malaysia is Malaysian Chinese and the capital is Malaysian Indian .
+799	5	Food	SEEN	Fried chicken is an ingredient in Ayam penyet which comes from the Java region of Nationwide, also can be found in Malaysia and Singapore .
+800	5	Food	SEEN	Fried chicken is an ingredient in Ayam penyet which comes from the Malaysian Chinese region of Malaysia .
+801	5	Food	SEEN	Bacon Explosion is a food found in United States where the leader is Barack Obama and the capital is Native Americans in the United States . Washington, D.C. is a leader in United States .
+802	5	Food	SEEN	Baked Alaska is a food found in Carrie Lam (politician) , France . The leader of France is Hong Kong and the capital is Gérard Larcher .
+803	5	Food	SEEN	Bakewell tart is an ingredient of Bakewell pudding which comes from the Patrick McLoughlin region of Derbyshire Dales .
+804	5	Food	SEEN	Lemon is an ingredient in Bandeja paisa which is a dish from the Rutaceae region of Colombian cuisine . The main ingredients are Paisa Region and Paisa Region .
+805	5	Food	SEEN	Rutaceae is an ingredient in Bandeja paisa which comes from the Rosids region of Lemon . The main ingredients are Colombian cuisine and Colombian cuisine .
+806	5	Food	SEEN	Barny Cakes is a food found in Gérard Larcher , France . The leader of France is French language and the capital is Claude Bartolone .
+807	5	Food	SEEN	Barny Cakes is a food found in France , which leader is French language and its capital is Gérard Larcher . French language is the capital of France .
+808	5	Food	SEEN	Beef kway teow is a food found in Singapore where the leader is English language and the capital is Singapore and Indonesia . Tony Tan is a leader in Singapore .
+809	5	Food	SEEN	Gram flour, vegetables is an ingredient in Bhajji which comes from the Karnataka region of India .
+810	5	Food	SEEN	Bhajji is a food found in India , which leader is Sumitra Mahajan and its capital is Indian people . Karnataka is a leader in India .
+811	5	Food	SEEN	Jesús Casillas Romero is an ingredient of Bionico which is a food found in Mexico . The dish comes from the Jalisco region of the Dessert .
+812	5	Food	SEEN	Cake is an ingredient of Bionico which is a food found in Mexico . The dish comes from the Dessert region of the Enrique Peña Nieto .
+813	5	Food	SEEN	Bakewell pudding is from the Derbyshire Dales , where the language is English and Patrick McLoughlin are one of the ethnic groups . The book is written in English which is the language spoken in Derbyshire .
+814	5	Food	SEEN	Bakewell pudding is from the Derbyshire Dales , where the language is English and Patrick McLoughlin are one of the ethnic groups . The book is written in English which is the language spoken in Derbyshire .
+815	5	Food	SEEN	Indonesian language is from the Indonesia where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is spoken in Bakso .
+816	5	Food	SEEN	Rome serves the city of Matteo Renzi in Italy . The country 's leader is Italians and the capital is Amatriciana sauce .
+817	5	Food	SEEN	English language is from the Java , where the language is English and Baduy are one of the ethnic groups . The book is written in English which is spoken in Singapore .
+818	5	Food	SEEN	Arabic is from the Philippines where the language is English and Ilocano people are one of the ethnic groups . The book is written in English which is spoken in Batchoy .
+819	5	Food	SEEN	Beef kway teow is from the Singapore where the language is English and one of the ethnic groups are the Native Americans . The book is written in English which is the language spoken in Tony Tan .
+820	5	Food	SEEN	Spanish language is from the Spain , where the language is English and Felipe VI of Spain are one of the ethnic groups . The book is written in English which is the language spoken in Ajoblanco .
+821	5	University	SEEN	Mendrisio is an ingredient of Accademia di Architettura di Mendrisio which is a food found in Switzerland . The main ingredients of Accademia di Architettura di Mendrisio are ground beef , tapioca , noodle , rice 600 beef broth , kailan , celery , salted vegetables and fried shallots .
+822	5	University	SEEN	Accademia di Architettura di Mendrisio is located in 1996 , Switzerland . The leader of Switzerland is 600 and the capital is Johann Schneider-Ammann .
+823	5	University	SEEN	The Acharya Institute of Technology in Visvesvaraya Technological University , Karnataka was established in Telangana and has Bangalore students .
+824	5	University	SEEN	Acharya Institute of Technology is located in Bangalore , 2000 and was completed in India with 700 floors .
+825	5	University	SEEN	Bangalore was born in Karnataka and served as Chief of the Astronaut Office in Kempe Gowda I . He was born in Acharya Institute of Technology .
+826	5	University	SEEN	Alba Iulia is located in Klaus Iohannis , Romania . Prime Minister of Romania is the capital of Romania and the leader is Bucharest .
+827	5	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in European University Association and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 737 .
+828	6	University	SEEN	The Accademia di Architettura di Mendrisio is located in the country of Switzerland which is lead by 600 . The capital of the country is Washington D.C. and 1996 are one ethnic group .
+829	6	University	SEEN	Acharya Institute of Technology is located in Bangalore , Dr. G. P. Prabhukumar , 2000 , 2000 .
+830	6	University	SEEN	Acharya Institute of Technology , written by B.M. Reddy , is available in Dr. G. P. Prabhukumar with the ISBN number Bangalore and the ISBN number Dr. G. P. Prabhukumar .
+831	6	University	SEEN	Acharya Institute of Technology , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Mumbai , retired All India Council for Technical Education .
+832	6	University	SEEN	Acharya Institute of Technology , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Mumbai , retired All India Council for Technical Education .
+833	6	University	SEEN	Klaus Iohannis is located in Prime Minister of Romania , Romania . Germans of Romania is the capital of Romania and the leader is Andrew the Apostle .
+834	6	University	SEEN	The School of Business and Social Sciences at the Aarhus University is operated by the 737 and is Denmark metres above sea level , and has a runway that is Lars Løkke Rasmussen metres long .
+835	6	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in Aarhus and was added to the National Register of Historic Places on 23rd April 1980 with the reference number 16000 in the National Register of Historic Places .
+836	6	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on United States , retired Apollo 12 .
+837	6	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on California , retired NWC, M.A. 1957 .
+838	6	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on NWC, M.A. 1957 , retired Deceased .
+839	6	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on California , retired Apollo 14 .
+840	6	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1998-07-21 , retired American Defense Service ribbon.svg .
+841	6	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Edwin E. Aldrin, Jr. , retired Glen Ridge, New Jersey .
+842	6	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1963 , retired Glen Ridge, New Jersey .
+843	6	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1963 , retired Apollo 11 .
+844	6	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Deceased , retired University of Texas at Austin .
+845	6	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on University of Texas System , retired University of Texas at Austin .
+846	6	Astronaut	SEEN	William Anders , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on 1933-10-17 , retired 1969-09-01 .
+847	6	Monument	SEEN	Atatürk Monument (İzmir) was designed by the architect Pietro Canonica , who was born in Turkey and is Ahmet Davutoğlu metres above sea level .
+848	6	Monument	SEEN	Baku Turkish Martyrs' Memorial serves the city of Ottoman Army soldiers killed in the Battle of Baku in Azerbaijan . The country 's leader is Prime Minister of Azerbaijan and the capital is Türk Şehitleri Anıtı .
+849	6	Monument	SEEN	Monocacy National Battlefield is located in Frederick County, Maryland , 14th New Jersey Volunteer Infantry Monument , 1907-07-11 , and has Historic districts in the United States floors .
+850	6	Monument	SEEN	Monocacy National Battlefield is located in Frederick County, Maryland , 14th New Jersey Volunteer Infantry Monument , 1907-07-11 , 1907-07-11 .
+851	7	Monument	SEEN	Carroll County, Maryland is an ingredient of 11th Mississippi Infantry Monument which is a food found in Adams County, Pennsylvania , in United States . The leader of United States is Carroll County, Maryland and the 2000 is spoken there .
+852	7	Monument	SEEN	Atatürk Monument (İzmir) was designed by the architect Pietro Canonica , who was born in Turkey and is Ahmet Davutoğlu metres above sea level .
+853	7	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Red granite and white marble , Azerbaijan . Baku is the capital of Azerbaijan and the leader is Prime Minister of Azerbaijan .
+854	7	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on United States , retired Apollo 12 .
+855	7	Astronaut	SEEN	Alan Bean , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on NASA , retired Apollo 12 .
+856	7	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 14 , retired NWC, M.A. 1957 .
+857	7	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on NWC, M.A. 1957 , retired Deceased .
+858	7	Astronaut	SEEN	Alan Shepard , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Test pilot , retired Deceased .
+859	7	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Edwin E. Aldrin, Jr. , retired Glen Ridge, New Jersey .
+860	7	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 11 , retired Glen Ridge, New Jersey .
+861	7	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 11 , retired Glen Ridge, New Jersey .
+862	7	Astronaut	SEEN	Buzz Aldrin , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Apollo 11 , retired Glen Ridge, New Jersey .
+863	7	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Test pilot , retired University of Texas at Austin .
+864	7	Astronaut	SEEN	Elliot See , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on Deceased , retired University of Texas at Austin .
+865	7	Astronaut	SEEN	William Anders , who graduated , with an M.S. , from AFIT in 1962 and served as a crew member on United States , retired 1969-09-01 .
+866	7	University	SEEN	The 2000 are the current tenants of Alan B Miller Hall which was completed on 1st June 2009 and is located in Visvesvaraya Technological University . It was designed by 2000 and completed in B.M. Reddy .
+867	7	University	SEEN	Acharya Institute of Technology is located in Bangalore , 2000 and was completed in Nurturing Excellence with India floors .
+868	7	University	SEEN	Acharya Institute of Technology , written by B.M. Reddy , is available in Dr. G. P. Prabhukumar with the ISBN number Bangalore and the ISBN number Dr. G. P. Prabhukumar .
+869	7	University	SEEN	Visvesvaraya Technological University is the parent company of B.M. Reddy which is the publisher of the journal Acharya Institute of Technology which has the ISSN number Belgaum . The ISSN number is 2000 and the ISSN number is 2000 .
+870	7	University	SEEN	250 is the architect of India , which was started in 250 and completed in Mumbai with AWH Engineering College floors .
+871	7	University	SEEN	Prime Minister of Romania is located in Klaus Iohannis , Romania . Germans of Romania is the capital of Romania and the leader is Bucharest .
+872	7	University	SEEN	Visvesvaraya Technological University is located in Belgaum , Acharya Institute of Technology , Dr. G. P. Prabhukumar , Dr. G. P. Prabhukumar .

@@ -1,0 +1,872 @@
+1	1	City	SEEN	Abilene, Texas is located in 325  .
+2	1	City	SEEN	Abilene, Texas is located in Texas  .
+3	1	City	SEEN	Albany, Georgia is located in Mayor  .
+4	1	City	SEEN	Albany, Oregon is located in 45.97 (square kilometres)  .
+5	1	City	SEEN	Albany, Oregon is located in United States  .
+6	1	City	SEEN	Albuquerque, New Mexico is located in State Senate  .
+7	1	City	SEEN	Albuquerque, New Mexico is located in Albuquerque City Council  .
+8	1	City	SEEN	Amarillo, Texas is located in United States  .
+9	1	City	SEEN	Amarillo, Texas is located in Potter County, Texas  .
+10	1	City	SEEN	Amarillo, Texas is located in United States  .
+11	1	City	SEEN	Anaheim, California is located in 657  .
+12	1	City	SEEN	Anderson, Indiana is located in Adams, Fall Creek, Lafayette, Richland, Union  .
+13	1	City	SEEN	Angola, Indiana is located in Pleasant Township, Steuben County, Indiana  .
+14	1	City	SEEN	Ann Arbor, Michigan is located in City Administrator  .
+15	1	City	SEEN	Ann Arbor, Michigan is located in Mayor  .
+16	1	City	SEEN	Ann Arbor, Michigan is located in 1580.7 (inhabitants per square kilometre)  .
+17	1	City	SEEN	Antioch, California is located in 13.0  .
+18	1	City	SEEN	Antioch, California is located in California's 11th State Assembly district  .
+19	1	City	SEEN	Arlington, Texas is located in 184.0  .
+20	1	City	SEEN	Atlantic County, New Jersey is located in United States  .
+21	1	City	SEEN	Attica, Indiana is located in Fountain County, Indiana  .
+22	1	City	SEEN	Auburn, Alabama is located in Alabama  .
+23	1	City	SEEN	California is located in United States  .
+24	1	City	SEEN	Fulton County, Georgia is located in Atlanta  .
+25	1	City	SEEN	Georgia (U.S. state) is located in United States  .
+26	1	City	SEEN	Indiana is located in Indianapolis  .
+27	1	City	SEEN	Lee County, Alabama is located in Alabama  .
+28	1	City	SEEN	New Jersey is located in Trenton, New Jersey  .
+29	1	City	SEEN	Potter County, Texas is located in Texas  .
+30	1	City	SEEN	Tarrant County, Texas is located in United States  .
+31	1	City	SEEN	Washtenaw County, Michigan is located in Ann Arbor, Michigan  .
+32	1	ComicsCharacter	SEEN	Asterix (comicsCharacter) is located in René Goscinny  .
+33	1	ComicsCharacter	SEEN	Auron (comicsCharacter) is located in Marv Wolfman  .
+34	1	ComicsCharacter	SEEN	Balder (comicsCharacter) is located in Jack Kirby  .
+35	1	ComicsCharacter	SEEN	Bananaman is located in STV  .
+36	1	ComicsCharacter	SEEN	Bananaman is located in 1983-10-03  .
+37	1	ComicsCharacter	SEEN	Bananaman is located in Bill Oddie  .
+38	1	ComicsCharacter	SEEN	Baymax is located in Big Hero 6 (film)  .
+39	1	ComicsCharacter	SEEN	Bill Everett is located in Eisner Award  .
+40	1	ComicsCharacter	SEEN	Bill Oddie is located in Kate Hardie  .
+41	1	ComicsCharacter	SEEN	Bolt (comicsCharacter) is located in Dan Mishkin  .
+42	1	ComicsCharacter	SEEN	Bozo the Iron Man is located in Hugh Hazzard  .
+43	1	ComicsCharacter	SEEN	John Buscema is located in Eagle Award (comics)  .
+44	1	ComicsCharacter	SEEN	Marv Wolfman is located in Eagle Award (comics)  .
+45	1	Building	SEEN	103 Colmore Row is located in John Madin  .
+46	1	Building	SEEN	103 Colmore Row is located in Colmore Row  .
+47	1	Building	SEEN	11 Diagonal Street is located in 1983  .
+48	1	Building	SEEN	200 Public Square is located in 1985  .
+49	1	Building	SEEN	20 Fenchurch Street is located in January 2009  .
+50	1	Building	SEEN	20 Fenchurch Street is located in United Kingdom  .
+51	1	Building	SEEN	300 North LaSalle is located in 60  .
+52	1	Building	SEEN	3Arena is located in HOK SVE  .
+53	1	Building	SEEN	3Arena is located in East Link Bridge  .
+54	1	Building	SEEN	Adare Manor is located in 1700  .
+55	1	Building	SEEN	Adare Manor is located in Republic of Ireland  .
+56	1	Building	SEEN	Akita Museum of Art is located in 2013-09-28  .
+57	1	Building	SEEN	Alan B. Miller Hall is located in Mason School of Business  .
+58	1	Building	SEEN	Amdavad ni Gufa is located in B. V. Doshi  .
+59	1	Building	SEEN	Ampara Hospital is located in Sri Lanka  .
+60	1	Building	SEEN	Asher and Mary Isabelle Richardson House is located in 1988-11-22  , ENTITY_3 .
+61	1	Building	SEEN	Asser Levy Public Baths is located in 1904  .
+62	1	Building	SEEN	Birmingham is located in B postcode area  .
+63	1	Building	SEEN	Chicago is located in DuPage County, Illinois  .
+64	1	Building	SEEN	Dublin is located in Republic of Ireland  .
+65	1	Building	SEEN	Dublin is located in Leinster  .
+66	1	Building	SEEN	India is located in Sumitra Mahajan  .
+67	1	Building	SEEN	Japan is located in Brazilians in Japan  .
+68	1	Building	SEEN	Japan is located in Tarō Asō  .
+69	1	Building	SEEN	Marriott International is located in Bill Marriott  .
+70	1	Building	SEEN	Republic of Ireland is located in English language  .
+71	1	Building	SEEN	South Africa is located in Cape Town  .
+72	1	Building	SEEN	United Kingdom is located in London  .
+73	1	Building	SEEN	United States is located in Native Americans in the United States  .
+74	1	Building	SEEN	United States is located in Paul Ryan  .
+75	1	University	SEEN	Accademia di Architettura di Mendrisio is located in 100  .
+76	1	University	SEEN	Acharya Institute of Technology is located in In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.  .
+77	1	University	SEEN	Alba Iulia is located in Romania  .
+78	1	University	SEEN	Alba Iulia is located in Alba County  .
+79	1	University	SEEN	Romania is located in Andrew the Apostle  .
+80	1	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in 737  .
+81	1	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in Denmark  .
+82	1	Monument	SEEN	Atatürk Monument (İzmir) is located in Pietro Canonica  .
+83	1	Monument	SEEN	Atatürk Monument (İzmir) is located in Bronze  .
+84	1	Monument	SEEN	Azerbaijan is located in Artur Rasizade  .
+85	1	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan  .
+86	1	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Red granite and white marble  .
+87	1	Airport	SEEN	Aarhus is located in Jacob Bundsgaard  .
+88	1	Airport	SEEN	Aarhus Airport is located in 2702.0  .
+89	1	Airport	SEEN	Adirondack Regional Airport is located in 507  , ENTITY_3 .
+90	1	Airport	SEEN	Adirondack Regional Airport is located in Harrietstown, New York  .
+91	1	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in San Sebastián de los Reyes  .
+92	1	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 14L/32R  .
+93	1	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 14R/32L  .
+94	1	Airport	SEEN	Afonso Pena International Airport is located in Infraero  .
+95	1	Airport	SEEN	Agra Airport is located in Agra  .
+96	1	Airport	SEEN	Al-Taqaddum Air Base is located in 84.0  , ENTITY_3 .
+97	1	Airport	SEEN	Alderney Airport is located in Alderney  .
+98	1	Airport	SEEN	Allama Iqbal International Airport is located in 18R/36L  .
+99	1	Airport	SEEN	Alpena County Regional Airport is located in 1533.0  .
+100	1	Airport	SEEN	Alpena County Regional Airport is located in 1/19  .
+101	1	Airport	SEEN	Amsterdam Airport Schiphol is located in Amsterdam  .
+102	1	Airport	SEEN	Andrews County, Texas is located in Andrews, Texas  .
+103	1	Airport	SEEN	Andrews County Airport is located in Andrews, Texas  .
+104	1	Airport	SEEN	Andrews County Airport is located in 11/29  .
+105	1	Airport	SEEN	Andrews County Airport is located in Helipad  .
+106	1	Airport	SEEN	Angola International Airport is located in Luanda  .
+107	1	Airport	SEEN	Ardmore Airport (New Zealand) is located in Auckland  .
+108	1	Airport	SEEN	Athens is located in Giorgos Kaminis  .
+109	1	Airport	SEEN	Athens International Airport is located in Spata  .
+110	1	Airport	SEEN	Belgium is located in German language  .
+111	1	Airport	SEEN	Belgium is located in Philippe of Belgium  .
+112	1	Airport	SEEN	Denmark is located in Copenhagen  .
+113	1	Airport	SEEN	Denmark is located in Lars Løkke Rasmussen  .
+114	1	Airport	SEEN	Flemish Region is located in Flemish Government  .
+115	1	Airport	SEEN	Greece is located in Greek language  .
+116	1	Airport	SEEN	Greece is located in Nikos Voutsis  .
+117	1	Airport	SEEN	Harrietstown, New York is located in United States  .
+118	1	Airport	SEEN	Pakistan is located in Anwar Zaheer Jamali  .
+119	1	Airport	SEEN	Paracuellos de Jarama is located in Community of Madrid  .
+120	1	Airport	SEEN	Port Authority of New York and New Jersey is located in Four World Trade Center  .
+121	1	Airport	SEEN	San Sebastián de los Reyes is located in Spain  .
+122	1	Airport	SEEN	Saranac Lake, New York is located in United States  .
+123	1	Airport	SEEN	South Jersey Transportation Authority is located in Stephen Dilts  .
+124	1	WrittenWork	SEEN	1634: The Bavarian Crisis is located in Eric Flint  .
+125	1	WrittenWork	SEEN	1634: The Bavarian Crisis is located in The Grantville Gazettes  .
+126	1	WrittenWork	SEEN	1634: The Ram Rebellion is located in 1635: The Cannon Law  .
+127	1	WrittenWork	SEEN	AIP Advances is located in 2158  .
+128	1	WrittenWork	SEEN	A Fortress of Grey Ice is located in Hardcover  .
+129	1	WrittenWork	SEEN	A Long Long Way is located in 0-670-03380-4  .
+130	1	WrittenWork	SEEN	A Loyal Character Dancer is located in 1-56947-301-3  .
+131	1	WrittenWork	SEEN	A Severed Wasp is located in Madeleine L'Engle  .
+132	1	WrittenWork	SEEN	A Wizard of Mars is located in English language  .
+133	1	WrittenWork	SEEN	Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg is located in 32024459  .
+134	1	WrittenWork	SEEN	Above the Veil is located in Hardcover  .
+135	1	WrittenWork	SEEN	Acta Mathematica Hungarica is located in Acta Math. Hungar.  .
+136	1	WrittenWork	SEEN	Acta Mathematica Hungarica is located in Mathematics  .
+137	1	WrittenWork	SEEN	Acta Palaeontologica Polonica is located in APGPAC  .
+138	1	WrittenWork	SEEN	Addiction (journal) is located in 27367194  .
+139	1	WrittenWork	SEEN	Addiction (journal) is located in Wiley-Blackwell  .
+140	1	WrittenWork	SEEN	Administrative Science Quarterly is located in 57059226  .
+141	1	WrittenWork	SEEN	Aenir is located in 45644811  .
+142	1	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in 78771100  .
+143	1	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in Alcatraz Versus the Scrivener's Bones  .
+144	1	WrittenWork	SEEN	American Journal of Mathematics is located in 1.337  .
+145	1	WrittenWork	SEEN	Castle (novel) is located in Aenir  .
+146	1	WrittenWork	SEEN	Cornell University is located in Cornell Big Red  .
+147	1	WrittenWork	SEEN	HIV is located in Lentivirus  .
+148	1	WrittenWork	SEEN	John Cowper Powys is located in Wolf Solent  .
+149	1	WrittenWork	SEEN	United Kingdom is located in Elizabeth II  .
+150	1	WrittenWork	SEEN	United States is located in Joe Biden  .
+151	1	WrittenWork	SEEN	Wolf Solent is located in John Cowper Powys  .
+152	1	Food	SEEN	Ajoblanco is located in Ajo blanco  .
+153	1	Food	SEEN	Ajoblanco is located in Bread, almonds, garlic, water, olive oil  .
+154	1	Food	SEEN	Arem-arem is located in Nationwide in Indonesia, but more specific to Java  .
+155	1	Food	SEEN	Arem-arem is located in Indonesia  .
+156	1	Food	SEEN	Arrabbiata sauce is located in Tomatoes, red chili, garlic, olive oil  .
+157	1	Food	SEEN	Arròs negre is located in Cuttlefish  .
+158	1	Food	SEEN	Arròs negre is located in Squid  .
+159	1	Food	SEEN	Asam pedas is located in Malaysia  .
+160	1	Food	SEEN	Avocado is located in Persea  .
+161	1	Food	SEEN	Ayam penyet is located in Hot  .
+162	1	Food	SEEN	Baked Alaska is located in Dessert  .
+163	1	Food	SEEN	Bakewell tart is located in Frangipane  .
+164	1	Food	SEEN	Bakso is located in Noodle  .
+165	1	Food	SEEN	Bakso is located in Vermicelli  .
+166	1	Food	SEEN	Bandeja paisa is located in Chorizo  .
+167	1	Food	SEEN	Barny Cakes is located in Mondelez International  .
+168	1	Food	SEEN	Barny Cakes is located in Chocolate  .
+169	1	Food	SEEN	Barny Cakes is located in 1.8 g  .
+170	1	Food	SEEN	Batchoy is located in Philippines  .
+171	1	Food	SEEN	Batchoy is located in Chicken  .
+172	1	Food	SEEN	Batchoy is located in Vegetable  .
+173	1	Food	SEEN	Binignit is located in Visayas  .
+174	1	Food	SEEN	Derbyshire Dales is located in Patrick McLoughlin  .
+175	1	Food	SEEN	Dessert is located in Cake  .
+176	1	Food	SEEN	Dessert is located in Ice cream  .
+177	1	Food	SEEN	Indonesia is located in Jusuf Kalla  .
+178	1	Food	SEEN	Italy is located in Italians  .
+179	1	Food	SEEN	Java is located in Baduy  .
+180	1	Food	SEEN	Lemon is located in Rosids  .
+181	1	Food	SEEN	Mexico is located in Mexicans  .
+182	1	Food	SEEN	Mexico is located in Spanish language  .
+183	1	Food	SEEN	Philippines is located in Arabic  .
+184	1	Food	SEEN	Siomay is located in Shumai  .
+185	1	Food	SEEN	United States is located in Native Americans in the United States  .
+186	1	Astronaut	SEEN	Alan Shepard is located in Distinguished Service Medal (United States Navy)  .
+187	1	Astronaut	SEEN	Alan Shepard is located in California  .
+188	1	Astronaut	SEEN	Apollo 11 is located in William Anders  .
+189	1	Astronaut	SEEN	Apollo 14 is located in NASA  .
+190	1	Astronaut	SEEN	Apollo 8 is located in NASA  .
+191	1	Astronaut	SEEN	Buzz Aldrin is located in United States  .
+192	1	Astronaut	SEEN	Elliot See is located in Test pilot  .
+193	1	Astronaut	SEEN	University of Texas at Austin is located in University of Texas System  .
+194	1	Astronaut	SEEN	University of Texas at Austin is located in Hook 'em (mascot)  .
+195	1	SportsTeam	SEEN	1. FC Köln is located in Peter Stöger  .
+196	1	SportsTeam	SEEN	1. FC Magdeburg is located in 2014  .
+197	1	SportsTeam	SEEN	A.C. Lumezzane is located in 2014–15 Lega Pro  .
+198	1	SportsTeam	SEEN	A.D. Isidro Metapán is located in Asociación Deportiva  .
+199	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in A.E Dimitra Efxeinoupolis  .
+200	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in 2014  .
+201	1	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in 2014–15 A EPSTH, Greece  .
+202	1	SportsTeam	SEEN	A.F.C. Blackpool is located in 1500  .
+203	1	SportsTeam	SEEN	A.F.C. Fylde is located in The Fylde  .
+204	1	SportsTeam	SEEN	A.S. Gubbio 1910 is located in Italy  .
+205	1	SportsTeam	SEEN	A.S. Livorno Calcio is located in 19238  .
+206	1	SportsTeam	SEEN	A.S. Roma is located in 2014–15 Serie A  .
+207	1	SportsTeam	SEEN	AFC Ajax is located in Frank de Boer  .
+208	1	SportsTeam	SEEN	AFC Ajax (amateurs) is located in Joden , Godenzonen  .
+209	1	SportsTeam	SEEN	AFC Ajax (amateurs) is located in 5000  .
+210	1	SportsTeam	SEEN	AZAL PFK is located in Shuvalan, Baku, Azerbaijan  .
+211	1	SportsTeam	SEEN	AZ Alkmaar is located in 17023  .
+212	1	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Vica  .
+213	1	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in 2015 Campeonato Brasileiro Série C  .
+214	1	SportsTeam	SEEN	Akron Summit Assault is located in St. Vincent–St. Mary High School  .
+215	1	SportsTeam	SEEN	Akron Summit Assault is located in 3000  .
+216	1	SportsTeam	SEEN	Amsterdam is located in Amsterdam-Centrum  .
+217	1	SportsTeam	SEEN	Greece is located in Nikos Voutsis  .
+218	1	SportsTeam	SEEN	Gus Poyet is located in AEK Athens F.C.  .
+219	1	SportsTeam	SEEN	Jens Härtel is located in SV Germania Schöneiche  .
+220	1	SportsTeam	SEEN	John van den Brom is located in AZ Alkmaar  .
+221	1	SportsTeam	SEEN	Jorge Humberto Rodríguez is located in A.D. Isidro Metapán  .
+222	1	SportsTeam	SEEN	Massimo Drago is located in Delfino Pescara 1936  .
+223	1	SportsTeam	SEEN	Massimo Drago is located in S.S. Chieti Calcio  .
+224	1	SportsTeam	SEEN	Olympic Stadium (Athens) is located in Marousi  .
+225	1	SportsTeam	SEEN	Premier Development League is located in K-W United FC  .
+226	1	SportsTeam	SEEN	Stuart Parker (footballer) is located in Bury F.C.  .
+227	2	Building	SEEN	11 Diagonal Street is located in South Africa , Coloured  .
+228	2	Building	SEEN	200 Public Square is located in Cleveland , 45  .
+229	2	Building	SEEN	20 Fenchurch Street is located in London , European Parliament  .
+230	2	Building	SEEN	250 Delaware Avenue is located in United States , Barack Obama  .
+231	2	Building	SEEN	300 North LaSalle is located in Illinois , 60  .
+232	2	Building	SEEN	3Arena is located in North Wall, Dublin , HOK SVE  .
+233	2	Building	SEEN	3Arena is located in Live Nation Entertainment , East Link Bridge  .
+234	2	Building	SEEN	3Arena is located in Live Nation Entertainment , Beverly Hills, California  .
+235	2	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Marriott International , 23  .
+236	2	Building	SEEN	Addis Ababa City Hall is located in Government of Addis Ababa , 42 m  .
+237	2	Building	SEEN	Adisham Hall is located in Tudor and Jacabian , Haputale, Sri Lanka  .
+238	2	Building	SEEN	Adisham Hall is located in Sri Lanka , Tamil language  .
+239	2	Building	SEEN	Alan B. Miller Hall is located in 30 March 2007 , 101 Ukrop Way  .
+240	2	Building	SEEN	Alan B. Miller Hall is located in College of William & Mary , Williamsburg, Virginia  .
+241	2	Building	SEEN	Alan B. Miller Hall is located in Mason School of Business , Robert A. M. Stern  .
+242	2	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ampara District  .
+243	2	Building	SEEN	Ampara Hospital is located in Sri Lanka , Sri Jayawardenepura Kotte  .
+244	2	Building	SEEN	Asher and Mary Isabelle Richardson House is located in U.S. Route 83 , 88002539  .
+245	2	Building	SEEN	Asilomar Conference Grounds is located in Asilomar Blvd., Pacific Grove, California , 87000823  .
+246	2	Building	SEEN	Asilomar Conference Grounds is located in Pacific Grove, California , 1987-02-27  .
+247	2	Building	SEEN	Asser Levy Public Baths is located in 23rd Street (Manhattan) , 1904  .
+248	2	Building	SEEN	Gujarat is located in Anandiben Patel , Amdavad ni Gufa  .
+249	2	WrittenWork	SEEN	1634: The Bavarian Crisis is located in Grantville Gazette III , Virginia DeMarce and Eric Flint  .
+250	2	WrittenWork	SEEN	1634: The Ram Rebellion is located in Eric Flint , E-book  .
+251	2	WrittenWork	SEEN	1634: The Ram Rebellion is located in Eric Flint , Hardcover  .
+252	2	WrittenWork	SEEN	ACM Transactions on Information Systems is located in ACM Trans. Inf. Syst. , ATISET  .
+253	2	WrittenWork	SEEN	AIDS (journal) is located in United Kingdom , Elizabeth II  .
+254	2	WrittenWork	SEEN	A Fortress of Grey Ice is located in J. V. Jones , 0-7653-0633-6  .
+255	2	WrittenWork	SEEN	A Glastonbury Romance is located in Print , 0-7156-3648-0  .
+256	2	WrittenWork	SEEN	A Glastonbury Romance is located in Hardcover , 0-7156-3648-0  .
+257	2	WrittenWork	SEEN	A Glastonbury Romance is located in 1174 , Print  .
+258	2	WrittenWork	SEEN	A Long Long Way is located in 57392246 , 0-670-03380-4  .
+259	2	WrittenWork	SEEN	A Loyal Character Dancer is located in United States , Asian Americans  .
+260	2	WrittenWork	SEEN	A Loyal Character Dancer is located in Soho Press , United States  .
+261	2	WrittenWork	SEEN	A Wizard of Mars is located in Diane Duane , 318875313  .
+262	2	WrittenWork	SEEN	A Wizard of Mars is located in Hardcover , 978-0-15-204770-2  .
+263	2	WrittenWork	SEEN	A Wizard of Mars is located in 560 , 978-0-15-204770-2  .
+264	2	WrittenWork	SEEN	Above the Veil is located in Australians , Aenir  .
+265	2	WrittenWork	SEEN	Above the Veil is located in English language , Aenir  .
+266	2	WrittenWork	SEEN	Above the Veil is located in Aenir , Castle (novel)  .
+267	2	WrittenWork	SEEN	Acta Mathematica Hungarica is located in Springer Science+Business Media , Julius Springer  .
+268	2	WrittenWork	SEEN	Administrative Science Quarterly is located in ASCQAG , Admin. Sci. Q.  .
+269	2	WrittenWork	SEEN	Administrative Science Quarterly is located in Cornell University , Association of Public and Land-grant Universities  .
+270	2	WrittenWork	SEEN	Aenir is located in Garth Nix , 0-439-17684-0  .
+271	2	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in Hardcover , 0-439-92550-9  .
+272	2	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in 320 , 0-439-92550-9  .
+273	2	WrittenWork	SEEN	HIV is located in Orthoretrovirinae , AIDS (journal)  .
+274	2	WrittenWork	SEEN	United States is located in English language , A Fortress of Grey Ice  .
+275	2	SportsTeam	SEEN	A.C. Cesena is located in Serie B , Carpi F.C. 1909  .
+276	2	SportsTeam	SEEN	A.C. Chievo Verona is located in Stadio Marc'Antonio Bentegodi , Serie A  .
+277	2	SportsTeam	SEEN	A.C. Lumezzane is located in Italy , Pietro Grasso  .
+278	2	SportsTeam	SEEN	A.D. Isidro Metapán is located in Jorge Humberto Rodríguez , C.D. FAS  .
+279	2	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in 1500 , A EPSTH 2nd GROUP  .
+280	2	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , Runcorn F.C. Halton  .
+281	2	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , Sparta Rotterdam  .
+282	2	SportsTeam	SEEN	A.F.C. Fylde is located in The Fylde , 3180  .
+283	2	SportsTeam	SEEN	A.F.C. Fylde is located in 3180 , Bryning Lane  .
+284	2	SportsTeam	SEEN	A.S. Livorno Calcio is located in Christian Panucci , Italy national football team  .
+285	2	SportsTeam	SEEN	A.S. Roma is located in Rome, Italy , Serie A  .
+286	2	SportsTeam	SEEN	ACF Fiorentina is located in Serie A , Italy  .
+287	2	SportsTeam	SEEN	AFC Ajax is located in Frank de Boer , Ajax Youth Academy  .
+288	2	SportsTeam	SEEN	AFC Ajax is located in AFC Ajax N.V. , 53502  .
+289	2	SportsTeam	SEEN	AFC Ajax (amateurs) is located in Amsterdam , Eberhard van der Laan  .
+290	2	SportsTeam	SEEN	AFC Ajax (amateurs) is located in 2014–15 Topklasse , 5000  .
+291	2	SportsTeam	SEEN	AZAL Arena is located in Shuvalan , AZAL PFK  .
+292	2	SportsTeam	SEEN	AZ Alkmaar is located in Alkmaar Zaanstreek , 17023  .
+293	2	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Estádio Municipal Coaracy da Mata Fonseca , Brazil  .
+294	2	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in 17000 , Agremiação Sportiva Arapiraquense  .
+295	2	SportsTeam	SEEN	Akron Summit Assault is located in Akron, Ohio , United States  .
+296	2	SportsTeam	SEEN	Massimo Drago is located in S.S. Chieti Calcio , A.C. Cesena  .
+297	2	University	SEEN	Acharya Institute of Technology is located in Dr. G. P. Prabhukumar , In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.  .
+298	2	University	SEEN	Acharya Institute of Technology is located in Blue, White and Orange , which is part of All India Council for Technical Education  .
+299	2	University	SEEN	Acharya Institute of Technology is located in Tennis , International Tennis Federation  .
+300	2	University	SEEN	European University Association is located in Brussels , School of Business and Social Sciences at the Aarhus University  .
+301	2	University	SEEN	Karnataka is located in Arabian Sea , Acharya Institute of Technology  .
+302	2	Monument	SEEN	Atatürk Monument (İzmir) is located in 1932-07-27 , Turkey  .
+303	2	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Ottoman Army soldiers killed in the Battle of Baku , Red granite and white marble  .
+304	2	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Türk Şehitleri Anıtı , Red granite and white marble  .
+305	2	Monument	SEEN	Dead Man's Plack is located in Æthelwald, Ealdorman of East Anglia , Rock (geology)  .
+306	2	ComicsCharacter	SEEN	Asterix (comicsCharacter) is located in René Goscinny , Albert Uderzo  .
+307	2	ComicsCharacter	SEEN	Aurakles is located in Len Wein , Aurakles  .
+308	2	ComicsCharacter	SEEN	Ballistic (comicsCharacter) is located in Doug Moench , Kelvin Mao  .
+309	2	ComicsCharacter	SEEN	Bananaman is located in BBC , Graeme Garden  .
+310	2	ComicsCharacter	SEEN	Bananaman is located in Bill Oddie , Lancashire  .
+311	2	ComicsCharacter	SEEN	Bibbo Bibbowski is located in Jerry Ordway , Jerry Ordway  .
+312	2	ComicsCharacter	SEEN	Black Pirate is located in Sheldon Moldoff , Jon Valor  .
+313	2	ComicsCharacter	SEEN	Blockbuster (comicsCharacter) is located in Roger Stern , Tom Lyle  .
+314	2	ComicsCharacter	SEEN	Bolt (comicsCharacter) is located in Paris Cullins , Gary Cohn (comics)  .
+315	2	Food	SEEN	Ajoblanco is located in Spain , Bread  .
+316	2	Food	SEEN	Ajoblanco is located in Almond , Andalusia  .
+317	2	Food	SEEN	Amatriciana sauce is located in Lazio , Tomato  .
+318	2	Food	SEEN	Antioquia Department is located in Colombia , Bandeja paisa  .
+319	2	Food	SEEN	Arem-arem is located in Indonesia , Banana leaf  .
+320	2	Food	SEEN	Arrabbiata sauce is located in Italy , Olive oil  .
+321	2	Food	SEEN	Arrabbiata sauce is located in Italy , Rome  .
+322	2	Food	SEEN	Arrabbiata sauce is located in Tomato , Italy  .
+323	2	Food	SEEN	Arròs negre is located in Spain , Squid  .
+324	2	Food	SEEN	Arròs negre is located in Valencian Community , Cuttlefish  .
+325	2	Food	SEEN	Ayam penyet is located in Java , Squeezed or smashed fried chicken served with sambal  .
+326	2	Food	SEEN	Bacon Explosion is located in United States , Sausage  .
+327	2	Food	SEEN	Bacon Explosion is located in United States , John Roberts  .
+328	2	Food	SEEN	Bacon Explosion is located in Bacon , Main course  .
+329	2	Food	SEEN	Bacon sandwich is located in Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin , Bread  .
+330	2	Food	SEEN	Baked Alaska is located in France, United States or China , Christmas pudding  .
+331	2	Food	SEEN	Baked Alaska is located in China , Standard Chinese  .
+332	2	Food	SEEN	Baked Alaska is located in Dessert , Cookie  .
+333	2	Food	SEEN	Bakewell pudding is located in Rutland Arms, Bakewell, in 1820 , Ground almond, jam, butter, eggs  .
+334	2	Food	SEEN	Bakewell pudding is located in Bakewell tart , Shortcrust pastry  .
+335	2	Food	SEEN	Bandeja paisa is located in Lemon , Citrus  .
+336	2	Food	SEEN	Batchoy is located in Philippines , Shrimp  .
+337	2	Food	SEEN	Batchoy is located in Philippines , Chinese Filipino  .
+338	2	Food	SEEN	Beef kway teow is located in Singapore , Standard Chinese  .
+339	2	Food	SEEN	Beef kway teow is located in Singapore , Tony Tan  .
+340	2	Food	SEEN	Bhajji is located in India , Sumitra Mahajan  .
+341	2	Food	SEEN	Bhajji is located in Pakora and other fritters made from wheat or corn flour , Gram flour  .
+342	2	Food	SEEN	Binignit is located in Sweet potato , Banana  .
+343	2	Food	SEEN	Binignit is located in Sweet potato , Sago  .
+344	2	Food	SEEN	Binignit is located in Sweet potato , Flowering plant  .
+345	2	Food	SEEN	Binignit is located in Sweet potato , Solanales  .
+346	2	Food	SEEN	Bionico is located in Dessert , Granola  .
+347	2	Food	SEEN	Bionico is located in Honey , Dessert  .
+348	2	Food	SEEN	Dessert is located in Ice cream , Bionico  .
+349	2	Food	SEEN	Siomay is located in Peanut sauce , Batagor  .
+350	2	Airport	SEEN	Abilene Regional Airport is located in Abilene, Texas , Texas  .
+351	2	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in Alcobendas , 3500.0  .
+352	2	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 3500.0 , San Sebastián de los Reyes  .
+353	2	Airport	SEEN	Agra Airport is located in India , T. S. Thakur  .
+354	2	Airport	SEEN	Al Asad Airbase is located in 618 , Al Anbar Province, Iraq  .
+355	2	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Operation Enduring Freedom  .
+356	2	Airport	SEEN	Al Asad Airbase is located in United States Air Force , United States invasion of Panama  .
+357	2	Airport	SEEN	Alcobendas is located in Community of Madrid , Adolfo Suárez Madrid–Barajas Airport  .
+358	2	Airport	SEEN	Alderney Airport is located in Poaceae , 877.0  .
+359	2	Airport	SEEN	Allama Iqbal International Airport is located in Pakistan Civil Aviation Authority , Jinnah International Airport  .
+360	2	Airport	SEEN	Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan , United States  .
+361	2	Airport	SEEN	Amsterdam Airport Schiphol is located in -3.3528 , Schiphol Group  .
+362	2	Airport	SEEN	Andrews County Airport is located in Asphalt , which is part of 973.0  .
+363	2	Airport	SEEN	Andrews County Airport is located in Texas , Austin, Texas  .
+364	2	Airport	SEEN	Angola International Airport is located in Luanda , 159  .
+365	2	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola  .
+366	2	Airport	SEEN	Antwerp International Airport is located in Flemish department of Mobility and Public Works , 12.0  .
+367	2	Airport	SEEN	Appleton International Airport is located in Appleton, Wisconsin , Grand Chute, Wisconsin  .
+368	2	Airport	SEEN	Ardmore Airport (New Zealand) is located in Poaceae , Poales  .
+369	2	Airport	SEEN	Ardmore Airport (New Zealand) is located in Poaceae , Monocotyledon  .
+370	2	Airport	SEEN	Ashgabat International Airport is located in 3800.0 , Ashgabat  .
+371	2	Airport	SEEN	Athens International Airport is located in Athens , Spata  .
+372	2	Airport	SEEN	Athens International Airport is located in Athens , 3800.0  .
+373	2	Airport	SEEN	San Sebastián de los Reyes is located in Community of Madrid , Adolfo Suárez Madrid–Barajas Airport  .
+374	2	Astronaut	SEEN	Alan Shepard is located in Apollo 14 , 1974-08-01  .
+375	2	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , United States  .
+376	2	Astronaut	SEEN	Buzz Aldrin is located in Fighter pilot , Retired  .
+377	2	Astronaut	SEEN	Buzz Aldrin is located in Apollo 11 , NASA  .
+378	2	Astronaut	SEEN	Buzz Aldrin is located in Apollo 11 , Fighter pilot  .
+379	3	Airport	SEEN	Abilene Regional Airport is located in Abilene, Texas , Taylor County, Texas , United States  .
+380	3	Airport	SEEN	Adirondack Regional Airport is located in 1219.0 , which is part of Lake Placid, New York .
+381	3	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 4100.0 , which is part of Madrid .
+382	3	Airport	SEEN	Agra Airport is located in India , which is part of Indian Air Force .
+383	3	Airport	SEEN	Al Asad Airbase is located in United States Air Force , which is part of Iraq .
+384	3	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Invasion of Grenada , Korean War  .
+385	3	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Invasion of Grenada , Operation Enduring Freedom  .
+386	3	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Korean War , Operation Enduring Freedom  .
+387	3	Airport	SEEN	Alderney Airport is located in Poaceae , 733.0 , Alderney  .
+388	3	Airport	SEEN	Alpena County Regional Airport is located in Wilson Township, Alpena County, Michigan , 1533.0 , 210  .
+389	3	Airport	SEEN	Amsterdam Airport Schiphol is located in Amsterdam , 3500.0 , -3.3528  .
+390	3	Airport	SEEN	Andrews County Airport is located in Texas , Houston , United States  .
+391	3	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , 4000.0  .
+392	3	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , South Runway  .
+393	3	Airport	SEEN	Antwerp International Airport is located in Flemish Government , Flemish Region , 12.0  .
+394	3	Airport	SEEN	Antwerp International Airport is located in Flemish Region , which is part of Flemish department of Mobility and Public Works .
+395	3	Airport	SEEN	Appleton, Wisconsin is located in Kimberly, Wisconsin , Little Chute, Wisconsin , Appleton International Airport  .
+396	3	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , United States , Clayton, Winnebago County, Wisconsin  .
+397	3	Airport	SEEN	Ardmore Airport (New Zealand) is located in Poaceae , Flowering plant , Poales  .
+398	3	Airport	SEEN	Ashgabat International Airport is located in Ashgabat , 3800.0 , 211  .
+399	3	Airport	SEEN	Athens International Airport is located in Athens , Greece , Alexis Tsipras  .
+400	3	Airport	SEEN	Atlantic City International Airport is located in 4/22 , Egg Harbor Township, New Jersey , United States  .
+401	3	Airport	SEEN	Belgium is located in Philippe of Belgium , Antwerp International Airport , Antwerp  .
+402	3	Airport	SEEN	Poaceae is located in Monocotyledon , Commelinids , Ardmore Airport (New Zealand)  .
+403	3	SportsTeam	SEEN	A.C. Cesena is located in Cesena , which is part of Serie B .
+404	3	SportsTeam	SEEN	A.C. Cesena is located in Massimo Drago , S.S.D. Potenza Calcio , Calcio Catania  .
+405	3	SportsTeam	SEEN	A.C. Lumezzane is located in Lega Pro/A , which is part of 2014 .
+406	3	SportsTeam	SEEN	A.D. Isidro Metapán is located in Estadio Jorge Calero Suárez , which is part of Isidro Metapán .
+407	3	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in Greece , Nikos Voutsis , Prokopis Pavlopoulos  .
+408	3	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , Drogheda United F.C. , Runcorn F.C. Halton  .
+409	3	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , Drogheda United F.C. , Stockport County F.C.  .
+410	3	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , KV Mechelen , Irlam Town F.C.  .
+411	3	SportsTeam	SEEN	A.F.C. Fylde is located in Warton, Fylde , which is part of 3180 .
+412	3	SportsTeam	SEEN	A.S. Livorno Calcio is located in Christian Panucci , Genoa C.F.C. , Real Madrid C.F.  .
+413	3	SportsTeam	SEEN	A.S. Roma is located in Associazione Sportiva Roma S.p.A. , which is part of Rome, Italy .
+414	3	SportsTeam	SEEN	AEK Athens F.C. is located in Superleague Greece , which is part of Athens .
+415	3	SportsTeam	SEEN	AFC Ajax (amateurs) is located in 5000 , which is part of Hoofdklasse .
+416	3	SportsTeam	SEEN	AZAL PFK is located in Azerbaijan Premier League , Qarabağ FK , AZAL Arena  .
+417	3	SportsTeam	SEEN	AZ Alkmaar is located in Alkmaar Zaanstreek , which is part of 2014 .
+418	3	SportsTeam	SEEN	AZ Alkmaar is located in John van den Brom , Vitesse Arnhem , De Graafschap  .
+419	3	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Estádio Municipal Coaracy da Mata Fonseca , Vila Nova Futebol Clube  .
+420	3	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Brazil , Vila Nova Futebol Clube  .
+421	3	SportsTeam	SEEN	Akron Summit Assault is located in St. Vincent–St. Mary High School , Premier Development League , K-W United FC  .
+422	3	SportsTeam	SEEN	Akron Summit Assault is located in 3000 , Premier Development League , K-W United FC  .
+423	3	SportsTeam	SEEN	Italy is located in Italians , Sergio Mattarella , A.S. Gubbio 1910  .
+424	3	SportsTeam	SEEN	Olympic Stadium (Athens) is located in Athens , Giorgos Kaminis , AEK Athens F.C.  .
+425	3	Food	SEEN	Ajoblanco is located in Spain , Ajo blanco .
+426	3	Food	SEEN	Ajoblanco is located in Spain , Andalusia .
+427	3	Food	SEEN	Arem-arem is located in Indonesia , Joko Widodo , Jusuf Kalla  .
+428	3	Food	SEEN	Arem-arem is located in Indonesia , Jusuf Kalla , Nationwide in Indonesia, but more specific to Java  .
+429	3	Food	SEEN	Arrabbiata sauce is located in Italy , Italian language , Sergio Mattarella  .
+430	3	Food	SEEN	Arrabbiata sauce is located in Chili pepper , Italy .
+431	3	Food	SEEN	Arrabbiata sauce is located in Garlic , Italy .
+432	3	Food	SEEN	Arròs negre is located in Spain , Catalonia .
+433	3	Food	SEEN	Arròs negre is located in Valencian Community , Spain .
+434	3	Food	SEEN	Asam pedas is located in Malaysia , Sumatra and Malay Peninsula .
+435	3	Food	SEEN	Ayam penyet is located in Malaysia , Java .
+436	3	Food	SEEN	Bacon Explosion is located in United States , Bacon .
+437	3	Food	SEEN	Bacon Explosion is located in United States , Native Americans in the United States , Washington, D.C.  .
+438	3	Food	SEEN	Bacon Explosion is located in United States , Barack Obama , Washington, D.C.  .
+439	3	Food	SEEN	Bacon Explosion is located in United States , John Roberts , African Americans  .
+440	3	Food	SEEN	Bacon sandwich is located in BLT , United Kingdom .
+441	3	Food	SEEN	Baked Alaska is located in France , New York .
+442	3	Food	SEEN	Baked Alaska is located in United States , New York .
+443	3	Food	SEEN	Baked Alaska is located in Dessert , Cookie , Christmas pudding  .
+444	3	Food	SEEN	Baked Alaska is located in Dessert , Sandesh (confectionery) , Christmas pudding  .
+445	3	Food	SEEN	Bandeja paisa is located in Colombian cuisine , Kidney bean .
+446	3	Food	SEEN	Barny Cakes is located in France , Gérard Larcher , Claude Bartolone  .
+447	3	Food	SEEN	Barny Cakes is located in Apple , 18.0 g .
+448	3	Food	SEEN	Beef kway teow is located in Singapore , Singapore dollar , Halimah Yacob  .
+449	3	Food	SEEN	Beef kway teow is located in Oyster sauce , Indonesia .
+450	3	Food	SEEN	Beef kway teow is located in Singapore , Indonesia , Tony Tan  .
+451	3	Food	SEEN	Bhajji is located in India , Gram flour, vegetables .
+452	3	Food	SEEN	Bhajji is located in India , Indian people , T. S. Thakur  .
+453	3	Food	SEEN	Bhajji is located in India , T. S. Thakur , Narendra Modi  .
+454	3	Food	SEEN	Bhajji is located in Karnataka , Gram flour, vegetables .
+455	3	Food	SEEN	Binignit is located in Sweet potato , Banana .
+456	3	Food	SEEN	Bionico is located in Mexico , Dessert .
+457	3	Food	SEEN	Bionico is located in Mexico , Jalisco .
+458	3	Food	SEEN	Celery is located in Apium , Bakso , Apiaceae  .
+459	3	Food	SEEN	Dessert is located in Cake , Bionico , Granola  .
+460	3	Food	SEEN	Indonesia is located in Jakarta , Jusuf Kalla , Bakso  .
+461	3	Food	SEEN	Java is located in Baduy , Ayam penyet , Singapore  .
+462	3	Food	SEEN	Java is located in Banyumasan people , Ayam penyet , Nationwide, also can be found in Malaysia and Singapore  .
+463	3	Food	SEEN	Spain is located in Spanish language , Arròs negre , Felipe VI of Spain  .
+464	3	Monument	SEEN	Adams County, Pennsylvania is located in Franklin County, Pennsylvania , Frederick County, Maryland , 11th Mississippi Infantry Monument  .
+465	3	Monument	SEEN	Azerbaijan is located in Artur Rasizade , Baku Turkish Martyrs' Memorial , Ottoman Army soldiers killed in the Battle of Baku  .
+466	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Ottoman Army soldiers killed in the Battle of Baku , Azerbaijan .
+467	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan , Artur Rasizade , Hüseyin Bütüner and Hilmi Güner  .
+468	3	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Azerbaijan , Türk Şehitleri Anıtı .
+469	3	Astronaut	SEEN	Alan Bean is located in Apollo 12 , NASA , David Scott  .
+470	3	Astronaut	SEEN	Alan Shepard is located in 1998-07-21 , California , Dianne Feinstein  .
+471	3	Astronaut	SEEN	Buzz Aldrin is located in Edwin E. Aldrin, Jr. , Apollo 11 , Massachusetts Institute of Technology, Sc.D. 1963  .
+472	3	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , 52.0(minutes) , Apollo 11  .
+473	3	Astronaut	SEEN	California is located in Smilodon , Alan Shepard , Distinguished Service Medal (United States Navy)  .
+474	3	Astronaut	SEEN	Elliot See is located in St. Louis , 1966-02-28 , 1962  .
+475	3	Astronaut	SEEN	Elliot See is located in Deceased , which is part of 1927-07-23 .
+476	3	Astronaut	SEEN	William Anders is located in 1933-10-17 , British Hong Kong , Apollo 8  .
+477	3	ComicsCharacter	SEEN	Auron (comicsCharacter) is located in Karl Kesel , Karl Kesel , Walt Simonson  .
+478	3	ComicsCharacter	SEEN	BBC is located in Tony Hall, Baron Hall of Birkenhead , Bananaman , London  .
+479	3	ComicsCharacter	SEEN	Bananaman is located in Bill Oddie , which is part of 1983-10-03 .
+480	3	ComicsCharacter	SEEN	Baymax is located in Big Hero 6 (film) , which is part of Duncan Rouleau .
+481	3	ComicsCharacter	SEEN	Bibbo Bibbowski is located in Jerry Ordway , Marv Wolfman .
+482	3	ComicsCharacter	SEEN	Blockbuster (comicsCharacter) is located in Roger Stern , Roland Desmond .
+483	3	ComicsCharacter	SEEN	Bolt (comicsCharacter) is located in Ernie Colón , Larry Bolatinsky .
+484	3	ComicsCharacter	SEEN	Bolt (comicsCharacter) is located in Paris Cullins , Larry Bolatinsky .
+485	3	WrittenWork	SEEN	1634: The Bavarian Crisis is located in 978-1-4165-4253-7 , which is part of Virginia DeMarce and Eric Flint .
+486	3	WrittenWork	SEEN	1634: The Bavarian Crisis is located in Eric Flint , 1634: The Baltic War , Burbank, California  .
+487	3	WrittenWork	SEEN	1634: The Ram Rebellion is located in Eric Flint , which is part of E-book .
+488	3	WrittenWork	SEEN	1634: The Ram Rebellion is located in Eric Flint , which is part of Hardcover .
+489	3	WrittenWork	SEEN	1634: The Ram Rebellion is located in E-book , which is part of 512 .
+490	3	WrittenWork	SEEN	ACM Transactions on Information Systems is located in ACM Trans. Inf. Syst. , which is part of Computer science .
+491	3	WrittenWork	SEEN	ACM Transactions on Information Systems is located in Computer science , which is part of ACM Trans. Inf. Syst. .
+492	3	WrittenWork	SEEN	AIDS (journal) is located in United Kingdom , AIDS (journal) , Elizabeth II  .
+493	3	WrittenWork	SEEN	AIP Advances is located in A.T. Charlie Johnson , United States , American Institute of Physics  .
+494	3	WrittenWork	SEEN	AIP Advances is located in A.T. Charlie Johnson , AIP Adv. .
+495	3	WrittenWork	SEEN	A Glastonbury Romance is located in Hardcover , which is part of 76798317 .
+496	3	WrittenWork	SEEN	A Long Long Way is located in English language , Great Britain , The Secret Scripture  .
+497	3	WrittenWork	SEEN	A Loyal Character Dancer is located in Soho Press , United States , African Americans  .
+498	3	WrittenWork	SEEN	A Loyal Character Dancer is located in Soho Press , United States , Barack Obama  .
+499	3	WrittenWork	SEEN	A Severed Wasp is located in 8805735 , PS3523.E55 S4 1982 , Print  .
+500	3	WrittenWork	SEEN	A Severed Wasp is located in 388 , Print , 0-374-26131-8  .
+501	3	WrittenWork	SEEN	A Wizard of Mars is located in Hardcover , which is part of 318875313 .
+502	3	WrittenWork	SEEN	A Wizard of Mars is located in Hardcover , which is part of Diane Duane .
+503	3	WrittenWork	SEEN	Above the Veil is located in Australians , Aenir , Castle (novel)  .
+504	3	WrittenWork	SEEN	Acta Mathematica Hungarica is located in 83646315 , which is part of Acta Math. Hungar. .
+505	3	WrittenWork	SEEN	Acta Mathematica Hungarica is located in Acta Math. Hungar. , which is part of Mathematics .
+506	3	WrittenWork	SEEN	Acta Palaeontologica Polonica is located in 1732-2421 , which is part of 60040714 .
+507	3	WrittenWork	SEEN	Addiction (journal) is located in Addiction , which is part of Addiction .
+508	3	WrittenWork	SEEN	Aenir is located in 45644811 , which is part of Garth Nix .
+509	3	WrittenWork	SEEN	Aenir is located in Garth Nix , which is part of Print .
+510	3	WrittenWork	SEEN	American Journal of Mathematics is located in Am. J. Math. , which is part of Mathematics .
+511	3	WrittenWork	SEEN	American Journal of Mathematics is located in Am. J. Math. , which is part of 1878 .
+512	3	WrittenWork	SEEN	SAGE Publications is located in Sara Miller McCune , Administrative Science Quarterly , Admin. Sci. Q.  .
+513	3	WrittenWork	SEEN	United Kingdom is located in David Cameron , AIDS (journal) , Lippincott Williams & Wilkins  .
+514	3	WrittenWork	SEEN	United States is located in African Americans , Barack Obama , A Fortress of Grey Ice  .
+515	3	WrittenWork	SEEN	United States is located in Asian Americans , English language , Alcatraz Versus the Evil Librarians  .
+516	3	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , which is part of Mario Botta .
+517	3	University	SEEN	Acharya Institute of Technology is located in Bangalore , Nurturing Excellence .
+518	3	University	SEEN	Acharya Institute of Technology is located in B.M. Reddy , Bangalore .
+519	3	University	SEEN	Acharya Institute of Technology is located in Tennis , 2000 , International Tennis Federation  .
+520	3	University	SEEN	India is located in Mumbai , AWH Engineering College , Ganges  .
+521	3	University	SEEN	Romania is located in Prime Minister of Romania , Klaus Iohannis , 1 Decembrie 1918 University  .
+522	3	University	SEEN	Romania is located in Andrew the Apostle , 1 Decembrie 1918 University , Universitas Apulensis  .
+523	3	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in 737 , 16000 , 1928  .
+524	3	Building	SEEN	11 Diagonal Street is located in South Africa , Cape Town , Cyril Ramaphosa  .
+525	3	Building	SEEN	11 Diagonal Street is located in South Africa , Jacob Zuma , Coloured  .
+526	3	Building	SEEN	11 Diagonal Street is located in South Africa , Jacob Zuma , White South African  .
+527	3	Building	SEEN	200 Public Square is located in Cleveland , Frank G. Jackson , United States  .
+528	3	Building	SEEN	250 Delaware Avenue is located in Buffalo, New York , Erie County, New York , New York  .
+529	3	Building	SEEN	300 North LaSalle is located in Chicago , Rahm Emanuel , United States  .
+530	3	Building	SEEN	3Arena is located in Dublin , HOK SVE .
+531	3	Building	SEEN	3Arena is located in Dublin , Populous (company) .
+532	3	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Republic of Ireland  .
+533	3	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Denmark , Marriott International .
+534	3	Building	SEEN	Adare Manor is located in 1862 , James Pain .
+535	3	Building	SEEN	Addis Ababa City Hall is located in Government of Addis Ababa , which is part of 140000.0 (square metres) .
+536	3	Building	SEEN	Adisham Hall is located in Sri Lanka , which is part of Tudor Revival architecture .
+537	3	Building	SEEN	Akita Museum of Art is located in 3 , which is part of 2013-09-28 .
+538	3	Building	SEEN	Akita Museum of Art is located in Akita, Akita , Akita Prefecture , Japan  .
+539	3	Building	SEEN	Alan B. Miller Hall is located in Virginia , which is part of College of William & Mary .
+540	3	Building	SEEN	Alan B. Miller Hall is located in Virginia , College of William & Mary , Robert Gates  .
+541	3	Building	SEEN	Alan B. Miller Hall is located in Virginia , Mason School of Business , United States  .
+542	3	Building	SEEN	Alan B. Miller Hall is located in College of William & Mary , which is part of Williamsburg, Virginia .
+543	3	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ampara District .
+544	3	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ranil Wickremesinghe , Eastern Province, Sri Lanka  .
+545	3	Building	SEEN	Asher and Mary Isabelle Richardson House is located in U.S. Route 83 , 1988-11-22 , 1911  .
+546	3	Building	SEEN	Asilomar Conference Grounds is a food found in Pacific Grove, California , where the leader is 1987-02-27 and the leader is 87000823  .
+547	3	Building	SEEN	Asser Levy Public Baths is a food found in Asser Levy Place and East 23rd Street , where the leader is 80002709 and the leader is 1980-04-23  .
+548	3	Building	SEEN	Asser Levy Public Baths is located in New York City , United States , Manhattan  .
+549	3	Building	SEEN	India is located in T. S. Thakur , Amdavad ni Gufa , Sumitra Mahajan  .
+550	4	WrittenWork	SEEN	1634: The Bavarian Crisis is a food found in 1634: The Baltic War , where the capital is David Weber and the leader is Ring of Fire II . English language  is the leader of 1634: The Baltic War .
+551	4	WrittenWork	SEEN	1634: The Ram Rebellion is located in E-book , 512 , Virginia DeMarce .
+552	4	WrittenWork	SEEN	AIDS (journal) is located in United Kingdom , London , Lippincott Williams & Wilkins .
+553	4	WrittenWork	SEEN	A Fortress of Grey Ice is located in J. V. Jones , Print , 51969173 .
+554	4	WrittenWork	SEEN	A Long Long Way is located in Annie Dunne , Ireland , Viking Press .
+555	4	WrittenWork	SEEN	A Severed Wasp is located in 8805735 , PS3523.E55 S4 1982 , Print .
+556	4	WrittenWork	SEEN	A Severed Wasp is a food found in English language , where the capital is Great Britain and the leader is United States . African Americans  is the leader of English language .
+557	4	WrittenWork	SEEN	A Severed Wasp is located in 388 , 8805735 , 0-374-26131-8 .
+558	4	WrittenWork	SEEN	A Wizard of Mars is located in Hardcover , Diane Duane , 318875313 .
+559	4	WrittenWork	SEEN	Addiction (journal) is located in Addiction , 93645978 , Addiction .
+560	4	WrittenWork	SEEN	Administrative Science Quarterly is located in Cornell University , Association of American Universities , New York .
+561	4	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in English language , United States , Washington, D.C. .
+562	4	WrittenWork	SEEN	American Journal of Mathematics is located in Am. J. Math. , Mathematics , Bimonthly .
+563	4	WrittenWork	SEEN	American Journal of Mathematics is located in Mathematics , 1878 , Am. J. Math. .
+564	4	WrittenWork	SEEN	English language is located in Great Britain , A Loyal Character Dancer , Soho Press . The leader of Great Britain is Soho Press .
+565	4	WrittenWork	SEEN	English language is a food found in Great Britain , where the capital is United States and the leader is Asian Americans . A Severed Wasp  is the leader of Great Britain .
+566	4	WrittenWork	SEEN	English language is a food found in Great Britain , where the capital is United States and the leader is Alcatraz Versus the Evil Librarians . Native Americans in the United States  is the leader of Great Britain .
+567	4	WrittenWork	SEEN	United Kingdom is located in David Cameron , AIDS (journal) , Lippincott Williams & Wilkins .
+568	4	WrittenWork	SEEN	United States is a food found in African Americans , where the capital is English language and the leader is Great Britain . A Fortress of Grey Ice  is the leader of African Americans .
+569	4	WrittenWork	SEEN	United States is a food found in Asian Americans , where the capital is English language and the leader is Great Britain . A Fortress of Grey Ice  is the leader of Asian Americans .
+570	4	WrittenWork	SEEN	United States is located in Barack Obama , English language , A Severed Wasp .
+571	4	Food	SEEN	Ajoblanco is located in Spain , Bread, almonds, garlic, water, olive oil , Andalusia .
+572	4	Food	SEEN	Ajoblanco is located in Spain , Andalusia , Ajo blanco .
+573	4	Food	SEEN	Arem-arem is located in Lemper , Banana leaf , compressed rice cooked in banana leaf with vegetables or minced meat fillings .
+574	4	Food	SEEN	Arem-arem is located in Banana leaf , Main course , compressed rice cooked in banana leaf with vegetables or minced meat fillings .
+575	4	Food	SEEN	Arrabbiata sauce is located in Chili pepper , Tomatoes, red chili, garlic, olive oil , Italy .
+576	4	Food	SEEN	Arròs negre is located in Spain , White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers , Catalonia .
+577	4	Food	SEEN	Arròs negre is located in Spain , White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers , Catalonia .
+578	4	Food	SEEN	Arròs negre is located in Valencian Community , Spain , White rice, cuttlefish or squid, cephalopod ink, cubanelle peppers .
+579	4	Food	SEEN	Asam pedas is located in Malaysia , Sumatra and Malay Peninsula , Fish cooked in sour and hot sauce .
+580	4	Food	SEEN	Asam pedas is a food found in Malaysia , where the capital is Malaysian Malay and the leader is Sumatra . Minangkabau people  is the leader of Malaysia .
+581	4	Food	SEEN	Bacon Explosion is located in United States , Sausage , Kansas City metropolitan area .
+582	4	Food	SEEN	Bacon Explosion is located in United States , Paul Ryan , Asian Americans .
+583	4	Food	SEEN	Bacon sandwich is located in BLT , United Kingdom , Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin .
+584	4	Food	SEEN	Bacon sandwich is located in BLT , United Kingdom , Bacon butty, bacon sarnie, rasher sandwich, bacon sanger, piece 'n bacon, bacon cob, bacon barm, bacon muffin .
+585	4	Food	SEEN	Bacon sandwich is located in Bread and bacon, with a condiment, often ketchup or brown sauce , United Kingdom , Ketchup .
+586	4	Food	SEEN	Baked Alaska is located in Meringue, ice cream, sponge cake or Christmas pudding , France, United States or China , Paris, New York or Hong Kong .
+587	4	Food	SEEN	Baked Alaska is located in Meringue, ice cream, sponge cake or Christmas pudding , Paris, New York or Hong Kong , United States .
+588	4	Food	SEEN	Bakewell pudding is located in Bakewell tart , Derbyshire Dales , Derbyshire . The leader of Bakewell tart is Derbyshire .
+589	4	Food	SEEN	Bakewell pudding is located in Derbyshire Dales , Bakewell tart , Dessert .
+590	4	Food	SEEN	Bakewell pudding is located in Derbyshire Dales , Bakewell tart , Derbyshire . The leader of Derbyshire Dales is Derbyshire .
+591	4	Food	SEEN	Bandeja paisa is located in Rice , red beans, pork belly, white rice, ground meat, chicharon, fried egg, plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon , Paisa Region .
+592	4	Food	SEEN	Batagor is located in Indonesia , Peanut sauce , Siomay .
+593	4	Food	SEEN	Batagor is located in Indonesia , Shumai , Siomay .
+594	4	Food	SEEN	Beef kway teow is located in Singapore , Indonesia , Standard Chinese .
+595	4	Food	SEEN	Beef kway teow is located in Kway teow, beef tender loin, gula Melaka, sliced, dried black beans, garlic, dark soy sauce, lengkuas, oyster sauce, soya sauce, chilli and sesame oil , Oyster sauce , Indonesia .
+596	4	Food	SEEN	Beef kway teow is located in Singapore , Kway teow, beef tender loin, gula Melaka, sliced, dried black beans, garlic, dark soy sauce, lengkuas, oyster sauce, soya sauce, chilli and sesame oil , Indonesia .
+597	4	Food	SEEN	Beef kway teow is located in Singapore , English language , Singapore and Indonesia .
+598	4	Food	SEEN	Bhajji is located in India , Indian rupee , T. S. Thakur .
+599	4	Food	SEEN	Bhajji is located in India , Indian people , T. S. Thakur .
+600	4	Food	SEEN	Bhajji is located in India , Narendra Modi , Sumitra Mahajan .
+601	4	Food	SEEN	Bhajji is a food found in India , where the capital is T. S. Thakur and the leader is Karnataka . Vajubhai Vala  is the leader of India .
+602	4	Food	SEEN	Binignit is a food found in Sweet potato , where the capital is Dessert and the leader is Cookie . Cookie is the leader of Sweet potato .
+603	4	Food	SEEN	Bionico is located in Mexico , Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins , Guadalajara .
+604	4	Food	SEEN	Bionico is located in Mexico , Chopped Fruits, Sour Cream, Condensed Milk, Granola, Shredded Coconut, Raisins , Jalisco .
+605	4	Food	SEEN	Indonesia is located in Jakarta , Jusuf Kalla , Bakso .
+606	4	Food	SEEN	Indonesia is located in Jusuf Kalla , Bakso , Indonesia .
+607	4	Food	SEEN	Italy is located in Rome , Matteo Renzi , Amatriciana sauce .
+608	4	Food	SEEN	Java is a food found in Baduy , where the capital is Singapore and the leader is Halimah Yacob . Ayam penyet  is the leader of Baduy .
+609	4	Food	SEEN	Java is a food found in Banyumasan people , where the capital is Ayam penyet and the leader is Singapore . Tony Tan  is the leader of Banyumasan people .
+610	4	Food	SEEN	Philippines is located in Ilocano people , Philippine Spanish , Batchoy .
+611	4	Food	SEEN	Spain is located in Euro , Arròs negre , Spaniards .
+612	4	Astronaut	SEEN	Alan Bean is a food found in Apollo 12 , where the leader is United States and the leader is NASA .
+613	4	Astronaut	SEEN	Alan Shepard is located in NWC, M.A. 1957 , New Hampshire , 1974-08-01 .
+614	4	Astronaut	SEEN	Alan Shepard is located in Deceased , California , Test pilot .
+615	4	Astronaut	SEEN	Alan Shepard is a food found in Apollo 14 , where the capital is Test pilot and the leader is New Hampshire . New Hampshire is the leader of Apollo 14 .
+616	4	Astronaut	SEEN	Apollo 12 is a food found in Alfred Worden , where the capital is Alan Bean and the leader is NASA . NASA is the leader of Alfred Worden .
+617	4	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , United States , Joe Biden . The leader of Glen Ridge, New Jersey is Joe Biden .
+618	4	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , St. Louis , 1927-07-23 .
+619	4	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , St. Louis , 1966-02-28 .
+620	4	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , University of Texas System , St. Louis . The leader of University of Texas at Austin is St. Louis .
+621	4	Astronaut	SEEN	Elliot See is located in St. Louis , 1927-07-23 , Dallas .
+622	4	Astronaut	SEEN	William Anders is located in 1969-09-01 , Apollo 8 , Frank Borman . The leader of 1969-09-01 is Frank Borman .
+623	4	Monument	SEEN	Adams County, Pennsylvania is a food found in Carroll County, Maryland , where the capital is Cumberland County, Pennsylvania and the leader is 11th Mississippi Infantry Monument . Gettysburg, Pennsylvania  is the leader of Carroll County, Maryland .
+624	4	Monument	SEEN	Adams County, Pennsylvania is a food found in Franklin County, Pennsylvania , where the capital is Carroll County, Maryland and the leader is 11th Mississippi Infantry Monument . Contributing property  is the leader of Franklin County, Pennsylvania .
+625	4	Monument	SEEN	Azerbaijan is located in Baku , Baku Turkish Martyrs' Memorial , Ottoman Army soldiers killed in the Battle of Baku .
+626	4	Monument	SEEN	Azerbaijan is located in Artur Rasizade , Baku , Baku Turkish Martyrs' Memorial .
+627	4	Monument	SEEN	Azerbaijan is located in Artur Rasizade , Baku Turkish Martyrs' Memorial , Red granite and white marble .
+628	4	Monument	SEEN	Azerbaijan is located in Prime Minister of Azerbaijan , Baku Turkish Martyrs' Memorial , Ottoman Army soldiers killed in the Battle of Baku .
+629	4	SportsTeam	SEEN	A.C. Chievo Verona is located in Associazione Calcio ChievoVerona S.r.l. , Verona, Italy , 2014–15 Serie A .
+630	4	SportsTeam	SEEN	A.C. Chievo Verona is located in Rolando Maran , Italy , Unione Triestina 2012 S.S.D. .
+631	4	SportsTeam	SEEN	A.C. Lumezzane is located in Michele Marcolini , Italy , Torino F.C. .
+632	4	SportsTeam	SEEN	A.E Dimitra Efxeinoupolis is located in Greece , Alexis Tsipras , Nikos Voutsis .
+633	4	SportsTeam	SEEN	A.S. Gubbio 1910 is located in Associazione Sportiva Gubbio 1910 Srl , 2014 , Italy .
+634	4	SportsTeam	SEEN	A.S. Gubbio 1910 is located in Associazione Sportiva Gubbio 1910 Srl , 2014 , Stadio Pietro Barbetti .
+635	4	SportsTeam	SEEN	A.S. Livorno Calcio is located in Stadio Armando Picchi , 19238 , 2014–15 Serie B .
+636	4	SportsTeam	SEEN	A.S. Roma is located in 70634 , Associazione Sportiva Roma S.p.A. , Rome .
+637	4	SportsTeam	SEEN	AZAL PFK is a food found in Azerbaijan Premier League , where the leader is Qarabağ FK and the leader is AZAL Arena .
+638	4	SportsTeam	SEEN	AZAL PFK is located in Azerbaijan Premier League , Qarabağ FK , 3500 .
+639	4	SportsTeam	SEEN	AZ Alkmaar is located in John van den Brom , AFC Ajax , İstanbulspor A.Ş. .
+640	4	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Brazil , Asa Gigante '' .
+641	4	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Brazil , 2015 Campeonato Brasileiro Série C .
+642	4	SportsTeam	SEEN	Akron Summit Assault is located in Akron Metro Futbol Club Summit Assault , 3000 , Denzil Antonio .
+643	4	SportsTeam	SEEN	Akron Summit Assault is a food found in Akron, Ohio , where the leader is United States and the leader is Premier Development League .
+644	4	SportsTeam	SEEN	Italy is located in Rome , Sergio Mattarella , A.S. Gubbio 1910 .
+645	4	SportsTeam	SEEN	Italy is located in Pietro Grasso , Italian language , Rome .
+646	4	SportsTeam	SEEN	Serie A is located in Juventus F.C. , A.S. Roma , Associazione Sportiva Roma S.p.A. .
+647	4	ComicsCharacter	SEEN	Bananaman is located in Tim Brooke-Taylor , Steve Bright , 1983-10-03 .
+648	4	ComicsCharacter	SEEN	Bolt (comicsCharacter) is located in Ernie Colón , Ernie Colón , Puerto Ricans .
+649	4	ComicsCharacter	SEEN	Duncan Rouleau is a food found in Americans , where the leader is Baymax and the leader is Big Hero 6 (film) .
+650	4	ComicsCharacter	SEEN	Duncan Rouleau is a food found in Americans , where the leader is Duncan Rouleau and the leader is Big Hero 6 (film) .
+651	4	ComicsCharacter	SEEN	Duncan Rouleau is a food found in Americans , where the leader is Baymax and the leader is Big Hero 6 (film) .
+652	4	Airport	SEEN	Abilene Regional Airport is a food found in Abilene, Texas , where the leader is Texas and the leader is 1121.0 .
+653	4	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is a food found in Alcobendas , where the capital is ENAIRE and the leader is Madrid . Spain  is the leader of Alcobendas .
+654	4	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 18R/36L , 3500.0 , Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas .
+655	4	Airport	SEEN	Agra Airport is located in 167.94 , Uttar Pradesh , Awadh . The leader of 167.94 is Awadh .
+656	4	Airport	SEEN	Agra Airport is a food found in Uttar Pradesh , where the capital is Awadh and the leader is Ram Naik . Ram Naik is the leader of Uttar Pradesh .
+657	4	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Lockheed AC-130 , General Dynamics F-16 Fighting Falcon .
+658	4	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Lockheed AC-130 , General Dynamics F-16 Fighting Falcon .
+659	4	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Lockheed AC-130 , McDonnell Douglas F-15 Eagle .
+660	4	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Invasion of Grenada , Lockheed AC-130 .
+661	4	Airport	SEEN	Allama Iqbal International Airport is a food found in Pakistan Civil Aviation Authority , where the capital is Jinnah International Airport and the leader is Punjab, Pakistan . Provincial Assembly of the Punjab  is the leader of Pakistan Civil Aviation Authority .
+662	4	Airport	SEEN	Alpena County Regional Airport is a food found in Maple Ridge Township, Alpena County, Michigan , where the leader is 1533.0 and the leader is Alpena, Michigan .
+663	4	Airport	SEEN	Amsterdam Airport Schiphol is a food found in Amsterdam , where the capital is 06/24 'Kaagbaan' and the leader is 2014.0 . 2014.0 is the leader of Amsterdam .
+664	4	Airport	SEEN	Andrews County Airport is located in Texas , Austin, Texas , English language .
+665	4	Airport	SEEN	Andrews County Airport is located in Texas , English language , Texan .
+666	4	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language , Texan .
+667	4	Airport	SEEN	Andrews County Airport is located in Texas , Houston , Austin, Texas .
+668	4	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , Luanda Province . The leader of Ícolo e Bengo is Luanda Province .
+669	4	Airport	SEEN	Antwerp International Airport is a food found in Antwerp , where the capital is Flemish Region and the leader is Flemish Government . Belgium  is the leader of Antwerp .
+670	4	Airport	SEEN	Appleton International Airport is a food found in Greenville, Wisconsin , where the leader is 2439.0 and the leader is Appleton, Wisconsin .
+671	4	Airport	SEEN	Appleton International Airport is a food found in Greenville, Wisconsin , where the capital is Menasha (town), Wisconsin and the leader is Dale, Wisconsin . Dale, Wisconsin is the leader of Greenville, Wisconsin .
+672	4	Airport	SEEN	Ardmore Airport (New Zealand) is located in Poaceae , Poales , Monocotyledon .
+673	4	Airport	SEEN	Ardmore Airport (New Zealand) is located in 597.0 , Poaceae , 34.0 . The leader of 597.0 is 34.0 .
+674	4	Airport	SEEN	Atlantic City International Airport is located in 1873.0 , Egg Harbor Township, New Jersey , United States .
+675	4	Airport	SEEN	ENAIRE is a food found in Madrid , where the capital is Adolfo Suárez Madrid–Barajas Airport and the leader is Madrid, Paracuellos de Jarama, San Sebastián de los Reyes and Alcobendas . Spain  is the leader of Madrid .
+676	4	Airport	SEEN	Egg Harbor Township, New Jersey is located in New Jersey , Atlantic City International Airport , 3048.0 .
+677	4	Airport	SEEN	Poaceae is located in Monocotyledon , Flowering plant , Commelinids .
+678	4	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , Mario Botta , Mendrisio .
+679	4	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , 1996 , 600 .
+680	4	University	SEEN	Accademia di Architettura di Mendrisio is located in Mario Botta , Mendrisio , 1996 .
+681	4	University	SEEN	Acharya Institute of Technology is located in Visvesvaraya Technological University , All India Council for Technical Education , Mumbai . The leader of Visvesvaraya Technological University is Mumbai .
+682	4	University	SEEN	Acharya Institute of Technology is located in Bangalore , India , 700 .
+683	4	University	SEEN	Acharya Institute of Technology is located in Dr. G. P. Prabhukumar , 2000 , India .
+684	4	University	SEEN	Romania is located in Germans of Romania , Klaus Iohannis , Bucharest .
+685	4	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in 737 , Denmark , European University Association .
+686	4	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in 737 , 16000 , Denmark .
+687	4	Building	SEEN	11 Diagonal Street is located in South Africa , Cape Town , Cyril Ramaphosa .
+688	4	Building	SEEN	11 Diagonal Street is located in South Africa , Asian South Africans , Cape Town .
+689	4	Building	SEEN	200 Public Square is a food found in Cleveland , where the capital is Cuyahoga County, Ohio and the leader is Ohio . Ohio is the leader of Cleveland .
+690	4	Building	SEEN	250 Delaware Avenue is located in Postmodern architecture , January, 2014 , 30843.8 (square metres) .
+691	4	Building	SEEN	300 North LaSalle is located in Chicago , DuPage County, Illinois , United States .
+692	4	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Críona Ní Dhálaigh .
+693	4	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Críona Ní Dhálaigh .
+694	4	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Denmark , Marriott International , Bella Center .
+695	4	Building	SEEN	AC Hotel Bella Sky Copenhagen is located in Bella Center , Marriott International , 3XN .
+696	4	Building	SEEN	Adisham Hall is located in Tudor and Jacabian , Sri Lanka , 1931 .
+697	4	Building	SEEN	Adisham Hall is located in Sri Lanka , Haputale, Sri Lanka , Sri Jayawardenepura Kotte .
+698	4	Building	SEEN	Adisham Hall is located in Sri Lanka , Tudor Revival architecture , 1931 .
+699	4	Building	SEEN	Akita Museum of Art is located in Akita, Akita , Akita Prefecture , Japan . The leader of Akita, Akita is Japan .
+700	4	Building	SEEN	Alan B. Miller Hall is located in Virginia , Robert A. M. Stern , Mason School of Business .
+701	4	Building	SEEN	Alan B. Miller Hall is located in Virginia , 1 June 2009 , Mason School of Business .
+702	4	Building	SEEN	Amdavad ni Gufa is located in Ahmedabad , India , Narendra Modi .
+703	4	Building	SEEN	Amdavad ni Gufa is located in Gujarat , Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road , India .
+704	4	Building	SEEN	Amdavad ni Gufa is located in Gujarat , India , T. S. Thakur .
+705	4	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ranil Wickremesinghe , Sri Lankan rupee .
+706	4	Building	SEEN	Asilomar Conference Grounds is located in Julia Morgan , San Francisco , Los Angeles Herald-Examiner .
+707	4	Building	SEEN	Asilomar Conference Grounds is located in Julia Morgan , Los Angeles Herald-Examiner , Riverside Art Museum .
+708	4	Building	SEEN	Asser Levy Public Baths is a food found in New York City , where the leader is United States and the leader is Manhattan .
+709	4	Building	SEEN	Birmingham is a food found in B postcode area , where the capital is 103 Colmore Row and the leader is John Madin . John Clancy (Labour politician)  is the leader of B postcode area .
+710	4	Building	SEEN	Ethiopia is located in Mulatu Teshome , Addis Ababa , Addis Ababa Stadium . The leader of Mulatu Teshome is Addis Ababa Stadium .
+711	4	Building	SEEN	United States is located in Washington, D.C. , President of the United States , Paul Ryan .
+712	5	SportsTeam	SEEN	A.F.C. Blackpool is located in Stuart Parker (footballer) , KV Mechelen , Chesterfield F.C. . The leader of Stuart Parker (footballer) is Chesterfield F.C. .
+713	5	SportsTeam	SEEN	AEK Athens F.C. is located in Superleague Greece , Olympiacos F.C. , Gus Poyet . The leader of Superleague Greece is Gus Poyet .
+714	5	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Estádio Municipal Coaracy da Mata Fonseca , Estádio Municipal Coaracy da Mata Fonseca . The leader of Campeonato Brasileiro Série C is Estádio Municipal Coaracy da Mata Fonseca .
+715	5	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Estádio Municipal Coaracy da Mata Fonseca , Estádio Municipal Coaracy da Mata Fonseca . The leader of Campeonato Brasileiro Série C is Estádio Municipal Coaracy da Mata Fonseca .
+716	5	SportsTeam	SEEN	Agremiação Sportiva Arapiraquense is located in Campeonato Brasileiro Série C , Brazil , Vica . The leader of Campeonato Brasileiro Série C is Vica .
+717	5	Monument	SEEN	Adams County, Pennsylvania is located in Franklin County, Pennsylvania , Carroll County, Maryland , Cumberland County, Pennsylvania , Cumberland County, Pennsylvania .
+718	5	Monument	SEEN	Azerbaijan is located in Baku , Prime Minister of Azerbaijan , Baku Turkish Martyrs' Memorial . The leader of Baku is Baku Turkish Martyrs' Memorial .
+719	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Ottoman Army soldiers killed in the Battle of Baku , Azerbaijan , Türk Şehitleri Anıtı . The leader of Ottoman Army soldiers killed in the Battle of Baku is Türk Şehitleri Anıtı .
+720	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is a food found in Ottoman Army soldiers killed in the Battle of Baku , where the capital is Azerbaijan and the leader is Türk Şehitleri Anıtı . Türk Şehitleri Anıtı is the leader of Ottoman Army soldiers killed in the Battle of Baku .
+721	5	Monument	SEEN	Baku Turkish Martyrs' Memorial is located in Red granite and white marble , Azerbaijan , Prime Minister of Azerbaijan . The leader of Red granite and white marble is Prime Minister of Azerbaijan .
+722	5	ComicsCharacter	SEEN	Bananaman is a food found in Tim Brooke-Taylor , where the capital is BBC and the leader is John Geering . 1983-10-03 is the leader of Tim Brooke-Taylor .
+723	5	ComicsCharacter	SEEN	Duncan Rouleau is located in Americans , Steven T. Seagle , Steven T. Seagle . The leader of Americans is Steven T. Seagle .
+724	5	Building	SEEN	20 Fenchurch Street is located in United Kingdom , London , Boris Johnson , Boris Johnson .
+725	5	Building	SEEN	250 Delaware Avenue is located in Buffalo, New York , January, 2014 , 110 million (dollars) . The leader of Buffalo, New York is 110 million (dollars) .
+726	5	Building	SEEN	300 North LaSalle is located in Chicago , Rahm Emanuel , DuPage County, Illinois . The leader of Chicago is DuPage County, Illinois .
+727	5	Building	SEEN	3Arena is located in Live Nation Entertainment , Dublin , Dáil Éireann . The leader of Live Nation Entertainment is Dáil Éireann .
+728	5	Building	SEEN	Adisham Hall is located in Tudor and Jacabian , Sri Lanka , 1931 . The leader of Tudor and Jacabian is 1931 .
+729	5	Building	SEEN	Adisham Hall is located in Sri Lanka , Haputale, Sri Lanka , Sri Jayawardenepura Kotte . The leader of Sri Lanka is Sri Jayawardenepura Kotte .
+730	5	Building	SEEN	Adisham Hall is located in Sri Lanka , Haputale , Ranil Wickremesinghe . The leader of Sri Lanka is Ranil Wickremesinghe .
+731	5	Building	SEEN	Akita Museum of Art is located in Japan , Akita, Akita , Akita Prefecture , Akita Prefecture .
+732	5	Building	SEEN	Amdavad ni Gufa is located in Gujarat , Ahmedabad , India , India .
+733	5	Building	SEEN	Amdavad ni Gufa is located in Gujarat , India , T. S. Thakur , T. S. Thakur .
+734	5	Building	SEEN	Ampara Hospital is located in Sri Lanka , Ranil Wickremesinghe , 476 , 476 .
+735	5	Building	SEEN	Asilomar Conference Grounds is located in Julia Morgan , Los Angeles Herald-Examiner , Riverside Art Museum . The leader of Julia Morgan is Riverside Art Museum .
+736	5	Building	SEEN	Asilomar Conference Grounds is located in Julia Morgan , Riverside Art Museum , Hearst Castle . The leader of Julia Morgan is Hearst Castle .
+737	5	Building	SEEN	Asilomar Conference Grounds is located in Pacific Grove, California , Arts and Crafts movement , 87000823 . The leader of the country is 1987-02-27 and the leader is 87000823 .
+738	5	Building	SEEN	Asser Levy Public Baths is located in 23rd Street (Manhattan) , 80002709 , 1904 . The leader of the country is Romanesque Revival architecture and the leader is 1904 .
+739	5	Building	SEEN	Asser Levy Public Baths is located in New York City , United States , Manhattan , Manhattan .
+740	5	Building	SEEN	Birmingham is located in B postcode area , 103 Colmore Row , John Madin , John Madin .
+741	5	Building	SEEN	Ethiopia is located in Mulatu Teshome , Hailemariam Desalegn , Addis Ababa , Addis Ababa .
+742	5	Building	SEEN	United States is located in African Americans , English language , President of the United States . The leader of African Americans is President of the United States .
+743	5	Building	SEEN	United States is located in English language , President of the United States , Joe Biden . The leader of English language is Joe Biden .
+744	5	WrittenWork	SEEN	A Long Long Way is located in Ireland , White people , The Secret Scripture , The Secret Scripture .
+745	5	WrittenWork	SEEN	A Long Long Way is located in Annie Dunne , Ireland , White people , White people .
+746	5	WrittenWork	SEEN	Above the Veil is located in Australians , Into Battle (novel) , The Violet Keystone , The Violet Keystone .
+747	5	WrittenWork	SEEN	Administrative Science Quarterly is located in Cornell University , Cornell Big Red , Association of American Universities . The leader of Cornell University is Association of American Universities .
+748	5	WrittenWork	SEEN	Administrative Science Quarterly is located in Cornell University , Cornell Big Red , Association of Public and Land-grant Universities . The leader of Cornell University is Association of Public and Land-grant Universities .
+749	5	WrittenWork	SEEN	Alcatraz Versus the Evil Librarians is located in English language , Great Britain , United States , United States .
+750	5	WrittenWork	SEEN	English language is located in Great Britain , United States , Washington, D.C. , Washington, D.C. .
+751	5	WrittenWork	SEEN	English language is located in Great Britain , United States , Joe Biden , Joe Biden .
+752	5	WrittenWork	SEEN	United Kingdom is located in English language , David Cameron , AIDS (journal) . The leader of English language is AIDS (journal) .
+753	5	WrittenWork	SEEN	United Kingdom is located in Elizabeth II , David Cameron , AIDS (journal) , AIDS (journal) .
+754	5	WrittenWork	SEEN	United States is located in Barack Obama , A Severed Wasp , English language , English language .
+755	5	WrittenWork	SEEN	United States is located in Barack Obama , English language , Great Britain , Great Britain .
+756	5	Astronaut	SEEN	Alan Bean is located in Apollo 12 , United States , NASA , NASA .
+757	5	Astronaut	SEEN	Alan Shepard is located in NWC, M.A. 1957 , California , New Hampshire . The leader of NWC, M.A. 1957 is New Hampshire .
+758	5	Astronaut	SEEN	Alan Shepard is a food found in Deceased , where the capital is NWC, M.A. 1957 and the leader is California . Test pilot is the leader of Deceased .
+759	5	Astronaut	SEEN	Alan Shepard is located in Apollo 14 , Deceased , 1959 , 1959 .
+760	5	Astronaut	SEEN	Apollo 12 is located in Alfred Worden , Alan Bean , NASA , NASA .
+761	5	Astronaut	SEEN	Distinguished Service Medal (United States Navy) is located in Department of Commerce Gold Medal , Alan Shepard , California . The leader of Department of Commerce Gold Medal is California .
+762	5	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , Dallas , Big 12 Conference . The leader of University of Texas at Austin is Big 12 Conference .
+763	5	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , Deceased , St. Louis . The leader of University of Texas at Austin is St. Louis .
+764	5	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , University of Texas System , Dallas , Dallas .
+765	5	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , University of Texas System , Dallas . The leader of University of Texas at Austin is Dallas .
+766	5	Astronaut	SEEN	William Anders is located in 1969-09-01 , Apollo 8 , Frank Borman , Frank Borman .
+767	5	Airport	SEEN	Abilene Regional Airport is located in Abilene, Texas , Texas , 2194.0 , 2194.0 .
+768	5	Airport	SEEN	Abilene Regional Airport is located in Abilene, Texas , 2194.0 , 546 , 546 .
+769	5	Airport	SEEN	Abilene Regional Airport is located in Abilene, Texas , 2194.0 , 546 , 546 .
+770	5	Airport	SEEN	Adolfo Suárez Madrid–Barajas Airport is located in 4349.0 , Madrid , 610.0 , 610.0 .
+771	5	Airport	SEEN	Agra Airport is located in VIAG , Uttar Pradesh , Awadh , Awadh .
+772	5	Airport	SEEN	Agra Airport is located in Kheria Air Force Station , Uttar Pradesh , Awadh , Awadh .
+773	5	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Lockheed AC-130 , Boeing C-17 Globemaster III . The leader of United States Air Force is Boeing C-17 Globemaster III .
+774	5	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Lockheed AC-130 , Boeing C-17 Globemaster III . The leader of United States Air Force is Boeing C-17 Globemaster III .
+775	5	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Invasion of Grenada , Lockheed AC-130 . The leader of United States Air Force is Lockheed AC-130 .
+776	5	Airport	SEEN	Al Asad Airbase is located in United States Air Force , Invasion of Grenada , Lockheed AC-130 . The leader of United States Air Force is Lockheed AC-130 .
+777	5	Airport	SEEN	Allama Iqbal International Airport is located in Pakistan Civil Aviation Authority , Lahore , Pakistan , Pakistan .
+778	5	Airport	SEEN	Allama Iqbal International Airport is located in Pakistan Civil Aviation Authority , Punjab, Pakistan , Shehbaz Sharif , Shehbaz Sharif .
+779	5	Airport	SEEN	Andrews County Airport is located in Texas , 896.0 , Andrews, Texas , Andrews, Texas .
+780	5	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language , Houston . The leader of Texas is Houston .
+781	5	Airport	SEEN	Andrews County Airport is located in Texas , Spanish language , Houston . The leader of Texas is Houston .
+782	5	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , Luanda , Luanda .
+783	5	Airport	SEEN	Angola International Airport is located in Ícolo e Bengo , Angola , 4000.0 , 4000.0 .
+784	5	Airport	SEEN	Antwerp International Airport is located in Flemish Region , Flemish department of Mobility and Public Works , Antwerp , Antwerp .
+785	5	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , 2439.0 , Appleton, Wisconsin , Appleton, Wisconsin .
+786	5	Airport	SEEN	Appleton International Airport is located in Greenville, Wisconsin , Menasha (town), Wisconsin , United States , United States .
+787	5	Airport	SEEN	Ardmore Airport (New Zealand) is located in 1411.0 , Poaceae , Civil Aviation Authority of New Zealand , Civil Aviation Authority of New Zealand .
+788	5	Airport	SEEN	Ashgabat International Airport is located in Turkmenistan Airlines , Ashgabat , 2989.0 , 2989.0 .
+789	5	Airport	SEEN	Atlantic City International Airport is located in 1873.0 , Port Authority of New York and New Jersey , 23.0 , 23.0 .
+790	5	Airport	SEEN	Belgium is located in Charles Michel , Antwerp , Flemish Region . The leader of the country is Antwerp International Airport and the leader is Antwerp .
+791	5	Airport	SEEN	Saranac Lake, New York is located in Harrietstown, New York , Essex County, New York , Adirondack Regional Airport , Adirondack Regional Airport .
+792	5	Food	SEEN	Ajoblanco is a food found in Spain , where the capital is Bread, almonds, garlic, water, olive oil and the leader is Andalusia . Andalusia is the leader of Spain .
+793	5	Food	SEEN	Amatriciana sauce is a food found in Lazio , where the leader is Italy and the leader is Guanciale .
+794	5	Food	SEEN	Arem-arem is located in Indonesia , Javanese cuisine , Joko Widodo . The leader of Indonesia is Joko Widodo .
+795	5	Food	SEEN	Arrabbiata sauce is located in Italy , Italians , Rome . The leader of Italy is Rome .
+796	5	Food	SEEN	Arròs negre is located in Valencian Community , Ximo Puig , Spain , Spain .
+797	5	Food	SEEN	Asam pedas is located in Malaysia , Malaysian Chinese , Kuala Lumpur . The leader of Malaysia is Kuala Lumpur .
+798	5	Food	SEEN	Asam pedas is located in Malaysia , Malaysian Chinese , Arifin Zakaria . The leader of Malaysia is Arifin Zakaria .
+799	5	Food	SEEN	Ayam penyet is a food found in Nationwide, also can be found in Malaysia and Singapore , where the capital is Java and the leader is Fried chicken . Fried chicken is the leader of Nationwide, also can be found in Malaysia and Singapore .
+800	5	Food	SEEN	Ayam penyet is located in Malaysia , Malaysian Chinese , Fried chicken . The leader of Malaysia is Fried chicken .
+801	5	Food	SEEN	Bacon Explosion is located in United States , Barack Obama , Native Americans in the United States . The leader of United States is Native Americans in the United States .
+802	5	Food	SEEN	Baked Alaska is located in France , Hong Kong , Carrie Lam (politician) , Carrie Lam (politician) .
+803	5	Food	SEEN	Bakewell pudding is located in Derbyshire Dales , Patrick McLoughlin , Bakewell tart , Bakewell tart .
+804	5	Food	SEEN	Bandeja paisa is located in Lemon , Rutaceae , Colombian cuisine . The leader of Lemon is Colombian cuisine .
+805	5	Food	SEEN	Bandeja paisa is located in Lemon , Rosids , Rutaceae . The leader of Lemon is Rutaceae .
+806	5	Food	SEEN	Barny Cakes is located in France , French language , Gérard Larcher . The leader of France is Gérard Larcher .
+807	5	Food	SEEN	Barny Cakes is located in France , Gérard Larcher , French language , French language .
+808	5	Food	SEEN	Beef kway teow is located in Singapore , English language , Singapore and Indonesia . The leader of Singapore is Singapore and Indonesia .
+809	5	Food	SEEN	Bhajji is a food found in India , where the capital is Karnataka and the leader is Gram flour, vegetables . Gram flour, vegetables is the leader of India .
+810	5	Food	SEEN	Bhajji is located in India , Indian people , Sumitra Mahajan , Sumitra Mahajan .
+811	5	Food	SEEN	Bionico is located in Mexico , Jalisco , Jesús Casillas Romero , Jesús Casillas Romero .
+812	5	Food	SEEN	Bionico is located in Mexico , Dessert , Cake , Cake .
+813	5	Food	SEEN	Derbyshire Dales is located in Patrick McLoughlin , Bakewell pudding , Bakewell tart , Bakewell tart .
+814	5	Food	SEEN	Derbyshire Dales is located in Patrick McLoughlin , Bakewell pudding , Bakewell tart , Bakewell tart .
+815	5	Food	SEEN	Indonesia is located in Jakarta , Indonesian language , Jusuf Kalla . The leader of Jakarta is Jusuf Kalla .
+816	5	Food	SEEN	Italy is located in Italians , Rome , Matteo Renzi . The leader of Italians is Matteo Renzi .
+817	5	Food	SEEN	Java is located in Baduy , Singapore , English language , English language .
+818	5	Food	SEEN	Philippines is located in Ilocano people , Arabic , Philippine English . The leader of Ilocano people is Philippine English .
+819	5	Food	SEEN	Singapore is located in English language , Beef kway teow , Nationwide in Singapore and Indonesia . The leader of English language is Nationwide in Singapore and Indonesia .
+820	5	Food	SEEN	Spain is located in Felipe VI of Spain , Spanish language , Euro . The leader of Felipe VI of Spain is Euro .
+821	5	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , Mario Botta , Mendrisio . The leader of Switzerland is Mendrisio .
+822	5	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , 600 , 1996 . The leader of Switzerland is 1996 .
+823	5	University	SEEN	Acharya Institute of Technology is located in Visvesvaraya Technological University , Karnataka , Telangana , Telangana .
+824	5	University	SEEN	Acharya Institute of Technology is a food found in Bangalore , where the capital is 2000 and the leader is India . 700 is the leader of Bangalore .
+825	5	University	SEEN	Bangalore is located in Kempe Gowda I , Acharya Institute of Technology , Karnataka , Karnataka .
+826	5	University	SEEN	Romania is located in Prime Minister of Romania , Alba Iulia , Klaus Iohannis , Klaus Iohannis .
+827	5	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in European University Association , 16000 , 737 . The leader of European University Association is 737 .
+828	6	University	SEEN	Accademia di Architettura di Mendrisio is located in Switzerland , 1996 , Johann Schneider-Ammann . The leader of the country is 600 and the leader is 1996 .
+829	6	University	SEEN	Acharya Institute of Technology is located in Bangalore , Dr. G. P. Prabhukumar , 2000 . The leader of Bangalore is 2000 .
+830	6	University	SEEN	Acharya Institute of Technology is located in B.M. Reddy , Bangalore , Dr. G. P. Prabhukumar . The leader of B.M. Reddy is Dr. G. P. Prabhukumar .
+831	6	University	SEEN	Acharya Institute of Technology is located in All India Council for Technical Education , Tennis , Karnataka . The leader of the country is Mumbai and the leader is Karnataka .
+832	6	University	SEEN	Acharya Institute of Technology is located in All India Council for Technical Education , Visvesvaraya Technological University , Belgaum . The leader of the country is Mumbai and the leader is Belgaum .
+833	6	University	SEEN	Romania is located in Germans of Romania , Prime Minister of Romania , Andrew the Apostle . The leader of the country is Klaus Iohannis and the leader is Prime Minister of Romania .
+834	6	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in 737 , Denmark , Lars Løkke Rasmussen , Lars Løkke Rasmussen .
+835	6	University	SEEN	School of Business and Social Sciences at the Aarhus University is located in Aarhus , 16000 , 737 , 737 .
+836	6	Astronaut	SEEN	Alan Bean is located in Apollo 12 , NASA , David Scott . The leader of the country is United States and the leader is NASA .
+837	6	Astronaut	SEEN	Alan Shepard is located in NWC, M.A. 1957 , California , New Hampshire , New Hampshire .
+838	6	Astronaut	SEEN	Alan Shepard is located in Deceased , NWC, M.A. 1957 , California , California .
+839	6	Astronaut	SEEN	Alan Shepard is located in Apollo 14 , New Hampshire , 1974-08-01 . The leader of the country is California and the leader is 1974-08-01 .
+840	6	Astronaut	SEEN	Alan Shepard is located in American Defense Service ribbon.svg , Distinguished Service Medal (United States Navy) , Department of Commerce Gold Medal . The leader of the country is 1998-07-21 and the leader is Distinguished Service Medal (United States Navy) .
+841	6	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , Apollo 11 , Fighter pilot . The leader of the country is Edwin E. Aldrin, Jr. and the leader is Apollo 11 .
+842	6	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , Apollo 11 , Massachusetts Institute of Technology, Sc.D. 1963 . The leader of the country is 1963 and the leader is Massachusetts Institute of Technology, Sc.D. 1963 .
+843	6	Astronaut	SEEN	Buzz Aldrin is located in Apollo 11 , Fighter pilot , Massachusetts Institute of Technology, Sc.D. 1963 . The leader of the country is 1963 and the leader is Massachusetts Institute of Technology, Sc.D. 1963 .
+844	6	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , Deceased , St. Louis , St. Louis .
+845	6	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , 1927-07-23 , Dallas . The leader of the country is University of Texas System and the leader is 1927-07-23 .
+846	6	Astronaut	SEEN	William Anders is located in 1969-09-01 , Fighter pilot , British Hong Kong . The leader of the country is 1933-10-17 and the leader is Fighter pilot .
+847	6	Monument	SEEN	Atatürk Monument (İzmir) is located in Pietro Canonica , Turkey , Ahmet Davutoğlu , Ahmet Davutoğlu .
+848	6	Monument	SEEN	Azerbaijan is located in Prime Minister of Azerbaijan , Ottoman Army soldiers killed in the Battle of Baku , Türk Şehitleri Anıtı . The leader of the country is Baku Turkish Martyrs' Memorial and the leader is Ottoman Army soldiers killed in the Battle of Baku .
+849	6	Monument	SEEN	Monocacy National Battlefield is located in Frederick County, Maryland , 14th New Jersey Volunteer Infantry Monument , 1907-07-11 , 1907-07-11 .
+850	6	Monument	SEEN	Monocacy National Battlefield is located in Frederick County, Maryland , 14th New Jersey Volunteer Infantry Monument , 1907-07-11 , 1907-07-11 .
+851	7	Monument	SEEN	11th Mississippi Infantry Monument is located in United States , Carroll County, Maryland , 2000 . The leader of the country is Adams County, Pennsylvania and the leader is 2000 .
+852	7	Monument	SEEN	Atatürk Monument (İzmir) is located in Pietro Canonica , Ahmet Davutoğlu , Ankara . The leader of the country is Turkey and the leader is Ankara .
+853	7	Monument	SEEN	Azerbaijan is located in Baku , Red granite and white marble , Prime Minister of Azerbaijan . The leader of the country is Baku Turkish Martyrs' Memorial and the leader is Prime Minister of Azerbaijan .
+854	7	Astronaut	SEEN	Alan Bean is located in Apollo 12 , NASA , Test pilot . The leader of the country is United States and the leader is Test pilot .
+855	7	Astronaut	SEEN	Alan Bean is located in Apollo 12 , Test pilot , David Scott . The leader of the country is NASA and the leader is David Scott .
+856	7	Astronaut	SEEN	Alan Shepard is located in NWC, M.A. 1957 , California , New Hampshire . The leader of the country is Apollo 14 and the leader is New Hampshire .
+857	7	Astronaut	SEEN	Alan Shepard is located in Deceased , California , Test pilot . The leader of the country is NWC, M.A. 1957 and the leader is Test pilot .
+858	7	Astronaut	SEEN	Alan Shepard is located in Deceased , Distinguished Service Medal (United States Navy) , Department of Commerce Gold Medal . The leader of the country is Test pilot and the leader is Department of Commerce Gold Medal .
+859	7	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , United States , Apollo 11 . The leader of the country is Edwin E. Aldrin, Jr. and the leader is Apollo 11 .
+860	7	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , United States , Joe Biden . The leader of the country is Apollo 11 and the capital is United States . Joe Biden is the leader of Glen Ridge, New Jersey .
+861	7	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , Retired , 1930-01-20 . The leader of the country is Apollo 11 and the leader is 1930-01-20 .
+862	7	Astronaut	SEEN	Buzz Aldrin is located in Glen Ridge, New Jersey , 1963 , Fighter pilot . The leader of the country is Apollo 11 and the leader is Fighter pilot .
+863	7	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , 1927-07-23 , Dallas . The leader of the country is Test pilot and the leader is Dallas .
+864	7	Astronaut	SEEN	Elliot See is located in University of Texas at Austin , St. Louis , 1927-07-23 . The leader of the country is Deceased and the leader is 1927-07-23 .
+865	7	Astronaut	SEEN	William Anders is located in 1969-09-01 , Retired , 1933-10-17 . The leader of the country is United States and the leader is 1933-10-17 .
+866	7	University	SEEN	Acharya Institute of Technology is located in Visvesvaraya Technological University , B.M. Reddy , Bangalore , Bangalore .
+867	7	University	SEEN	Acharya Institute of Technology is located in Bangalore , Nurturing Excellence , India . The leader of the country is 2000 and the leader is India .
+868	7	University	SEEN	Acharya Institute of Technology is located in B.M. Reddy , Bangalore , Dr. G. P. Prabhukumar , Dr. G. P. Prabhukumar .
+869	7	University	SEEN	Acharya Institute of Technology is located in B.M. Reddy , Belgaum , 2000 . The leader of the country is Visvesvaraya Technological University and the leader is 2000 .
+870	7	University	SEEN	India is located in Mumbai , 250 , Kerala . The leader of the country is AWH Engineering College and the leader is Kerala .
+871	7	University	SEEN	Romania is located in Germans of Romania , Klaus Iohannis , Bucharest . The leader of the country is Prime Minister of Romania and the leader is Bucharest .
+872	7	University	SEEN	Visvesvaraya Technological University is located in Belgaum , Dr. G. P. Prabhukumar , 2000 . The leader of the country is Acharya Institute of Technology and the leader is 2000 .
