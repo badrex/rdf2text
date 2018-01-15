@@ -136,7 +136,7 @@ def parseXML(xml_file):
         category = xml_entry.attrib['category']
         size = xml_entry.attrib['size']
 
-        entry = rdf_utils.Entry(category, size, entry_id)
+        entry = Entry(category, size, entry_id)
 
         for element in xml_entry:
             if element.tag == 'originaltripleset':

@@ -74,9 +74,3 @@ python generate_eval_dataset.py \
   -ref ../datasets/dev.ref-ref \
   -relex ../datasets/dev.relex
 ```
-
-## TODO:
-1. Improve the evaluation module (development already started, but not in GitLab yet).
-2. Run some more experiments with seq2seq model in OpenNMT-Lua.
-3. Perform error analysis.
-4. Write the report.

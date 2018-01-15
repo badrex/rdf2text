@@ -337,9 +337,8 @@ class FactGraph:
                     nCaps = len([c for c in abbr if c.isupper()])
 
                     if abbr in text_unigrams and nCaps > 1: # SUCCESS
-                        print('before:', entity_str, abbr, delex_text)
+                        print('delexicalizing:', entity_str, '! found:', abbr)
                         delex_text = delex_text.replace(abbr, ' ' + entity.ID + ' ')
-                        print('after:', entity_str, abbr, delex_text)
                         matchFound = True
 
             # 6. try character-level string matching (last hope)
