@@ -71,7 +71,7 @@ python generate_eval_dataset.py \
   -src_mode  structured \
   -src ../datasets/dev.src \
   -tgt ../datasets/dev.tgt \
-  -ref ../datasets/dev.ref-ref \
+  -ref ../datasets/dev.ref \
   -relex ../datasets/dev.relex
 ```
 
@@ -110,5 +110,5 @@ python relex_preditions.py \
 
 ### 5. Evaluate with BLEU script.
 ```
-multi-bleu.perl  datasets/dev.tgt < predictions.relex
+multi-bleu.perl  datasets/dev.ref < predictions.relex
 ```
