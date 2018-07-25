@@ -2,7 +2,7 @@
 
 #### Project work by Badr Abdullah, François Buet, and Reem Mathbout.
 
-The repository contains code to prepare data for training models that generate natural language text from RDF triples using the WebNLG data (more info about the data can be found here: http://webnlg.loria.fr/pages/webnlg-challenge-report.pdf). All modules in this project have been developed
+The repository contains code to prepare data for training models that generate natural language text from RDF triples using the WebNLG data (more info about the data can be found in this paper: http://webnlg.loria.fr/pages/webnlg-challenge-report.pdf). All modules in this project have been developed
 and tested with python 3.6. There are only two non-core Python libraries required to run the modules: NLTK and SPARQLWrapper.
 
 For now, the code can be used to parse RDF data from XML files, apply text preprocessing, retrieve semantic types for RDF entities, perform delexicalization on the target sentences and generate datasets to be used for
